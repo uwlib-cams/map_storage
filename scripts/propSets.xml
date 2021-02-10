@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<propSets>
+    <set>rdaWork</set>
+    <set>rdaExpression</set>
+    <set>rdaManifestation</set>
+    <set>rdaItem</set>
+    <!-- Add remaining RDA entities* here 
+        NOTE that for this method to work, each entity must correspond neatly to a document from which to retrieve props.
+        In the case of the RDA Registry, this does work; this may not work when retrieving props from other sources. -->
+</propSets>
