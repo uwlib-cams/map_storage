@@ -67,7 +67,7 @@
             </id_propSet>
             <!-- Filter deprecated props here? -->
             <xsl:for-each select="document($docURL)/rdf:RDF/rdf:Description[rdf:type[@rdf:resource='http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]">
-                <prop lid="lidToDo">
+                <prop pid="{concat($set, '_', substring-after(@rdf:about, 'http://rdaregistry.info/Elements/'))}">
                     <prop_iri>
                         <xsl:value-of select="@rdf:about"/>
                     </prop_iri>
