@@ -38,13 +38,16 @@
                             select="document(@url)/rdf:RDF/rdf:Description[rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']][not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]">
                             <prop
                                 pid="{concat($propSet_id, '_', substring-after(@rdf:about, 'http://rdaregistry.info/Elements/'))}">
-                                <prop_iri>
-                                    <xsl:value-of select="@rdf:about"/>
-                                </prop_iri>
+                                <prop_iri iri="{@rdf:about}"/>
                                 <prop_label xml:lang="en">
                                     <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
                                 </prop_label>
-                                
+                                <xsl:if test="rdfs:domain = node()">
+                                    <prop_domain iri="{rdfs:domain/@rdf:resource}"/>
+                                </xsl:if>
+                                <xsl:if test="rdfs:range = node()">
+                                    <prop_range iri="{rdfs:range/@rdf:resource}"/>
+                                </xsl:if>
                             </prop>
                         </xsl:for-each>
                     </propSet>
