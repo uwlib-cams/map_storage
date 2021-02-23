@@ -9,7 +9,7 @@
     <xsl:output method="xml" indent="yes"/>
 
     <xsl:template match="/">
-        <xsl:result-document href="../map_storage.xml">
+        <xsl:result-document href="../test001_map_storage.xml">
             <!-- QUESTION/TO-DO: Is a namespace needed for mapStorage elements? Related to schema considerations?? -->
             <mapStorage>
                 <id_ap>WAU</id_ap>
@@ -67,6 +67,7 @@
             </id_propSet>
             <!-- Filter deprecated props here? -->
             <xsl:for-each select="document($docURL)/rdf:RDF/rdf:Description[rdf:type[@rdf:resource='http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]">
+                <!-- Generate property IDs here -->
                 <prop pid="{concat($set, '_', substring-after(@rdf:about, 'http://rdaregistry.info/Elements/'))}">
                     <prop_iri>
                         <xsl:value-of select="@rdf:about"/>
