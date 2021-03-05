@@ -14,8 +14,10 @@
     
     <xsl:template match="/">
         <xsl:result-document href="../test001_map_storage.xml">
-            <!-- Is a namespace needed for mapStorage elements? Related to schema considerations?? -->
-            <mapStorage>
+            <mapStorage xmlns="https://uwlib-cams.github.io/map_storage/"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/ https://uwlib-cams.github.io/map_storage/map_storage.xsd">
                 <id_ap>WAU</id_ap>
                 <xsl:apply-templates select="propSets/set"/>
             </mapStorage>
