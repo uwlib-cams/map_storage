@@ -13,7 +13,7 @@
     <xsl:output method="xml" indent="yes"/>
     
     <xsl:template match="/">
-        <xsl:result-document href="../test001_map_storage.xml">
+        <xsl:result-document href="../map_storage.xml">
             <mapStorage xmlns="https://uwlib-cams.github.io/map_storage/"
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
