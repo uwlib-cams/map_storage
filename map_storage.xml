@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mapStorage xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<mapStorage xmlns="https://uwlib-cams.github.io/map_storage/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema"
             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
             xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
             xmlns:rdaw="http://rdaregistry.info/Elements/w/"
             xmlns:dc="http://purl.org/dc/elements/1.1/"
-            xmlns:reg="http://metadataregistry.org/uri/profile/regap/">
+            xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+            xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/ https://uwlib-cams.github.io/map_storage/map_storage.xsd">
    <id_ap>WAU</id_ap>
-   <propSet>
+   <propSet xmlns="">
       <id_propSet>rda_Work</id_propSet>
       <prop pid="rda_Work_w/P10407">
          <prop_iri>http://rdaregistry.info/Elements/w/P10407</prop_iri>
@@ -2959,7 +2962,7 @@
          <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       </prop>
    </propSet>
-   <propSet>
+   <propSet xmlns="">
       <id_propSet>rda_Expression</id_propSet>
       <prop pid="rda_Expression_e/P20049">
          <prop_iri>http://rdaregistry.info/Elements/e/P20049</prop_iri>
@@ -5582,7 +5585,7 @@
          <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       </prop>
    </propSet>
-   <propSet>
+   <propSet xmlns="">
       <id_propSet>rda_Manifestation</id_propSet>
       <prop pid="rda_Manifestation_m/P30276">
          <prop_iri>http://rdaregistry.info/Elements/m/P30276</prop_iri>
@@ -7585,7 +7588,7 @@
          <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       </prop>
    </propSet>
-   <propSet>
+   <propSet xmlns="">
       <id_propSet>rda_Item</id_propSet>
       <prop pid="rda_Item_i/P40080">
          <prop_iri>http://rdaregistry.info/Elements/i/P40080</prop_iri>
@@ -8268,7 +8271,7 @@
          <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       </prop>
    </propSet>
-   <propSet>
+   <propSet xmlns="">
       <id_propSet>rda_Agent</id_propSet>
       <prop pid="rda_Agent_a/P50157">
          <prop_iri>http://rdaregistry.info/Elements/a/P50157</prop_iri>
@@ -13536,7 +13539,7 @@
          <prop_domain iri="http://rdaregistry.info/Elements/c/C10004"/>
       </prop>
    </propSet>
-   <propSet>
+   <propSet xmlns="">
       <id_propSet>rda_Nomen</id_propSet>
       <prop pid="rda_Nomen_n/P80057">
          <prop_iri>http://rdaregistry.info/Elements/n/P80057</prop_iri>
@@ -14404,7 +14407,7 @@
          <prop_domain iri="http://rdaregistry.info/Elements/c/C10012"/>
       </prop>
    </propSet>
-   <propSet>
+   <propSet xmlns="">
       <id_propSet>rda_Place</id_propSet>
       <prop pid="rda_Place_p/P70018">
          <prop_iri>http://rdaregistry.info/Elements/p/P70018</prop_iri>
@@ -14662,10 +14665,10 @@
          <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
       </prop>
    </propSet>
-   <propSet>
+   <propSet xmlns="">
       <id_propSet>rda_Rda_Onix_Framework_ElementSet</id_propSet>
    </propSet>
-   <propSet>
+   <propSet xmlns="">
       <id_propSet>rda_Timespan</id_propSet>
       <prop pid="rda_Timespan_t/P70015">
          <prop_iri>http://rdaregistry.info/Elements/t/P70015</prop_iri>
@@ -14953,7 +14956,7 @@
          <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
       </prop>
    </propSet>
-   <propSet>
+   <propSet xmlns="">
       <id_propSet>rda_Unconstrained</id_propSet>
       <prop pid="rda_Unconstrained_u/P60359">
          <prop_iri>http://rdaregistry.info/Elements/u/P60359</prop_iri>
@@ -19416,7 +19419,7 @@
          <prop_label xml:lang="en">is numbering within sequence of</prop_label>
       </prop>
    </propSet>
-   <propSet>
+   <propSet xmlns="">
       <id_propSet>rda_Entity</id_propSet>
       <prop pid="rda_Entity_x/P00016">
          <prop_iri>http://rdaregistry.info/Elements/x/P00016</prop_iri>
