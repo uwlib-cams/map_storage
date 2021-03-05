@@ -6,6 +6,23 @@
     elementFormDefault="qualified"
     vc:minVersion="1.1">
     
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace"
+        schemaLocation="http://www.w3.org/2001/03/xml.xsd"/>
+    <xs:import namespace="http://www.w3.org/2001/XMLSchema"
+        schemaLocation="https://www.w3.org/2001/XMLSchema.xsd"/>
     
+    <xs:element name="mapStorage" type="mapStorage"/>
+    
+    <xs:complexType name="mapStorage">
+        <xs:sequence>
+            <xs:element name="id_ap"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:simpleType name="id_ap">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="WAU"/>
+        </xs:restriction>
+    </xs:simpleType>
     
 </xs:schema>
