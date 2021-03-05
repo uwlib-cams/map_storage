@@ -8,13 +8,13 @@
     xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
     version="3.0">
 
+    <!-- Process XML source document propSet_tree.xml -->
+    
     <xsl:output method="xml" indent="yes"/>
     
-    
-
     <xsl:template match="/">
         <xsl:result-document href="../test001_map_storage.xml">
-            <!-- QUESTION/TO-DO: Is a namespace needed for mapStorage elements? Related to schema considerations?? -->
+            <!-- Is a namespace needed for mapStorage elements? Related to schema considerations?? -->
             <mapStorage>
                 <id_ap>WAU</id_ap>
                 <xsl:apply-templates select="propSets/set"/>

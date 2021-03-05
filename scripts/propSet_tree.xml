@@ -3,7 +3,6 @@
         For the method used in build_update_storage.xsl to work, each entity must correspond neatly to a document from which to retrieve props.
         In the case of the RDA Registry, this does work; this may not work when retrieving props from other sources. -->
 <propSets>
-    <!-- Should set names match IDs at some level in storage? -->
     <set>rda_Work</set>
     <set>rda_Expression</set>
     <set>rda_Manifestation</set>
