@@ -6,23 +6,58 @@
     elementFormDefault="qualified"
     vc:minVersion="1.1">
     
+    
     <xs:import namespace="http://www.w3.org/XML/1998/namespace"
         schemaLocation="http://www.w3.org/2001/03/xml.xsd"/>
     <xs:import namespace="http://www.w3.org/2001/XMLSchema"
         schemaLocation="https://www.w3.org/2001/XMLSchema.xsd"/>
     
-    <xs:element name="mapStorage" type="mapStorage"/>
+    <xs:element name="mapStorage" type="mapStorage_type"/>
     
-    <xs:complexType name="mapStorage">
+    <xs:complexType name="mapStorage_type">
         <xs:sequence>
-            <xs:element name="id_ap"/>
+            <!-- I find that I'd like to define the simple id_ap element external to the xs:sequence
+                But really just for stylistic reasons
+                I don't know how to do it
+            -->
+            <xs:element name="ap_id" minOccurs="1" maxOccurs="1">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="WAU"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="propSet" type="propSet_type"/>
+        </xs:sequence>
+        <!-- I have no idea what the xs:attribute element does -->
+        <xs:attribute ref="xml:base"/>
+    </xs:complexType>
+    
+    <xs:complexType name="propSet_type">
+        <xs:sequence>
+            <!-- Enumerate propSet_id -->
+            <xs:element name="propSet_id" type="xs:string" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="prop" type="prop_type" minOccurs="1" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
     
-    <xs:simpleType name="id_ap">
-        <xs:restriction base="xs:string">
-            <xs:enumeration value="WAU"/>
-        </xs:restriction>
-    </xs:simpleType>
+    <!-- Where do I add constraints for the prop's pid attribute? -->
+    <xs:complexType name="prop_type">
+        <xs:sequence>
+            <xs:element name="prop_iri" type="xs:anyURI" minOccurs="1" maxOccurs="1"/>
+            <!-- unbounded prop_label because who knows we may want multilingual labels some day -->
+            <!-- where to constrain prop_label lang attribute? -->
+            <xs:element name="prop_label" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="prop_domain" type="prop_domain_type"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="prop_domain_type">
+        <xs:simpleContent>
+            <xs:extension base="xs:anyURI">
+                <xs:attribute name="iri"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
     
 </xs:schema>
