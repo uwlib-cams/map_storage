@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapStorage xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+            xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <ap_id>WAU</ap_id>
+   <propSet>
+      <propSet_id>FIGURE THIS OUT IN A MINUTE</propSet_id>
+   </propSet>
+   <propSet>
+      <propSet_id>FIGURE THIS OUT IN A MINUTE</propSet_id>
+   </propSet>
+</mapStorage>
