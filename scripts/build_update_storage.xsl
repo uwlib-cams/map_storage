@@ -18,7 +18,7 @@
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
                 xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/ https://uwlib-cams.github.io/map_storage/map_storage.xsd">
-                <id_ap>WAU</id_ap>
+                <ap_id>WAU</ap_id>
                 <xsl:apply-templates select="propSets/set"/>
             </mapStorage>
         </xsl:result-document>
@@ -27,6 +27,7 @@
     <xsl:template match="propSets/set">
         <xsl:param name="set" select="."/>
         
+        <!-- VARIABLE for document URLs -->
         <xsl:variable name="docURL">
             <xsl:choose>
                 <xsl:when test="$set = 'rda_Work'"
@@ -58,10 +59,11 @@
             </xsl:choose>
         </xsl:variable>
         
+        <!-- Start result elements -->
         <propSet>
-            <id_propSet>
+            <propSet_id>
                 <xsl:value-of select="."/>
-            </id_propSet>
+            </propSet_id>
             <!-- Filter deprecated props here? -->
             <xsl:for-each select="document($docURL)/rdf:RDF/rdf:Description[rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']][not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]">
                 <!-- Generate property IDs here -->
