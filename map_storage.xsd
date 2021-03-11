@@ -6,7 +6,6 @@
     elementFormDefault="qualified"
     vc:minVersion="1.1">
     
-    
     <xs:import namespace="http://www.w3.org/XML/1998/namespace"
         schemaLocation="http://www.w3.org/2001/03/xml.xsd"/>
     <xs:import namespace="http://www.w3.org/2001/XMLSchema"
@@ -16,22 +15,16 @@
     
     <xs:complexType name="mapStorage_type">
         <xs:sequence>
-            <!-- I find that I'd like to define the simple id_ap element external to the xs:sequence
-                But really just for stylistic reasons
-                I don't know how to do it
-            -->
-            <xs:element name="ap_id" minOccurs="1" maxOccurs="1">
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:enumeration value="WAU"/>
-                    </xs:restriction>
-                </xs:simpleType>
-            </xs:element>
-            <xs:element name="propSet" type="propSet_type"/>
+            <xs:element name="ap_id" type="ap_id_type" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="propSet" type="propSet_type" minOccurs="1" maxOccurs="unbounded"/>
         </xs:sequence>
-        <!-- I have no idea what the xs:attribute element does -->
-        <xs:attribute ref="xml:base"/>
     </xs:complexType>
+    
+    <xs:simpleType name="ap_id_type">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="WAU"/>
+        </xs:restriction>
+    </xs:simpleType>
     
     <xs:complexType name="propSet_type">
         <xs:sequence>
