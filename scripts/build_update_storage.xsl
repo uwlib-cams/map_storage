@@ -60,7 +60,7 @@
         </xsl:variable>
         
         <!-- Start result elements -->
-        <propSet>
+        <propSet xmlns="https://uwlib-cams.github.io/map_storage/">
             <propSet_id>
                 <xsl:value-of select="."/>
             </propSet_id>
