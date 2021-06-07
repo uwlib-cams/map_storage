@@ -7,7 +7,7 @@
             xmlns:rdaw="http://rdaregistry.info/Elements/w/"
             xmlns:dc="http://purl.org/dc/elements/1.1/"
             xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
-            xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/ https://uwlib-cams.github.io/map_storage/map_storage.xsd">
+            xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/                  https://uwlib-cams.github.io/map_storage/map_storage.xsd">
    <ap_id>WAU</ap_id>
    <propSet>
       <propSet_id>rda_Work</propSet_id>
