@@ -36,6 +36,7 @@
     <!-- These values might be more reasonably placed in an attribute on the propSet element, but this requires schema work -->
     <xs:simpleType name="propSet_id_type">
         <xs:restriction base="xs:string">
+            <!-- UPDATE ENUMERATED VALUES HERE -->
             <xs:enumeration value="rda_Work"/>
             <xs:enumeration value="rda_Expression"/>
             <xs:enumeration value="rda_Manifestation"/>
@@ -48,20 +49,27 @@
     <xs:complexType name="prop_type">
         <xs:sequence>
             <xs:element name="prop_iri" type="xs:anyURI" minOccurs="1" maxOccurs="1"/>
-            <!-- TO DO: Require xml:lang attribute for prop_label; [?] possible to forbid multiple prop_label elements with the same xml:lang attribute value? -->
             <xs:element name="prop_label" type="prop_label_type" minOccurs="1" maxOccurs="unbounded"/>
-            <xs:element name="prop_domain" type="prop_domain_type"/>
+            <xs:element name="prop_domain" type="prop_domain_type" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="prop_range" type="prop_range_type" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
         <!-- ISSUE #2 -->
         <xs:attribute name="pid"/>
     </xs:complexType>
     
-    <!-- ISSUE #3 -->
     <xs:complexType name="prop_label_type">
-        <xs:attribute ref="xml:lang"/>
+        <xs:attribute ref="xml:lang" use="required"/>
     </xs:complexType>
     
     <xs:complexType name="prop_domain_type">
+        <xs:simpleContent>
+            <xs:extension base="xs:anyURI">
+                <xs:attribute name="iri"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:complexType name="prop_range_type">
         <xs:simpleContent>
             <xs:extension base="xs:anyURI">
                 <xs:attribute name="iri"/>
