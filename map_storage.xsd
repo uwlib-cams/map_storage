@@ -53,7 +53,6 @@
             <xs:element name="prop_domain" type="prop_domain_type" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element name="prop_range" type="prop_range_type" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
-        <!-- ISSUE #2 -->
         <xs:attribute name="pid"/>
     </xs:complexType>
     
