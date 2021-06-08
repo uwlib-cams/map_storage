@@ -48,6 +48,7 @@
     
     <xs:complexType name="prop_type">
         <xs:sequence>
+            <!-- prop_iri constraint does not seem to be effectively limiting text values to IRIs -->
             <xs:element name="prop_iri" type="xs:anyURI" minOccurs="1" maxOccurs="1"/>
             <xs:element name="prop_label" type="prop_label_type" minOccurs="1" maxOccurs="unbounded"/>
             <xs:element name="prop_domain" type="prop_domain_type" minOccurs="0" maxOccurs="unbounded"/>
