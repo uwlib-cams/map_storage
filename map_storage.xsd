@@ -15,12 +15,12 @@
     
     <xs:complexType name="mapStorage_type">
         <xs:sequence>
-            <xs:element name="ap_id" type="ap_id_type" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id_ap" type="id_ap_type" minOccurs="1" maxOccurs="1"/>
             <xs:element name="propSet" type="propSet_type" minOccurs="1" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
     
-    <xs:simpleType name="ap_id_type">
+    <xs:simpleType name="id_ap_type">
         <xs:restriction base="xs:string">
             <xs:enumeration value="WAU"/>
         </xs:restriction>
@@ -28,13 +28,12 @@
     
     <xs:complexType name="propSet_type">
         <xs:sequence>
-            <xs:element name="propSet_id" type="propSet_id_type" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id_propSet" type="id_propSet_type" minOccurs="1" maxOccurs="1"/>
             <xs:element name="prop" type="prop_type" minOccurs="1" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
     
-    <!-- These values might be more reasonably placed in an attribute on the propSet element, but this requires schema work -->
-    <xs:simpleType name="propSet_id_type">
+    <xs:simpleType name="id_propSet_type">
         <xs:restriction base="xs:string">
             <!-- UPDATE ENUMERATED VALUES HERE -->
             <xs:enumeration value="rda_Work"/>
@@ -42,7 +41,7 @@
             <xs:enumeration value="rda_Manifestation"/>
             <xs:enumeration value="rda_Item"/>
             <xs:enumeration value="rda_Agent"/>
-            <xs:enumeration value=""/>
+            <!-- <xs:enumeration value=""/> -->
         </xs:restriction>
     </xs:simpleType>
     
@@ -54,7 +53,7 @@
             <xs:element name="prop_domain" type="prop_domain_type" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element name="prop_range" type="prop_range_type" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
-        <xs:attribute name="pid"/>
+        <xs:attribute name="lid_prop"/>
     </xs:complexType>
     
     <xs:complexType name="prop_label_type">
