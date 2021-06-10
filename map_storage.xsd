@@ -47,17 +47,20 @@
     <xs:complexType name="prop_type">
         <xs:sequence>
             <!-- prop_iri constraint does not seem effective in limiting values to IRIs -->
-            <xs:element name="prop_iri" type="prop_iri_type" minOccurs="1" maxOccurs="1"/>
-            <xs:element name="prop_label" type="prop_label_type" minOccurs="1" maxOccurs="unbounded"/>
-            <xs:element name="prop_domain" type="prop_domain_type" minOccurs="0"
-                maxOccurs="unbounded"/>
-            <xs:element name="prop_range" type="prop_range_type" minOccurs="0" maxOccurs="unbounded"
-            />
+            <xs:element name="prop_iri" type="iri_type" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="prop_label" type="label_type" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="prop_domain" type="iri_type" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="prop_range" type="iri_type" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="prop_related_url" type="url_type" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="platform_set" type="platform_set_type" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
         <xs:attribute name="lid_prop"/>
     </xs:complexType>
 
-    <xs:complexType name="prop_iri_type">
+    <!-- VALIDATION ERROR:
+        Element 'prop_iri' is a simple type, so it cannot have attributes, excepting those whose namespace name is identical to 'http://www.w3.org/2001/XMLSchema-instance' and whose [local name] is one of 'type', 'nil', 'schemaLocation' or 'noNamespaceSchemaLocation'. However, the attribute, 'iri' was found.
+        -->
+    <xs:complexType name="iri_type">
         <xs:simpleContent>
             <xs:extension base="xs:anyURI">
                 <xs:attribute name="iri"/>
@@ -68,24 +71,20 @@
     <!-- VALIDATION ERROR: 
         Element 'prop_label' must have no character or element information item [children], because the type's content type is empty.
         See issue #3-->
-    <xs:complexType name="prop_label_type">
+    <xs:complexType name="label_type">
         <xs:attribute ref="xml:lang" use="required"/>
     </xs:complexType>
-
-    <xs:complexType name="prop_domain_type">
+    
+    <xs:complexType name="url_type">
         <xs:simpleContent>
             <xs:extension base="xs:anyURI">
-                <xs:attribute name="iri"/>
+                <xs:attribute name="url"/>
             </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
-
-    <xs:complexType name="prop_range_type">
-        <xs:simpleContent>
-            <xs:extension base="xs:anyURI">
-                <xs:attribute name="iri"/>
-            </xs:extension>
-        </xs:simpleContent>
+    
+    <xs:complexType name="platform_set_type">
+        <!-- sequence here -->
     </xs:complexType>
 
 </xs:schema>
