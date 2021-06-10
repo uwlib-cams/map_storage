@@ -17,8 +17,7 @@
             <mapStorage xmlns="https://uwlib-cams.github.io/map_storage/"
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/ 
-                https://uwlib-cams.github.io/map_storage/map_storage.xsd">
+                xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/ https://uwlib-cams.github.io/map_storage/map_storage.xsd">
                 <ap_id>WAU</ap_id>
                 <xsl:apply-templates select="propSets/set"/>
             </mapStorage>
@@ -27,7 +26,6 @@
 
     <xsl:template match="propSets/set">
         <xsl:param name="set" select="."/>
-        
         <!-- VARIABLE for document URLs -->
         <xsl:variable name="docURL">
             <xsl:choose>
@@ -65,9 +63,10 @@
             <propSet_id>
                 <xsl:value-of select="."/>
             </propSet_id>
-            <!-- Filter deprecated props here? -->
-            <xsl:for-each select="document($docURL)/rdf:RDF/rdf:Description[rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']][not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]">
-                <!-- Generate property IDs here -->
+            <!-- Filter deprecated props -->
+            <xsl:for-each select="document($docURL)/rdf:RDF/rdf:Description[rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]
+                [not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]">
+                <!-- Generate property ID -->
                 <prop pid="{concat($set, '_', substring-after(@rdf:about, 'http://rdaregistry.info/Elements/'))}">
                     <prop_iri>
                         <xsl:value-of select="@rdf:about"/>
@@ -83,7 +82,8 @@
                     </xsl:if>
                     <!-- 
                         TO DO
-                        Would like <prop_related_url>, but no Toolkit URLs available in current RDF/XML...
+                        Bring in <prop_related_url> values
+                        No Toolkit URLs available in current RDF/XML
                         Need to bring in from another resource, see alignRDA2TK 
                     -->
                 </prop>
