@@ -2,37 +2,36 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
     targetNamespace="https://uwlib-cams.github.io/map_storage/"
-    xmlns="https://uwlib-cams.github.io/map_storage/"
-    elementFormDefault="qualified"
+    xmlns="https://uwlib-cams.github.io/map_storage/" elementFormDefault="qualified"
     vc:minVersion="1.1">
-    
+
     <xs:import namespace="http://www.w3.org/XML/1998/namespace"
         schemaLocation="http://www.w3.org/2001/03/xml.xsd"/>
     <xs:import namespace="http://www.w3.org/2001/XMLSchema"
         schemaLocation="https://www.w3.org/2001/XMLSchema.xsd"/>
-    
+
     <xs:element name="mapStorage" type="mapStorage_type"/>
-    
+
     <xs:complexType name="mapStorage_type">
         <xs:sequence>
             <xs:element name="id_ap" type="id_ap_type" minOccurs="1" maxOccurs="1"/>
             <xs:element name="propSet" type="propSet_type" minOccurs="1" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
-    
+
     <xs:simpleType name="id_ap_type">
         <xs:restriction base="xs:string">
             <xs:enumeration value="WAU"/>
         </xs:restriction>
     </xs:simpleType>
-    
+
     <xs:complexType name="propSet_type">
         <xs:sequence>
             <xs:element name="id_propSet" type="id_propSet_type" minOccurs="1" maxOccurs="1"/>
             <xs:element name="prop" type="prop_type" minOccurs="1" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
-    
+
     <xs:simpleType name="id_propSet_type">
         <xs:restriction base="xs:string">
             <!-- UPDATE ENUMERATED VALUES HERE -->
@@ -44,22 +43,35 @@
             <!-- <xs:enumeration value=""/> -->
         </xs:restriction>
     </xs:simpleType>
-    
+
     <xs:complexType name="prop_type">
         <xs:sequence>
-            <!-- prop_iri constraint does not seem to be effectively limiting text values to IRIs -->
-            <xs:element name="prop_iri" type="xs:anyURI" minOccurs="1" maxOccurs="1"/>
+            <!-- prop_iri constraint does not seem effective in limiting values to IRIs -->
+            <xs:element name="prop_iri" type="prop_iri_type" minOccurs="1" maxOccurs="1"/>
             <xs:element name="prop_label" type="prop_label_type" minOccurs="1" maxOccurs="unbounded"/>
-            <xs:element name="prop_domain" type="prop_domain_type" minOccurs="0" maxOccurs="unbounded"/>
-            <xs:element name="prop_range" type="prop_range_type" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="prop_domain" type="prop_domain_type" minOccurs="0"
+                maxOccurs="unbounded"/>
+            <xs:element name="prop_range" type="prop_range_type" minOccurs="0" maxOccurs="unbounded"
+            />
         </xs:sequence>
         <xs:attribute name="lid_prop"/>
     </xs:complexType>
-    
+
+    <xs:complexType name="prop_iri_type">
+        <xs:simpleContent>
+            <xs:extension base="xs:anyURI">
+                <xs:attribute name="iri"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <!-- VALIDATION ERROR: 
+        Element 'prop_label' must have no character or element information item [children], because the type's content type is empty.
+        See issue #3-->
     <xs:complexType name="prop_label_type">
         <xs:attribute ref="xml:lang" use="required"/>
     </xs:complexType>
-    
+
     <xs:complexType name="prop_domain_type">
         <xs:simpleContent>
             <xs:extension base="xs:anyURI">
@@ -67,7 +79,7 @@
             </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
-    
+
     <xs:complexType name="prop_range_type">
         <xs:simpleContent>
             <xs:extension base="xs:anyURI">
@@ -75,5 +87,5 @@
             </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
-    
+
 </xs:schema>
