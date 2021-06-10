@@ -21,11 +21,12 @@
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
                 xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/ https://uwlib-cams.github.io/map_storage/map_storage.xsd">
-                <ap_id>WAU</ap_id>
-
-                <propSet propSet_id="rda_Work" xmlns="https://uwlib-cams.github.io/map_storage/">
+                <id_ap>WAU</id_ap>
+                <propSet xmlns="https://uwlib-cams.github.io/map_storage/">
+                    <id_propSet>rda_Work</id_propSet>
                     <!-- Template for pulling from RDA Registry data -->
                     <xsl:call-template name="rda_prop_set">
+                        <xsl:with-param name="prop_set" select="'rda_Work'"/>
                         <xsl:with-param name="path_to_prop"
                             select="
                                 $rda_Work/rdf:RDF/rdf:Description[rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]
@@ -34,8 +35,8 @@
                     </xsl:call-template>
                 </propSet>
 
-                <propSet propSet_id="rda_Expression"
-                    xmlns="https://uwlib-cams.github.io/map_storage/">
+                <propSet xmlns="https://uwlib-cams.github.io/map_storage/">
+                    <id_propSet>rda_Expression</id_propSet>
                     <!-- Template for pulling from RDA Registry data -->
                     <xsl:call-template name="rda_prop_set">
                         <xsl:with-param name="path_to_prop"

@@ -8,14 +8,13 @@
 
     <!-- Here's the template to use when pulling from RDA Registry data -->
     <xsl:template name="rda_prop_set">
+        <xsl:param name="prop_set"/>
         <xsl:param name="path_to_prop"/>
 
         <xsl:for-each select="$path_to_prop">
-            <!-- BMR TO DO: Generate prop element local id -->
-            <prop xmlns="https://uwlib-cams.github.io/map_storage/">
-                <prop_iri xmlns="https://uwlib-cams.github.io/map_storage/">
-                    <xsl:value-of select="@rdf:about"/>
-                </prop_iri>
+            <prop xmlns="https://uwlib-cams.github.io/map_storage/"
+                lid_prop="{concat($prop_set, '_', substring-after(@rdf:about, 'http://rdaregistry.info/Elements/'))}">
+                <prop_iri iri="{@rdf:about}"/>
                 <prop_label xml:lang="en">
                     <xsl:value-of select="rdfs:label[@xml:lang='en']"/>
                 </prop_label>
