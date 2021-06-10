@@ -57,9 +57,6 @@
         <xs:attribute name="lid_prop"/>
     </xs:complexType>
 
-    <!-- VALIDATION ERROR:
-        Element 'prop_iri' is a simple type, so it cannot have attributes, excepting those whose namespace name is identical to 'http://www.w3.org/2001/XMLSchema-instance' and whose [local name] is one of 'type', 'nil', 'schemaLocation' or 'noNamespaceSchemaLocation'. However, the attribute, 'iri' was found.
-        -->
     <xs:complexType name="iri_type">
         <xs:simpleContent>
             <xs:extension base="xs:anyURI">
