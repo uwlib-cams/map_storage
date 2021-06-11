@@ -14,39 +14,40 @@
 
     <xs:complexType name="mapStorage_type">
         <xs:sequence>
-            <xs:element name="id_ap" type="id_ap_type" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="mapid_institution" type="mapid_institution_type" minOccurs="1" maxOccurs="1"/>
             <xs:element name="propSet" type="propSet_type" minOccurs="1" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
 
-    <xs:simpleType name="id_ap_type">
+    <xs:simpleType name="mapid_institution_type">
         <xs:restriction base="xs:string">
+            <!-- Enumerate possible resource template institution IDs (a MAP ID component) -->
             <xs:enumeration value="WAU"/>
         </xs:restriction>
     </xs:simpleType>
 
     <xs:complexType name="propSet_type">
         <xs:sequence>
-            <xs:element name="id_propSet" type="id_propSet_type" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="mapid_propSet" type="mapid_propSet_type" minOccurs="1" maxOccurs="1"/>
             <xs:element name="prop" type="prop_type" minOccurs="1" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
 
-    <xs:simpleType name="id_propSet_type">
+    <xs:simpleType name="mapid_propSet_type">
         <xs:restriction base="xs:string">
-            <!-- UPDATE ENUMERATED VALUES HERE -->
+            <!-- Enumerate possible resource template propertySet IDs (a MAP ID component) -->
+            <!-- ENUMERATE/UPDATE HERE -->
             <xs:enumeration value="rda_Work"/>
             <xs:enumeration value="rda_Expression"/>
             <xs:enumeration value="rda_Manifestation"/>
             <xs:enumeration value="rda_Item"/>
             <xs:enumeration value="rda_Agent"/>
-            <!-- <xs:enumeration value=""/> -->
         </xs:restriction>
     </xs:simpleType>
 
     <xs:complexType name="prop_type">
         <xs:sequence>
-            <!-- prop_iri constraint does not seem effective in limiting values to IRIs -->
+            <!-- prop_iri constraint not constraining @ values to IRIs -->
             <xs:element name="prop_iri" type="iri_type" minOccurs="1" maxOccurs="1"/>
             <xs:element name="prop_label" type="label_type" minOccurs="1" maxOccurs="unbounded"/>
             <xs:element name="prop_domain" type="iri_type" minOccurs="0" maxOccurs="unbounded"/>
@@ -54,7 +55,7 @@
             <xs:element name="prop_related_url" type="url_type" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element name="platform_set" type="platform_set_type" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
-        <xs:attribute name="lid_prop"/>
+        <xs:attribute name="localid_prop"/>
     </xs:complexType>
 
     <xs:complexType name="iri_type">
@@ -71,7 +72,10 @@
     <xs:complexType name="label_type">
         <xs:attribute ref="xml:lang" use="required"/>
     </xs:complexType>
-    
+
+    <!-- TO DO: Add additional information about URLs (toolkit link/property feedback form/etc.)  -->
+    <!-- CONSIDER creating additional elements so that URLs can be stored for 1) output as ref links to appear in Sinopia UI and
+    2) output as ref links with descriptive text to appear in HTML -->
     <xs:complexType name="url_type">
         <xs:simpleContent>
             <xs:extension base="xs:anyURI">
@@ -79,9 +83,49 @@
             </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
-    
+
     <xs:complexType name="platform_set_type">
-        <!-- sequence here -->
+        <xs:sequence>
+            <xs:element name="sinopia" type="sinopia_type" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="sinopia_type">
+        <xs:sequence>
+            <xs:element name="resourceSet" type="resourceSet_type" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="resourceSet_type">
+        <xs:sequence>
+            <xs:element name="resource" type="resource_type" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="constraints" type="constraints_type"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="resource_type">
+        <xs:sequence>
+            <xs:element name="mapid_resource" type="mapid_resource_type" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="resource_iri" type="resource_iri_type" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="resource_label" type="label_type" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="mapid_resource_type">
+        <!-- ENUMERATE/UPDATE HERE -->
+        <!-- Enumerate possible resource template resource IDs (a MAP ID component) -->
+        <!-- Due to the RDA Registry data structure we pull from, the mapid_propSet and mapid_resource values will be essentially the same and redundant, 
+            but this may not be the case for other vocabularies -->
+    </xs:complexType>
+    
+    <xs:complexType name="resource_iri_type">
+        <!-- ENUMERATE/UPDATE HERE -->
+        <!-- (how to enumerate @ values?) -->
+        <!-- List possible resource template resource IRIs -->
+        <!-- Put IRIs in an @; constrain to xsd:anyURI -->
+    </xs:complexType>
+    
+    <xs:complexType name="constraints_type">
     </xs:complexType>
 
 </xs:schema>
