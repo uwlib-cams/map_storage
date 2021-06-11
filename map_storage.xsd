@@ -21,7 +21,7 @@
 
     <xs:simpleType name="mapid_institution_type">
         <xs:restriction base="xs:string">
-            <!-- Enumerate possible resource template institution IDs (a MAP ID component) -->
+            <!-- Enumerate possible resource template institution IDs (just one) (a MAP ID component) -->
             <xs:enumeration value="WAU"/>
         </xs:restriction>
     </xs:simpleType>
@@ -52,9 +52,12 @@
             <xs:element name="prop_label" type="label_type" minOccurs="1" maxOccurs="unbounded"/>
             <xs:element name="prop_domain" type="iri_type" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element name="prop_range" type="iri_type" minOccurs="0" maxOccurs="unbounded"/>
+            <!-- CONSIDER creating additional elements so that URLs can be stored for 1) output as ref links to appear in Sinopia UI and
+                2) output as ref links with descriptive text to appear in HTML -->
             <xs:element name="prop_related_url" type="url_type" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element name="platform_set" type="platform_set_type" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
+        <!-- Need to REQUIRE @localid_prop -->
         <xs:attribute name="localid_prop"/>
     </xs:complexType>
 
@@ -73,9 +76,8 @@
         <xs:attribute ref="xml:lang" use="required"/>
     </xs:complexType>
 
-    <!-- TO DO: Add additional information about URLs (toolkit link/property feedback form/etc.)  -->
     <!-- CONSIDER creating additional elements so that URLs can be stored for 1) output as ref links to appear in Sinopia UI and
-    2) output as ref links with descriptive text to appear in HTML -->
+        2) output as ref links with descriptive text to appear in HTML -->
     <xs:complexType name="url_type">
         <xs:simpleContent>
             <xs:extension base="xs:anyURI">
