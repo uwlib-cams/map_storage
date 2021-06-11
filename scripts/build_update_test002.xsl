@@ -21,9 +21,9 @@
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
                 xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/ https://uwlib-cams.github.io/map_storage/map_storage.xsd">
-                <id_ap>WAU</id_ap>
+                <mapid_institution>WAU</mapid_institution>
                 <propSet xmlns="https://uwlib-cams.github.io/map_storage/">
-                    <id_propSet>rda_Work</id_propSet>
+                    <mapid_propSet>rda_Work</mapid_propSet>
                     <!-- Template for pulling from RDA Registry data -->
                     <xsl:call-template name="rda_prop_set">
                         <xsl:with-param name="prop_set" select="'rda_Work'"/>
@@ -36,7 +36,7 @@
                 </propSet>
 
                 <propSet xmlns="https://uwlib-cams.github.io/map_storage/">
-                    <id_propSet>rda_Expression</id_propSet>
+                    <mapid_propSet>rda_Expression</mapid_propSet>
                     <!-- Template for pulling from RDA Registry data -->
                     <xsl:call-template name="rda_prop_set">
                         <xsl:with-param name="path_to_prop"

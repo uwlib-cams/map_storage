@@ -13,7 +13,7 @@
 
         <xsl:for-each select="$path_to_prop">
             <prop xmlns="https://uwlib-cams.github.io/map_storage/"
-                lid_prop="{concat($prop_set, '_', substring-after(@rdf:about, 'http://rdaregistry.info/Elements/'))}">
+                localid_prop="{concat($prop_set, '_', substring-after(@rdf:about, 'http://rdaregistry.info/Elements/'))}">
                 <prop_iri iri="{@rdf:about}"/>
                 <prop_label xml:lang="en">
                     <xsl:value-of select="rdfs:label[@xml:lang='en']"/>
