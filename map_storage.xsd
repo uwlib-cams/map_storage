@@ -21,7 +21,7 @@
 
     <xs:simpleType name="mapid_institution_type">
         <xs:restriction base="xs:string">
-            <!-- Enumerate possible resource template institution IDs (just one) (a MAP ID component) -->
+            <!-- Enumerate possible resource template institution IDs (a MAP ID component) -->
             <xs:enumeration value="WAU"/>
         </xs:restriction>
     </xs:simpleType>
@@ -62,18 +62,23 @@
     </xs:complexType>
 
     <xs:complexType name="iri_type">
-        <xs:simpleContent>
-            <xs:extension base="xs:anyURI">
-                <xs:attribute name="iri"/>
-            </xs:extension>
-        </xs:simpleContent>
+       <xs:attribute name="iri">
+           <xs:simpleType>
+               <xs:restriction base="xs:anyURI">
+                   <!-- IRI validation pattern -->
+                   <!-- UPDATE PATTERN to allow sources other than RDA Registry -->
+                   <xs:pattern value="http:\/\/rdaregistry\.info\/Elements\/\S*"/>
+               </xs:restriction>
+           </xs:simpleType>
+       </xs:attribute>
     </xs:complexType>
 
-    <!-- VALIDATION ERROR: 
-        Element 'prop_label' must have no character or element information item [children], because the type's content type is empty.
-        See issue #3-->
     <xs:complexType name="label_type">
-        <xs:attribute ref="xml:lang" use="required"/>
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute ref="xml:lang" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
     </xs:complexType>
 
     <!-- CONSIDER creating additional elements so that URLs can be stored for 1) output as ref links to appear in Sinopia UI and
