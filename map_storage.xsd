@@ -10,129 +10,221 @@
     <xs:import namespace="http://www.w3.org/2001/XMLSchema"
         schemaLocation="https://www.w3.org/2001/XMLSchema.xsd"/>
 
+    <!-- *** mapStorage *** -->
+
     <xs:element name="mapStorage" type="mapStorage_type"/>
 
     <xs:complexType name="mapStorage_type">
         <xs:sequence>
-            <xs:element name="mapid_institution" type="mapid_institution_type" minOccurs="1" maxOccurs="1"/>
             <xs:element name="propSet" type="propSet_type" minOccurs="1" maxOccurs="unbounded"/>
         </xs:sequence>
+        <xs:attribute name="mapid_institution" type="mapid_institution_attr"/>
     </xs:complexType>
 
-    <xs:simpleType name="mapid_institution_type">
+    <xs:simpleType name="mapid_institution_attr">
         <xs:restriction base="xs:string">
-            <!-- Enumerate possible resource template institution IDs (a MAP ID component) -->
+            <!-- (MAP ID component) -->
             <xs:enumeration value="WAU"/>
         </xs:restriction>
     </xs:simpleType>
 
+    <!-- *** propSet *** -->
+
     <xs:complexType name="propSet_type">
         <xs:sequence>
-            <xs:element name="mapid_propSet" type="mapid_propSet_type" minOccurs="1" maxOccurs="1"/>
             <xs:element name="prop" type="prop_type" minOccurs="1" maxOccurs="unbounded"/>
         </xs:sequence>
+        <xs:attribute name="mapid_propSet" type="mapid_propSet_attr"/>
     </xs:complexType>
 
-    <xs:simpleType name="mapid_propSet_type">
+    <xs:simpleType name="mapid_propSet_attr">
         <xs:restriction base="xs:string">
-            <!-- Enumerate possible resource template propertySet IDs (a MAP ID component) -->
-            <!-- ENUMERATE/UPDATE HERE -->
+            <!-- (MAP ID component) -->
+            <!-- [?] is it possible to put enumeration lists that will need updating, like this one, in an external doc and import here as vars, etc.? 
+                See map_storage #5 -->
             <xs:enumeration value="rda_Work"/>
             <xs:enumeration value="rda_Expression"/>
+            <!-- Not yet in test storage instance
             <xs:enumeration value="rda_Manifestation"/>
             <xs:enumeration value="rda_Item"/>
             <xs:enumeration value="rda_Agent"/>
+            <xs:enumeration value=""/>
+            add other RDA Entities here
+            -->
         </xs:restriction>
     </xs:simpleType>
 
+    <!-- *** prop *** -->
+
     <xs:complexType name="prop_type">
         <xs:sequence>
-            <!-- prop_iri constraint not constraining @ values to IRIs -->
             <xs:element name="prop_iri" type="iri_type" minOccurs="1" maxOccurs="1"/>
-            <xs:element name="prop_label" type="label_type" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="prop_label" type="lang_string_type" minOccurs="1" maxOccurs="unbounded"/>
             <xs:element name="prop_domain" type="iri_type" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element name="prop_range" type="iri_type" minOccurs="0" maxOccurs="unbounded"/>
             <!-- CONSIDER creating additional elements so that URLs can be stored for 1) output as ref links to appear in Sinopia UI and
                 2) output as ref links with descriptive text to appear in HTML -->
             <xs:element name="prop_related_url" type="url_type" minOccurs="0" maxOccurs="unbounded"/>
-            <xs:element name="platform_set" type="platform_set_type" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="platformSet" type="platformSet_type" minOccurs="0"
+                maxOccurs="1"/>
         </xs:sequence>
-        <!-- Need to REQUIRE @localid_prop -->
-        <xs:attribute name="localid_prop"/>
+        <xs:attribute name="localid_prop" type="localid_prop_attr" use="required"/>
     </xs:complexType>
+
+        <!-- Possible to add requirement in the schema here to prevent duplicate values? -->
+    <xs:simpleType name="localid_prop_attr">
+        <xs:restriction base="xs:string">
+            <!-- BMR TO DO improve pattern for anticipated local IDs for props from RDA Registry -->
+            <!-- Restrict @localid_[...] values further based on expected values for property local IDs -->
+            <!-- Will need updating if I do this -->
+            <xs:pattern value="\S+"/>
+        </xs:restriction>
+    </xs:simpleType>
 
     <xs:complexType name="iri_type">
-       <xs:attribute name="iri">
-           <xs:simpleType>
-               <xs:restriction base="xs:anyURI">
-                   <!-- IRI validation pattern -->
-                   <!-- UPDATE PATTERN to allow sources other than RDA Registry -->
-                   <xs:pattern value="http:\/\/rdaregistry\.info\/Elements\/\S*"/>
-               </xs:restriction>
-           </xs:simpleType>
-       </xs:attribute>
+        <xs:attribute name="iri">
+            <xs:simpleType>
+                <xs:restriction base="xs:anyURI">
+                    <!-- IRI validation pattern -->
+                    <!-- UPDATE PATTERN to allow sources other than RDA Registry -->
+                    <xs:pattern value="http:\/\/rdaregistry\.info\/Elements\/\S*"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
     </xs:complexType>
 
-    <xs:complexType name="label_type">
+    <xs:complexType name="lang_string_type">
         <xs:simpleContent>
             <xs:extension base="xs:string">
+                <!-- [?] Enumerate language-tag values? -->
                 <xs:attribute ref="xml:lang" use="required"/>
             </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
 
-    <!-- CONSIDER creating additional elements so that URLs can be stored for 1) output as ref links to appear in Sinopia UI and
-        2) output as ref links with descriptive text to appear in HTML -->
+    <!-- BMR TO DO [!] This element needs work;
+        all of these attributes need better constraints -->
     <xs:complexType name="url_type">
         <xs:simpleContent>
+            <!-- Need to improve constraints on URL values here; xs:anyURI alone not effective -->
             <xs:extension base="xs:anyURI">
                 <xs:attribute name="url"/>
+                <!-- Use values to differentiate 1) output as ref links to appear in Sinopia UI vs. 2) output as ref links with descriptive text to appear in HTML -->
+                <!-- Need to enumerate link_category, one category should be remark URL -->
+                <xs:attribute name="link_category"/>
+                <!-- Maybe store link text as text child, not in @ -->
+                <xs:attribute name="link_text"/>
             </xs:extension>
+
         </xs:simpleContent>
     </xs:complexType>
 
-    <xs:complexType name="platform_set_type">
+    <!-- *** platformSet *** -->
+
+    <xs:complexType name="platformSet_type">
         <xs:sequence>
             <xs:element name="sinopia" type="sinopia_type" minOccurs="0" maxOccurs="1"/>
         </xs:sequence>
     </xs:complexType>
-    
+
+    <!-- *** sinopia *** -->
+
     <xs:complexType name="sinopia_type">
         <xs:sequence>
-            <xs:element name="resourceSet" type="resourceSet_type" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="resource" type="resource_type" minOccurs="1" maxOccurs="1"/>
         </xs:sequence>
     </xs:complexType>
-    
-    <xs:complexType name="resourceSet_type">
-        <xs:sequence>
-            <xs:element name="resource" type="resource_type" minOccurs="1" maxOccurs="unbounded"/>
-            <xs:element name="constraints" type="constraints_type"/>
-        </xs:sequence>
-    </xs:complexType>
-    
+
+    <!-- *** resource *** -->
+
     <xs:complexType name="resource_type">
         <xs:sequence>
-            <xs:element name="mapid_resource" type="mapid_resource_type" minOccurs="1" maxOccurs="1"/>
-            <xs:element name="resource_iri" type="resource_iri_type" minOccurs="1" maxOccurs="1"/>
-            <xs:element name="resource_label" type="label_type" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="implementations" type="implementations_type" minOccurs="1" maxOccurs="1"
+            />
+        </xs:sequence>
+        <xs:attribute name="mapid_resource" type="mapid_resource_attr" use="required"/>
+    </xs:complexType>
+
+    <xs:simpleType name="mapid_resource_attr">
+        <xs:restriction base="xs:string">
+            <!-- (MAP ID component) -->
+            <!-- For prop sets from RDA Registry, mapid_propSet and mapid_resource values will be redundant 
+            (RDA Work property set properties for use in an RDA Work RT), 
+            but this may not be the case for other vocabularies -->
+            <xs:enumeration value="Work"/>
+            <xs:enumeration value="Expression"/>
+            <!-- Not yet in test storage instance
+            <xs:enumeration value="Manifestation"/>
+            <xs:enumeration value="Item"/>
+            <xs:enumeration value="Agent"/>
+            <xs:enumeration value=""/>
+            add other RDA Entities here
+            -->
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- *** implementations *** -->
+
+    <xs:complexType name="implementations_type">
+        <xs:sequence>
+            <xs:element name="implementationSet" type="implementationSet_type" minOccurs="1" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
+
+    <!-- *** implementationSet *** -->
     
-    <xs:complexType name="mapid_resource_type">
-        <!-- ENUMERATE/UPDATE HERE -->
-        <!-- Enumerate possible resource template resource IDs (a MAP ID component) -->
-        <!-- Due to the RDA Registry data structure we pull from, the mapid_propSet and mapid_resource values will be essentially the same and redundant, 
-            but this may not be the case for other vocabularies -->
+    <xs:complexType name="implementationSet_type">
+        <xs:sequence>
+            <xs:element name="format" type="format_type" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="user" type="user_type" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="form_order" type="form_order_type"/>
+            <xs:element name="remark" type="lang_string_type" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+        <xs:attribute name="localid_formatSet" type="localid_attr" use="required"/>
     </xs:complexType>
     
-    <xs:complexType name="resource_iri_type">
-        <!-- ENUMERATE/UPDATE HERE -->
-        <!-- (how to enumerate @ values?) -->
-        <!-- List possible resource template resource IRIs -->
-        <!-- Put IRIs in an @; constrain to xsd:anyURI -->
+    <!-- Expect to reuse localid_attr -->
+    <!-- Possible to add requirement in the schema here to prevent duplicate values? -->
+    <xs:simpleType name="localid_attr">
+        <xs:restriction base="xs:string">
+            <!-- [?] Restrict @localid_[...] values further? -->
+            <xs:pattern value="\S+"/>
+            <xs:enumeration value="!NEED_LOCAL_ID!"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="format_type">
+        <!-- BMR TO TO need to enumerate here -->
+        <xs:attribute name="mapid_format" type="mapid_format_attr" use="required"/>
     </xs:complexType>
     
-    <xs:complexType name="constraints_type">
+    <xs:complexType name="user_type">
+        <!-- BMR TO TO need to enumerate here -->
+        <xs:attribute name="mapid_user" type="mapid_user_attr" use="required"/>
     </xs:complexType>
+    
+    <xs:simpleType name="mapid_format_attr">
+        <xs:restriction base="xs:string">
+            <!-- (MAP ID component) -->
+            <!-- mapid enumerations here will need updating -->
+            <xs:enumeration value="monograph"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="mapid_user_attr">
+        <xs:restriction base="xs:string">
+            <!-- (MAP ID component) -->
+            <!-- mapid enumerations here will need updating -->
+            <xs:enumeration value="ries07"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="form_order_type">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="0.0"/>
+            <xs:maxInclusive value="1.0"/>
+            <xs:enumeration value="0.5"/>
+        </xs:restriction>
+    </xs:simpleType>
 
 </xs:schema>
