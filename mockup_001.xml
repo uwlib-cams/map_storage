@@ -35,26 +35,29 @@
                     What about the new resource attribute > suppressible?? 
                     How would that work? 
                     How to add for that?? At resource level? At implementationSet level?? -->
-                    
-                    <resource mapid_resource="02039mapidhere">
-                        <!-- resource: mandatory, repeatable -->
-                        <!-- domain element above *and* resource element here is logically redundant, but resource element here functions to output property information to a specific sinopia RT, domain element above is informative  -->
 
 
 
-                        <implementations>
-                            <!-- constraints nests under *resourceSet* because the same prop may be implemented for multiple resources with the same constraints?? I think -->
-                            <!-- constraints: mandatory, non-repeatable -->
 
+                        <implementationSet localid_implementationSet="a03">
+                            <!-- formatSet: mandatory, repeatable -->
 
-                            <implementationSet lid_formatSet="a03">
-                                <!-- formatSet: mandatory, repeatable -->
-
-                                <!-- This bit below is a bit experimental
+                            <!-- This bit below is a bit experimental
                                     So, I believe that to implement a prop in an RT you must provide *at least" a format mapid,
                                     With a user mapid optional...
                                     Will this work?
                                     -->
+                            <resource mapid_resource="02039mapidhere">
+                                <!-- resource: mandatory, repeatable -->
+                                <!-- domain element above *and* resource element here is logically redundant, 
+                                    but resource element here functions to output property information to a specific sinopia RT, 
+                                    domain element above is informative  -->
+                                
+                                <sinopia_resource_attributes>
+                                    <suppressible value="True"/>
+                                </sinopia_resource_attributes>
+                                
+
 
 
                                 <format mapid_format="monograph">
@@ -85,13 +88,13 @@
                                     <!-- remark: optional, non-repeatable -->
                                     <!-- No remark URL needed: RDA Toolkit link in ref_url above  -->
                                 </remark>
-                                <attributes lid_attributes="a05">
+                                <sinopia_prop_attributes localid_sinopia_prop_attributes="aaa">
                                     <!-- attributes, required, non-repeatable -->
-                                    <type>
+                                    <sinopia_prop_type>
                                         <!-- type: mandatory, non-repeatable, enumerate types
                                                     literal, uriOrLookup, nestedResource, ... -->
                                         <!-- [!?] Need to double check on Sinopia RT prop types for attributes here -->
-                                    </type>
+                                    </sinopia_prop_type>
                                     <required>
                                         <!-- required: mandatory, non-repeatable, boolean, default False -->
                                     </required>
@@ -102,17 +105,17 @@
                                     <ordered>
                                         <!-- ordered: mandatory, non-repeatable, boolean, default False -->
                                     </ordered>
-                                    <type_attributes>
+                                    <sinopia_prop_type_attributes>
                                         <!-- type_attributes: required, non-repeatable -->
-                                        <!-- [?] Possible to make *one of* literal, uri, lookup required? -->
-                                        <literal>
+                                        <!-- [?] Possible to make *one of* literal, etc. required? -->
+                                        <literal_attributes>
                                             <!-- literal: optional, non-repeatable -->
                                             <!-- [?] Possible to make mandatory if type=literal? -->
-                                            <default_literal>
+                                            <default_literal xml:lang="en">
                                                 <!-- default_literal: mandatory, non-repeatable, xsd:string -->
                                                 <!-- [?] Can Sinopia default literals accomodate lang tags? -->
                                             </default_literal>
-                                        </literal>
+                                        </literal_attributes>
                                         <uri>
                                             <!-- uri: optional, non-repeatable -->
                                             <!-- [?] Possible to make *one of* uri or lookup mandatory if type=uriOrLookup? -->
@@ -129,9 +132,10 @@
                                                 <!-- enumerate, values from
                                                     https://github.com/LD4P/sinopia_editor/blob/master/static/authorityConfig.json -->
                                             </authority>
-                                            <default_uri>
+                                            <lookup_default_iri>
                                                 <!-- default_uri: mandatory, non-repeatable, xsd:anyURI -->
-                                            </default_uri>
+                                            </lookup_default_iri>
+                                            <lookup_default_iri_label></lookup_default_iri_label>
                                         </lookup>
                                         <nested_resource>
                                             <!-- nested_resource: optional, non-repeatable -->
@@ -143,32 +147,25 @@
                                                 <!-- [?] Generate list of all RTs at any given time based on values in map_storage... -->
                                             </rt_id>
                                         </nested_resource>
-                                    </type_attributes>
-                                </attributes>
-                                <guidance lid_guidance="a06">
+                                    </sinopia_prop_type_attributes>
+                                </sinopia_prop_attributes>
+                                <guidance localid_guidance="a06">
                                     <!-- guidance: optional, non-repeatable -->
                                     <instructionSet>
                                         <!-- instruction set: optional, non-repeatable -->
-                                        <instruction lid_instruction="a07">
-                                            <!-- instruction: mandatory, repeatable -->
-                                            <p>
-                                                <!-- p: optional, repeatable -->
-                                            </p>
+                                        <instruction>
+                                            <!-- mandatory, repeatable -->
                                         </instruction>
                                     </instructionSet>
                                     <exampleSet>
                                         <!-- exacmpleSet: optional, non-repeatable -->
-                                        <example lid_example="a08">
+                                        <example>
                                             <!-- example: mandatory, repeatable -->
-                                            <p>
-                                                <!-- p: optional, repeatable -->
-                                            </p>
                                         </example>
                                     </exampleSet>
                                 </guidance>
-                            </implementationSet>
-                        </implementations>
-                    </resource>
+                            </resource>
+                        </implementationSet>
                 </sinopia>
             </platformSet>
         </prop>
