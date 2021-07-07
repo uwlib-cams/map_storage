@@ -14,15 +14,25 @@
             <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
             <platformSet>
                 <sinopia>
-                    <resource mapid_resource="Work">
-                        <implementations>
-                            <implementationSet localid_formatSet="!NEED_LOCAL_ID!">
-                                <format mapid_format="monograph"/>
-                                <user mapid_user="ries07"/>
-                                <form_order>0.5</form_order>
-                            </implementationSet>
-                        </implementations>
-                    </resource>
+                    <implementationSet localid_implementationSet="aaa">
+                        <resource mapid_resource="Work">
+                            <format mapid_format="monograph"/>
+                            <user mapid_user="ries07"/>
+                            <form_order>0.000000001</form_order>
+                            <remark xml:lang="en">Here's the thing you should know about using this property...pay attention to what you are doing!</remark>
+                            <sinopia_prop_attributes>
+                                <sinopia_prop_type>nested_resource</sinopia_prop_type>
+                                <required value="true"/>
+                                <repeatable value="false"/>
+                                <ordered value="true"/>
+                                <sinopia_prop_type_attributes>
+                                    <literal_attributes>
+                                        <default_literal xml:lang="en">Marty The Supervisor</default_literal>
+                                    </literal_attributes>
+                                </sinopia_prop_type_attributes>
+                            </sinopia_prop_attributes>
+                        </resource>
+                    </implementationSet>
                 </sinopia>
             </platformSet>
         </prop>
