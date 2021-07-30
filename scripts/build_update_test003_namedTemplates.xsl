@@ -27,10 +27,10 @@
                     </xsl:if>
                     <platformSet>
                         <sinopia>
+                            <xsl:variable name="localid_implementationSet" select="document('../localid_log.xml')/localid_log/property[@localid_prop=$localid_prop]/@localid_implementationSet"/>
                             <xsl:choose>
                                 <!-- if property has localid_implementationSet recorded in log, use that -->
-                                <xsl:when test="document('../localid_log.xml')/localid_log/property/@localid_prop=$localid_prop">
-                                    <xsl:variable name="localid_implementationSet" select="document('../localid_log.xml')/localid_log/property[@localid_prop=$localid_prop]/@localid_implementationSet"/>
+                                <xsl:when test="$localid_implementationSet">
                                     <implementationSet localid_implementationSet='{$localid_implementationSet}'></implementationSet>
                                 </xsl:when>
                                 <!-- else, generate new -->
