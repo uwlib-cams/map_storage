@@ -14,7 +14,7 @@
             <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
             <platformSet>
                 <sinopia>
-                    <implementationSet localid_implementationSet="aaa">
+                    <implementationSet localid_implementationSet="">
                         <resource mapid_resource="Work">
                             <format mapid_format="monograph"/>
                             <user mapid_user="ries07"/>
@@ -130,6 +130,42 @@
             <prop_iri iri="http://rdaregistry.info/Elements/w/P10399"/>
             <prop_label xml:lang="en">has appellation of work group</prop_label>
             <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
+            <platformSet>
+                <sinopia>
+                    <implementationSet localid_implementationSet="is_p10399_001">
+                        <!-- Maybe generate local IDs in a different way so that values are predictable, for example
+                        is_p10399_001
+                        -->
+                        <resource mapid_resource="Work">
+                            <format mapid_format="monograph etd"/>
+                            <!-- Need to allow multiple mapid_format values -->
+                            <form_order>.326</form_order>
+                            <sinopia_prop_attributes>
+                                <sinopia_prop_type>uri_or_lookup</sinopia_prop_type>
+                                <required/>
+                                <repeatable/>
+                                <ordered/>
+                                <sinopia_prop_type_attributes>
+                                    
+                                </sinopia_prop_type_attributes>
+                            </sinopia_prop_attributes>
+                        </resource>
+                    </implementationSet>
+                    <implementationSet localid_implementationSet="is_p10399_002">
+                        <resource mapid_resource="">
+                            <format mapid_format="graphic"/>
+                            <form_order></form_order>
+                            <sinopia_prop_attributes>
+                                <sinopia_prop_type></sinopia_prop_type>
+                                <required/>
+                                <repeatable/>
+                                <ordered/>
+                                <sinopia_prop_type_attributes></sinopia_prop_type_attributes>
+                            </sinopia_prop_attributes>
+                        </resource>
+                    </implementationSet>
+                </sinopia>
+            </platformSet>
         </prop>
         <prop localid_prop="rda_Work_w/P10062">
             <prop_iri iri="http://rdaregistry.info/Elements/w/P10062"/>
