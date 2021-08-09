@@ -23,7 +23,7 @@ def edit_json(file):
         original_data = json.load(original_data_file)
         currentTime = time.strftime("%Y-%m-%dT%H:%M:%S")
         RT_id = file.split('.')[0]
-        RT_id = RT_id.replace('_', ':') + ":test" # remove :test
+        RT_id = RT_id.replace('_', ':')
         RT_iri = f"https://api.stage.sinopia.io/resource/{RT_id}"
         sinopia_format = json.dumps({"data": original_data, "user": "mcm104", "group": "washington", "templateId": "sinopia:template:resource", "types": ["http://sinopia.io/vocabulary/ResourceTemplate"], "bfAdminMetadataRefs": [], "bfItemRefs": [], "bfInstanceRefs": [], "bfWorkRefs": [], "id": RT_id, "uri": RT_iri, "timestamp": currentTime})
 
