@@ -11,7 +11,7 @@
         <xsl:variable name="propSet" select="'rda_Work'"/>
         <xsl:variable name="resource" select="'Work'"/>
         <xsl:variable name="format" select="'monograph'"/>
-        <xsl:result-document href="../{$institution}_RT_{substring-before($propSet, '_')}_{$resource}_{$format}.xml">
+        <xsl:result-document href="../{$institution}_RT_{substring-before($propSet, '_')}_{$resource}_{$format}_test.xml">
             <xsl:call-template name="create_RT">
                 <xsl:with-param name="institution" select="$institution"/>
                 <xsl:with-param name="propSet" select="$propSet"/>
@@ -36,12 +36,12 @@
                 <sin:hasClass rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
                 <rdfs:label>
                     <xsl:value-of
-                        select="concat($institution, ' RT ', substring-before($propSet, '_'), ' ', $resource, ' ', $format, ' test ', current-date())"
+                        select="concat($institution, ' RT ', substring-before($propSet, '_'), ' ', $resource, ' ', $format, ' test ', format-date(current-date(), '[Y0001]-[M01]-[D01]'))"
                     />
                 </rdfs:label>
                 <sin:hasAuthor>mcm104@uw.edu</sin:hasAuthor>
                 <sin:hasDate>
-                    <xsl:value-of select="current-date()"/>
+                    <xsl:value-of select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
                 </sin:hasDate>
                 <xsl:for-each select="//mapstor:prop[mapstor:platformSet/mapstor:sinopia/mapstor:implementationSet/mapstor:resource[@mapid_resource = $resource]/mapstor:format/@mapid_format = $format]">
                     <xsl:sort select="mapstor:platformSet/mapstor:sinopia/mapstor:implementationSet/mapstor:resource[@mapid_resource=$resource]/mapstor:form_order"/>
@@ -51,6 +51,9 @@
                         </xsl:call-template>
                     </xsl:if>
                 </xsl:for-each>
+            </rdf:Description>
+            <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/C10001">
+                <rdfs:label>work</rdfs:label>
             </rdf:Description>
             <!-- Nodes for properties -->
             <xsl:for-each select="//mapstor:prop[mapstor:platformSet/mapstor:sinopia/mapstor:implementationSet/mapstor:resource[@mapid_resource = $resource]/mapstor:format/@mapid_format = $format]">
@@ -67,13 +70,15 @@
                         </xsl:otherwise>
                     </xsl:choose>
                 </rdf:Description>
+                <rdf:Description rdf:about="{mapstor:prop_iri/@iri}">
+                    <rdfs:label><xsl:value-of select="mapstor:prop_label"/></rdfs:label>
+                </rdf:Description>
                 <!-- Property templates -->
                 <rdf:Description rdf:nodeID="{substring-after(@localid_prop, '/')}">
                     <rdf:type rdf:resource="http://sinopia.io/vocabulary/PropertyTemplate"/>
                     <rdfs:label xml:lang="{mapstor:prop_label/@xml:lang}"><xsl:value-of select="mapstor:prop_label"/></rdfs:label>
                     <sin:hasPropertyUri rdf:resource="{mapstor:prop_iri/@iri}"/>
                     <xsl:variable name="implementationSet" select="mapstor:platformSet/mapstor:sinopia/mapstor:implementationSet/mapstor:resource[@mapid_resource = $resource]"/>
-                    <sin:hasAuthor><xsl:value-of select="$implementationSet/mapstor:user/@mapid_user"/></sin:hasAuthor>
                     <xsl:if test="$implementationSet/mapstor:sinopia_prop_attributes/mapstor:required/@value='true'">
                         <sin:hasPropertyAttribute rdf:resource="http://sinopia.io/vocabulary/propertyAttribute/required"/>
                     </xsl:if>
