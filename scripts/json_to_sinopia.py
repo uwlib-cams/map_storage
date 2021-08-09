@@ -31,7 +31,7 @@ for file in JSONLD_RT_list:
     # create RT ID and URI
     file_id = file.replace('_', ':')
     file_id = file_id.split('.')[0]
-    file_uri = f"https://api.stage.sinopia.io/resource/{file_id}:test" # remove :test
+    file_uri = f"https://api.stage.sinopia.io/resource/{file_id}"
     print(file_uri) # remove
 
     # post to Sinopia
