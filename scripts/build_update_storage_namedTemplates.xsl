@@ -25,25 +25,13 @@
                     <xsl:if test="rdfs:range = node()">
                         <prop_range iri="{rdfs:range/@rdf:resource}"/>
                     </xsl:if>
-                    <platformSet>
-                        <sinopia>
-                            <xsl:variable name="localid_implementationSet" select="document('../localid_log.xml')/localid_log/property[@localid_prop=$localid_prop]/@localid_implementationSet"/>
-                            <xsl:choose>
-                                <!-- if property has localid_implementationSet recorded in log, use that -->
-                                <xsl:when test="$localid_implementationSet">
-                                    <implementationSet localid_implementationSet='{$localid_implementationSet}'></implementationSet>
-                                </xsl:when>
-                                <!-- else, generate new -->
-                                <xsl:otherwise>
-                                    <implementationSet localid_implementationSet='{generate-id()}'></implementationSet>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </sinopia>
-                    </platformSet>
                     <!-- TO DO:
                         Bring in <prop_related_url> values
                         No Toolkit URLs available in current RDF/XML
                         Need to bring in from another source, see alignRDA2TK -->
+                    <!-- TO DO:
+                        Add code for updating:
+                        That is, if a platformSet and child elements exist for a property, copy them-->
                 </prop>
             </xsl:for-each>
         </propSet>

@@ -17,7 +17,7 @@
         select="document('https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/m.xml')"/>
 
     <xsl:template match="/">
-        <xsl:result-document href="../map_storage_test_scratch.xml">
+        <xsl:result-document href="../map_storage_scratch.xml">
             <mapStorage xmlns="https://uwlib-cams.github.io/map_storage/"
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
