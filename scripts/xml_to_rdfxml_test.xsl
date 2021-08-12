@@ -43,8 +43,9 @@
                 <sin:hasDate>
                     <xsl:value-of select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
                 </sin:hasDate>
-                <xsl:for-each select="//mapstor:prop[mapstor:platformSet/mapstor:sinopia/mapstor:implementationSet/mapstor:resource[@mapid_resource = $resource]/mapstor:format/@mapid_format = $format]">
-                    <xsl:sort select="mapstor:platformSet/mapstor:sinopia/mapstor:implementationSet/mapstor:resource[@mapid_resource=$resource]/mapstor:form_order"/>
+                <xsl:for-each select="//mapstor:prop
+                    [mapstor:platformSet/mapstor:sinopia/mapstor:implementationSet/mapstor:resource[@mapid_resource = $resource]/mapstor:format/@mapid_format = $format]">
+                    <xsl:sort select="mapstor:platformSet/mapstor:sinopia/mapstor:implementationSet/mapstor:resource[@mapid_resource=$resource]/mapstor:form_order[@value]"/>
                     <xsl:if test="position() = 1">
                         <xsl:call-template name="start_PT_list">
                             <xsl:with-param name="prop_node_id" select="concat(substring-after(@localid_prop, '/'), '_order')"/>
@@ -57,7 +58,7 @@
             </rdf:Description>
             <!-- Nodes for properties -->
             <xsl:for-each select="//mapstor:prop[mapstor:platformSet/mapstor:sinopia/mapstor:implementationSet/mapstor:resource[@mapid_resource = $resource]/mapstor:format/@mapid_format = $format]">
-                <xsl:sort select="mapstor:platformSet/mapstor:sinopia/mapstor:implementationSet/mapstor:resource[@mapid_resource=$resource]/mapstor:form_order"/>
+                <xsl:sort select="mapstor:platformSet/mapstor:sinopia/mapstor:implementationSet/mapstor:resource[@mapid_resource=$resource]/mapstor:form_order[@value]"/>
                 <!-- List nodes -->
                 <rdf:Description rdf:nodeID="{concat(substring-after(@localid_prop, '/'), '_order')}">
                     <rdf:first rdf:nodeID="{substring-after(@localid_prop, '/')}"/>
