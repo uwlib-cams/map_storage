@@ -221,12 +221,15 @@
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="form_order_type">
-        <xs:restriction base="xs:decimal">
-            <!-- Possible to provide constraints *and* a default? See map_storage #6 -->
-            <xs:minInclusive value="0.0"/>
-            <xs:maxInclusive value="1.0"/>
-        </xs:restriction>
+    <xs:complexType name="form_order_type">
+        <xs:attribute name="value" type="decimal_attr" use="required"/>
+    </xs:complexType>
+    
+    <xs:simpleType name="decimal_attr">
+            <xs:restriction base="xs:decimal">
+                <xs:minInclusive value="0.0"/>
+                <xs:maxInclusive value="1.0"/>
+            </xs:restriction>
     </xs:simpleType>
 
     <!-- remark: lang_string_type defined above -->
@@ -262,15 +265,18 @@
 
     <xs:complexType name="sinopia_prop_type_attributes_type">
         <xs:choice>
-            <xs:element name="literal_attributes" type="literal_attributes_type" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="literal_attributes" type="literal_attributes_type" minOccurs="1"
+                maxOccurs="1"/>
             <xs:element name="uri_attributes" type="uri_attributes_type" minOccurs="1" maxOccurs="1"/>
-            <xs:element name="lookup_attributes" type="lookup_attributes_type" minOccurs="1" maxOccurs="1"/>
-            <xs:element name="nested_resource_attributes" type="nested_resource_attributes_type" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="lookup_attributes" type="lookup_attributes_type" minOccurs="1"
+                maxOccurs="1"/>
+            <xs:element name="nested_resource_attributes" type="nested_resource_attributes_type"
+                minOccurs="1" maxOccurs="1"/>
         </xs:choice>
     </xs:complexType>
 
     <!-- ********** literal_attributes ********** -->
-    
+
     <xs:complexType name="literal_attributes_type">
         <xs:sequence>
             <xs:element name="default_literal" type="lang_string_type" minOccurs="1" maxOccurs="1"/>
@@ -278,35 +284,38 @@
     </xs:complexType>
 
     <!-- literal_attributes: lang_string_type defined above -->
-    
+
     <!-- ********** uri_attributes ********** -->
 
     <xs:complexType name="uri_attributes_type">
         <xs:sequence>
             <xs:element name="default_uri" type="iri_type" minOccurs="1" maxOccurs="1"/>
-            <xs:element name="default_uri_label" type="lang_string_type" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="default_uri_label" type="lang_string_type" minOccurs="0" maxOccurs="1"
+            />
         </xs:sequence>
     </xs:complexType>
-    
+
     <!-- default_uri: iri_type defined above -->
     <!-- default_uri_label: lang_string_type defined above -->
-    
+
     <!-- ********** lookup_attributes ********** -->
-    
+
     <xs:complexType name="lookup_attributes_type">
         <xs:sequence>
-            <xs:element name="authorities" type="authorities_type" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="authorities" type="authorities_type" minOccurs="1"
+                maxOccurs="unbounded"/>
             <xs:element name="lookup_default_iri" type="iri_type" minOccurs="1" maxOccurs="1"/>
-            <xs:element name="lookup_default_iri_label" type="lang_string_type" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="lookup_default_iri_label" type="lang_string_type" minOccurs="0"
+                maxOccurs="1"/>
         </xs:sequence>
     </xs:complexType>
-    
+
     <xs:complexType name="authorities_type">
         <xs:sequence>
             <xs:element name="authority_urn" type="authority_urn_type"/>
         </xs:sequence>
     </xs:complexType>
-    
+
     <xs:simpleType name="authority_urn_type">
         <xs:restriction base="xs:string">
             <!-- enumerate here -->
@@ -315,18 +324,18 @@
             <xs:enumeration value="urn:ld4p:qa:names"/>
         </xs:restriction>
     </xs:simpleType>
-    
+
     <!-- lookup_default_iri: iri_type defined above -->
     <!-- lookup_default_iri_label: lang_string_type defined above -->
-    
+
     <!-- ********** nested_resource_attributes ********** -->
-    
+
     <xs:complexType name="nested_resource_attributes_type">
         <xs:sequence>
             <xs:element name="rt_id" type="rt_id_type"/>
         </xs:sequence>
     </xs:complexType>
-    
+
     <xs:simpleType name="rt_id_type">
         <xs:restriction base="xs:string">
             <xs:enumeration value="WAU:rda_Work:Work:monograph:ries07"/>
@@ -334,9 +343,9 @@
             List of enumerations = list of all RT IDs, RT IDs are comprised of mapid_[...] attribute-value combinations -->
         </xs:restriction>
     </xs:simpleType>
-    
+
     <!-- *********** guidance *********** -->
-    
-    
+
+
 
 </xs:schema>
