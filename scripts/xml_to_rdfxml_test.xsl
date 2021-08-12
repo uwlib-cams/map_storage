@@ -11,12 +11,17 @@
         <xsl:variable name="propSet" select="'rda_Work'"/>
         <xsl:variable name="resource" select="'Work'"/>
         <xsl:variable name="format" select="'monograph'"/>
-        <xsl:result-document href="../{$institution}_RT_{substring-before($propSet, '_')}_{$resource}_{$format}_test.xml">
+        <!-- need to account for user (mapid_user) if entered -->
+        <!-- separate repo for RTs and HTML -->
+        <!-- **beware local file path might be different for your machine??** -->
+        <xsl:result-document href="../../uwl_sinopia_maps/tests/{$institution}_RT_{substring-before($propSet, '_')}_{$resource}_{$format}_test{current-date()}.xml">
+        <!-- **change to result-document filepath above, beware** -->
             <xsl:call-template name="create_RT">
                 <xsl:with-param name="institution" select="$institution"/>
                 <xsl:with-param name="propSet" select="$propSet"/>
                 <xsl:with-param name="resource" select="$resource"/>
                 <xsl:with-param name="format" select="$format"/>
+                <!-- need to account for user (mapid_user) if entered -->
             </xsl:call-template>
         </xsl:result-document>
     </xsl:template>
@@ -25,6 +30,7 @@
         <xsl:param name="propSet"/>
         <xsl:param name="resource"/>
         <xsl:param name="format"/>
+        <!-- need to account for user (mapid_user) -->
         <xsl:variable name="resourceID"
             select="concat($institution, ':RT:', substring-before($propSet, '_'), ':', $resource, ':', $format, ':test')"/>
         <rdf:RDF>
