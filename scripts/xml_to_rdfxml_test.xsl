@@ -98,7 +98,7 @@
                     <xsl:if test="$implementationSet/mapstor:sinopia_prop_attributes/mapstor:sinopia_prop_type_attributes/mapstor:literal_attributes">
                         <sin:hasLiteralAttributes rdf:nodeID="{concat(substring-after(@localid_prop, '/'), '_literalAttributes')}"/>
                     </xsl:if>
-                    <xsl:variable name="prop_type" select="$implementationSet/mapstor:sinopia_prop_attributes/mapstor:sinopia_prop_type"/>
+                    <xsl:variable name="prop_type" select="$implementationSet/mapstor:sinopia_prop_attributes/mapstor:sinopia_prop_type[@value]"/>
                     <xsl:choose>
                         <xsl:when test="$prop_type='literal'">
                             <sin:hasPropertyType rdf:resource="http://sinopia.io/vocabulary/propertyType/literal"/>
@@ -124,17 +124,20 @@
                 </xsl:if>
             </xsl:for-each>
             <!-- Define property types -->
-            <xsl:if test="//mapstor:resource[@mapid_resource=$resource and mapstor:format/@mapid_format=$format]/mapstor:sinopia_prop_attributes/mapstor:sinopia_prop_type='literal'">
+            <xsl:if test="//mapstor:resource[@mapid_resource=$resource and 
+                mapstor:format/@mapid_format=$format]/mapstor:sinopia_prop_attributes/mapstor:sinopia_prop_type[@value='literal']">
                 <rdf:Description rdf:about="http://sinopia.io/vocabulary/propertyType/literal">
                     <rdfs:label>literal</rdfs:label>
                 </rdf:Description>
             </xsl:if>
-            <xsl:if test="//mapstor:resource[@mapid_resource=$resource and mapstor:format/@mapid_format=$format]/mapstor:sinopia_prop_attributes/mapstor:sinopia_prop_type='nested_resource'">
+            <xsl:if test="//mapstor:resource[@mapid_resource=$resource and 
+                mapstor:format/@mapid_format=$format]/mapstor:sinopia_prop_attributes/mapstor:sinopia_prop_type[@value='nested_resource']">
                 <rdf:Description rdf:about="http://sinopia.io/vocabulary/propertyType/resource">
                     <rdfs:label>nested resource</rdfs:label>
                 </rdf:Description>
             </xsl:if>
-            <xsl:if test="//mapstor:resource[@mapid_resource=$resource and mapstor:format/@mapid_format=$format]/mapstor:sinopia_prop_attributes/mapstor:sinopia_prop_type='uri_or_lookup'">
+            <xsl:if test="//mapstor:resource[@mapid_resource=$resource and 
+                mapstor:format/@mapid_format=$format]/mapstor:sinopia_prop_attributes/mapstor:sinopia_prop_type[@value='uri_or_lookup']">
                 <rdf:Description rdf:about="http://sinopia.io/vocabulary/propertyType/uri">
                     <rdfs:label>uri or lookup</rdfs:label>
                 </rdf:Description>
