@@ -226,12 +226,12 @@
     <xs:complexType name="form_order_type">
         <xs:attribute name="value" type="decimal_attr" use="required"/>
     </xs:complexType>
-    
+
     <xs:simpleType name="decimal_attr">
-            <xs:restriction base="xs:decimal">
-                <xs:minInclusive value="0.0"/>
-                <xs:maxInclusive value="1.0"/>
-            </xs:restriction>
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="0.0"/>
+            <xs:maxInclusive value="1.0"/>
+        </xs:restriction>
     </xs:simpleType>
 
     <!-- remark: lang_string_type defined above -->
@@ -250,14 +250,18 @@
         </xs:sequence>
     </xs:complexType>
 
-    <xs:simpleType name="sinopia_prop_type_type">
-        <xs:restriction base="xs:string">
-            <!-- Double-check that I'm up on the current Sinopia property type choices! -->
-            <xs:enumeration value="literal"/>
-            <xs:enumeration value="uri_or_lookup"/>
-            <xs:enumeration value="nested_resource"/>
-        </xs:restriction>
-    </xs:simpleType>
+    <xs:complexType name="sinopia_prop_type_type">
+        <xs:attribute name="value">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <!-- Double-check that I'm up on the current Sinopia property type choices! -->
+                    <xs:enumeration value="literal"/>
+                    <xs:enumeration value="uri_or_lookup"/>
+                    <xs:enumeration value="nested_resource"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
 
     <!-- required: boolean_type defined above -->
     <!-- repeatable: boolean_type defined above -->
