@@ -44,8 +44,8 @@
                 See map_storage #5 -->
             <xs:enumeration value="rda_Work"/>
             <xs:enumeration value="rda_Expression"/>
-            <!-- Not yet in test storage instance
             <xs:enumeration value="rda_Manifestation"/>
+            <!-- Not yet in test storage instance
             <xs:enumeration value="rda_Item"/>
             <xs:enumeration value="rda_Agent"/>
             <xs:enumeration value=""/>
@@ -83,6 +83,7 @@
     </xs:simpleType>
 
     <!-- REUSE -->
+    <!-- Need a separate attribute definition for things like default IRIs -->
     <xs:complexType name="iri_type">
         <xs:attribute name="iri">
             <xs:simpleType>
@@ -179,8 +180,8 @@
             but this may not be the case for other vocabularies -->
             <xs:enumeration value="Work"/>
             <xs:enumeration value="Expression"/>
-            <!-- Not yet in test storage instance
             <xs:enumeration value="Manifestation"/>
+            <!-- Not yet in test storage instance
             <xs:enumeration value="Item"/>
             <xs:enumeration value="Agent"/>
             <xs:enumeration value=""/>
