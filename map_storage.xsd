@@ -140,7 +140,7 @@
     <xs:complexType name="sinopia_type">
         <xs:sequence>
             <xs:element name="implementationSet" type="implementationSet_type" minOccurs="1"
-                maxOccurs="1"/>
+                maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
 
