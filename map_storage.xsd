@@ -190,6 +190,7 @@
         </xs:restriction>
     </xs:simpleType>
 
+    <!-- REUSE -->
     <xs:complexType name="boolean_type">
         <xs:attribute name="value" default="false">
             <xs:simpleType>
