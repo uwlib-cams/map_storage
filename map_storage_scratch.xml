@@ -5591,11 +5591,58 @@
             <prop_iri iri="http://rdaregistry.info/Elements/m/P30208"/>
             <prop_label xml:lang="en">has base material</prop_label>
             <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+            <platformSet>
+                <sinopia>
+                    <implementationSet localid_implementationSet="">
+                        <resource mapid_resource="Manifestation">
+                            <suppressible value="false"/>
+                            <format mapid_format="monograph"/>
+                            <user mapid_user="ries07"/>
+                            <form_order value="0.000000001"/>
+                            <sinopia_prop_attributes>
+                                <sinopia_prop_type value="uri_or_lookup"/>
+                                <required value="true"/>
+                                <repeatable value="true"/>
+                                <ordered value="false"/>
+                                <sinopia_prop_type_attributes>
+                                    <lookup_attributes>
+                                        <authorities>
+                                            <!-- Why not put urn in an attribute? 
+                                                (But, I guess I could say, why not put EVERYTHING in an attribute? -->
+                                            <authority_urn>urn:ld4p:qa:names</authority_urn>
+                                        </authorities>
+                                        <!-- Need to fix: this element is iri_type but iri_type is only config'd for propSet source IRIs -->
+                                        <lookup_default_iri iri="http://example.com/basematerial001"/>
+                                    </lookup_attributes>
+                                </sinopia_prop_type_attributes>
+                            </sinopia_prop_attributes>
+                        </resource>
+                    </implementationSet>
+                </sinopia>
+            </platformSet>
         </prop>
         <prop localid_prop="rda_Manifestation_m/P30217">
             <prop_iri iri="http://rdaregistry.info/Elements/m/P30217"/>
             <prop_label xml:lang="en">has details of base material</prop_label>
             <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+            <platformSet>
+                <sinopia>
+                    <implementationSet localid_implementationSet="">
+                        <resource mapid_resource="Manifestation">
+                            <format mapid_format="monograph"/>
+                            <user mapid_user="ries07"/>
+                            <form_order value="0.5"/>
+                            <sinopia_prop_attributes>
+                                <sinopia_prop_type value="literal"/>
+                                <required value="false"/>
+                                <repeatable value="false"/>
+                                <ordered value="false"/>
+                                <sinopia_prop_type_attributes></sinopia_prop_type_attributes>
+                            </sinopia_prop_attributes>
+                        </resource>
+                    </implementationSet>
+                </sinopia>
+            </platformSet>
         </prop>
         <prop localid_prop="rda_Manifestation_m/P30084">
             <prop_iri iri="http://rdaregistry.info/Elements/m/P30084"/>
