@@ -58,11 +58,11 @@
 
     <xs:complexType name="prop_type">
         <xs:sequence>
-            <xs:element name="prop_iri" type="iri_type" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="prop_iri" type="rda_iri_type" minOccurs="1" maxOccurs="1"/>
             <xs:element name="prop_label" type="lang_string_type" minOccurs="1"
                 maxOccurs="unbounded"/>
-            <xs:element name="prop_domain" type="iri_type" minOccurs="0" maxOccurs="unbounded"/>
-            <xs:element name="prop_range" type="iri_type" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="prop_domain" type="rda_iri_type" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="prop_range" type="rda_iri_type" minOccurs="0" maxOccurs="unbounded"/>
             <!-- CONSIDER creating additional elements so that URLs can be stored for 1) output as ref links to appear in Sinopia UI and
                 2) output as ref links with descriptive text to appear in HTML -->
             <xs:element name="prop_related_url" type="url_type" minOccurs="0" maxOccurs="unbounded"/>
@@ -83,8 +83,7 @@
     </xs:simpleType>
 
     <!-- REUSE -->
-    <!-- Need a separate attribute definition for things like default IRIs -->
-    <xs:complexType name="iri_type">
+    <xs:complexType name="rda_iri_type">
         <xs:attribute name="iri">
             <xs:simpleType>
                 <xs:restriction base="xs:anyURI">
@@ -108,8 +107,8 @@
         </xs:simpleContent>
     </xs:complexType>
 
-    <!-- prop_domain: iri_type defined above -->
-    <!-- prop_range: iri_type defined above -->
+    <!-- prop_domain: rda_iri_type defined above -->
+    <!-- prop_range: rda_iri_type defined above -->
 
     <!-- BMR TO DO [!] This element needs work; attributes need better constraints -->
     <xs:complexType name="url_type">
@@ -160,7 +159,8 @@
     <xs:complexType name="resource_type">
         <xs:sequence>
             <xs:element name="suppressible" type="boolean_type" minOccurs="0" maxOccurs="1"/>
-            <xs:element name="format" type="format_type" minOccurs="1" maxOccurs="unbounded"/>
+            <!-- Resource templates such as Agent, Timespan, etc. may not need format specs, so minOccurs should be 0? -->
+            <xs:element name="format" type="format_type" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element name="user" type="user_type" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element name="form_order" type="form_order_type" minOccurs="1" maxOccurs="1"/>
             <xs:element name="remark" type="lang_string_type" minOccurs="0" maxOccurs="1"/>
@@ -220,6 +220,7 @@
             <!-- (MAP ID component) -->
             <!-- mapid enumerations here will need updating -->
             <xs:enumeration value="ries07"/>
+            <xs:enumeration value="mcm104"/>
         </xs:restriction>
     </xs:simpleType>
 
@@ -301,7 +302,18 @@
         </xs:sequence>
     </xs:complexType>
 
-    <!-- default_uri: iri_type defined above -->
+    <!-- REUSE -->
+    <xs:complexType name="iri_type">
+        <xs:attribute name="iri">
+            <xs:simpleType>
+                <xs:restriction base="xs:anyURI">
+                    <!-- IRI validation pattern -->
+                    <xs:pattern value="https?:\/\/\S*"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+    
     <!-- default_uri_label: lang_string_type defined above -->
 
     <!-- ********** lookup_attributes ********** -->
@@ -327,6 +339,9 @@
             <!-- enumerate here -->
             <!-- Options: Confirm that authorities URNs still come from https://github.com/LD4P/sinopia_editor/blob/master/static/authorityConfig.json , grab from there
                 enter all possible options in a test RT and copy URNs -->
+            <xs:enumeration value="urn:ld4p:sinopia"/>
+            <xs:enumeration value="urn:ld4p:sinopia:bibframe:instance"/>
+            <!-- ... lots still to add, starting from the top -->
             <xs:enumeration value="urn:ld4p:qa:names"/>
         </xs:restriction>
     </xs:simpleType>
@@ -347,11 +362,11 @@
             <xs:enumeration value="WAU:rda_Work:Work:monograph:ries07"/>
             <!-- UPDATING THESE ENUMERATIONS WILL BE VERY DIFFICULT; HOW TO DO THIS?
             List of enumerations = list of all RT IDs, RT IDs are comprised of mapid_[...] attribute-value combinations -->
+            <!-- the following enumeration is for testing and should be deleted -->
+            <xs:enumeration value="WAU:rda_Agent:Agent:ries07"/>
         </xs:restriction>
     </xs:simpleType>
 
     <!-- *********** guidance *********** -->
-
-
 
 </xs:schema>
