@@ -1,3 +1,4 @@
+import os
 from sys import argv
 import xml.etree.ElementTree as ET
 
@@ -32,3 +33,5 @@ original.close()
 new = open(map_storage_output, "wt")
 new.write(find_and_replace)
 new.close()
+
+os.rename(map_storage_output, map_storage_filepath)
