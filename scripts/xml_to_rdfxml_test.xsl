@@ -6,22 +6,26 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sin="http://sinopia.io/vocabulary/"
     exclude-result-prefixes="xs mapstor" version="2.0">
     <xsl:template match="/">
-        <!-- WAU:RT:RDA:Work:monograph -->
+        <!-- Provide vars outside stylesheet?
+                oXygen transformation scenario
+                Python script invoking transformation
+            Or, use fn:transform, etc., to make multiple passes with different values each time, to generate multiple RTs -->
+        <!-- WAU:RT:RDA:Work:monograph:ries07 -->
         <xsl:variable name="institution" select="'WAU'"/>
         <xsl:variable name="propSet" select="'rda_Work'"/>
         <xsl:variable name="resource" select="'Work'"/>
         <xsl:variable name="format" select="'monograph'"/>
-        <!-- need to account for user (mapid_user) if entered -->
-        <!-- separate repo for RTs and HTML -->
-        <!-- **beware local file path might be different for your machine??** -->
-        <xsl:result-document href="../../uwl_sinopia_maps/tests/{$institution}_RT_{substring-before($propSet, '_')}_{$resource}_{$format}_test{current-date()}.xml">
-        <!-- **change to result-document filepath above, beware** -->
+        <xsl:variable name="user" select="'ries07'"/>
+        <!-- separate repo for the output RTs and HTML RTs/ 
+            **beware local file path used here might be different for your machine??** -->
+        <xsl:result-document href="../../uwl_sinopia_maps/tests/{$institution}_RT_{$propSet}_{$resource}_{$format}_test{current-date()}.xml">
+        <!-- I favor minimal processing of mapid attribute values when generating filename/RT ID/label -->
             <xsl:call-template name="create_RT">
                 <xsl:with-param name="institution" select="$institution"/>
                 <xsl:with-param name="propSet" select="$propSet"/>
                 <xsl:with-param name="resource" select="$resource"/>
                 <xsl:with-param name="format" select="$format"/>
-                <!-- need to account for user (mapid_user) if entered -->
+                <xsl:with-param name="user" select="$user"/>
             </xsl:call-template>
         </xsl:result-document>
     </xsl:template>
@@ -30,27 +34,38 @@
         <xsl:param name="propSet"/>
         <xsl:param name="resource"/>
         <xsl:param name="format"/>
-        <!-- need to account for user (mapid_user) -->
+        <xsl:param name="user"/>
         <xsl:variable name="resourceID"
-            select="concat($institution, ':RT:', substring-before($propSet, '_'), ':', $resource, ':', $format, ':test')"/>
+            select="concat($institution, ':RT:', $propSet, ':', $resource, ':', $format, ':test')"/>
+            <!-- I favor minimal processing of mapid attribute values when generating filename/RT ID/label -->
         <rdf:RDF>
             <!-- Resource template -->
             <rdf:Description rdf:about="https://api.stage.sinopia.io/resource/{$resourceID}">
-                <sin:hasResourceTemplate>sinopia:template:resource</sin:hasResourceTemplate>
+                <sin:hasResourceTemplate>
+                    <xsl:text>sinopia:template:resource</xsl:text>
+                </sin:hasResourceTemplate>
                 <rdf:type rdf:resource="http://sinopia.io/vocabulary/ResourceTemplate"/>
-                <sin:hasResourceId><xsl:value-of select="$resourceID"/></sin:hasResourceId>
+                <sin:hasResourceId>
+                    <xsl:value-of select="$resourceID"/>
+                </sin:hasResourceId>
+                <!-- TO DO: Generate RT hasClass value using resource param -->
                 <sin:hasClass rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
                 <rdfs:label>
                     <xsl:value-of
-                        select="concat($institution, ' RT ', substring-before($propSet, '_'), ' ', $resource, ' ', $format, ' test ', format-date(current-date(), '[Y0001]-[M01]-[D01]'))"
+                        select="concat($institution, ' RT ', $propSet, ' ', $resource, ' ', $format, ' test ', format-date(current-date(), '[Y0001]-[M01]-[D01]'))"
                     />
+                    <!-- I favor minimal processing of mapid attribute values when generating filename/RT ID/label -->
                 </rdfs:label>
-                <sin:hasAuthor>mcm104@uw.edu</sin:hasAuthor>
+                <sin:hasAuthor>
+                    <!-- TO DO: Generate author name from user param or using a default author value for RTs that are not customized at a user level -->
+                    <xsl:text>mcm104@uw.edu</xsl:text>
+                </sin:hasAuthor>
                 <sin:hasDate>
                     <xsl:value-of select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
                 </sin:hasDate>
                 <xsl:for-each select="//mapstor:prop
-                    [mapstor:platformSet/mapstor:sinopia/mapstor:implementationSet/mapstor:resource[@mapid_resource = $resource]/mapstor:format/@mapid_format = $format]">
+                    [mapstor:platformSet/mapstor:sinopia/mapstor:implementationSet/mapstor:resource[@mapid_resource = $resource]/mapstor:format[@mapid_format = $format]/mapstor:user[@mapid_user = $user]]">
+                    <!-- I'm curious about the XPath below for xsl:sort, not sure we need to specify [@mapid_resource = $resource] or not -->
                     <xsl:sort select="mapstor:platformSet/mapstor:sinopia/mapstor:implementationSet/mapstor:resource[@mapid_resource=$resource]/mapstor:form_order[@value]"/>
                     <xsl:if test="position() = 1">
                         <xsl:call-template name="start_PT_list">
