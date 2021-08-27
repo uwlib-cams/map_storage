@@ -1,11 +1,15 @@
+from CommentedTreeBuilder import CommentedTreeBuilder
 from sys import argv
 import xml.etree.ElementTree as ET
 
 """Set variables for input and output files"""
 script, map_storage_filepath = argv # filepath from command line
 
+"""Parser to preserve comments"""
+parser = ET.XMLParser(target=CommentedTreeBuilder())
+
 """Open Element Tree"""
-tree = ET.parse(map_storage_filepath)
+tree = ET.parse(map_storage_filepath, parser)
 root = tree.getroot()
 ns = {'mapstor': 'https://uwlib-cams.github.io/map_storage/'} # establish namespace
 
