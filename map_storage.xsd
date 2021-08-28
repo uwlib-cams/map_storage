@@ -219,6 +219,7 @@
         <xs:restriction base="xs:string">
             <!-- (MAP ID component) -->
             <!-- mapid enumerations here will need updating -->
+            <xs:enumeration value="default"/>
             <xs:enumeration value="ries07"/>
             <xs:enumeration value="mcm104"/>
         </xs:restriction>
