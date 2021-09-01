@@ -5578,6 +5578,28 @@
             <prop_iri iri="http://rdaregistry.info/Elements/m/P30276" />
             <prop_label xml:lang="en">has access point for manifestation</prop_label>
             <prop_domain iri="http://rdaregistry.info/Elements/c/C10007" />
+            <platformSet>
+                <sinopia>
+                    <implementationSet localid_implementationSet="is_P30276_001">
+                        <resource mapid_resource="Manifestation">
+                            <format mapid_format="monograph" />
+                            <user mapid_user="default" />
+                            <form_order value="0.01" />
+                            <sinopia_prop_attributes>
+                                <sinopia_prop_type value="literal" />
+                                <required value="true" />
+                                <repeatable value="false" />
+                                <ordered />
+                                <sinopia_prop_type_attributes>
+                                    <literal_attributes>
+                                        <default_literal xml:lang="en">here's a default value for 'has access point for manifestation'</default_literal>
+                                    </literal_attributes>
+                                </sinopia_prop_type_attributes>
+                            </sinopia_prop_attributes>
+                        </resource>
+                    </implementationSet>
+                </sinopia>
+            </platformSet>
         </prop>
         <prop localid_prop="rda_Manifestation_m/P30208">
             <prop_iri iri="http://rdaregistry.info/Elements/m/P30208" />
@@ -5632,7 +5654,7 @@
                         <resource mapid_resource="Manifestation">
                             <format mapid_format="monograph" />
                             <user mapid_user="default" />
-                            <form_order value="0.1" />
+                            <form_order value="0.5" />
                             <sinopia_prop_attributes>
                                 <sinopia_prop_type value="literal" />
                                 <required />
@@ -5679,7 +5701,7 @@
                         <resource mapid_resource="Manifestation">
                             <format mapid_format="monograph" />
                             <user mapid_user="default" />
-                            <form_order value=".00001" />
+                            <form_order value="0.1" />
                             <sinopia_prop_attributes>
                                 <sinopia_prop_type value="literal" />
                                 <required />
