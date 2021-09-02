@@ -5584,7 +5584,7 @@
                         <resource mapid_resource="Manifestation">
                             <format mapid_format="monograph" />
                             <user mapid_user="default" />
-                            <form_order value="0.01" />
+                            <form_order value="0.9" />
                             <sinopia_prop_attributes>
                                 <sinopia_prop_type value="literal" />
                                 <required value="true" />
@@ -5701,7 +5701,7 @@
                         <resource mapid_resource="Manifestation">
                             <format mapid_format="monograph" />
                             <user mapid_user="default" />
-                            <form_order value="0.1" />
+                            <form_order value="0.01" />
                             <sinopia_prop_attributes>
                                 <sinopia_prop_type value="literal" />
                                 <required />
