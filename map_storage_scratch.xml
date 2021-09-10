@@ -4,6 +4,28 @@
             <prop_iri iri="http://rdaregistry.info/Elements/w/P10407" />
             <prop_label xml:lang="en">has academic supervisor</prop_label>
             <prop_domain iri="http://rdaregistry.info/Elements/c/C10001" />
+            <platformSet>
+                <sinopia>
+                    <implementationSet localid_implementationSet="is_P10407_001">
+                        <resource mapid_resource="Manifestation">
+                            <format mapid_format="monograph" />
+                            <user mapid_user="default" />
+                            <form_order value="0.01" />
+                            <sinopia_prop_attributes>
+                                <sinopia_prop_type value="literal" />
+                                <required value="false" />
+                                <repeatable value="false" />
+                                <ordered value="false" />
+                                <sinopia_prop_type_attributes>
+                                    <literal_attributes>
+                                        <default_literal xml:lang="en">will this show up in the manifestation monograph RT?</default_literal>
+                                    </literal_attributes>
+                                </sinopia_prop_type_attributes>
+                            </sinopia_prop_attributes>
+                        </resource>
+                    </implementationSet>
+                </sinopia>
+            </platformSet>
         </prop>
         <prop localid_prop="rda_Work_w/P10328">
             <prop_iri iri="http://rdaregistry.info/Elements/w/P10328" />
@@ -5867,6 +5889,7 @@
                     <implementationSet localid_implementationSet="is_P30347_001">
                         <resource mapid_resource="Manifestation">
                             <format mapid_format="monograph" />
+                            <user mapid_user="default" />
                             <form_order value="1.0" />
                             <remark xml:lang="en">This property doesn't actually make sense for describing monographs; this is just a test</remark>
                             <sinopia_prop_attributes>
