@@ -8,7 +8,7 @@
     <xsl:output method="xml" indent="yes"/>
 
     <!-- Import named templates -->
-    <xsl:import href="storage_to_rdfxml_named_templates.xsl"/>
+    <xsl:import href="storage_to_rdfxml_named_templates_001.xsl"/>
    
     <!-- Supply params when invoking XSLT transformation (oXygen scenario, Java command) -->
     <xsl:param name="mapid_institution"/>
@@ -22,7 +22,7 @@
         <!-- BMR: TO-DO future adjustment of result-document filepath -->
         <!-- BEWARE output file path may not fit your filesystem -->
         <xsl:result-document
-            href="../../uwl_sinopia_maps/tests/TEST_{format-date(current-date(), '[Y0001]-[M01]-[D01]')}_{$mapid_institution}_RT_{$mapid_resource}_{$mapid_format}_{$mapid_user}.rdf">
+            href="../../uwl_sinopia_maps/tests/fromTestXslt001_{format-date(current-date(), '[Y0001]-[M01]-[D01]')}_{$mapid_institution}_RT_{$mapid_resource}_{$mapid_format}_{$mapid_user}.rdf">
             <rdf:RDF>
                 <rdf:Description rdf:about="https://api.stage.sinopia.io/resource/{$rtId}">
                     <rdf:type rdf:resource="http://sinopia.io/vocabulary/ResourceTemplate"/>
