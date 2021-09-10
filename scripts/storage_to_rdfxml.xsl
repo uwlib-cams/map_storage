@@ -12,18 +12,17 @@
    
     <!-- Supply params when invoking XSLT transformation (oXygen scenario, Java command) -->
     <xsl:param name="mapid_institution"/>
-    <xsl:param name="mapid_propSet"/>
     <xsl:param name="mapid_resource"/>
     <xsl:param name="mapid_format"/>
     <xsl:param name="mapid_user"/>
     <xsl:param name="rtId"
-        select="concat($mapid_institution, ':RT:', $mapid_propSet, ':', $mapid_resource, ':', $mapid_format, ':', $mapid_user)"/>
+        select="concat($mapid_institution, ':RT:', $mapid_resource, ':', $mapid_format, ':', $mapid_user)"/>
     
     <xsl:template match="/">
         <!-- BMR: TO-DO future adjustment of result-document filepath -->
         <!-- BEWARE output file path may not fit your filesystem -->
         <xsl:result-document
-            href="../../uwl_sinopia_maps/tests/TEST_{format-date(current-date(), '[Y0001]-[M01]-[D01]')}_{$mapid_institution}_RT_{$mapid_propSet}_{$mapid_resource}_{$mapid_format}_{$mapid_user}.rdf">
+            href="../../uwl_sinopia_maps/tests/TEST_{format-date(current-date(), '[Y0001]-[M01]-[D01]')}_{$mapid_institution}_RT_{$mapid_resource}_{$mapid_format}_{$mapid_user}.rdf">
             <rdf:RDF>
                 <rdf:Description rdf:about="https://api.stage.sinopia.io/resource/{$rtId}">
                     <rdf:type rdf:resource="http://sinopia.io/vocabulary/ResourceTemplate"/>
@@ -40,7 +39,7 @@
                     </xsl:call-template>
                     <rdfs:label>
                         <xsl:value-of
-                            select="concat($mapid_institution, ' RT ', $mapid_propSet, ' ', $mapid_resource, ' ', $mapid_format, ' ', $mapid_user)"
+                            select="concat($mapid_institution, ' RT ', $mapid_resource, ' ', $mapid_format, ' ', $mapid_user)"
                         />
                     </rdfs:label>
                     <!-- Call rtHasAuthor for sin:hasAuthor value -->
@@ -55,7 +54,7 @@
                         is there a better way to get the needed value here? -->
                     <xsl:for-each select="
                         mapstor:mapStorage[@mapid_institution = $mapid_institution]/
-                        mapstor:propSet[@mapid_propSet = $mapid_propSet]/
+                        mapstor:propSet/
                         mapstor:prop
                         [mapstor:platformSet/mapstor:sinopia/mapstor:implementationSet/
                         mapstor:resource[@mapid_resource = $mapid_resource]
@@ -77,7 +76,7 @@
                 <xsl:apply-templates
                     select="
                         mapstor:mapStorage[@mapid_institution = $mapid_institution]/
-                        mapstor:propSet[@mapid_propSet = $mapid_propSet]/
+                        mapstor:propSet/
                         mapstor:prop
                         [mapstor:platformSet/mapstor:sinopia/mapstor:implementationSet/
                         mapstor:resource[@mapid_resource = $mapid_resource]
@@ -103,7 +102,7 @@
     <xsl:template
         match="
             mapstor:mapStorage[@mapid_institution = $mapid_institution]/
-            mapstor:propSet[@mapid_propSet = $mapid_propSet]/
+            mapstor:propSet/
             mapstor:prop
             [mapstor:platformSet/mapstor:sinopia/mapstor:implementationSet/
             mapstor:resource[@mapid_resource = $mapid_resource]
@@ -127,7 +126,7 @@
                     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
                 </xsl:when>
                 <xsl:otherwise>
-                    <!-- BMR: Does not reflect sort order! -->
+                    <!-- BMR: TO DO does not work -->
                     <xsl:variable name="current_position" select="position()"/>
                     <rdf:rest rdf:nodeID="{concat(substring-after(../mapstor:prop[position() = $current_position + 1]/@localid_prop, '/'), '_ordering_bnode')}"/>
                 </xsl:otherwise>
