@@ -158,6 +158,7 @@
 
     <xs:complexType name="resource_type">
         <xs:sequence>
+            <!-- BMR to-do: Suppressible is in the wrong place I believe for use in generating RTs, should be at the next child level in the storage structure I think -->
             <xs:element name="suppressible" type="boolean_type" minOccurs="0" maxOccurs="1"/>
             <!-- Resource templates such as Agent, Timespan, etc. may not need format specs, so minOccurs should be 0? -->
             <xs:element name="format" type="format_type" minOccurs="0" maxOccurs="unbounded"/>
