@@ -78,6 +78,7 @@
             </rdf:Description>
             
             <!-- Nodes for properties -->
+            <!-- BMR: Did I screw up the XPaths in the for-each here and above? We should be matching on something, but no props are output -->
             <xsl:for-each select="//mapstor:prop
                 [mapstor:platformSet/mapstor:sinopia/mapstor:implementationSet/mapstor:resource[@mapid_resource = $mapid_resource]/
                 mapstor:format[@mapid_format = $mapid_format][mapstor:user/@mapid_user = $mapid_user]]">
@@ -191,6 +192,7 @@
                     <rdfs:label>ordered</rdfs:label>
                 </rdf:Description>
             </xsl:if> -->
+            
         </rdf:RDF>
     </xsl:template>
     <!-- Naming first list node -->
