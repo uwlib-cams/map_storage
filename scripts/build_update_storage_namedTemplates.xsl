@@ -19,37 +19,35 @@
         <xsl:param name="root"/>
         <xsl:param name="prop_set"/>
         <xsl:param name="path_to_prop"/>
-
-        <propSet mapid_propSet="{$prop_set}" xmlns="https://uwlib-cams.github.io/map_storage/">
-            <xsl:for-each select="$path_to_prop">
-                <xsl:variable name="localid_prop"
-                    select="concat($prop_set, '_', substring-after(@rdf:about, 'http://rdaregistry.info/Elements/'))"/>
-                <prop xmlns="https://uwlib-cams.github.io/map_storage/"
-                    localid_prop="{$localid_prop}">
-                    <prop_iri iri="{@rdf:about}"/>
-                    <prop_label xml:lang="en">
-                        <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
-                    </prop_label>
-                    <xsl:if test="rdfs:domain = node()">
-                        <prop_domain iri="{rdfs:domain/@rdf:resource}"/>
-                    </xsl:if>
-                    <xsl:if test="rdfs:range = node()">
-                        <prop_range iri="{rdfs:range/@rdf:resource}"/>
-                    </xsl:if>
-                    <!-- TO DO:
+        <xsl:for-each select="$path_to_prop">
+            <xsl:variable name="localid_prop"
+                select="concat($prop_set, '_', substring-after(@rdf:about, 'http://rdaregistry.info/Elements/'))"/>
+            <prop xmlns="https://uwlib-cams.github.io/map_storage/" localid_prop="{$localid_prop}">
+                <prop_iri iri="{@rdf:about}"/>
+                <prop_label xml:lang="en">
+                    <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
+                </prop_label>
+                <xsl:if test="rdfs:domain = node()">
+                    <prop_domain iri="{rdfs:domain/@rdf:resource}"/>
+                </xsl:if>
+                <xsl:if test="rdfs:range = node()">
+                    <prop_range iri="{rdfs:range/@rdf:resource}"/>
+                </xsl:if>
+                <!-- TO DO:
                         Bring in <prop_related_url> values
                         No Toolkit URLs available in current RDF/XML
                         Need to bring in from another source, see alignRDA2TK -->
+            </prop>
+        </xsl:for-each>
+    </xsl:template>
+</xsl:stylesheet>
+
+<!-- BMR: Attempting to carry forward existing implementations below
                     <xsl:call-template name="copy_implementations">
                         <xsl:with-param name="data_source_iri" select="$path_to_prop/@rdf:about"/>
                         <xsl:with-param name="root" select="$root"/>
                     </xsl:call-template>
-                </prop>
-            </xsl:for-each>
-        </propSet>
-    </xsl:template>
 
-    <!-- BMR: Attempting to carry forward existing implementations below -->
     <xsl:template name="copy_implementations">
         <xsl:param name="data_source_iri"/>
         <xsl:param name="root"/>
@@ -60,8 +58,4 @@
             <xsl:otherwise/>
         </xsl:choose>
     </xsl:template>
-
-
-    <!-- Add/call templates for pulling from additional data stores as needed -->
-
-</xsl:stylesheet>
+    -->
