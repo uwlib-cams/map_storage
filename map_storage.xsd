@@ -10,26 +10,11 @@
     <xs:import namespace="http://www.w3.org/2001/XMLSchema"
         schemaLocation="https://www.w3.org/2001/XMLSchema.xsd"/>
 
-    <!-- ******************** mapStorage ******************** -->
-
-    <xs:element name="mapStorage" type="mapStorage_type"/>
-
-    <xs:complexType name="mapStorage_type">
-        <xs:sequence>
-            <xs:element name="propSet" type="propSet_type" minOccurs="1" maxOccurs="unbounded"/>
-        </xs:sequence>
-        <xs:attribute name="mapid_institution" type="mapid_institution_attr"/>
-    </xs:complexType>
-
-    <xs:simpleType name="mapid_institution_attr">
-        <xs:restriction base="xs:string">
-            <!-- (MAP ID component) -->
-            <xs:enumeration value="WAU"/>
-        </xs:restriction>
-    </xs:simpleType>
 
     <!-- ******************* propSet ******************* -->
 
+    <xs:element name="propSet" type="propSet_type"/>
+    
     <xs:complexType name="propSet_type">
         <xs:sequence>
             <xs:element name="prop" type="prop_type" minOccurs="1" maxOccurs="unbounded"/>
