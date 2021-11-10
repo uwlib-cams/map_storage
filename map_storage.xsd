@@ -173,15 +173,6 @@
         </xs:restriction>
     </xs:simpleType>
     
-    <!-- REUSE -->
-    <xs:complexType name="boolean_type">
-        <xs:attribute name="value" default="false">
-            <xs:simpleType>
-                <xs:restriction base="xs:boolean"/>
-            </xs:simpleType>
-        </xs:attribute>
-    </xs:complexType>
-    
     <xs:complexType name="format_type">
         <xs:attribute name="mapid_format" type="mapid_format_attr" use="required"/>
     </xs:complexType>
