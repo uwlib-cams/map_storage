@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- I'll be honest I don't know why I'm using both targetNamespace and xmlns attrs -->
 <xs:schema targetNamespace="https://uwlib-cams.github.io/map_storage/"
     xmlns="https://uwlib-cams.github.io/map_storage/"
-    xmlns:sinsto="https://uwlib-cams.github.io/uwl_sinopia_maps/"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
     elementFormDefault="qualified"
