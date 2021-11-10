@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- I'll be honest I don't know why I'm using both targetNamespace and xmlns attrs -->
+<!-- are both targetNamespace and xmlns attrs needed? -->
 <xs:schema targetNamespace="https://uwlib-cams.github.io/map_storage/"
     xmlns="https://uwlib-cams.github.io/map_storage/"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -200,17 +200,19 @@
     
     <xs:complexType name="multiple_prop_type">
         <xs:sequence>
-            <xs:element name="prop_info" type="prop_info_type"/>
+            <xs:element name="prop_info" type="prop_info_type" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
         <!-- TO DO / xsd question: how to allow prop_info element only if
         @prop_selection = 'select_props' -->
         <xs:attribute name="prop_selection" type="prop_selection_attr"/>
     </xs:complexType>
     
+    <!-- TO DO / xsd question: how to allow prop_info element only if
+        @prop_selection = 'select_props' -->
     <xs:complexType name="prop_info_type">
         <xs:sequence>
-            <xs:element name="prop_option_iri" type="iri_type"/>
-            <xs:element name="prop_option_label" type="lang_string_type"/>
+            <xs:element name="prop_option_iri" type="iri_type" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="prop_option_label" type="lang_string_type" minOccurs="1" maxOccurs="1"/>
         </xs:sequence>
     </xs:complexType>
     
