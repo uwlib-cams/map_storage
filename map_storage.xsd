@@ -17,10 +17,11 @@
         <xs:sequence>
             <xs:element name="prop" type="prop_type" minOccurs="1" maxOccurs="unbounded"/>
         </xs:sequence>
-        <xs:attribute name="mapid_propSet" type="mapid_propSet_attr"/>
+        <xs:attribute name="mapid_propSet" type="mapid_propSet_attr_type"/>
     </xs:complexType>
 
-    <xs:simpleType name="mapid_propSet_attr">
+    <xs:simpleType name="mapid_propSet_attr_type">
+        <!-- = uwl_sinopia_maps.xsd > propSet_type -->
         <xs:restriction base="xs:string">
             <!-- (MAP ID component) -->
             <!-- [?] is it possible to put enumeration lists that will need updating, like this one, in an external doc and import here as vars, etc.? 
@@ -32,7 +33,6 @@
             <xs:enumeration value="rdacIPropSet"/>
             <xs:enumeration value="rdacAPropSet"/>
             <xs:enumeration value=""/>
-            add other RDA Entities here
             -->
         </xs:restriction>
     </xs:simpleType>
@@ -132,12 +132,13 @@
     </xs:complexType>
 
     <xs:complexType name="resource_type">
-        <xs:attribute name="mapid_resource" type="mapid_resource_attr" use="required"/>
+        <xs:attribute name="mapid_resource" type="mapid_resource_attr_type" use="required"/>
     </xs:complexType>
 
     <!-- Various mapid_[...] attributes will not be re-usable;
         many will need regular updates as new propSets/formats/users/ are added -->
-    <xs:simpleType name="mapid_resource_attr">
+    <xs:simpleType name="mapid_resource_attr_type">
+        <!-- = uwl_sinopia_maps.xsd > resource_type -->
         <xs:restriction base="xs:string">
             <!-- (MAP ID component) -->
             <!-- For prop sets from RDA Registry, mapid_propSet and mapid_resource values will be redundant 
@@ -147,15 +148,15 @@
             <xs:enumeration value="rdacExpression"/>
             <xs:enumeration value="rdacManifestation"/>
             <!-- Not yet in test storage instance
-            <xs:enumeration value="Item"/>
-            <xs:enumeration value="Agent"/>
+            <xs:enumeration value="rdacItem"/>
+            <xs:enumeration value="rdacAgent"/>
             <xs:enumeration value=""/>
-            add other RDA Entities here
             -->
         </xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="format_type">
+        <!-- = uwl_sinopia_maps.xsd > format_type -->
         <xs:restriction base="xs:string">
             <!-- (MAP ID component) -->
             <!-- mapid enumerations here will need updating -->
@@ -164,6 +165,7 @@
     </xs:simpleType>
 
     <xs:simpleType name="user_type">
+        <!-- = uwl_sinopia_maps.xsd > user_type -->
         <xs:restriction base="xs:string">
             <!-- (MAP ID component) -->
             <!-- mapid enumerations here will need updating -->
@@ -214,6 +216,7 @@
             <xs:element name="required" type="boolean_type" minOccurs="1" maxOccurs="1"/>
             <xs:element name="repeatable" type="boolean_type" minOccurs="1" maxOccurs="1"/>
             <!-- to do: [?] ordered = true should *only* be allowable if repeatable = true; is this possible? -->
+            <!-- also, related, empty element should be possible here -->
             <xs:element name="ordered" type="boolean_type" minOccurs="1" maxOccurs="1"/>
             <xs:element name="sinopia_prop_type" type="sinopia_prop_type_type" minOccurs="1"
                 maxOccurs="1"/>
