@@ -50,7 +50,7 @@
             <!-- CONSIDER creating additional elements so that URLs can be stored for 1) output as ref links to appear in Sinopia UI and
                 2) output as ref links with descriptive text to appear in HTML -->
             <xs:element name="prop_related_url" type="url_type" minOccurs="0" maxOccurs="unbounded"/>
-            <xs:element name="platformSet" type="platformSet_type" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="sinopia" type="sinopia_type" minOccurs="0" maxOccurs="1"/>
         </xs:sequence>
         <xs:attribute name="localid_prop" type="localid_attr" use="required"/>
     </xs:complexType>
@@ -108,13 +108,6 @@
             </xs:extension>
 
         </xs:simpleContent>
-    </xs:complexType>
-
-    <!-- ***************** platformSet ***************** -->
-    <xs:complexType name="platformSet_type">
-        <xs:sequence>
-            <xs:element name="sinopia" type="sinopia_type" minOccurs="0" maxOccurs="1"/>
-        </xs:sequence>
     </xs:complexType>
 
     <!-- **************** sinopia **************** -->
