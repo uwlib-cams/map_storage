@@ -22,7 +22,7 @@
 
     <!-- TO DO iterate over the docs in vars (or something else?), don't repeat result-doc elements as below -->
     <xsl:template match="/">
-        <xsl:result-document href="../propSet_rda_Work.xml">
+        <xsl:result-document href="../propSet_rdacWork.xml">
             <propSet xmlns="https://uwlib-cams.github.io/map_storage/"
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -39,7 +39,7 @@
                 </xsl:call-template>
             </propSet>
         </xsl:result-document>
-        <xsl:result-document href="../propSet_rda_Expression.xml">
+        <xsl:result-document href="../propSet_rdacExpression.xml">
             <propSet xmlns="https://uwlib-cams.github.io/map_storage/"
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -55,7 +55,7 @@
                 </xsl:call-template>
             </propSet>
         </xsl:result-document>
-        <xsl:result-document href="../propSet_rda_Manifestation.xml">
+        <xsl:result-document href="../propSet_rdacManifestation.xml">
             <propSet xmlns="https://uwlib-cams.github.io/map_storage/"
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                 xmlns:xs="http://www.w3.org/2001/XMLSchema"

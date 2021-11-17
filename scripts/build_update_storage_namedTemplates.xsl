@@ -6,14 +6,6 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:mapstor="https://uwlib-cams.github.io/map_storage/" version="3.0">
 
-    <!-- BMR: Started to write a key, but then didn't know how I would use it in this case -->
-    <!-- key -->
-    <xsl:key name="process_existing"
-        match="mapstor:mapstorage/mapstor:propSet/mapstor:prop/mapstor:prop_iri" use="@iri"/>
-    <!-- key var -->
-    <!-- BMR: Should this path be from the location of this script, or from map_storage root dir, where build_update.py will run from?? -->
-    <xsl:variable name="process_existing_xml" select="document('process_existing.xml')"/>
-
     <!-- Here's the template to use when pulling from RDA Registry data -->
     <xsl:template name="rda_prop_set">
         <xsl:param name="root"/>
@@ -42,20 +34,3 @@
     </xsl:template>
 </xsl:stylesheet>
 
-<!-- BMR: Attempting to carry forward existing implementations below
-                    <xsl:call-template name="copy_implementations">
-                        <xsl:with-param name="data_source_iri" select="$path_to_prop/@rdf:about"/>
-                        <xsl:with-param name="root" select="$root"/>
-                    </xsl:call-template>
-
-    <xsl:template name="copy_implementations">
-        <xsl:param name="data_source_iri"/>
-        <xsl:param name="root"/>
-        <xsl:choose>
-            <xsl:when test="$root/mapStorage/propSet/prop/prop_iri[@iri = $data_source_iri]/platformSet[node()]">
-                <xsl:copy-of select="$root/mapStorage/propSet/prop/prop_iri[@iri = $data_source_iri]/platformSet"/>
-            </xsl:when>
-            <xsl:otherwise/>
-        </xsl:choose>
-    </xsl:template>
-    -->
