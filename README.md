@@ -1,2 +1,2 @@
 # map_storage
-store implementation definitions for rdf properties and output derivative metadata application profiles
+💡 Store implementation information for metadata elements from various sources; output derivative metadata application profiles in multiple formats for multiple platforms
