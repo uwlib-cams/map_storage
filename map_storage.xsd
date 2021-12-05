@@ -7,6 +7,7 @@
 
     <xs:import namespace="http://www.w3.org/XML/1998/namespace"
         schemaLocation="http://www.w3.org/2001/03/xml.xsd"/>
+    <!-- [?] xs:import below results in error -->
     <xs:import namespace="http://www.w3.org/2001/XMLSchema"
         schemaLocation="https://www.w3.org/2001/XMLSchema.xsd"/>
 
@@ -82,7 +83,7 @@
         <!-- also to do confirm use of correct lang-tag set (is there a rule for XML?? see below) -->
         <xs:simpleContent>
             <xs:extension base="xs:string">
-                <!-- Use https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry ? -->
+                <!-- Use values from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry  -->
                 <xs:attribute ref="xml:lang" use="required"/>
             </xs:extension>
         </xs:simpleContent>
@@ -260,6 +261,8 @@
     <xs:complexType name="literal_attributes_type">
         <xs:sequence>
             <xs:element name="default_literal" type="lang_string_type" minOccurs="1" maxOccurs="1"/>
+            <!-- add validation_regex element -->
+            <!-- add validation_datatype element -->
         </xs:sequence>
     </xs:complexType>
 
