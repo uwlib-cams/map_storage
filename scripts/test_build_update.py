@@ -1,5 +1,13 @@
 # [!] run this from the map_storage root folder
 
+"""
+Not sure whether I'll need any python for build-update aside from perhaps
+invoking the saxon Transformation
+want to try to store existing implementation info in a var and then add to
+new output from updated sources, which I don't think would require the sort
+of thing I started to attempt below
+"""
+
 from sys import argv
 import shutil
 # https://docs.python.org/3.6/library/shutil.html
