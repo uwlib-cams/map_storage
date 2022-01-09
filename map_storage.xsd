@@ -165,7 +165,7 @@
             <!-- below are for testing, to do delete from schema later -->
             <xs:enumeration value="test_literal_props"/>
             <xs:enumeration value="test_uri_or_lookup_props"/>
-            <xs:enumeration value="text_nested_resource_props"/>
+            <xs:enumeration value="test_nested_resource_props"/>
             <xs:enumeration value="test_all_props"/>
         </xs:restriction>
     </xs:simpleType>
@@ -298,7 +298,7 @@
 
     <xs:complexType name="authorities_type">
         <xs:sequence>
-            <xs:element name="authority_urn" type="authority_urn_type"/>
+            <xs:element name="authority_urn" type="authority_urn_type" minOccurs="1" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
 
@@ -331,12 +331,12 @@
 
     <xs:simpleType name="rt_id_type">
         <xs:restriction base="xs:string">
-            <xs:enumeration value="WAU:rda_Work:Work:monograph:ries07"/>
-            <!-- TO DO UPDATING THESE ENUMERATIONS WILL BE VERY DIFFICULT; HOW TO DO THIS?
-            List of enumerations = list of all RT IDs, RT IDs are comprised of mapid_[...] attribute-value combinations -->
-            <!-- the following enumeration is for testing and should be deleted -->
-            <!-- NOTE that uwl_sinopia_maps.xml now exists, could RT IDs be taken from here? see map_storage issue #5 -->
-            <xs:enumeration value="WAU:rda_Agent:Agent:ries07"/>
+            <!-- UPDATING THESE ENUMERATIONS
+            List of enumerations = list of all RT IDs
+            see sinopia_maps.xml -->
+            <!-- could RT IDs be taken from sinopia_maps.xml? see map_storage issue #5 -->
+            <!-- the following is for testing to do delete later-->
+            <xs:enumeration value="WAU:rdacAgent:rdacAgent:ries07"/>
         </xs:restriction>
     </xs:simpleType>
 
