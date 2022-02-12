@@ -625,6 +625,26 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30278" />
       <prop_label xml:lang="en">has date of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007" />
+      <sinopia>
+         <implementationSet localid_implementationSet="is_P30278_001">
+            <resource mapid_resource="rdacManifestation" />
+            <format>test_literal_props</format>
+            <user>ries07</user>
+            <form_order>0.000001</form_order>
+            <sinopia_prop_attributes>
+               <required>1</required>
+               <repeatable>0</repeatable>
+               <ordered>0</ordered>
+               <sinopia_prop_type>literal</sinopia_prop_type>
+               <sinopia_prop_type_attributes>
+                  <literal_attributes>
+                     <default_literal xml:lang="zxx">2021</default_literal>
+                     <validation_datatype>Date and time with or without timezone</validation_datatype>
+                  </literal_attributes>
+               </sinopia_prop_type_attributes>
+            </sinopia_prop_attributes>
+         </implementationSet>
+      </sinopia>
    </prop>
    <prop localid_prop="rda_Manifestation_m/P30124">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30124" />
