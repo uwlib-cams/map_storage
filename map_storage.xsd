@@ -53,7 +53,7 @@
         </xs:sequence>
         <xs:attribute name="localid_prop" type="localid_attr" use="required"/>
     </xs:complexType>
-    
+
     <!-- REUSE -->
     <xs:complexType name="iri_type">
         <xs:attribute name="iri">
@@ -85,6 +85,9 @@
             <xs:extension base="xs:string">
                 <!-- Use values from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry  -->
                 <xs:attribute ref="xml:lang" use="required"/>
+                <!-- xsd: to do / wishlist / question: possible to add enumerations here?? -->
+                <!-- en -->
+                <!-- zxx -->
             </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
@@ -221,7 +224,7 @@
         <xs:sequence>
             <xs:element name="required" type="boolean_type" minOccurs="1" maxOccurs="1"/>
             <xs:element name="repeatable" type="boolean_type" minOccurs="1" maxOccurs="1"/>
-            <!-- to do: [?] ordered = true should *only* be allowable if repeatable = true; is this possible? -->
+            <!-- to do: wishlist [?] ordered = true should *only* be allowable if repeatable = true; is this possible? -->
             <!-- also, related, empty element should be possible here -->
             <xs:element name="ordered" type="boolean_type" minOccurs="1" maxOccurs="1"/>
             <xs:element name="sinopia_prop_type" type="sinopia_prop_type_type" minOccurs="1"
@@ -250,7 +253,7 @@
 
     <!-- *********** sinopia_prop_type_attributes *********** -->
     <xs:complexType name="sinopia_prop_type_attributes_type">
-        <!-- still to do I think: require based on value of sinopia_prop_type_type above -->
+        <!-- to do xsd wish list: allow one of following based on value of sinopia_prop_type_type above -->
         <xs:choice>
             <xs:element name="literal_attributes" type="literal_attributes_type" minOccurs="1"
                 maxOccurs="1"/>
@@ -266,12 +269,31 @@
     <xs:complexType name="literal_attributes_type">
         <xs:sequence>
             <xs:element name="default_literal" type="lang_string_type" minOccurs="1" maxOccurs="1"/>
-            <!-- add validation_regex element -->
-            <!-- add validation_datatype element -->
+            <xs:choice>
+                <xs:element name="validation_regex" type="regex_type" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="validation_datatype" type="datatype_type" minOccurs="0"
+                    maxOccurs="1"/>
+            </xs:choice>
         </xs:sequence>
     </xs:complexType>
 
     <!-- literal_attributes: lang_string_type defined above -->
+
+    <xs:simpleType name="regex_type">
+        <xs:restriction base="xs:string">
+            <!-- how to validate a regex as a regex!?!? -->
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="datatype_type">
+        <xs:restriction base="xs:string">
+            <!-- can I have spaces in my enumerations?? -->
+            <xs:enumeration value="Date and time with or without timezone"/>
+            <xs:enumeration value="Date and time with required timezone"/>
+            <xs:enumeration value="Extended Date/Time Format (EDTF)"/>
+            <xs:enumeration value="Integer"/>
+        </xs:restriction>
+    </xs:simpleType>
 
     <!-- ********** uri_attributes ********** -->
     <xs:complexType name="uri_attributes_type">
@@ -298,7 +320,8 @@
 
     <xs:complexType name="authorities_type">
         <xs:sequence>
-            <xs:element name="authority_urn" type="authority_urn_type" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="authority_urn" type="authority_urn_type" minOccurs="1"
+                maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
 
