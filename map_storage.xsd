@@ -270,8 +270,13 @@
         <xs:sequence>
             <xs:element name="default_literal" type="lang_string_type" minOccurs="1" maxOccurs="1"/>
             <xs:choice>
-                <xs:element name="validation_regex" type="regex_type" minOccurs="0" maxOccurs="1"/>
-                <xs:element name="validation_datatype" type="datatype_type" minOccurs="0"
+                <xs:element name="validation_regex" type="validation_regex_type" minOccurs="0"
+                    maxOccurs="1"/>
+                <xs:element name="validation_datatype" type="validation_datatype_type" minOccurs="0"
+                    maxOccurs="1"/>
+                <xs:element name="date_default" type="boolean_type" minOccurs="0"
+                    maxOccurs="1"/>
+                <xs:element name="userId_default" type="boolean_type" minOccurs="0"
                     maxOccurs="1"/>
             </xs:choice>
         </xs:sequence>
@@ -279,13 +284,13 @@
 
     <!-- literal_attributes: lang_string_type defined above -->
 
-    <xs:simpleType name="regex_type">
+    <xs:simpleType name="validation_regex_type">
         <xs:restriction base="xs:string">
             <!-- how to validate a regex as a regex!?!? -->
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="datatype_type">
+    <xs:simpleType name="validation_datatype_type">
         <xs:restriction base="xs:string">
             <!-- can I have spaces in my enumerations?? -->
             <xs:enumeration value="Date and time with or without timezone"/>
@@ -294,6 +299,8 @@
             <xs:enumeration value="Integer"/>
         </xs:restriction>
     </xs:simpleType>
+
+    <!-- boolean_type defined above -->
 
     <!-- ********** uri_attributes ********** -->
     <xs:complexType name="uri_attributes_type">
