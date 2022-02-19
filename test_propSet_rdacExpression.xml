@@ -653,24 +653,6 @@
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20004" />
       <prop_label xml:lang="en">has date of capture</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006" />
-      <sinopia>
-         <implementationSet localid_implementationSet="is_P20004_001">
-            <resource mapid_resource="rdacExpression" />
-            <form_order>0.0002</form_order>
-            <sinopia_prop_attributes>
-               <required>0</required>
-               <repeatable>0</repeatable>
-               <ordered>0</ordered>
-               <sinopia_prop_type>literal</sinopia_prop_type>
-               <sinopia_prop_type_attributes>
-                  <literal_attributes>
-                     <default_literal xml:lang="zxx">2000</default_literal>
-                     <validation_datatype>Date and time with or without timezone</validation_datatype>
-                  </literal_attributes>
-               </sinopia_prop_type_attributes>
-            </sinopia_prop_attributes>
-         </implementationSet>
-      </sinopia>
    </prop>
    <prop localid_prop="rda_Expression_e/P20158">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20158" />
@@ -1086,6 +1068,24 @@
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20214" />
       <prop_label xml:lang="en">has date of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006" />
+      <sinopia>
+         <implementationSet localid_implementationSet="is_P20214_001">
+            <resource mapid_resource="rdacExpression" />
+            <format>test_literal_props</format>
+            <user>ries07</user>
+            <form_order>0.001</form_order>
+            <sinopia_prop_attributes>
+               <language_suppressed>1</language_suppressed>
+               <required>1</required>
+               <sinopia_prop_type>literal</sinopia_prop_type>
+               <sinopia_prop_type_attributes>
+                  <literal_attributes>
+                     <default_literal xml:lang="en">2022</default_literal>
+                  </literal_attributes>
+               </sinopia_prop_type_attributes>
+            </sinopia_prop_attributes>
+         </implementationSet>
+      </sinopia>
    </prop>
    <prop localid_prop="rda_Expression_e/P20205">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20205" />
@@ -1911,6 +1911,23 @@
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20315" />
       <prop_label xml:lang="en">has preferred title of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006" />
+      <sinopia>
+         <implementationSet localid_implementationSet="is_P20315_001">
+            <resource mapid_resource="rdacExpression" />
+            <format>test_literal_props</format>
+            <user>ries07</user>
+            <form_order>0.000001</form_order>
+            <sinopia_prop_attributes>
+               <required>1</required>
+               <sinopia_prop_type>literal</sinopia_prop_type>
+               <sinopia_prop_type_attributes>
+                  <literal_attributes>
+                     <default_literal xml:lang="en">The Preferred Title of the Expression</default_literal>
+                  </literal_attributes>
+               </sinopia_prop_type_attributes>
+            </sinopia_prop_attributes>
+         </implementationSet>
+      </sinopia>
    </prop>
    <prop localid_prop="rda_Expression_e/P20334">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20334" />
