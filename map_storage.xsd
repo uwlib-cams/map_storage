@@ -151,6 +151,8 @@
             <xs:enumeration value="rdacWork"/>
             <xs:enumeration value="rdacExpression"/>
             <xs:enumeration value="rdacManifestation"/>
+            <!-- enumeration below for testing -->
+            <xs:enumeration value="testMultiplePropSets"/>
             <!-- Not yet in test storage instance
             <xs:enumeration value="rdacItem"/>
             <xs:enumeration value="rdacAgent"/>
