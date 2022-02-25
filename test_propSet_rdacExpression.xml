@@ -1070,7 +1070,7 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006" />
       <sinopia>
          <implementationSet localid_implementationSet="is_P20214_001">
-            <resource mapid_resource="rdacExpression" />
+            <resource mapid_resource="testMultiplePropSets" />
             <format>test_literal_props</format>
             <user>ries07</user>
             <form_order>0.001</form_order>
@@ -1913,7 +1913,7 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006" />
       <sinopia>
          <implementationSet localid_implementationSet="is_P20315_001">
-            <resource mapid_resource="rdacExpression" />
+            <resource mapid_resource="testMultiplePropSets" />
             <format>test_literal_props</format>
             <user>ries07</user>
             <form_order>0.000001</form_order>
