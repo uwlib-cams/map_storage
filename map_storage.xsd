@@ -11,18 +11,18 @@
     <xs:import namespace="http://www.w3.org/2001/XMLSchema"
         schemaLocation="https://www.w3.org/2001/XMLSchema.xsd"/>
 
-    <!-- ******************* propSet ******************* -->
-    <xs:element name="propSet" type="propSet_type"/>
+    <!-- ******************* prop_set ******************* -->
+    <xs:element name="prop_set" type="prop_set_type"/>
 
-    <xs:complexType name="propSet_type">
+    <xs:complexType name="prop_set_type">
         <xs:sequence>
             <xs:element name="prop" type="prop_type" minOccurs="1" maxOccurs="unbounded"/>
         </xs:sequence>
-        <xs:attribute name="mapid_propSet" type="mapid_propSet_attr_type"/>
+        <xs:attribute name="mapid_prop_set" type="mapid_prop_set_attr_type"/>
     </xs:complexType>
 
-    <xs:simpleType name="mapid_propSet_attr_type">
-        <!-- = uwl_sinopia_maps.xsd > propSet_type -->
+    <xs:simpleType name="mapid_prop_set_attr_type">
+        <!-- = uwl_sinopia_maps.xsd > prop_set_type -->
         <xs:restriction base="xs:string">
             <!-- (MAP ID component) -->
             <!-- [?] is it possible to put enumeration lists that will need updating, like this one, in an external doc and import here as vars, etc.? 
@@ -114,13 +114,13 @@
     <!-- **************** sinopia **************** -->
     <xs:complexType name="sinopia_type">
         <xs:sequence>
-            <xs:element name="implementationSet" type="implementationSet_type" minOccurs="1"
+            <xs:element name="implementation_set" type="implementation_set_type" minOccurs="1"
                 maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
 
-    <!-- *************** implementationSet *************** -->
-    <xs:complexType name="implementationSet_type">
+    <!-- *************** implementation_set *************** -->
+    <xs:complexType name="implementation_set_type">
         <xs:sequence>
             <xs:element name="resource" type="resource_type" minOccurs="1" maxOccurs="unbounded"/>
             <!-- Resource templates such as Agent, Timespan, etc. may not need format specs, so minOccurs should be 0? -->
@@ -132,7 +132,7 @@
             <xs:element name="sinopia_prop_attributes" type="sinopia_prop_attributes_type"
                 minOccurs="1" maxOccurs="1"/>
         </xs:sequence>
-        <xs:attribute name="localid_implementationSet" type="localid_attr" use="required"/>
+        <xs:attribute name="localid_implementation_set" type="localid_attr" use="required"/>
     </xs:complexType>
 
     <xs:complexType name="resource_type">
@@ -140,12 +140,12 @@
     </xs:complexType>
 
     <!-- Various mapid_[...] attributes will not be re-usable;
-        many will need regular updates as new propSets/formats/users/ are added -->
+        many will need regular updates as new prop_sets/formats/users/ are added -->
     <xs:simpleType name="mapid_resource_attr_type">
         <!-- = uwl_sinopia_maps.xsd > resource_type -->
         <xs:restriction base="xs:string">
             <!-- (MAP ID component) -->
-            <!-- For prop sets from RDA Registry, mapid_propSet and mapid_resource values will be redundant 
+            <!-- For prop sets from RDA Registry, mapid_prop_set and mapid_resource values will be redundant 
             (RDA Work property set properties for use in an RDA Work RT), 
             but this may not be the case for other vocabularies -->
             <xs:enumeration value="rdacWork"/>
