@@ -282,9 +282,9 @@
                     maxOccurs="1"/>
                 <xs:element name="validation_datatype" type="validation_datatype_type" minOccurs="0"
                     maxOccurs="1"/>
-                <xs:element name="date_default" type="boolean_type" minOccurs="0"
+                <xs:element name="date_default" type="xs:boolean" minOccurs="0"
                     maxOccurs="1"/>
-                <xs:element name="userId_default" type="boolean_type" minOccurs="0"
+                <xs:element name="userId_default" type="xs:boolean" minOccurs="0"
                     maxOccurs="1"/>
             </xs:choice>
         </xs:sequence>
@@ -307,8 +307,6 @@
             <xs:enumeration value="Integer"/>
         </xs:restriction>
     </xs:simpleType>
-
-    <!-- boolean_type defined above -->
 
     <!-- ********** uri_attributes ********** -->
     <xs:complexType name="uri_attributes_type">
