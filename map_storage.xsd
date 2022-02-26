@@ -238,22 +238,17 @@
     <xs:complexType name="sinopia_prop_attributes_type">
         <xs:sequence>
             <!-- if language_suppressed == 1 *and* default literal has @xml:lang will anything break?? -->
-            <xs:element name="language_suppressed" type="boolean_type" minOccurs="0" maxOccurs="1" default="0"/>
-            <xs:element name="required" type="boolean_type" minOccurs="0" maxOccurs="1" default="0"/>
-            <xs:element name="repeatable" type="boolean_type" minOccurs="0" maxOccurs="1" default="0"/>
+            <xs:element name="language_suppressed" type="xs:boolean" minOccurs="0" maxOccurs="1" default="0"/>
+            <xs:element name="required" type="xs:boolean" minOccurs="0" maxOccurs="1" default="0"/>
+            <xs:element name="repeatable" type="xs:boolean" minOccurs="0" maxOccurs="1" default="0"/>
             <!-- to do: wishlist [?] ordered = true|1 should *only* be allowable if repeatable = true|1; is this possible? -->
-            <xs:element name="ordered" type="boolean_type" minOccurs="0" maxOccurs="1" default="0"/>
+            <xs:element name="ordered" type="xs:boolean" minOccurs="0" maxOccurs="1" default="0"/>
             <xs:element name="sinopia_prop_type" type="sinopia_prop_type_type" minOccurs="1"
                 maxOccurs="1"/>
             <xs:element name="sinopia_prop_type_attributes" type="sinopia_prop_type_attributes_type"
                 minOccurs="1" maxOccurs="1"/>
         </xs:sequence>
     </xs:complexType>
-
-    <!-- REUSE -->
-    <xs:simpleType name="boolean_type">
-        <xs:restriction base="xs:boolean"/>
-    </xs:simpleType>
 
     <xs:simpleType name="sinopia_prop_type_type">
         <xs:restriction base="xs:string">
