@@ -7,7 +7,7 @@
     xmlns:mapstor="https://uwlib-cams.github.io/map_storage/" version="3.0">
 
     <!-- Here's the template to use when pulling from RDA Registry data -->
-    <xsl:template name="rda_prop_set">
+    <xsl:template name="rda_properties">
         <xsl:param name="root"/>
         <xsl:param name="prop_set"/>
         <xsl:param name="path_to_prop"/>
