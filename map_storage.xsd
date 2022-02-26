@@ -205,7 +205,7 @@
     <xs:complexType name="property_selection_type">
         <xs:annotation>
             <xs:documentation>Enter a property label as the text content of the 'property' element.</xs:documentation>
-            <xs:documentation>Enter the property IRI as the content of the 'property_iri' attribute.</xs:documentation>
+            <xs:documentation>Enter the full, non-prefixed property IRI as the content of the 'property_iri' attribute.</xs:documentation>
         </xs:annotation>
         <xs:simpleContent>
             <xs:extension base="xs:string">
