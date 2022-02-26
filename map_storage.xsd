@@ -187,20 +187,33 @@
     </xs:simpleType>
 
     <xs:complexType name="multiple_prop_type">
+        <xs:annotation>
+            <xs:documentation>The 'multiple_prop' element is used to create a drop-down property list in the property template.</xs:documentation>
+            <xs:documentation>When using the resource template, users can select from among the drop-down properties for use.</xs:documentation>
+            <xs:documentation>To include all subproperties of the 'prop' element property in the drop-down, use the 'multiple_prop' > 'all_subprops' child element, and enter the value 'true'.</xs:documentation>
+            <xs:documentation>To select properties to include in the drop-down, use 'property' elements (as many as needed) to provide property IRIs and labels.</xs:documentation>
+        </xs:annotation>
         <xs:sequence>
-            <xs:element name="prop_info" type="prop_info_type" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:choice>
+                <xs:element name="all_subprops" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="property" type="property_selection_type" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:choice>
         </xs:sequence>
-        <!-- TO DO / xsd question: how to allow prop_info element only if
-        @prop_selection = 'select_props' -->
-        <xs:attribute name="prop_selection" type="prop_selection_attr"/>
     </xs:complexType>
-
-    <xs:simpleType name="prop_selection_attr">
-        <xs:restriction base="xs:string">
-            <xs:enumeration value="all_subprops"/>
-            <xs:enumeration value="select_props"/>
-        </xs:restriction>
-    </xs:simpleType>
+    
+    <!-- to do: constrain further, require text element content -->
+    <xs:complexType name="property_selection_type">
+        <xs:annotation>
+            <xs:documentation>Enter a property label as the text content of the 'property' element.</xs:documentation>
+            <xs:documentation>Enter the property IRI as the content of the 'property_iri' attribute.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="property_iri" type="xs:anyURI" use="required">
+                </xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
 
     <!-- TO DO / xsd question: how to allow prop_info element only if
         @prop_selection = 'select_props' -->
@@ -268,8 +281,7 @@
     <!-- ********** literal_attributes ********** -->
     <xs:complexType name="literal_attributes_type">
         <xs:sequence>
-            <!-- if language_suppressed == 1 *and* default literal has @xml:lang will anything break?? -->
-            <xs:element name="default_literal" type="lang_string_type" minOccurs="1" maxOccurs="1"/>
+           <xs:element name="default_literal" type="lang_string_type" minOccurs="1" maxOccurs="1"/>
             <xs:choice>
                 <xs:element name="validation_regex" type="validation_regex_type" minOccurs="0"
                     maxOccurs="1"/>
