@@ -209,8 +209,8 @@
         </xs:annotation>
         <xs:simpleContent>
             <xs:extension base="xs:string">
-                <xs:attribute name="property_iri" type="xs:anyURI" use="required">
-                </xs:attribute>
+                <xs:attribute name="property_iri" type="xs:anyURI" use="required"/>
+                <xs:attribute ref="xml:lang" use="required"/>            
             </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
