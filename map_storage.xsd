@@ -5,6 +5,7 @@
     xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified"
     vc:minVersion="1.1">
 
+    <!-- why are these here again? -->
     <xs:import namespace="http://www.w3.org/XML/1998/namespace"
         schemaLocation="http://www.w3.org/2001/03/xml.xsd"/>
     <!-- [?] xs:import below results in error -->
@@ -121,7 +122,7 @@
 
     <!-- *************** implementation_set *************** -->
     <xs:complexType name="implementation_set_type">
-        <xs:sequence>
+        <xs:sequence><!-- use all to eliminate ordering requirement? -->
             <xs:element name="resource" type="resource_type" minOccurs="1" maxOccurs="unbounded"/>
             <!-- Resource templates such as Agent, Timespan, etc. may not need format specs, so minOccurs should be 0? -->
             <xs:element name="format" type="format_type" minOccurs="0" maxOccurs="unbounded"/>
