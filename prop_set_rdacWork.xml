@@ -7,3042 +7,3042 @@
           xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
           xmlns:mapstor="https://uwlib-cams.github.io/map_storage/"
           xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/ https://uwlib-cams.github.io/map_storage/map_storage.xsd">
-   <prop localid_prop="rdaWork_w/P10407">
+   <prop localid_prop="map_storage_rdacWork_w/P10407">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10407"/>
       <prop_label xml:lang="en">has academic supervisor</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10328">
+   <prop localid_prop="map_storage_rdacWork_w/P10328">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10328"/>
       <prop_label xml:lang="en">has access point for work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10070">
+   <prop localid_prop="map_storage_rdacWork_w/P10070">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10070"/>
       <prop_label xml:lang="en">has addressee agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10460">
+   <prop localid_prop="map_storage_rdacWork_w/P10460">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10460"/>
       <prop_label xml:lang="en">has addressee collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10507">
+   <prop localid_prop="map_storage_rdacWork_w/P10507">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10507"/>
       <prop_label xml:lang="en">has addressee corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10554">
+   <prop localid_prop="map_storage_rdacWork_w/P10554">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10554"/>
       <prop_label xml:lang="en">has addressee family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10413">
+   <prop localid_prop="map_storage_rdacWork_w/P10413">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10413"/>
       <prop_label xml:lang="en">has addressee person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10393">
+   <prop localid_prop="map_storage_rdacWork_w/P10393">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10393"/>
       <prop_label xml:lang="en">has aggregator agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10495">
+   <prop localid_prop="map_storage_rdacWork_w/P10495">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10495"/>
       <prop_label xml:lang="en">has aggregator collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10542">
+   <prop localid_prop="map_storage_rdacWork_w/P10542">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10542"/>
       <prop_label xml:lang="en">has aggregator corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10589">
+   <prop localid_prop="map_storage_rdacWork_w/P10589">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10589"/>
       <prop_label xml:lang="en">has aggregator family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10448">
+   <prop localid_prop="map_storage_rdacWork_w/P10448">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10448"/>
       <prop_label xml:lang="en">has aggregator person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10286">
+   <prop localid_prop="map_storage_rdacWork_w/P10286">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10286"/>
       <prop_label xml:lang="en">has defendant person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10035">
+   <prop localid_prop="map_storage_rdacWork_w/P10035">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10035"/>
       <prop_label xml:lang="en">has appellee person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10285">
+   <prop localid_prop="map_storage_rdacWork_w/P10285">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10285"/>
       <prop_label xml:lang="en">has defendant corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10005">
+   <prop localid_prop="map_storage_rdacWork_w/P10005">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10005"/>
       <prop_label xml:lang="en">has appellee corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10080">
+   <prop localid_prop="map_storage_rdacWork_w/P10080">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10080"/>
       <prop_label xml:lang="en">has subseries</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10101">
+   <prop localid_prop="map_storage_rdacWork_w/P10101">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10101"/>
       <prop_label xml:lang="en">is subseries of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10329">
+   <prop localid_prop="map_storage_rdacWork_w/P10329">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10329"/>
       <prop_label xml:lang="en">has appellation of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10399">
+   <prop localid_prop="map_storage_rdacWork_w/P10399">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10399"/>
       <prop_label xml:lang="en">has appellation of work group</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10062">
+   <prop localid_prop="map_storage_rdacWork_w/P10062">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10062"/>
       <prop_label xml:lang="en">has architect agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10485">
+   <prop localid_prop="map_storage_rdacWork_w/P10485">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10485"/>
       <prop_label xml:lang="en">has architect collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10532">
+   <prop localid_prop="map_storage_rdacWork_w/P10532">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10532"/>
       <prop_label xml:lang="en">has architect corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10579">
+   <prop localid_prop="map_storage_rdacWork_w/P10579">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10579"/>
       <prop_label xml:lang="en">has architect family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10438">
+   <prop localid_prop="map_storage_rdacWork_w/P10438">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10438"/>
       <prop_label xml:lang="en">has architect person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10058">
+   <prop localid_prop="map_storage_rdacWork_w/P10058">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10058"/>
       <prop_label xml:lang="en">has artist agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10498">
+   <prop localid_prop="map_storage_rdacWork_w/P10498">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10498"/>
       <prop_label xml:lang="en">has artist collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10545">
+   <prop localid_prop="map_storage_rdacWork_w/P10545">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10545"/>
       <prop_label xml:lang="en">has artist corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10592">
+   <prop localid_prop="map_storage_rdacWork_w/P10592">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10592"/>
       <prop_label xml:lang="en">has artist family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10451">
+   <prop localid_prop="map_storage_rdacWork_w/P10451">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10451"/>
       <prop_label xml:lang="en">has artist person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10347">
+   <prop localid_prop="map_storage_rdacWork_w/P10347">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10347"/>
       <prop_label xml:lang="en">has aspect ratio of representative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10304">
+   <prop localid_prop="map_storage_rdacWork_w/P10304">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10304"/>
       <prop_label xml:lang="en">has audio producer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10468">
+   <prop localid_prop="map_storage_rdacWork_w/P10468">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10468"/>
       <prop_label xml:lang="en">has audio producer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10515">
+   <prop localid_prop="map_storage_rdacWork_w/P10515">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10515"/>
       <prop_label xml:lang="en">has audio producer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10562">
+   <prop localid_prop="map_storage_rdacWork_w/P10562">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10562"/>
       <prop_label xml:lang="en">has audio producer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10421">
+   <prop localid_prop="map_storage_rdacWork_w/P10421">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10421"/>
       <prop_label xml:lang="en">has audio producer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10061">
+   <prop localid_prop="map_storage_rdacWork_w/P10061">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10061"/>
       <prop_label xml:lang="en">has author agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10483">
+   <prop localid_prop="map_storage_rdacWork_w/P10483">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10483"/>
       <prop_label xml:lang="en">has author collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10530">
+   <prop localid_prop="map_storage_rdacWork_w/P10530">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10530"/>
       <prop_label xml:lang="en">has author corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10577">
+   <prop localid_prop="map_storage_rdacWork_w/P10577">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10577"/>
       <prop_label xml:lang="en">has author family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10331">
+   <prop localid_prop="map_storage_rdacWork_w/P10331">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10331"/>
       <prop_label xml:lang="en">has authorized access point for work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10401">
+   <prop localid_prop="map_storage_rdacWork_w/P10401">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10401"/>
       <prop_label xml:lang="en">has authorized access point for work group</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10436">
+   <prop localid_prop="map_storage_rdacWork_w/P10436">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10436"/>
       <prop_label xml:lang="en">has author person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10364">
+   <prop localid_prop="map_storage_rdacWork_w/P10364">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10364"/>
       <prop_label xml:lang="en">is binding of item of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10363">
+   <prop localid_prop="map_storage_rdacWork_w/P10363">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10363"/>
       <prop_label xml:lang="en">is binding of manifestation of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10044">
+   <prop localid_prop="map_storage_rdacWork_w/P10044">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10044"/>
       <prop_label xml:lang="en">has judge</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10254">
+   <prop localid_prop="map_storage_rdacWork_w/P10254">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10254"/>
       <prop_label xml:lang="en">has book artist agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10475">
+   <prop localid_prop="map_storage_rdacWork_w/P10475">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10475"/>
       <prop_label xml:lang="en">has book artist collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10522">
+   <prop localid_prop="map_storage_rdacWork_w/P10522">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10522"/>
       <prop_label xml:lang="en">has book artist corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10569">
+   <prop localid_prop="map_storage_rdacWork_w/P10569">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10569"/>
       <prop_label xml:lang="en">has book artist family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10428">
+   <prop localid_prop="map_storage_rdacWork_w/P10428">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10428"/>
       <prop_label xml:lang="en">has book artist person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10253">
+   <prop localid_prop="map_storage_rdacWork_w/P10253">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10253"/>
       <prop_label xml:lang="en">has calligrapher agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10473">
+   <prop localid_prop="map_storage_rdacWork_w/P10473">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10473"/>
       <prop_label xml:lang="en">has calligrapher collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10520">
+   <prop localid_prop="map_storage_rdacWork_w/P10520">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10520"/>
       <prop_label xml:lang="en">has calligrapher corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10567">
+   <prop localid_prop="map_storage_rdacWork_w/P10567">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10567"/>
       <prop_label xml:lang="en">has calligrapher family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10426">
+   <prop localid_prop="map_storage_rdacWork_w/P10426">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10426"/>
       <prop_label xml:lang="en">has calligrapher person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10387">
+   <prop localid_prop="map_storage_rdacWork_w/P10387">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10387"/>
       <prop_label xml:lang="en">has carrier version</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10390">
+   <prop localid_prop="map_storage_rdacWork_w/P10390">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10390"/>
       <prop_label xml:lang="en">is carrier version of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10052">
+   <prop localid_prop="map_storage_rdacWork_w/P10052">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10052"/>
       <prop_label xml:lang="en">has cartographer agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10482">
+   <prop localid_prop="map_storage_rdacWork_w/P10482">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10482"/>
       <prop_label xml:lang="en">has cartographer collective agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10529">
+   <prop localid_prop="map_storage_rdacWork_w/P10529">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10529"/>
       <prop_label xml:lang="en">has cartographer corporate body of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10576">
+   <prop localid_prop="map_storage_rdacWork_w/P10576">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10576"/>
       <prop_label xml:lang="en">has cartographer family of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10435">
+   <prop localid_prop="map_storage_rdacWork_w/P10435">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10435"/>
       <prop_label xml:lang="en">has cartographer person of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10305">
+   <prop localid_prop="map_storage_rdacWork_w/P10305">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10305"/>
       <prop_label xml:lang="en">has casting director agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10500">
+   <prop localid_prop="map_storage_rdacWork_w/P10500">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10500"/>
       <prop_label xml:lang="en">has casting director collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10547">
+   <prop localid_prop="map_storage_rdacWork_w/P10547">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10547"/>
       <prop_label xml:lang="en">has casting director corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10594">
+   <prop localid_prop="map_storage_rdacWork_w/P10594">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10594"/>
       <prop_label xml:lang="en">has casting director family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10453">
+   <prop localid_prop="map_storage_rdacWork_w/P10453">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10453"/>
       <prop_label xml:lang="en">has casting director person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10004">
+   <prop localid_prop="map_storage_rdacWork_w/P10004">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10004"/>
       <prop_label xml:lang="en">has category of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10217">
+   <prop localid_prop="map_storage_rdacWork_w/P10217">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10217"/>
       <prop_label xml:lang="en">has intended audience of representative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10060">
+   <prop localid_prop="map_storage_rdacWork_w/P10060">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10060"/>
       <prop_label xml:lang="en">has choreographer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10481">
+   <prop localid_prop="map_storage_rdacWork_w/P10481">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10481"/>
       <prop_label xml:lang="en">has choreographer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10528">
+   <prop localid_prop="map_storage_rdacWork_w/P10528">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10528"/>
       <prop_label xml:lang="en">has choreographer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10575">
+   <prop localid_prop="map_storage_rdacWork_w/P10575">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10575"/>
       <prop_label xml:lang="en">has choreographer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10434">
+   <prop localid_prop="map_storage_rdacWork_w/P10434">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10434"/>
       <prop_label xml:lang="en">has choreographer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10395">
+   <prop localid_prop="map_storage_rdacWork_w/P10395">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10395"/>
       <prop_label xml:lang="en">has civil defendant corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10397">
+   <prop localid_prop="map_storage_rdacWork_w/P10397">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10397"/>
       <prop_label xml:lang="en">has civil defendant person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10348">
+   <prop localid_prop="map_storage_rdacWork_w/P10348">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10348"/>
       <prop_label xml:lang="en">has colour content of representative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10287">
+   <prop localid_prop="map_storage_rdacWork_w/P10287">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10287"/>
       <prop_label xml:lang="en">has commissioning agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10486">
+   <prop localid_prop="map_storage_rdacWork_w/P10486">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10486"/>
       <prop_label xml:lang="en">has commissioning collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10533">
+   <prop localid_prop="map_storage_rdacWork_w/P10533">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10533"/>
       <prop_label xml:lang="en">has commissioning corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10580">
+   <prop localid_prop="map_storage_rdacWork_w/P10580">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10580"/>
       <prop_label xml:lang="en">has commissioning family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10439">
+   <prop localid_prop="map_storage_rdacWork_w/P10439">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10439"/>
       <prop_label xml:lang="en">has commissioning person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10055">
+   <prop localid_prop="map_storage_rdacWork_w/P10055">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10055"/>
       <prop_label xml:lang="en">has compiler agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10491">
+   <prop localid_prop="map_storage_rdacWork_w/P10491">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10491"/>
       <prop_label xml:lang="en">has compiler collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10538">
+   <prop localid_prop="map_storage_rdacWork_w/P10538">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10538"/>
       <prop_label xml:lang="en">has compiler corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10585">
+   <prop localid_prop="map_storage_rdacWork_w/P10585">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10585"/>
       <prop_label xml:lang="en">has compiler family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10444">
+   <prop localid_prop="map_storage_rdacWork_w/P10444">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10444"/>
       <prop_label xml:lang="en">has compiler person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10053">
+   <prop localid_prop="map_storage_rdacWork_w/P10053">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10053"/>
       <prop_label xml:lang="en">has composer agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10489">
+   <prop localid_prop="map_storage_rdacWork_w/P10489">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10489"/>
       <prop_label xml:lang="en">has composer collective agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10536">
+   <prop localid_prop="map_storage_rdacWork_w/P10536">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10536"/>
       <prop_label xml:lang="en">has composer corporate body of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10583">
+   <prop localid_prop="map_storage_rdacWork_w/P10583">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10583"/>
       <prop_label xml:lang="en">has composer family of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10442">
+   <prop localid_prop="map_storage_rdacWork_w/P10442">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10442"/>
       <prop_label xml:lang="en">has composer person of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10071">
+   <prop localid_prop="map_storage_rdacWork_w/P10071">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10071"/>
       <prop_label xml:lang="en">has consultant agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10505">
+   <prop localid_prop="map_storage_rdacWork_w/P10505">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10505"/>
       <prop_label xml:lang="en">has consultant collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10552">
+   <prop localid_prop="map_storage_rdacWork_w/P10552">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10552"/>
       <prop_label xml:lang="en">has consultant corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10599">
+   <prop localid_prop="map_storage_rdacWork_w/P10599">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10599"/>
       <prop_label xml:lang="en">has consultant family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10458">
+   <prop localid_prop="map_storage_rdacWork_w/P10458">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10458"/>
       <prop_label xml:lang="en">has consultant person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10349">
+   <prop localid_prop="map_storage_rdacWork_w/P10349">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10349"/>
       <prop_label xml:lang="en">has content type of representative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10065">
+   <prop localid_prop="map_storage_rdacWork_w/P10065">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10065"/>
       <prop_label xml:lang="en">has creator agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10484">
+   <prop localid_prop="map_storage_rdacWork_w/P10484">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10484"/>
       <prop_label xml:lang="en">has creator collective agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10531">
+   <prop localid_prop="map_storage_rdacWork_w/P10531">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10531"/>
       <prop_label xml:lang="en">has creator corporate body of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10578">
+   <prop localid_prop="map_storage_rdacWork_w/P10578">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10578"/>
       <prop_label xml:lang="en">has creator family of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10437">
+   <prop localid_prop="map_storage_rdacWork_w/P10437">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10437"/>
       <prop_label xml:lang="en">has creator person of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10394">
+   <prop localid_prop="map_storage_rdacWork_w/P10394">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10394"/>
       <prop_label xml:lang="en">has criminal defendant corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10396">
+   <prop localid_prop="map_storage_rdacWork_w/P10396">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10396"/>
       <prop_label xml:lang="en">has criminal defendant person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10359">
+   <prop localid_prop="map_storage_rdacWork_w/P10359">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10359"/>
       <prop_label xml:lang="en">is critique of RDA entity</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10327">
+   <prop localid_prop="map_storage_rdacWork_w/P10327">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10327"/>
       <prop_label xml:lang="en">is description of family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10350">
+   <prop localid_prop="map_storage_rdacWork_w/P10350">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10350"/>
       <prop_label xml:lang="en">has date of capture of representative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10398">
+   <prop localid_prop="map_storage_rdacWork_w/P10398">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10398"/>
       <prop_label xml:lang="en">has date of representative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10219">
+   <prop localid_prop="map_storage_rdacWork_w/P10219">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10219"/>
       <prop_label xml:lang="en">has date of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10069">
+   <prop localid_prop="map_storage_rdacWork_w/P10069">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10069"/>
       <prop_label xml:lang="en">has dedicatee agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10459">
+   <prop localid_prop="map_storage_rdacWork_w/P10459">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10459"/>
       <prop_label xml:lang="en">has dedicatee collective agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10506">
+   <prop localid_prop="map_storage_rdacWork_w/P10506">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10506"/>
       <prop_label xml:lang="en">has dedicatee corporate body of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10553">
+   <prop localid_prop="map_storage_rdacWork_w/P10553">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10553"/>
       <prop_label xml:lang="en">has dedicatee family of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10412">
+   <prop localid_prop="map_storage_rdacWork_w/P10412">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10412"/>
       <prop_label xml:lang="en">has dedicatee person of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10048">
+   <prop localid_prop="map_storage_rdacWork_w/P10048">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10048"/>
       <prop_label xml:lang="en">has dedicator agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10461">
+   <prop localid_prop="map_storage_rdacWork_w/P10461">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10461"/>
       <prop_label xml:lang="en">has dedicator collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10508">
+   <prop localid_prop="map_storage_rdacWork_w/P10508">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10508"/>
       <prop_label xml:lang="en">has dedicator corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10555">
+   <prop localid_prop="map_storage_rdacWork_w/P10555">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10555"/>
       <prop_label xml:lang="en">has dedicator family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10414">
+   <prop localid_prop="map_storage_rdacWork_w/P10414">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10414"/>
       <prop_label xml:lang="en">has dedicator person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10338">
+   <prop localid_prop="map_storage_rdacWork_w/P10338">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10338"/>
       <prop_label xml:lang="en">is description of agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10339">
+   <prop localid_prop="map_storage_rdacWork_w/P10339">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10339"/>
       <prop_label xml:lang="en">is description of collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10600">
+   <prop localid_prop="map_storage_rdacWork_w/P10600">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10600"/>
       <prop_label xml:lang="en">is description of nomen</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10601">
+   <prop localid_prop="map_storage_rdacWork_w/P10601">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10601"/>
       <prop_label xml:lang="en">is description of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10360">
+   <prop localid_prop="map_storage_rdacWork_w/P10360">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10360"/>
       <prop_label xml:lang="en">is description of RDA entity</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10602">
+   <prop localid_prop="map_storage_rdacWork_w/P10602">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10602"/>
       <prop_label xml:lang="en">is description of timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10051">
+   <prop localid_prop="map_storage_rdacWork_w/P10051">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10051"/>
       <prop_label xml:lang="en">has designer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10488">
+   <prop localid_prop="map_storage_rdacWork_w/P10488">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10488"/>
       <prop_label xml:lang="en">has designer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10535">
+   <prop localid_prop="map_storage_rdacWork_w/P10535">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10535"/>
       <prop_label xml:lang="en">has designer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10582">
+   <prop localid_prop="map_storage_rdacWork_w/P10582">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10582"/>
       <prop_label xml:lang="en">has designer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10441">
+   <prop localid_prop="map_storage_rdacWork_w/P10441">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10441"/>
       <prop_label xml:lang="en">has designer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10006">
+   <prop localid_prop="map_storage_rdacWork_w/P10006">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10006"/>
       <prop_label xml:lang="en">has degree granting institution</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10284">
+   <prop localid_prop="map_storage_rdacWork_w/P10284">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10284"/>
       <prop_label xml:lang="en">has degree committee member</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10215">
+   <prop localid_prop="map_storage_rdacWork_w/P10215">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10215"/>
       <prop_label xml:lang="en">has year degree granted</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10066">
+   <prop localid_prop="map_storage_rdacWork_w/P10066">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10066"/>
       <prop_label xml:lang="en">has director agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10068">
+   <prop localid_prop="map_storage_rdacWork_w/P10068">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10068"/>
       <prop_label xml:lang="en">has director agent of photography</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10502">
+   <prop localid_prop="map_storage_rdacWork_w/P10502">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10502"/>
       <prop_label xml:lang="en">has director collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10462">
+   <prop localid_prop="map_storage_rdacWork_w/P10462">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10462"/>
       <prop_label xml:lang="en">has director collective agent of photography</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10549">
+   <prop localid_prop="map_storage_rdacWork_w/P10549">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10549"/>
       <prop_label xml:lang="en">has director corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10509">
+   <prop localid_prop="map_storage_rdacWork_w/P10509">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10509"/>
       <prop_label xml:lang="en">has director corporate body of photography</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10596">
+   <prop localid_prop="map_storage_rdacWork_w/P10596">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10596"/>
       <prop_label xml:lang="en">has director family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10556">
+   <prop localid_prop="map_storage_rdacWork_w/P10556">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10556"/>
       <prop_label xml:lang="en">has director family of photography</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10455">
+   <prop localid_prop="map_storage_rdacWork_w/P10455">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10455"/>
       <prop_label xml:lang="en">has director person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10415">
+   <prop localid_prop="map_storage_rdacWork_w/P10415">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10415"/>
       <prop_label xml:lang="en">has director person of photography</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10209">
+   <prop localid_prop="map_storage_rdacWork_w/P10209">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10209"/>
       <prop_label xml:lang="en">has dissertation or thesis information</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10351">
+   <prop localid_prop="map_storage_rdacWork_w/P10351">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10351"/>
       <prop_label xml:lang="en">has duration of representative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10298">
+   <prop localid_prop="map_storage_rdacWork_w/P10298">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10298"/>
       <prop_label xml:lang="en">has editorial director agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10464">
+   <prop localid_prop="map_storage_rdacWork_w/P10464">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10464"/>
       <prop_label xml:lang="en">has editorial director collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10511">
+   <prop localid_prop="map_storage_rdacWork_w/P10511">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10511"/>
       <prop_label xml:lang="en">has editorial director corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10558">
+   <prop localid_prop="map_storage_rdacWork_w/P10558">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10558"/>
       <prop_label xml:lang="en">has editorial director family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10417">
+   <prop localid_prop="map_storage_rdacWork_w/P10417">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10417"/>
       <prop_label xml:lang="en">has editorial director person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10303">
+   <prop localid_prop="map_storage_rdacWork_w/P10303">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10303"/>
       <prop_label xml:lang="en">has declination</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10045">
+   <prop localid_prop="map_storage_rdacWork_w/P10045">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10045"/>
       <prop_label xml:lang="en">has praeses</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10361">
+   <prop localid_prop="map_storage_rdacWork_w/P10361">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10361"/>
       <prop_label xml:lang="en">is evaluation of RDA entity</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10365">
+   <prop localid_prop="map_storage_rdacWork_w/P10365">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10365"/>
       <prop_label xml:lang="en">has extension plan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10352">
+   <prop localid_prop="map_storage_rdacWork_w/P10352">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10352"/>
       <prop_label xml:lang="en">has extent of representative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10042">
+   <prop localid_prop="map_storage_rdacWork_w/P10042">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10042"/>
       <prop_label xml:lang="en">has appellant person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10009">
+   <prop localid_prop="map_storage_rdacWork_w/P10009">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10009"/>
       <prop_label xml:lang="en">has appellant corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10043">
+   <prop localid_prop="map_storage_rdacWork_w/P10043">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10043"/>
       <prop_label xml:lang="en">has plaintiff person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10010">
+   <prop localid_prop="map_storage_rdacWork_w/P10010">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10010"/>
       <prop_label xml:lang="en">has plaintiff corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10013">
+   <prop localid_prop="map_storage_rdacWork_w/P10013">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10013"/>
       <prop_label xml:lang="en">has film director agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10465">
+   <prop localid_prop="map_storage_rdacWork_w/P10465">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10465"/>
       <prop_label xml:lang="en">has film director collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10512">
+   <prop localid_prop="map_storage_rdacWork_w/P10512">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10512"/>
       <prop_label xml:lang="en">has film director corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10559">
+   <prop localid_prop="map_storage_rdacWork_w/P10559">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10559"/>
       <prop_label xml:lang="en">has film director family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10418">
+   <prop localid_prop="map_storage_rdacWork_w/P10418">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10418"/>
       <prop_label xml:lang="en">has film director person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10094">
+   <prop localid_prop="map_storage_rdacWork_w/P10094">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10094"/>
       <prop_label xml:lang="en">is adapted as motion picture screenplay work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10160">
+   <prop localid_prop="map_storage_rdacWork_w/P10160">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10160"/>
       <prop_label xml:lang="en">has motion picture screenplay work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10063">
+   <prop localid_prop="map_storage_rdacWork_w/P10063">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10063"/>
       <prop_label xml:lang="en">has filmmaker agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10497">
+   <prop localid_prop="map_storage_rdacWork_w/P10497">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10497"/>
       <prop_label xml:lang="en">has filmmaker collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10544">
+   <prop localid_prop="map_storage_rdacWork_w/P10544">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10544"/>
       <prop_label xml:lang="en">has filmmaker corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10591">
+   <prop localid_prop="map_storage_rdacWork_w/P10591">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10591"/>
       <prop_label xml:lang="en">has filmmaker family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10450">
+   <prop localid_prop="map_storage_rdacWork_w/P10450">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10450"/>
       <prop_label xml:lang="en">has filmmaker person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10073">
+   <prop localid_prop="map_storage_rdacWork_w/P10073">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10073"/>
       <prop_label xml:lang="en">has film producer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10469">
+   <prop localid_prop="map_storage_rdacWork_w/P10469">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10469"/>
       <prop_label xml:lang="en">has film producer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10516">
+   <prop localid_prop="map_storage_rdacWork_w/P10516">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10516"/>
       <prop_label xml:lang="en">has film producer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10563">
+   <prop localid_prop="map_storage_rdacWork_w/P10563">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10563"/>
       <prop_label xml:lang="en">has film producer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10422">
+   <prop localid_prop="map_storage_rdacWork_w/P10422">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10422"/>
       <prop_label xml:lang="en">has film producer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10095">
+   <prop localid_prop="map_storage_rdacWork_w/P10095">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10095"/>
       <prop_label xml:lang="en">is adapted as screenplay work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10173">
+   <prop localid_prop="map_storage_rdacWork_w/P10173">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10173"/>
       <prop_label xml:lang="en">is screenplay for motion picture work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10159">
+   <prop localid_prop="map_storage_rdacWork_w/P10159">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10159"/>
       <prop_label xml:lang="en">has screenplay work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10299">
+   <prop localid_prop="map_storage_rdacWork_w/P10299">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10299"/>
       <prop_label xml:lang="en">has founder agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10499">
+   <prop localid_prop="map_storage_rdacWork_w/P10499">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10499"/>
       <prop_label xml:lang="en">has founder collective agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10546">
+   <prop localid_prop="map_storage_rdacWork_w/P10546">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10546"/>
       <prop_label xml:lang="en">has founder corporate body of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10593">
+   <prop localid_prop="map_storage_rdacWork_w/P10593">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10593"/>
       <prop_label xml:lang="en">has founder family of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10452">
+   <prop localid_prop="map_storage_rdacWork_w/P10452">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10452"/>
       <prop_label xml:lang="en">has founder person of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10368">
+   <prop localid_prop="map_storage_rdacWork_w/P10368">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10368"/>
       <prop_label xml:lang="en">has frequency</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10123">
+   <prop localid_prop="map_storage_rdacWork_w/P10123">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10123"/>
       <prop_label xml:lang="en">has appendix work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10049">
+   <prop localid_prop="map_storage_rdacWork_w/P10049">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10049"/>
       <prop_label xml:lang="en">has honouree agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10480">
+   <prop localid_prop="map_storage_rdacWork_w/P10480">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10480"/>
       <prop_label xml:lang="en">has honouree collective agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10527">
+   <prop localid_prop="map_storage_rdacWork_w/P10527">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10527"/>
       <prop_label xml:lang="en">has honouree corporate body of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10574">
+   <prop localid_prop="map_storage_rdacWork_w/P10574">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10574"/>
       <prop_label xml:lang="en">has honouree family of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10433">
+   <prop localid_prop="map_storage_rdacWork_w/P10433">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10433"/>
       <prop_label xml:lang="en">has honouree person of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10301">
+   <prop localid_prop="map_storage_rdacWork_w/P10301">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10301"/>
       <prop_label xml:lang="en">has longitude</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10081">
+   <prop localid_prop="map_storage_rdacWork_w/P10081">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10081"/>
       <prop_label xml:lang="en">has longitude and latitude</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10007">
+   <prop localid_prop="map_storage_rdacWork_w/P10007">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10007"/>
       <prop_label xml:lang="en">has hosting institution</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10400">
+   <prop localid_prop="map_storage_rdacWork_w/P10400">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10400"/>
       <prop_label xml:lang="en">has identifier for work group</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10291">
+   <prop localid_prop="map_storage_rdacWork_w/P10291">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10291"/>
       <prop_label xml:lang="en">is inspiration for</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10290">
+   <prop localid_prop="map_storage_rdacWork_w/P10290">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10290"/>
       <prop_label xml:lang="en">is inspired by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10059">
+   <prop localid_prop="map_storage_rdacWork_w/P10059">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10059"/>
       <prop_label xml:lang="en">has interviewee agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10494">
+   <prop localid_prop="map_storage_rdacWork_w/P10494">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10494"/>
       <prop_label xml:lang="en">has interviewee collective agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10541">
+   <prop localid_prop="map_storage_rdacWork_w/P10541">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10541"/>
       <prop_label xml:lang="en">has interviewee corporate body of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10588">
+   <prop localid_prop="map_storage_rdacWork_w/P10588">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10588"/>
       <prop_label xml:lang="en">has interviewee family of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10447">
+   <prop localid_prop="map_storage_rdacWork_w/P10447">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10447"/>
       <prop_label xml:lang="en">has interviewee person of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10057">
+   <prop localid_prop="map_storage_rdacWork_w/P10057">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10057"/>
       <prop_label xml:lang="en">has interviewer agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10493">
+   <prop localid_prop="map_storage_rdacWork_w/P10493">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10493"/>
       <prop_label xml:lang="en">has interviewer collective agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10540">
+   <prop localid_prop="map_storage_rdacWork_w/P10540">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10540"/>
       <prop_label xml:lang="en">has interviewer corporate body of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10587">
+   <prop localid_prop="map_storage_rdacWork_w/P10587">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10587"/>
       <prop_label xml:lang="en">has interviewer family of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10446">
+   <prop localid_prop="map_storage_rdacWork_w/P10446">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10446"/>
       <prop_label xml:lang="en">has interviewer person of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10054">
+   <prop localid_prop="map_storage_rdacWork_w/P10054">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10054"/>
       <prop_label xml:lang="en">has inventor agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10490">
+   <prop localid_prop="map_storage_rdacWork_w/P10490">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10490"/>
       <prop_label xml:lang="en">has inventor collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10537">
+   <prop localid_prop="map_storage_rdacWork_w/P10537">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10537"/>
       <prop_label xml:lang="en">has inventor corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10584">
+   <prop localid_prop="map_storage_rdacWork_w/P10584">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10584"/>
       <prop_label xml:lang="en">has inventor family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10443">
+   <prop localid_prop="map_storage_rdacWork_w/P10443">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10443"/>
       <prop_label xml:lang="en">has inventor person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10011">
+   <prop localid_prop="map_storage_rdacWork_w/P10011">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10011"/>
       <prop_label xml:lang="en">has court governed</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10366">
+   <prop localid_prop="map_storage_rdacWork_w/P10366">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10366"/>
       <prop_label xml:lang="en">has ISSN</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10141">
+   <prop localid_prop="map_storage_rdacWork_w/P10141">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10141"/>
       <prop_label xml:lang="en">has issue</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10102">
+   <prop localid_prop="map_storage_rdacWork_w/P10102">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10102"/>
       <prop_label xml:lang="en">is issue of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10046">
+   <prop localid_prop="map_storage_rdacWork_w/P10046">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10046"/>
       <prop_label xml:lang="en">has issuing agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10503">
+   <prop localid_prop="map_storage_rdacWork_w/P10503">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10503"/>
       <prop_label xml:lang="en">has issuing collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10550">
+   <prop localid_prop="map_storage_rdacWork_w/P10550">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10550"/>
       <prop_label xml:lang="en">has issuing corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10597">
+   <prop localid_prop="map_storage_rdacWork_w/P10597">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10597"/>
       <prop_label xml:lang="en">has issuing family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10456">
+   <prop localid_prop="map_storage_rdacWork_w/P10456">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10456"/>
       <prop_label xml:lang="en">has issuing person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10302">
+   <prop localid_prop="map_storage_rdacWork_w/P10302">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10302"/>
       <prop_label xml:lang="en">has right ascension</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10082">
+   <prop localid_prop="map_storage_rdacWork_w/P10082">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10082"/>
       <prop_label xml:lang="en">has right ascension and declination</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10026">
+   <prop localid_prop="map_storage_rdacWork_w/P10026">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10026"/>
       <prop_label xml:lang="en">has cadenza work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10029">
+   <prop localid_prop="map_storage_rdacWork_w/P10029">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10029"/>
       <prop_label xml:lang="en">is cadenza composed for work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10311">
+   <prop localid_prop="map_storage_rdacWork_w/P10311">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10311"/>
       <prop_label xml:lang="en">has related agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10313">
+   <prop localid_prop="map_storage_rdacWork_w/P10313">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10313"/>
       <prop_label xml:lang="en">has related family of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10316">
+   <prop localid_prop="map_storage_rdacWork_w/P10316">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10316"/>
       <prop_label xml:lang="en">has related place of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10317">
+   <prop localid_prop="map_storage_rdacWork_w/P10317">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10317"/>
       <prop_label xml:lang="en">has related timespan of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10308">
+   <prop localid_prop="map_storage_rdacWork_w/P10308">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10308"/>
       <prop_label xml:lang="en">has related expression of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10315">
+   <prop localid_prop="map_storage_rdacWork_w/P10315">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10315"/>
       <prop_label xml:lang="en">has related collective agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10309">
+   <prop localid_prop="map_storage_rdacWork_w/P10309">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10309"/>
       <prop_label xml:lang="en">has related manifestation of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10318">
+   <prop localid_prop="map_storage_rdacWork_w/P10318">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10318"/>
       <prop_label xml:lang="en">has related nomen of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10310">
+   <prop localid_prop="map_storage_rdacWork_w/P10310">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10310"/>
       <prop_label xml:lang="en">has related item of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10312">
+   <prop localid_prop="map_storage_rdacWork_w/P10312">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10312"/>
       <prop_label xml:lang="en">has related person of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10314">
+   <prop localid_prop="map_storage_rdacWork_w/P10314">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10314"/>
       <prop_label xml:lang="en">has related corporate body of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10251">
+   <prop localid_prop="map_storage_rdacWork_w/P10251">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10251"/>
       <prop_label xml:lang="en">is adapted as graphic novel work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10367">
+   <prop localid_prop="map_storage_rdacWork_w/P10367">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10367"/>
       <prop_label xml:lang="en">has key title</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10281">
+   <prop localid_prop="map_storage_rdacWork_w/P10281">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10281"/>
       <prop_label xml:lang="en">is critique of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10278">
+   <prop localid_prop="map_storage_rdacWork_w/P10278">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10278"/>
       <prop_label xml:lang="en">is analysis of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10279">
+   <prop localid_prop="map_storage_rdacWork_w/P10279">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10279"/>
       <prop_label xml:lang="en">is evaluation of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10277">
+   <prop localid_prop="map_storage_rdacWork_w/P10277">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10277"/>
       <prop_label xml:lang="en">is description of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10280">
+   <prop localid_prop="map_storage_rdacWork_w/P10280">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10280"/>
       <prop_label xml:lang="en">is review of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10282">
+   <prop localid_prop="map_storage_rdacWork_w/P10282">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10282"/>
       <prop_label xml:lang="en">is commentary on expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10276">
+   <prop localid_prop="map_storage_rdacWork_w/P10276">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10276"/>
       <prop_label xml:lang="en">is commentary on manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10270">
+   <prop localid_prop="map_storage_rdacWork_w/P10270">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10270"/>
       <prop_label xml:lang="en">is commentary on item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10083">
+   <prop localid_prop="map_storage_rdacWork_w/P10083">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10083"/>
       <prop_label xml:lang="en">has strings of coordinate pairs</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10091">
+   <prop localid_prop="map_storage_rdacWork_w/P10091">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10091"/>
       <prop_label xml:lang="en">is adapted as choreography work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10247">
+   <prop localid_prop="map_storage_rdacWork_w/P10247">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10247"/>
       <prop_label xml:lang="en">has choreography work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10248">
+   <prop localid_prop="map_storage_rdacWork_w/P10248">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10248"/>
       <prop_label xml:lang="en">is choreography for work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10199">
+   <prop localid_prop="map_storage_rdacWork_w/P10199">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10199"/>
       <prop_label xml:lang="en">has epoch</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10221">
+   <prop localid_prop="map_storage_rdacWork_w/P10221">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10221"/>
       <prop_label xml:lang="en">has key of representative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10200">
+   <prop localid_prop="map_storage_rdacWork_w/P10200">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10200"/>
       <prop_label xml:lang="en">has landscape architect agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10472">
+   <prop localid_prop="map_storage_rdacWork_w/P10472">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10472"/>
       <prop_label xml:lang="en">has landscape architect collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10519">
+   <prop localid_prop="map_storage_rdacWork_w/P10519">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10519"/>
       <prop_label xml:lang="en">has landscape architect corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10566">
+   <prop localid_prop="map_storage_rdacWork_w/P10566">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10566"/>
       <prop_label xml:lang="en">has landscape architect family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10425">
+   <prop localid_prop="map_storage_rdacWork_w/P10425">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10425"/>
       <prop_label xml:lang="en">has landscape architect person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10353">
+   <prop localid_prop="map_storage_rdacWork_w/P10353">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10353"/>
       <prop_label xml:lang="en">has language of representative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10385">
+   <prop localid_prop="map_storage_rdacWork_w/P10385">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10385"/>
       <prop_label xml:lang="en">has language version</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10388">
+   <prop localid_prop="map_storage_rdacWork_w/P10388">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10388"/>
       <prop_label xml:lang="en">is language version of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10205">
+   <prop localid_prop="map_storage_rdacWork_w/P10205">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10205"/>
       <prop_label xml:lang="en">has librettist agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10478">
+   <prop localid_prop="map_storage_rdacWork_w/P10478">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10478"/>
       <prop_label xml:lang="en">has librettist collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10525">
+   <prop localid_prop="map_storage_rdacWork_w/P10525">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10525"/>
       <prop_label xml:lang="en">has librettist corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10572">
+   <prop localid_prop="map_storage_rdacWork_w/P10572">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10572"/>
       <prop_label xml:lang="en">has librettist family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10431">
+   <prop localid_prop="map_storage_rdacWork_w/P10431">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10431"/>
       <prop_label xml:lang="en">has librettist person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10165">
+   <prop localid_prop="map_storage_rdacWork_w/P10165">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10165"/>
       <prop_label xml:lang="en">has libretto work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10204">
+   <prop localid_prop="map_storage_rdacWork_w/P10204">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10204"/>
       <prop_label xml:lang="en">has lyricist agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10477">
+   <prop localid_prop="map_storage_rdacWork_w/P10477">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10477"/>
       <prop_label xml:lang="en">has lyricist collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10524">
+   <prop localid_prop="map_storage_rdacWork_w/P10524">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10524"/>
       <prop_label xml:lang="en">has lyricist corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10571">
+   <prop localid_prop="map_storage_rdacWork_w/P10571">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10571"/>
       <prop_label xml:lang="en">has lyricist family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10430">
+   <prop localid_prop="map_storage_rdacWork_w/P10430">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10430"/>
       <prop_label xml:lang="en">has lyricist person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10369">
+   <prop localid_prop="map_storage_rdacWork_w/P10369">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10369"/>
       <prop_label xml:lang="en">is lyrics for work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10370">
+   <prop localid_prop="map_storage_rdacWork_w/P10370">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10370"/>
       <prop_label xml:lang="en">has lyrics work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10036">
+   <prop localid_prop="map_storage_rdacWork_w/P10036">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10036"/>
       <prop_label xml:lang="en">has medium</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10603">
+   <prop localid_prop="map_storage_rdacWork_w/P10603">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10603"/>
       <prop_label xml:lang="en">has medium of performance of choreographic content of representative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10220">
+   <prop localid_prop="map_storage_rdacWork_w/P10220">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10220"/>
       <prop_label xml:lang="en">has medium of performance of musical content of representative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10294">
+   <prop localid_prop="map_storage_rdacWork_w/P10294">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10294"/>
       <prop_label xml:lang="en">has commemoration</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10295">
+   <prop localid_prop="map_storage_rdacWork_w/P10295">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10295"/>
       <prop_label xml:lang="en">is commemoration of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10275">
+   <prop localid_prop="map_storage_rdacWork_w/P10275">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10275"/>
       <prop_label xml:lang="en">is critique of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10272">
+   <prop localid_prop="map_storage_rdacWork_w/P10272">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10272"/>
       <prop_label xml:lang="en">is analysis of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10273">
+   <prop localid_prop="map_storage_rdacWork_w/P10273">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10273"/>
       <prop_label xml:lang="en">is evaluation of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10271">
+   <prop localid_prop="map_storage_rdacWork_w/P10271">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10271"/>
       <prop_label xml:lang="en">is description of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10274">
+   <prop localid_prop="map_storage_rdacWork_w/P10274">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10274"/>
       <prop_label xml:lang="en">is review of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10025">
+   <prop localid_prop="map_storage_rdacWork_w/P10025">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10025"/>
       <prop_label xml:lang="en">is adapted as motion picture work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10246">
+   <prop localid_prop="map_storage_rdacWork_w/P10246">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10246"/>
       <prop_label xml:lang="en">has motion picture music work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10142">
+   <prop localid_prop="map_storage_rdacWork_w/P10142">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10142"/>
       <prop_label xml:lang="en">is adaptation of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10108">
+   <prop localid_prop="map_storage_rdacWork_w/P10108">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10108"/>
       <prop_label xml:lang="en">is augmented by work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10170">
+   <prop localid_prop="map_storage_rdacWork_w/P10170">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10170"/>
       <prop_label xml:lang="en">is succeeded by work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10191">
+   <prop localid_prop="map_storage_rdacWork_w/P10191">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10191"/>
       <prop_label xml:lang="en">is continued by work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10103">
+   <prop localid_prop="map_storage_rdacWork_w/P10103">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10103"/>
       <prop_label xml:lang="en">is complemented by work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10145">
+   <prop localid_prop="map_storage_rdacWork_w/P10145">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10145"/>
       <prop_label xml:lang="en">is absorbed by work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10156">
+   <prop localid_prop="map_storage_rdacWork_w/P10156">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10156"/>
       <prop_label xml:lang="en">is preceded by work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10146">
+   <prop localid_prop="map_storage_rdacWork_w/P10146">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10146"/>
       <prop_label xml:lang="en">is absorbed in part by work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10186">
+   <prop localid_prop="map_storage_rdacWork_w/P10186">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10186"/>
       <prop_label xml:lang="en">is paraphrase of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10002">
+   <prop localid_prop="map_storage_rdacWork_w/P10002">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10002"/>
       <prop_label xml:lang="en">has identifier for work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10115">
+   <prop localid_prop="map_storage_rdacWork_w/P10115">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10115"/>
       <prop_label xml:lang="en">is work critiqued by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10120">
+   <prop localid_prop="map_storage_rdacWork_w/P10120">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10120"/>
       <prop_label xml:lang="en">is work evaluated by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10089">
+   <prop localid_prop="map_storage_rdacWork_w/P10089">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10089"/>
       <prop_label xml:lang="en">is abstracted in work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10116">
+   <prop localid_prop="map_storage_rdacWork_w/P10116">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10116"/>
       <prop_label xml:lang="en">is work commentary in</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10118">
+   <prop localid_prop="map_storage_rdacWork_w/P10118">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10118"/>
       <prop_label xml:lang="en">is work described by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10114">
+   <prop localid_prop="map_storage_rdacWork_w/P10114">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10114"/>
       <prop_label xml:lang="en">is work reviewed by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10224">
+   <prop localid_prop="map_storage_rdacWork_w/P10224">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10224"/>
       <prop_label xml:lang="en">is absorption of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10182">
+   <prop localid_prop="map_storage_rdacWork_w/P10182">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10182"/>
       <prop_label xml:lang="en">is critique of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10184">
+   <prop localid_prop="map_storage_rdacWork_w/P10184">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10184"/>
       <prop_label xml:lang="en">is expanded version of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10088">
+   <prop localid_prop="map_storage_rdacWork_w/P10088">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10088"/>
       <prop_label xml:lang="en">has title of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10086">
+   <prop localid_prop="map_storage_rdacWork_w/P10086">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10086"/>
       <prop_label xml:lang="en">has variant title of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10127">
+   <prop localid_prop="map_storage_rdacWork_w/P10127">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10127"/>
       <prop_label xml:lang="en">is dramatization of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10140">
+   <prop localid_prop="map_storage_rdacWork_w/P10140">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10140"/>
       <prop_label xml:lang="en">is analysis of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10218">
+   <prop localid_prop="map_storage_rdacWork_w/P10218">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10218"/>
       <prop_label xml:lang="en">has place of origin of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10226">
+   <prop localid_prop="map_storage_rdacWork_w/P10226">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10226"/>
       <prop_label xml:lang="en">is continuation of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10105">
+   <prop localid_prop="map_storage_rdacWork_w/P10105">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10105"/>
       <prop_label xml:lang="en">is screenplay for work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10207">
+   <prop localid_prop="map_storage_rdacWork_w/P10207">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10207"/>
       <prop_label xml:lang="en">is replacement of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10022">
+   <prop localid_prop="map_storage_rdacWork_w/P10022">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10022"/>
       <prop_label xml:lang="en">is replaced by work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10092">
+   <prop localid_prop="map_storage_rdacWork_w/P10092">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10092"/>
       <prop_label xml:lang="en">has errata work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10151">
+   <prop localid_prop="map_storage_rdacWork_w/P10151">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10151"/>
       <prop_label xml:lang="en">is appendix to work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10149">
+   <prop localid_prop="map_storage_rdacWork_w/P10149">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10149"/>
       <prop_label xml:lang="en">is errata to work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10150">
+   <prop localid_prop="map_storage_rdacWork_w/P10150">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10150"/>
       <prop_label xml:lang="en">is guide to work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10187">
+   <prop localid_prop="map_storage_rdacWork_w/P10187">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10187"/>
       <prop_label xml:lang="en">is commentary on work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10154">
+   <prop localid_prop="map_storage_rdacWork_w/P10154">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10154"/>
       <prop_label xml:lang="en">is supplement to work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10177">
+   <prop localid_prop="map_storage_rdacWork_w/P10177">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10177"/>
       <prop_label xml:lang="en">is addenda to work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10238">
+   <prop localid_prop="map_storage_rdacWork_w/P10238">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10238"/>
       <prop_label xml:lang="en">is music for work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10093">
+   <prop localid_prop="map_storage_rdacWork_w/P10093">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10093"/>
       <prop_label xml:lang="en">has illustrations work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10152">
+   <prop localid_prop="map_storage_rdacWork_w/P10152">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10152"/>
       <prop_label xml:lang="en">is illustrations for work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10198">
+   <prop localid_prop="map_storage_rdacWork_w/P10198">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10198"/>
       <prop_label xml:lang="en">has related work of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10155">
+   <prop localid_prop="map_storage_rdacWork_w/P10155">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10155"/>
       <prop_label xml:lang="en">is adapted as work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10166">
+   <prop localid_prop="map_storage_rdacWork_w/P10166">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10166"/>
       <prop_label xml:lang="en">is paraphrased as work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10119">
+   <prop localid_prop="map_storage_rdacWork_w/P10119">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10119"/>
       <prop_label xml:lang="en">is expanded as work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10016">
+   <prop localid_prop="map_storage_rdacWork_w/P10016">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10016"/>
       <prop_label xml:lang="en">is dramatized as work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10107">
+   <prop localid_prop="map_storage_rdacWork_w/P10107">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10107"/>
       <prop_label xml:lang="en">has abstract</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10171">
+   <prop localid_prop="map_storage_rdacWork_w/P10171">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10171"/>
       <prop_label xml:lang="en">is digested as work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10167">
+   <prop localid_prop="map_storage_rdacWork_w/P10167">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10167"/>
       <prop_label xml:lang="en">is abridged as work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10033">
+   <prop localid_prop="map_storage_rdacWork_w/P10033">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10033"/>
       <prop_label xml:lang="en">is set to music as work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10028">
+   <prop localid_prop="map_storage_rdacWork_w/P10028">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10028"/>
       <prop_label xml:lang="en">is modified by variation as work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10109">
+   <prop localid_prop="map_storage_rdacWork_w/P10109">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10109"/>
       <prop_label xml:lang="en">has summary</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10144">
+   <prop localid_prop="map_storage_rdacWork_w/P10144">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10144"/>
       <prop_label xml:lang="en">is parodied as work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10099">
+   <prop localid_prop="map_storage_rdacWork_w/P10099">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10099"/>
       <prop_label xml:lang="en">is freely translated as work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10032">
+   <prop localid_prop="map_storage_rdacWork_w/P10032">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10032"/>
       <prop_label xml:lang="en">is remade as work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10117">
+   <prop localid_prop="map_storage_rdacWork_w/P10117">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10117"/>
       <prop_label xml:lang="en">is imitated as work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10252">
+   <prop localid_prop="map_storage_rdacWork_w/P10252">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10252"/>
       <prop_label xml:lang="en">is graphic novelization of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10192">
+   <prop localid_prop="map_storage_rdacWork_w/P10192">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10192"/>
       <prop_label xml:lang="en">is augmentation of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10153">
+   <prop localid_prop="map_storage_rdacWork_w/P10153">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10153"/>
       <prop_label xml:lang="en">is evaluation of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10078">
+   <prop localid_prop="map_storage_rdacWork_w/P10078">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10078"/>
       <prop_label xml:lang="en">has expression of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10106">
+   <prop localid_prop="map_storage_rdacWork_w/P10106">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10106"/>
       <prop_label xml:lang="en">is incidental music for work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10031">
+   <prop localid_prop="map_storage_rdacWork_w/P10031">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10031"/>
       <prop_label xml:lang="en">has incidental music work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10223">
+   <prop localid_prop="map_storage_rdacWork_w/P10223">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10223"/>
       <prop_label xml:lang="en">has preferred title of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10126">
+   <prop localid_prop="map_storage_rdacWork_w/P10126">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10126"/>
       <prop_label xml:lang="en">is abstract of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10139">
+   <prop localid_prop="map_storage_rdacWork_w/P10139">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10139"/>
       <prop_label xml:lang="en">is digest of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10193">
+   <prop localid_prop="map_storage_rdacWork_w/P10193">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10193"/>
       <prop_label xml:lang="en">is abstracts for work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10183">
+   <prop localid_prop="map_storage_rdacWork_w/P10183">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10183"/>
       <prop_label xml:lang="en">is choreographic adaptation of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10100">
+   <prop localid_prop="map_storage_rdacWork_w/P10100">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10100"/>
       <prop_label xml:lang="en">is description of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10030">
+   <prop localid_prop="map_storage_rdacWork_w/P10030">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10030"/>
       <prop_label xml:lang="en">is libretto for work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10113">
+   <prop localid_prop="map_storage_rdacWork_w/P10113">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10113"/>
       <prop_label xml:lang="en">is adapted as libretto work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10072">
+   <prop localid_prop="map_storage_rdacWork_w/P10072">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10072"/>
       <prop_label xml:lang="en">has manifestation of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10129">
+   <prop localid_prop="map_storage_rdacWork_w/P10129">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10129"/>
       <prop_label xml:lang="en">is motion picture adaptation of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10288">
+   <prop localid_prop="map_storage_rdacWork_w/P10288">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10288"/>
       <prop_label xml:lang="en">is oratorio adaptation of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10179">
+   <prop localid_prop="map_storage_rdacWork_w/P10179">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10179"/>
       <prop_label xml:lang="en">is summary of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10213">
+   <prop localid_prop="map_storage_rdacWork_w/P10213">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10213"/>
       <prop_label xml:lang="en">is merger of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10197">
+   <prop localid_prop="map_storage_rdacWork_w/P10197">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10197"/>
       <prop_label xml:lang="en">is parody of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10131">
+   <prop localid_prop="map_storage_rdacWork_w/P10131">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10131"/>
       <prop_label xml:lang="en">is radio adaptation of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10130">
+   <prop localid_prop="map_storage_rdacWork_w/P10130">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10130"/>
       <prop_label xml:lang="en">is novelization of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10211">
+   <prop localid_prop="map_storage_rdacWork_w/P10211">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10211"/>
       <prop_label xml:lang="en">is split into work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10021">
+   <prop localid_prop="map_storage_rdacWork_w/P10021">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10021"/>
       <prop_label xml:lang="en">is replaced in part by work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10225">
+   <prop localid_prop="map_storage_rdacWork_w/P10225">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10225"/>
       <prop_label xml:lang="en">is absorption in part of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10206">
+   <prop localid_prop="map_storage_rdacWork_w/P10206">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10206"/>
       <prop_label xml:lang="en">is replacement in part of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10125">
+   <prop localid_prop="map_storage_rdacWork_w/P10125">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10125"/>
       <prop_label xml:lang="en">is abridgement of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10143">
+   <prop localid_prop="map_storage_rdacWork_w/P10143">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10143"/>
       <prop_label xml:lang="en">is free translation of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10178">
+   <prop localid_prop="map_storage_rdacWork_w/P10178">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10178"/>
       <prop_label xml:lang="en">is review of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10264">
+   <prop localid_prop="map_storage_rdacWork_w/P10264">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10264"/>
       <prop_label xml:lang="en">is subject work of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10132">
+   <prop localid_prop="map_storage_rdacWork_w/P10132">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10132"/>
       <prop_label xml:lang="en">is television adaptation of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10169">
+   <prop localid_prop="map_storage_rdacWork_w/P10169">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10169"/>
       <prop_label xml:lang="en">is separated from work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10210">
+   <prop localid_prop="map_storage_rdacWork_w/P10210">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10210"/>
       <prop_label xml:lang="en">has history of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10185">
+   <prop localid_prop="map_storage_rdacWork_w/P10185">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10185"/>
       <prop_label xml:lang="en">is remake of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10196">
+   <prop localid_prop="map_storage_rdacWork_w/P10196">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10196"/>
       <prop_label xml:lang="en">is imitation of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10128">
+   <prop localid_prop="map_storage_rdacWork_w/P10128">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10128"/>
       <prop_label xml:lang="en">is verse adaptation of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10138">
+   <prop localid_prop="map_storage_rdacWork_w/P10138">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10138"/>
       <prop_label xml:lang="en">is video adaptation of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10250">
+   <prop localid_prop="map_storage_rdacWork_w/P10250">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10250"/>
       <prop_label xml:lang="en">is video game adaptation of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10190">
+   <prop localid_prop="map_storage_rdacWork_w/P10190">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10190"/>
       <prop_label xml:lang="en">has source work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10134">
+   <prop localid_prop="map_storage_rdacWork_w/P10134">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10134"/>
       <prop_label xml:lang="en">is motion picture screenplay based on work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10133">
+   <prop localid_prop="map_storage_rdacWork_w/P10133">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10133"/>
       <prop_label xml:lang="en">is screenplay based on work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10189">
+   <prop localid_prop="map_storage_rdacWork_w/P10189">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10189"/>
       <prop_label xml:lang="en">is libretto based on work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10137">
+   <prop localid_prop="map_storage_rdacWork_w/P10137">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10137"/>
       <prop_label xml:lang="en">is radio script based on work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10135">
+   <prop localid_prop="map_storage_rdacWork_w/P10135">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10135"/>
       <prop_label xml:lang="en">is television screenplay based on work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10027">
+   <prop localid_prop="map_storage_rdacWork_w/P10027">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10027"/>
       <prop_label xml:lang="en">is variations based on work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10136">
+   <prop localid_prop="map_storage_rdacWork_w/P10136">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10136"/>
       <prop_label xml:lang="en">is video screenplay based on work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10161">
+   <prop localid_prop="map_storage_rdacWork_w/P10161">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10161"/>
       <prop_label xml:lang="en">is musical setting of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10233">
+   <prop localid_prop="map_storage_rdacWork_w/P10233">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10233"/>
       <prop_label xml:lang="en">is musical theatre adaptation of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10214">
+   <prop localid_prop="map_storage_rdacWork_w/P10214">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10214"/>
       <prop_label xml:lang="en">has equinox</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10402">
+   <prop localid_prop="map_storage_rdacWork_w/P10402">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10402"/>
       <prop_label xml:lang="en">has note on metadata work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10330">
+   <prop localid_prop="map_storage_rdacWork_w/P10330">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10330"/>
       <prop_label xml:lang="en">has note on work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10234">
+   <prop localid_prop="map_storage_rdacWork_w/P10234">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10234"/>
       <prop_label xml:lang="en">is opera adaptation of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10236">
+   <prop localid_prop="map_storage_rdacWork_w/P10236">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10236"/>
       <prop_label xml:lang="en">is adapted as opera work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10333">
+   <prop localid_prop="map_storage_rdacWork_w/P10333">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10333"/>
       <prop_label xml:lang="en">has opus number</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10289">
+   <prop localid_prop="map_storage_rdacWork_w/P10289">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10289"/>
       <prop_label xml:lang="en">is adapted as oratorio work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10297">
+   <prop localid_prop="map_storage_rdacWork_w/P10297">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10297"/>
       <prop_label xml:lang="en">has organizer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10504">
+   <prop localid_prop="map_storage_rdacWork_w/P10504">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10504"/>
       <prop_label xml:lang="en">has organizer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10551">
+   <prop localid_prop="map_storage_rdacWork_w/P10551">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10551"/>
       <prop_label xml:lang="en">has organizer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10598">
+   <prop localid_prop="map_storage_rdacWork_w/P10598">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10598"/>
       <prop_label xml:lang="en">has organizer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10457">
+   <prop localid_prop="map_storage_rdacWork_w/P10457">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10457"/>
       <prop_label xml:lang="en">has organizer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10212">
+   <prop localid_prop="map_storage_rdacWork_w/P10212">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10212"/>
       <prop_label xml:lang="en">is merged to form work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10019">
+   <prop localid_prop="map_storage_rdacWork_w/P10019">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10019"/>
       <prop_label xml:lang="en">is part of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10147">
+   <prop localid_prop="map_storage_rdacWork_w/P10147">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10147"/>
       <prop_label xml:lang="en">has part work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10266">
+   <prop localid_prop="map_storage_rdacWork_w/P10266">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10266"/>
       <prop_label xml:lang="en">is analysis of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10265">
+   <prop localid_prop="map_storage_rdacWork_w/P10265">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10265"/>
       <prop_label xml:lang="en">is description of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10056">
+   <prop localid_prop="map_storage_rdacWork_w/P10056">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10056"/>
       <prop_label xml:lang="en">has photographer agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10492">
+   <prop localid_prop="map_storage_rdacWork_w/P10492">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10492"/>
       <prop_label xml:lang="en">has photographer collective agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10539">
+   <prop localid_prop="map_storage_rdacWork_w/P10539">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10539"/>
       <prop_label xml:lang="en">has photographer corporate body of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10586">
+   <prop localid_prop="map_storage_rdacWork_w/P10586">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10586"/>
       <prop_label xml:lang="en">has photographer family of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10445">
+   <prop localid_prop="map_storage_rdacWork_w/P10445">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10445"/>
       <prop_label xml:lang="en">has photographer person of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10354">
+   <prop localid_prop="map_storage_rdacWork_w/P10354">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10354"/>
       <prop_label xml:lang="en">has place of capture of representative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10112">
+   <prop localid_prop="map_storage_rdacWork_w/P10112">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10112"/>
       <prop_label xml:lang="en">has addenda work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10122">
+   <prop localid_prop="map_storage_rdacWork_w/P10122">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10122"/>
       <prop_label xml:lang="en">has prequel work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10064">
+   <prop localid_prop="map_storage_rdacWork_w/P10064">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10064"/>
       <prop_label xml:lang="en">has producer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10501">
+   <prop localid_prop="map_storage_rdacWork_w/P10501">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10501"/>
       <prop_label xml:lang="en">has producer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10548">
+   <prop localid_prop="map_storage_rdacWork_w/P10548">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10548"/>
       <prop_label xml:lang="en">has producer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10595">
+   <prop localid_prop="map_storage_rdacWork_w/P10595">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10595"/>
       <prop_label xml:lang="en">has producer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10454">
+   <prop localid_prop="map_storage_rdacWork_w/P10454">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10454"/>
       <prop_label xml:lang="en">has producer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10008">
+   <prop localid_prop="map_storage_rdacWork_w/P10008">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10008"/>
       <prop_label xml:lang="en">has production company</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10050">
+   <prop localid_prop="map_storage_rdacWork_w/P10050">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10050"/>
       <prop_label xml:lang="en">has programmer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10487">
+   <prop localid_prop="map_storage_rdacWork_w/P10487">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10487"/>
       <prop_label xml:lang="en">has programmer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10534">
+   <prop localid_prop="map_storage_rdacWork_w/P10534">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10534"/>
       <prop_label xml:lang="en">has programmer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10581">
+   <prop localid_prop="map_storage_rdacWork_w/P10581">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10581"/>
       <prop_label xml:lang="en">has programmer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10440">
+   <prop localid_prop="map_storage_rdacWork_w/P10440">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10440"/>
       <prop_label xml:lang="en">has programmer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10355">
+   <prop localid_prop="map_storage_rdacWork_w/P10355">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10355"/>
       <prop_label xml:lang="en">has projection of cartographic content of representative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10408">
+   <prop localid_prop="map_storage_rdacWork_w/P10408">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10408"/>
       <prop_label xml:lang="en">has project supervisor</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10014">
+   <prop localid_prop="map_storage_rdacWork_w/P10014">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10014"/>
       <prop_label xml:lang="en">has radio director agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10466">
+   <prop localid_prop="map_storage_rdacWork_w/P10466">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10466"/>
       <prop_label xml:lang="en">has radio director collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10513">
+   <prop localid_prop="map_storage_rdacWork_w/P10513">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10513"/>
       <prop_label xml:lang="en">has radio director corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10560">
+   <prop localid_prop="map_storage_rdacWork_w/P10560">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10560"/>
       <prop_label xml:lang="en">has radio director family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10419">
+   <prop localid_prop="map_storage_rdacWork_w/P10419">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10419"/>
       <prop_label xml:lang="en">has radio director person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10076">
+   <prop localid_prop="map_storage_rdacWork_w/P10076">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10076"/>
       <prop_label xml:lang="en">is adapted as radio program work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10243">
+   <prop localid_prop="map_storage_rdacWork_w/P10243">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10243"/>
       <prop_label xml:lang="en">has radio program music work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10074">
+   <prop localid_prop="map_storage_rdacWork_w/P10074">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10074"/>
       <prop_label xml:lang="en">has radio producer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10470">
+   <prop localid_prop="map_storage_rdacWork_w/P10470">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10470"/>
       <prop_label xml:lang="en">has radio producer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10517">
+   <prop localid_prop="map_storage_rdacWork_w/P10517">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10517"/>
       <prop_label xml:lang="en">has radio producer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10564">
+   <prop localid_prop="map_storage_rdacWork_w/P10564">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10564"/>
       <prop_label xml:lang="en">has radio producer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10423">
+   <prop localid_prop="map_storage_rdacWork_w/P10423">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10423"/>
       <prop_label xml:lang="en">has radio producer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10098">
+   <prop localid_prop="map_storage_rdacWork_w/P10098">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10098"/>
       <prop_label xml:lang="en">is adapted as radio script work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10162">
+   <prop localid_prop="map_storage_rdacWork_w/P10162">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10162"/>
       <prop_label xml:lang="en">has radio script work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10255">
+   <prop localid_prop="map_storage_rdacWork_w/P10255">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10255"/>
       <prop_label xml:lang="en">has rapporteur agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10479">
+   <prop localid_prop="map_storage_rdacWork_w/P10479">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10479"/>
       <prop_label xml:lang="en">has rapporteur collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10526">
+   <prop localid_prop="map_storage_rdacWork_w/P10526">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10526"/>
       <prop_label xml:lang="en">has rapporteur corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10573">
+   <prop localid_prop="map_storage_rdacWork_w/P10573">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10573"/>
       <prop_label xml:lang="en">has rapporteur family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10432">
+   <prop localid_prop="map_storage_rdacWork_w/P10432">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10432"/>
       <prop_label xml:lang="en">has rapporteur person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10404">
+   <prop localid_prop="map_storage_rdacWork_w/P10404">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10404"/>
       <prop_label xml:lang="en">has recording source</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10034">
+   <prop localid_prop="map_storage_rdacWork_w/P10034">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10034"/>
       <prop_label xml:lang="en">is adapted as novel work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10386">
+   <prop localid_prop="map_storage_rdacWork_w/P10386">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10386"/>
       <prop_label xml:lang="en">has regional version</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10389">
+   <prop localid_prop="map_storage_rdacWork_w/P10389">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10389"/>
       <prop_label xml:lang="en">is regional version of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10405">
+   <prop localid_prop="map_storage_rdacWork_w/P10405">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10405"/>
       <prop_label xml:lang="en">has related entity of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10307">
+   <prop localid_prop="map_storage_rdacWork_w/P10307">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10307"/>
       <prop_label xml:lang="en">has related RDA entity of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10306">
+   <prop localid_prop="map_storage_rdacWork_w/P10306">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10306"/>
       <prop_label xml:lang="en">has remix artist agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10496">
+   <prop localid_prop="map_storage_rdacWork_w/P10496">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10496"/>
       <prop_label xml:lang="en">has remix artist collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10543">
+   <prop localid_prop="map_storage_rdacWork_w/P10543">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10543"/>
       <prop_label xml:lang="en">has remix artist corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10590">
+   <prop localid_prop="map_storage_rdacWork_w/P10590">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10590"/>
       <prop_label xml:lang="en">has remix artist family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10449">
+   <prop localid_prop="map_storage_rdacWork_w/P10449">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10449"/>
       <prop_label xml:lang="en">has remix artist person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10346">
+   <prop localid_prop="map_storage_rdacWork_w/P10346">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10346"/>
       <prop_label xml:lang="en">has representative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10293">
+   <prop localid_prop="map_storage_rdacWork_w/P10293">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10293"/>
       <prop_label xml:lang="en">has researcher agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10463">
+   <prop localid_prop="map_storage_rdacWork_w/P10463">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10463"/>
       <prop_label xml:lang="en">has researcher collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10510">
+   <prop localid_prop="map_storage_rdacWork_w/P10510">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10510"/>
       <prop_label xml:lang="en">has researcher corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10557">
+   <prop localid_prop="map_storage_rdacWork_w/P10557">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10557"/>
       <prop_label xml:lang="en">has researcher family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10416">
+   <prop localid_prop="map_storage_rdacWork_w/P10416">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10416"/>
       <prop_label xml:lang="en">has researcher person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10409">
+   <prop localid_prop="map_storage_rdacWork_w/P10409">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10409"/>
       <prop_label xml:lang="en">has research supervisor</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10012">
+   <prop localid_prop="map_storage_rdacWork_w/P10012">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10012"/>
       <prop_label xml:lang="en">has numbering of part</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10292">
+   <prop localid_prop="map_storage_rdacWork_w/P10292">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10292"/>
       <prop_label xml:lang="en">has participant in treaty</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10362">
+   <prop localid_prop="map_storage_rdacWork_w/P10362">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10362"/>
       <prop_label xml:lang="en">is review of RDA entity</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10356">
+   <prop localid_prop="map_storage_rdacWork_w/P10356">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10356"/>
       <prop_label xml:lang="en">has scale of representative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10403">
+   <prop localid_prop="map_storage_rdacWork_w/P10403">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10403"/>
       <prop_label xml:lang="en">has scope of validity</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10203">
+   <prop localid_prop="map_storage_rdacWork_w/P10203">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10203"/>
       <prop_label xml:lang="en">has screenwriter agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10476">
+   <prop localid_prop="map_storage_rdacWork_w/P10476">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10476"/>
       <prop_label xml:lang="en">has screenwriter collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10523">
+   <prop localid_prop="map_storage_rdacWork_w/P10523">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10523"/>
       <prop_label xml:lang="en">has screenwriter corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10570">
+   <prop localid_prop="map_storage_rdacWork_w/P10570">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10570"/>
       <prop_label xml:lang="en">has screenwriter family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10429">
+   <prop localid_prop="map_storage_rdacWork_w/P10429">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10429"/>
       <prop_label xml:lang="en">has screenwriter person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10357">
+   <prop localid_prop="map_storage_rdacWork_w/P10357">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10357"/>
       <prop_label xml:lang="en">has script of representative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10202">
+   <prop localid_prop="map_storage_rdacWork_w/P10202">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10202"/>
       <prop_label xml:lang="en">has sculptor agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10474">
+   <prop localid_prop="map_storage_rdacWork_w/P10474">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10474"/>
       <prop_label xml:lang="en">has sculptor collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10521">
+   <prop localid_prop="map_storage_rdacWork_w/P10521">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10521"/>
       <prop_label xml:lang="en">has sculptor corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10568">
+   <prop localid_prop="map_storage_rdacWork_w/P10568">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10568"/>
       <prop_label xml:lang="en">has sculptor family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10427">
+   <prop localid_prop="map_storage_rdacWork_w/P10427">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10427"/>
       <prop_label xml:lang="en">has sculptor person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10104">
+   <prop localid_prop="map_storage_rdacWork_w/P10104">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10104"/>
       <prop_label xml:lang="en">is separated into work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10020">
+   <prop localid_prop="map_storage_rdacWork_w/P10020">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10020"/>
       <prop_label xml:lang="en">has sequel work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10379">
+   <prop localid_prop="map_storage_rdacWork_w/P10379">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10379"/>
       <prop_label xml:lang="en">has sequential version</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10380">
+   <prop localid_prop="map_storage_rdacWork_w/P10380">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10380"/>
       <prop_label xml:lang="en">is sequential version of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10381">
+   <prop localid_prop="map_storage_rdacWork_w/P10381">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10381"/>
       <prop_label xml:lang="en">has serialized version</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10391">
+   <prop localid_prop="map_storage_rdacWork_w/P10391">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10391"/>
       <prop_label xml:lang="en">is serialized version of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10334">
+   <prop localid_prop="map_storage_rdacWork_w/P10334">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10334"/>
       <prop_label xml:lang="en">has serial number of musical work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10358">
+   <prop localid_prop="map_storage_rdacWork_w/P10358">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10358"/>
       <prop_label xml:lang="en">has sound content of representative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10376">
+   <prop localid_prop="map_storage_rdacWork_w/P10376">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10376"/>
       <prop_label xml:lang="en">is sounds for work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10374">
+   <prop localid_prop="map_storage_rdacWork_w/P10374">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10374"/>
       <prop_label xml:lang="en">has sounds work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10406">
+   <prop localid_prop="map_storage_rdacWork_w/P10406">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10406"/>
       <prop_label xml:lang="en">has source consulted</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10410">
+   <prop localid_prop="map_storage_rdacWork_w/P10410">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10410"/>
       <prop_label xml:lang="en">has special issue</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10411">
+   <prop localid_prop="map_storage_rdacWork_w/P10411">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10411"/>
       <prop_label xml:lang="en">is special issue of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10168">
+   <prop localid_prop="map_storage_rdacWork_w/P10168">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10168"/>
       <prop_label xml:lang="en">is split from work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10375">
+   <prop localid_prop="map_storage_rdacWork_w/P10375">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10375"/>
       <prop_label xml:lang="en">is spoken word for work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10373">
+   <prop localid_prop="map_storage_rdacWork_w/P10373">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10373"/>
       <prop_label xml:lang="en">has spoken word work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10067">
+   <prop localid_prop="map_storage_rdacWork_w/P10067">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10067"/>
       <prop_label xml:lang="en">has sponsoring agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10604">
+   <prop localid_prop="map_storage_rdacWork_w/P10604">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10604"/>
       <prop_label xml:lang="en">has sponsoring collective agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10605">
+   <prop localid_prop="map_storage_rdacWork_w/P10605">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10605"/>
       <prop_label xml:lang="en">has sponsoring corporate body of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10606">
+   <prop localid_prop="map_storage_rdacWork_w/P10606">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10606"/>
       <prop_label xml:lang="en">has sponsoring family of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10607">
+   <prop localid_prop="map_storage_rdacWork_w/P10607">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10607"/>
       <prop_label xml:lang="en">has sponsoring person of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10382">
+   <prop localid_prop="map_storage_rdacWork_w/P10382">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10382"/>
       <prop_label xml:lang="en">has static version</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10392">
+   <prop localid_prop="map_storage_rdacWork_w/P10392">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10392"/>
       <prop_label xml:lang="en">is static version of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10324">
+   <prop localid_prop="map_storage_rdacWork_w/P10324">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10324"/>
       <prop_label xml:lang="en">has subject RDA entity</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10148">
+   <prop localid_prop="map_storage_rdacWork_w/P10148">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10148"/>
       <prop_label xml:lang="en">has derivative work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10300">
+   <prop localid_prop="map_storage_rdacWork_w/P10300">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10300"/>
       <prop_label xml:lang="en">has latitude</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10325">
+   <prop localid_prop="map_storage_rdacWork_w/P10325">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10325"/>
       <prop_label xml:lang="en">is description of person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10084">
+   <prop localid_prop="map_storage_rdacWork_w/P10084">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10084"/>
       <prop_label xml:lang="en">has system of organization</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10176">
+   <prop localid_prop="map_storage_rdacWork_w/P10176">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10176"/>
       <prop_label xml:lang="en">is script for radio program work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10174">
+   <prop localid_prop="map_storage_rdacWork_w/P10174">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10174"/>
       <prop_label xml:lang="en">is screenplay for television program work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10175">
+   <prop localid_prop="map_storage_rdacWork_w/P10175">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10175"/>
       <prop_label xml:lang="en">is screenplay for video work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10172">
+   <prop localid_prop="map_storage_rdacWork_w/P10172">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10172"/>
       <prop_label xml:lang="en">has supplement work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10319">
+   <prop localid_prop="map_storage_rdacWork_w/P10319">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10319"/>
       <prop_label xml:lang="en">has subject agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10262">
+   <prop localid_prop="map_storage_rdacWork_w/P10262">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10262"/>
       <prop_label xml:lang="en">has subject family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10321">
+   <prop localid_prop="map_storage_rdacWork_w/P10321">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10321"/>
       <prop_label xml:lang="en">has subject place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10322">
+   <prop localid_prop="map_storage_rdacWork_w/P10322">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10322"/>
       <prop_label xml:lang="en">has subject timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10256">
+   <prop localid_prop="map_storage_rdacWork_w/P10256">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10256"/>
       <prop_label xml:lang="en">has subject</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10258">
+   <prop localid_prop="map_storage_rdacWork_w/P10258">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10258"/>
       <prop_label xml:lang="en">has subject expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10320">
+   <prop localid_prop="map_storage_rdacWork_w/P10320">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10320"/>
       <prop_label xml:lang="en">has subject collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10259">
+   <prop localid_prop="map_storage_rdacWork_w/P10259">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10259"/>
       <prop_label xml:lang="en">has subject manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10257">
+   <prop localid_prop="map_storage_rdacWork_w/P10257">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10257"/>
       <prop_label xml:lang="en">has subject work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10323">
+   <prop localid_prop="map_storage_rdacWork_w/P10323">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10323"/>
       <prop_label xml:lang="en">has subject nomen</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10260">
+   <prop localid_prop="map_storage_rdacWork_w/P10260">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10260"/>
       <prop_label xml:lang="en">has subject item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10261">
+   <prop localid_prop="map_storage_rdacWork_w/P10261">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10261"/>
       <prop_label xml:lang="en">has subject person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10263">
+   <prop localid_prop="map_storage_rdacWork_w/P10263">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10263"/>
       <prop_label xml:lang="en">has subject corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10216">
+   <prop localid_prop="map_storage_rdacWork_w/P10216">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10216"/>
       <prop_label xml:lang="en">has coverage of content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10222">
+   <prop localid_prop="map_storage_rdacWork_w/P10222">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10222"/>
       <prop_label xml:lang="en">has nature of content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10015">
+   <prop localid_prop="map_storage_rdacWork_w/P10015">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10015"/>
       <prop_label xml:lang="en">has television director agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10467">
+   <prop localid_prop="map_storage_rdacWork_w/P10467">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10467"/>
       <prop_label xml:lang="en">has television director collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10514">
+   <prop localid_prop="map_storage_rdacWork_w/P10514">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10514"/>
       <prop_label xml:lang="en">has television director corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10561">
+   <prop localid_prop="map_storage_rdacWork_w/P10561">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10561"/>
       <prop_label xml:lang="en">has television director family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10420">
+   <prop localid_prop="map_storage_rdacWork_w/P10420">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10420"/>
       <prop_label xml:lang="en">has television director person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10075">
+   <prop localid_prop="map_storage_rdacWork_w/P10075">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10075"/>
       <prop_label xml:lang="en">has television producer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10471">
+   <prop localid_prop="map_storage_rdacWork_w/P10471">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10471"/>
       <prop_label xml:lang="en">has television producer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10518">
+   <prop localid_prop="map_storage_rdacWork_w/P10518">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10518"/>
       <prop_label xml:lang="en">has television producer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10565">
+   <prop localid_prop="map_storage_rdacWork_w/P10565">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10565"/>
       <prop_label xml:lang="en">has television producer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10424">
+   <prop localid_prop="map_storage_rdacWork_w/P10424">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10424"/>
       <prop_label xml:lang="en">has television producer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10163">
+   <prop localid_prop="map_storage_rdacWork_w/P10163">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10163"/>
       <prop_label xml:lang="en">has television screenplay work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10041">
+   <prop localid_prop="map_storage_rdacWork_w/P10041">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10041"/>
       <prop_label xml:lang="en">has degree supervisor</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10024">
+   <prop localid_prop="map_storage_rdacWork_w/P10024">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10024"/>
       <prop_label xml:lang="en">has coordinates of cartographic content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10326">
+   <prop localid_prop="map_storage_rdacWork_w/P10326">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10326"/>
       <prop_label xml:lang="en">is description of corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10085">
+   <prop localid_prop="map_storage_rdacWork_w/P10085">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10085"/>
       <prop_label xml:lang="en">is adapted as television program work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10241">
+   <prop localid_prop="map_storage_rdacWork_w/P10241">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10241"/>
       <prop_label xml:lang="en">has television program music work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10096">
+   <prop localid_prop="map_storage_rdacWork_w/P10096">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10096"/>
       <prop_label xml:lang="en">is adapted as television screenplay work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10372">
+   <prop localid_prop="map_storage_rdacWork_w/P10372">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10372"/>
       <prop_label xml:lang="en">is text for work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10371">
+   <prop localid_prop="map_storage_rdacWork_w/P10371">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10371"/>
       <prop_label xml:lang="en">has text work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10335">
+   <prop localid_prop="map_storage_rdacWork_w/P10335">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10335"/>
       <prop_label xml:lang="en">has thematic index number</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10017">
+   <prop localid_prop="map_storage_rdacWork_w/P10017">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10017"/>
       <prop_label xml:lang="en">has enacting jurisdiction</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10336">
+   <prop localid_prop="map_storage_rdacWork_w/P10336">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10336"/>
       <prop_label xml:lang="en">has transformation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10383">
+   <prop localid_prop="map_storage_rdacWork_w/P10383">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10383"/>
       <prop_label xml:lang="en">has transformation by audience</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10384">
+   <prop localid_prop="map_storage_rdacWork_w/P10384">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10384"/>
       <prop_label xml:lang="en">is transformation by audience of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10377">
+   <prop localid_prop="map_storage_rdacWork_w/P10377">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10377"/>
       <prop_label xml:lang="en">has transformation by extension plan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10378">
+   <prop localid_prop="map_storage_rdacWork_w/P10378">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10378"/>
       <prop_label xml:lang="en">is transformation by extension plan of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10342">
+   <prop localid_prop="map_storage_rdacWork_w/P10342">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10342"/>
       <prop_label xml:lang="en">has transformation by genre</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10343">
+   <prop localid_prop="map_storage_rdacWork_w/P10343">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10343"/>
       <prop_label xml:lang="en">is transformation by genre of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10344">
+   <prop localid_prop="map_storage_rdacWork_w/P10344">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10344"/>
       <prop_label xml:lang="en">has transformation by policy</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10345">
+   <prop localid_prop="map_storage_rdacWork_w/P10345">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10345"/>
       <prop_label xml:lang="en">is transformation by policy of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10340">
+   <prop localid_prop="map_storage_rdacWork_w/P10340">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10340"/>
       <prop_label xml:lang="en">has transformation by style</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10341">
+   <prop localid_prop="map_storage_rdacWork_w/P10341">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10341"/>
       <prop_label xml:lang="en">is transformation by style of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10337">
+   <prop localid_prop="map_storage_rdacWork_w/P10337">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10337"/>
       <prop_label xml:lang="en">is transformation of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10077">
+   <prop localid_prop="map_storage_rdacWork_w/P10077">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10077"/>
       <prop_label xml:lang="en">has academic degree</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10124">
+   <prop localid_prop="map_storage_rdacWork_w/P10124">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10124"/>
       <prop_label xml:lang="en">has guide work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10001">
+   <prop localid_prop="map_storage_rdacWork_w/P10001">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10001"/>
       <prop_label xml:lang="en">has respondent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10332">
+   <prop localid_prop="map_storage_rdacWork_w/P10332">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10332"/>
       <prop_label xml:lang="en">has variant access point for work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10023">
+   <prop localid_prop="map_storage_rdacWork_w/P10023">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10023"/>
       <prop_label xml:lang="en">is adapted in verse as work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10097">
+   <prop localid_prop="map_storage_rdacWork_w/P10097">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10097"/>
       <prop_label xml:lang="en">is adapted as video screenplay work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10249">
+   <prop localid_prop="map_storage_rdacWork_w/P10249">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10249"/>
       <prop_label xml:lang="en">is adapted as video game work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10087">
+   <prop localid_prop="map_storage_rdacWork_w/P10087">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10087"/>
       <prop_label xml:lang="en">is adapted as video work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10164">
+   <prop localid_prop="map_storage_rdacWork_w/P10164">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10164"/>
       <prop_label xml:lang="en">has video screenplay work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10239">
+   <prop localid_prop="map_storage_rdacWork_w/P10239">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10239"/>
       <prop_label xml:lang="en">has video music work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10121">
+   <prop localid_prop="map_storage_rdacWork_w/P10121">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10121"/>
       <prop_label xml:lang="en">is work analysed in</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10245">
+   <prop localid_prop="map_storage_rdacWork_w/P10245">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10245"/>
       <prop_label xml:lang="en">is music for motion picture work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10237">
+   <prop localid_prop="map_storage_rdacWork_w/P10237">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10237"/>
       <prop_label xml:lang="en">has music work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10079">
+   <prop localid_prop="map_storage_rdacWork_w/P10079">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10079"/>
       <prop_label xml:lang="en">has numeric designation of musical work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10244">
+   <prop localid_prop="map_storage_rdacWork_w/P10244">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10244"/>
       <prop_label xml:lang="en">is music for radio program work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10235">
+   <prop localid_prop="map_storage_rdacWork_w/P10235">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10235"/>
       <prop_label xml:lang="en">is adapted as musical theatre work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10242">
+   <prop localid_prop="map_storage_rdacWork_w/P10242">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10242"/>
       <prop_label xml:lang="en">is music for television program work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10240">
+   <prop localid_prop="map_storage_rdacWork_w/P10240">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10240"/>
       <prop_label xml:lang="en">is music for video work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10608">
+   <prop localid_prop="map_storage_rdacWork_w/P10608">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10608"/>
       <prop_label xml:lang="en">has collection accrual method</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10609">
+   <prop localid_prop="map_storage_rdacWork_w/P10609">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10609"/>
       <prop_label xml:lang="en">has collection accrual policy</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10610">
+   <prop localid_prop="map_storage_rdacWork_w/P10610">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10610"/>
       <prop_label xml:lang="en">is metadata description of agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10611">
+   <prop localid_prop="map_storage_rdacWork_w/P10611">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10611"/>
       <prop_label xml:lang="en">is metadata description of collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10612">
+   <prop localid_prop="map_storage_rdacWork_w/P10612">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10612"/>
       <prop_label xml:lang="en">is metadata description of corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10613">
+   <prop localid_prop="map_storage_rdacWork_w/P10613">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10613"/>
       <prop_label xml:lang="en">is metadata description of family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10614">
+   <prop localid_prop="map_storage_rdacWork_w/P10614">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10614"/>
       <prop_label xml:lang="en">is metadata description of person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10615">
+   <prop localid_prop="map_storage_rdacWork_w/P10615">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10615"/>
       <prop_label xml:lang="en">is metadata description of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10616">
+   <prop localid_prop="map_storage_rdacWork_w/P10616">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10616"/>
       <prop_label xml:lang="en">is metadata description of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10617">
+   <prop localid_prop="map_storage_rdacWork_w/P10617">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10617"/>
       <prop_label xml:lang="en">is metadata description of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10618">
+   <prop localid_prop="map_storage_rdacWork_w/P10618">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10618"/>
       <prop_label xml:lang="en">is metadata description of nomen</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10619">
+   <prop localid_prop="map_storage_rdacWork_w/P10619">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10619"/>
       <prop_label xml:lang="en">is metadata description of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10620">
+   <prop localid_prop="map_storage_rdacWork_w/P10620">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10620"/>
       <prop_label xml:lang="en">is metadata description of timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10621">
+   <prop localid_prop="map_storage_rdacWork_w/P10621">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10621"/>
       <prop_label xml:lang="en">is metadata description of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10622">
+   <prop localid_prop="map_storage_rdacWork_w/P10622">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10622"/>
       <prop_label xml:lang="en">is metadata description of RDA entity</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10623">
+   <prop localid_prop="map_storage_rdacWork_w/P10623">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10623"/>
       <prop_label xml:lang="en">is work described with metadata by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10624">
+   <prop localid_prop="map_storage_rdacWork_w/P10624">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10624"/>
       <prop_label xml:lang="en">is finding aid of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10625">
+   <prop localid_prop="map_storage_rdacWork_w/P10625">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10625"/>
       <prop_label xml:lang="en">is catalogue of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10626">
+   <prop localid_prop="map_storage_rdacWork_w/P10626">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10626"/>
       <prop_label xml:lang="en">is hierarchic finding aid of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10627">
+   <prop localid_prop="map_storage_rdacWork_w/P10627">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10627"/>
       <prop_label xml:lang="en">is index for</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10628">
+   <prop localid_prop="map_storage_rdacWork_w/P10628">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10628"/>
       <prop_label xml:lang="en">is concordance work for</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10629">
+   <prop localid_prop="map_storage_rdacWork_w/P10629">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10629"/>
       <prop_label xml:lang="en">has collector agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10630">
+   <prop localid_prop="map_storage_rdacWork_w/P10630">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10630"/>
       <prop_label xml:lang="en">has collector collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10631">
+   <prop localid_prop="map_storage_rdacWork_w/P10631">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10631"/>
       <prop_label xml:lang="en">has collector corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10632">
+   <prop localid_prop="map_storage_rdacWork_w/P10632">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10632"/>
       <prop_label xml:lang="en">has collector family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10633">
+   <prop localid_prop="map_storage_rdacWork_w/P10633">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10633"/>
       <prop_label xml:lang="en">has collector person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10634">
+   <prop localid_prop="map_storage_rdacWork_w/P10634">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10634"/>
       <prop_label xml:lang="en">has collection registrar agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10635">
+   <prop localid_prop="map_storage_rdacWork_w/P10635">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10635"/>
       <prop_label xml:lang="en">has collection registrar collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10636">
+   <prop localid_prop="map_storage_rdacWork_w/P10636">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10636"/>
       <prop_label xml:lang="en">has collection registrar corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10637">
+   <prop localid_prop="map_storage_rdacWork_w/P10637">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10637"/>
       <prop_label xml:lang="en">has collection registrar family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
    </prop>
-   <prop localid_prop="rdaWork_w/P10638">
+   <prop localid_prop="map_storage_rdacWork_w/P10638">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10638"/>
       <prop_label xml:lang="en">has collection registrar person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
