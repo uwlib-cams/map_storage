@@ -18,9 +18,9 @@ for prop in root.findall('.//*[@localid_prop]', ns): # loop through all properti
 	prop_num = prop.attrib['localid_prop']
 	prop_num = prop_num.split('/')[-1] # get property number from local id
 	id_num = 1
-	for implementation_set in prop.findall('.//mapstor:implementationSet', ns): # loop through all implementation sets within each property
+	for implementation_set in prop.findall('.//mapstor:implementation_set', ns): # loop through all implementation sets within each property
 		localid = f'is_{prop_num}_{id_num:03}'
-		implementation_set.set('localid_implementationSet', localid) # set local id as value for attribute localid_implementationSet
+		implementation_set.set('localid_implementation_set', localid) # set local id as value for attribute localid_implementationSet
 		id_num += 1
 tree.write(map_storage_filepath) # write results to output file
 
