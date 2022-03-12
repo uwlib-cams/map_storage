@@ -31,6 +31,11 @@
                                 <xsl:with-param name="get_set" select="."/>
                             </xsl:call-template>
                         </xsl:when>
+                        <xsl:when test="starts-with(mapstor:set_name, 'dc')">
+                            <xsl:call-template name="get_dcTerms">
+                                <xsl:with-param name="get_set" select="."/>
+                            </xsl:call-template>
+                        </xsl:when>
                         <!-- to do : other templates for other sources -->
                         <xsl:otherwise>
                             <xsl:text>&#10;&#10;</xsl:text>

@@ -36,4 +36,12 @@
         </xsl:for-each>
     </xsl:template>
 
+    <xsl:template name="get_dcTerms">
+        <xsl:param name="get_set"/>
+        <xsl:variable name="start_localid"
+            select="concat('map_storage_', $get_set/mapstor:set_name, '_')"/>
+        <!-- rdf:Description is repeated multiple times for each prop...
+        need a group-by or other here to effectively get prop info -->
+    </xsl:template>
+
 </xsl:stylesheet>

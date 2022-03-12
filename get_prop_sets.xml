@@ -19,4 +19,8 @@
         <set_name>rdacItem</set_name>
         <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/i.xml</set_source>
     </get_set>
+    <get_set>
+        <set_name>dcTerms</set_name>
+        <set_source>https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dublin_core_terms.rdf</set_source>
+    </get_set>
 </get_prop_sets>
