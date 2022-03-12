@@ -13,11 +13,11 @@
 
     <!-- Store RDA Registry prop files in vars (just a couple for testing; 13 total for implementation later) -->
     <!-- TO DO iterate over these docs, don't repeat result-doc elements as below -->
-    <xsl:variable name="rda_Work"
+    <xsl:variable name="rdacWork"
         select="document('https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/w.xml')"/>
-    <xsl:variable name="rda_Expression"
+    <xsl:variable name="rdacExpression"
         select="document('https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/e.xml')"/>
-    <xsl:variable name="rda_Manifestation"
+    <xsl:variable name="rdacManifestation"
         select="document('https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/m.xml')"/>
 
     <!-- TO DO iterate over the docs in vars (or something else?), don't repeat result-doc elements as below -->
@@ -30,9 +30,9 @@
                 <xsl:call-template name="rda_properties">
                     <!-- what's the root param do again? -->
                     <xsl:with-param name="root" select="."/>
-                    <xsl:with-param name="prop_set" select="'rdaWork'"/>
+                    <xsl:with-param name="prop_set" select="'rdacWork'"/>
                     <xsl:with-param name="path_to_prop" select="
-                            $rda_Work/rdf:RDF/rdf:Description
+                            $rdacWork/rdf:RDF/rdf:Description
                             [rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]
                             [not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]"
                     />
@@ -46,9 +46,9 @@
                 xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/ https://uwlib-cams.github.io/map_storage/map_storage.xsd">
                 <xsl:call-template name="rda_properties">
                     <xsl:with-param name="root" select="."/>
-                    <xsl:with-param name="prop_set" select="'rdaExpression'"/>
+                    <xsl:with-param name="prop_set" select="'rdacExpression'"/>
                     <xsl:with-param name="path_to_prop" select="
-                            $rda_Expression/rdf:RDF/rdf:Description
+                            $rdacExpression/rdf:RDF/rdf:Description
                             [rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]
                             [not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]"
                     />
@@ -62,9 +62,9 @@
                 xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/ https://uwlib-cams.github.io/map_storage/map_storage.xsd">
                 <xsl:call-template name="rda_properties">
                     <xsl:with-param name="root" select="."/>
-                    <xsl:with-param name="prop_set" select="'rdaManifestation'"/>
+                    <xsl:with-param name="prop_set" select="'rdacManifestation'"/>
                     <xsl:with-param name="path_to_prop" select="
-                            $rda_Manifestation/rdf:RDF/rdf:Description
+                            $rdacManifestation/rdf:RDF/rdf:Description
                             [rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]
                             [not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]"
                     />
