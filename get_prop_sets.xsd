@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="https://uwlib-cams.github.io/map_storage/"
+    xmlns="https://uwlib-cams.github.io/map_storage/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified"
+    vc:minVersion="1.1">
+
+    <!-- why are these here again? -->
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace"
+        schemaLocation="http://www.w3.org/2001/03/xml.xsd"/>
+    <!-- [?] xs:import below results in error -->
+    <xs:import namespace="http://www.w3.org/2001/XMLSchema"
+        schemaLocation="https://www.w3.org/2001/XMLSchema.xsd"/>
+
+    <xs:element name="get_prop_sets" type="get_prop_sets_type"/>
+
+    <xs:complexType name="get_prop_sets_type">
+        <xs:sequence>
+            <xs:element name="get_set" type="get_set_type" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="get_set_type">
+        <xs:sequence>
+            <xs:element name="set_name" type="set_name_type"/>
+            <xs:element name="set_source" type="set_source_type"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="set_name_type">
+        <xs:restriction base="xs:string">
+            <!-- same as map_storage.xsd > mapid_pro_set_attr_type -->
+            <!-- [?] is it possible to put enumeration lists that will need updating, like this one, in an external doc and import here as vars, etc.? 
+                See map_storage #5 -->
+            <xs:enumeration value="rdacWork"/>
+            <xs:enumeration value="rdacExpression"/>
+            <xs:enumeration value="rdacManifestation"/>
+            <!-- Not yet in test storage instance
+            <xs:enumeration value="rdacIPropSet"/>
+            <xs:enumeration value="rdacAPropSet"/>
+            <xs:enumeration value=""/>
+            -->
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="set_source_type">
+        <xs:restriction base="xs:anyURI"/>
+    </xs:simpleType>
+
+</xs:schema>
