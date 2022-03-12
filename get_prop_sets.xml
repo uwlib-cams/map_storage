@@ -15,4 +15,8 @@
         <set_name>rdacManifestation</set_name>
         <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/m.xml</set_source>
     </get_set>
+    <get_set>
+        <set_name>rdacItem</set_name>
+        <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/i.xml</set_source>
+    </get_set>
 </get_prop_sets>
