@@ -49,12 +49,14 @@
                     localid_prop="{concat($start_localid, 
                     substring-after(@rdf:about, 'http://purl.org/dc/terms/'))}">
                     <prop_iri iri="{@rdf:about}"/>
-                    <!-- NOT FUNCTIONING FROM HERE DOWN -->
                     <prop_label xml:lang="en">
-                        <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
+                        <xsl:value-of select="current-group()/rdfs:label[@xml:lang = 'en']"/>
                     </prop_label>
-                    <xsl:if test="..//rdfs:domain/node()">
-                        <xsl:for-each select="..//rdfs:domain/@rdf:resource">
+                    
+                    <!-- NOT FUNCTIONING FROM HERE DOWN -->
+                    
+                    <xsl:if test="current-group()/../rdf:Description/rdfs:domain/node()">
+                        <xsl:for-each select="current-group()/../rdf:Description/rdfs:domain/@rdf:resource">
                             <prop_domain iri="{.}"/>
                         </xsl:for-each>
                     </xsl:if>
