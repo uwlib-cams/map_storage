@@ -6,7 +6,7 @@
     elementFormDefault="qualified"
     vc:minVersion="1.1">
     
-    <xs:simpleType name="mapid_prop_set_attr_type">
+    <xs:simpleType name="prop_set_label_type">
         <!-- = uwl_sinopia_maps.xsd > prop_set_type -->
         <xs:restriction base="xs:string">
             <!-- (MAP ID component) -->
