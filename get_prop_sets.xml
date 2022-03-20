@@ -4,23 +4,23 @@
     xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/ 
     https://uwlib-cams.github.io/map_storage/get_prop_sets_xsd">
     <get_set>
-        <set_name>rdacWork</set_name>
+        <set_name>rdaw_p10k</set_name>
         <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/w.xml</set_source>
     </get_set>
     <get_set>
-        <set_name>rdacExpression</set_name>
+        <set_name>rdae_p20k</set_name>
         <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/e.xml</set_source>
     </get_set>
     <get_set>
-        <set_name>rdacManifestation</set_name>
+        <set_name>rdam_p30k</set_name>
         <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/m.xml</set_source>
     </get_set>
     <get_set>
-        <set_name>rdacItem</set_name>
+        <set_name>rdai_p40k</set_name>
         <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/i.xml</set_source>
     </get_set>
     <get_set>
-        <set_name>dcTerms</set_name>
+        <set_name>dcterms</set_name>
         <set_source>https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dublin_core_terms.rdf</set_source>
     </get_set>
 </get_prop_sets>
