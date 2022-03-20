@@ -16,7 +16,7 @@
     <xs:import namespace="https://uwlib-cams.github.io/sinopia_maps/"
         schemaLocation="https://uwlib-cams.github.io/sinopia_maps/uwsinopia.xsd"/>
     
-    <!--  ***** REUSE THESE TYPES IN OTHER NAMESPACES ***** -->
+    <!--  ***** REUSE THESE TYPES , INCLUDING IN OTHER NAMESPACES ***** -->
     
     <xs:simpleType name="prop_set_label_type">
         <!-- = uwl_sinopia_maps.xsd > prop_set_type -->
@@ -51,11 +51,10 @@
     </xs:simpleType>
     
     <xs:complexType name="lang_string_type">
+        <!-- Use values from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry  -->
         <!-- to do: need default "en" -->
-        <!-- also to do confirm use of correct lang-tag set (is there a rule for XML?? see below) -->
         <xs:simpleContent>
             <xs:extension base="xs:string">
-                <!-- Use values from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry  -->
                 <xs:attribute ref="xml:lang" use="required"/>
                 <!-- xsd: to do / wishlist / question: possible to add enumerations here?? -->
                 <!-- en -->
@@ -67,9 +66,6 @@
     <xs:simpleType name="localid_attr">
         <xs:restriction base="xs:string">
             <!-- Possible to an XSD mechanism to prevent duplicate values? -->
-            <!-- Possible to provide constraints *and* a default? See map_storage #6 -->
-            <!-- A default in the case of localid_[...] attrs would allow users to enter a "placeholder" localid during source editing 
-                and avoid validation errors; then unique localid values would be added with XSLT or Python after source editing -->
             <xs:pattern value="\S+"/>
         </xs:restriction>
     </xs:simpleType>

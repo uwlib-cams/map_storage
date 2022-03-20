@@ -27,7 +27,9 @@
     </xs:complexType>
 
     <xs:simpleType name="set_source_type">
-        <xs:restriction base="xs:anyURI"/>
+        <xs:restriction base="xs:anyURI">
+            <!-- would be good to enumerate here -->
+        </xs:restriction>
     </xs:simpleType>
 
 </xs:schema>
