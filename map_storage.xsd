@@ -7,17 +7,31 @@
     xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified"
     vc:minVersion="1.1">
 
-    <!-- IMPORT/INCLUDE -->
+    <!-- ***** IMPORT/INCLUDE ***** -->
+    
     <xs:import namespace="http://www.w3.org/XML/1998/namespace"
         schemaLocation="http://www.w3.org/2001/03/xml.xsd"/>
     <xs:import namespace="http://www.w3.org/2001/XMLSchema"
         schemaLocation="https://www.w3.org/2001/XMLSchema.xsd"/>
     <xs:import namespace="https://uwlib-cams.github.io/sinopia_maps/"
         schemaLocation="https://uwlib-cams.github.io/sinopia_maps/uwsinopia.xsd"/>
-    <xs:include schemaLocation="prop_sets.xsd"/>
     
-    <!-- REUSE IN OTHER NAMESPACES -->
-    <xs:simpleType name="resource_type">
+    <!--  ***** REUSE THESE TYPES IN OTHER NAMESPACES ***** -->
+    
+    <xs:simpleType name="prop_set_label_type">
+        <!-- = uwl_sinopia_maps.xsd > prop_set_type -->
+        <xs:restriction base="xs:string">
+            <!-- (MAP ID component) -->
+            <!-- [?] is it possible to put enumeration lists that will need updating, like this one, in an external doc and import here as vars, etc.? 
+                See map_storage #5 -->
+            <xs:enumeration value="rdacWork"/>
+            <xs:enumeration value="rdacExpression"/>
+            <xs:enumeration value="rdacManifestation"/>
+            <xs:enumeration value="rdacItem"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="resource_label_type">
         <xs:restriction base="xs:string">
             <!-- (MAP ID component) -->
             <!-- For prop sets from RDA Registry, mapid_prop_set and mapid_resource values will be redundant 
@@ -35,8 +49,45 @@
             -->
         </xs:restriction>
     </xs:simpleType>
+    
+    <xs:complexType name="lang_string_type">
+        <!-- to do: need default "en" -->
+        <!-- also to do confirm use of correct lang-tag set (is there a rule for XML?? see below) -->
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <!-- Use values from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry  -->
+                <xs:attribute ref="xml:lang" use="required"/>
+                <!-- xsd: to do / wishlist / question: possible to add enumerations here?? -->
+                <!-- en -->
+                <!-- zxx -->
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:simpleType name="localid_attr">
+        <xs:restriction base="xs:string">
+            <!-- Possible to an XSD mechanism to prevent duplicate values? -->
+            <!-- Possible to provide constraints *and* a default? See map_storage #6 -->
+            <!-- A default in the case of localid_[...] attrs would allow users to enter a "placeholder" localid during source editing 
+                and avoid validation errors; then unique localid values would be added with XSLT or Python after source editing -->
+            <xs:pattern value="\S+"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:complexType name="iri_type">
+        <xs:attribute name="iri">
+            <xs:simpleType>
+                <xs:restriction base="xs:anyURI">
+                    <!-- IRI validation pattern -->
+                    <xs:pattern value="https?:\/\/\S*"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+    
+    <!-- ****** prop_set INSTANCE SCHEMA ****** -->
 
-    <!-- ******************* prop_set ******************* -->
+    <!-- **** prop_set **** -->
     <xs:element name="prop_set" type="prop_set_type"/>
     
     <xs:complexType name="prop_set_type">
@@ -47,7 +98,7 @@
         </xs:sequence>
     </xs:complexType>
 
-    <!-- ****************** prop ****************** -->
+    <!-- *** prop *** -->
     <xs:complexType name="prop_type">
         <xs:sequence>
             <xs:element name="prop_iri" type="iri_type" minOccurs="1" maxOccurs="1"/>
@@ -63,47 +114,6 @@
         <xs:attribute name="localid_prop" type="localid_attr" use="required"/>
     </xs:complexType>
 
-    <!-- REUSE -->
-    <xs:complexType name="iri_type">
-        <xs:attribute name="iri">
-            <xs:simpleType>
-                <xs:restriction base="xs:anyURI">
-                    <!-- IRI validation pattern -->
-                    <xs:pattern value="https?:\/\/\S*"/>
-                </xs:restriction>
-            </xs:simpleType>
-        </xs:attribute>
-    </xs:complexType>
-
-    <!-- REUSE -->
-    <xs:simpleType name="localid_attr">
-        <xs:restriction base="xs:string">
-            <!-- Possible to an XSD mechanism to prevent duplicate values? -->
-            <!-- Possible to provide constraints *and* a default? See map_storage #6 -->
-            <!-- A default in the case of localid_[...] attrs would allow users to enter a "placeholder" localid during source editing 
-                and avoid validation errors; then unique localid values would be added with XSLT or Python after source editing -->
-            <xs:pattern value="\S+"/>
-        </xs:restriction>
-    </xs:simpleType>
-
-    <!-- REUSE -->
-    <xs:complexType name="lang_string_type">
-        <!-- to do: need default "en" -->
-        <!-- also to do confirm use of correct lang-tag set (is there a rule for XML?? see below) -->
-        <xs:simpleContent>
-            <xs:extension base="xs:string">
-                <!-- Use values from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry  -->
-                <xs:attribute ref="xml:lang" use="required"/>
-                <!-- xsd: to do / wishlist / question: possible to add enumerations here?? -->
-                <!-- en -->
-                <!-- zxx -->
-            </xs:extension>
-        </xs:simpleContent>
-    </xs:complexType>
-
-    <!-- prop_domain: iri_type defined above -->
-    <!-- prop_range: iri_type defined above -->
-
     <!-- BMR TO DO [!] This element needs work; attributes need better constraints -->
     <xs:complexType name="url_type">
         <xs:simpleContent>
@@ -116,10 +126,7 @@
                 <!-- Maybe store link text as text child, not in @ -->
                 <xs:attribute name="link_text"/>
             </xs:extension>
-
         </xs:simpleContent>
-    </xs:complexType>
-
-    
+    </xs:complexType>    
 
 </xs:schema>

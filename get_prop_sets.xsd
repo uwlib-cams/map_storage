@@ -9,7 +9,7 @@
         schemaLocation="http://www.w3.org/2001/03/xml.xsd"/>
     <xs:import namespace="http://www.w3.org/2001/XMLSchema"
         schemaLocation="https://www.w3.org/2001/XMLSchema.xsd"/>
-    <xs:include schemaLocation="prop_sets.xsd"/>
+    <xs:include schemaLocation="map_storage.xsd"/>
 
     <xs:element name="get_prop_sets" type="get_prop_sets_type"/>
 
