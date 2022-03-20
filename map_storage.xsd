@@ -7,19 +7,16 @@
     xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified"
     vc:minVersion="1.1">
 
-    <!-- why are these here again? -->
+    <!-- IMPORT/INCLUDE -->
     <xs:import namespace="http://www.w3.org/XML/1998/namespace"
         schemaLocation="http://www.w3.org/2001/03/xml.xsd"/>
-    <!-- [?] xs:import below results in error -->
     <xs:import namespace="http://www.w3.org/2001/XMLSchema"
         schemaLocation="https://www.w3.org/2001/XMLSchema.xsd"/>
-    
-    <xs:include schemaLocation="prop_sets.xsd"/>
-    
     <xs:import namespace="https://uwlib-cams.github.io/sinopia_maps/"
         schemaLocation="https://uwlib-cams.github.io/sinopia_maps/uwsinopia.xsd"/>
+    <xs:include schemaLocation="prop_sets.xsd"/>
     
-    <!-- TESTING HERE -->
+    <!-- REUSE IN OTHER NAMESPACES -->
     <xs:simpleType name="resource_type">
         <xs:restriction base="xs:string">
             <!-- (MAP ID component) -->
