@@ -19,44 +19,57 @@
     <!--  ***** REUSE THESE TYPES , INCLUDING IN OTHER NAMESPACES ***** -->
     
     <xs:simpleType name="prop_set_label_type">
-        <!-- = uwl_sinopia_maps.xsd > prop_set_type -->
+        <xs:annotation>
+            <xs:documentation>For RDA property sets:</xs:documentation>
+            <xs:documentation>These options correspond to documents published at the RDA Registry detailing RDA/RDF properties for use with a given domain.</xs:documentation>
+            <xs:documentation>Most property-set labels will be self-explanatory, but note that...</xs:documentation>
+            <xs:documentation>The 'rdax_p00k' property set includes properties for use with the class 'RDA Entity'.</xs:documentation>
+            <xs:documentation>For other property sets:</xs:documentation>
+            <xs:documentation>The 'dcterms' property set includes the Dublin Core Terms.</xs:documentation>
+        </xs:annotation>
+        <!-- (MAP ID component) -->
         <xs:restriction base="xs:string">
-            <!-- (MAP ID component) -->
-            <!-- [?] is it possible to put enumeration lists that will need updating, like this one, in an external doc and import here as vars, etc.? 
-                See map_storage #5 -->
-            <xs:enumeration value="rdacWork"/>
-            <xs:enumeration value="rdacExpression"/>
-            <xs:enumeration value="rdacManifestation"/>
-            <xs:enumeration value="rdacItem"/>
+            <xs:enumeration value="rdaw_p10k"/>
+            <xs:enumeration value="rdae_p20k"/>
+            <xs:enumeration value="rdam_p30k"/>
+            <xs:enumeration value="rdai_p40k"/>
+            <xs:enumeration value="rdaa_p50k"/>
+            <xs:enumeration value="rdan_p80k"/>
+            <xs:enumeration value="rdap_p70k"/>
+            <xs:enumeration value="rdat_p70k"/>
+            <xs:enumeration value="rdax_p00k"/>
+            <xs:enumeration value="dcterms"/>
         </xs:restriction>
     </xs:simpleType>
     
     <xs:simpleType name="resource_label_type">
         <xs:restriction base="xs:string">
             <!-- (MAP ID component) -->
-            <!-- For prop sets from RDA Registry, mapid_prop_set and mapid_resource values will be redundant 
-            (RDA Work property set properties for use in an RDA Work RT), 
-            but this may not be the case for other vocabularies -->
-            <xs:enumeration value="rdacWork"/>
-            <xs:enumeration value="rdacExpression"/>
-            <xs:enumeration value="rdacManifestation"/>
-            <!-- enumeration below for testing -->
+            <xs:enumeration value="rdaWork"/>
+            <xs:enumeration value="rdaAgent"/>
+            <xs:enumeration value="rdaItem"/>
+            <xs:enumeration value="rdaPerson"/>
+            <xs:enumeration value="rdaCorporateBody"/>
+            <xs:enumeration value="rdaExpression"/>
+            <xs:enumeration value="rdaManifestation"/>
+            <xs:enumeration value="rdaFamily"/>
+            <xs:enumeration value="rdaPlace"/>
+            <xs:enumeration value="rdaTimespan"/>
+            <xs:enumeration value="rdaCollectiveAgent"/>
+            <xs:enumeration value="rdaNomen"/>
+            <xs:enumeration value="rdaEntity"/>
+            <!-- enumeration below for testing to do delete later -->
             <xs:enumeration value="testMultiplePropSets"/>
-            <!-- Not yet in test storage instance
-            <xs:enumeration value="rdacItem"/>
-            <xs:enumeration value="rdacAgent"/>
-            <xs:enumeration value=""/>
-            -->
         </xs:restriction>
     </xs:simpleType>
     
     <xs:complexType name="lang_string_type">
         <!-- Use values from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry  -->
-        <!-- to do: need default "en" -->
+        <!-- to do need default "en" -->
         <xs:simpleContent>
             <xs:extension base="xs:string">
                 <xs:attribute ref="xml:lang" use="required"/>
-                <!-- xsd: to do / wishlist / question: possible to add enumerations here?? -->
+                <!-- to do / wishlist / question: possible to add enumerations here?? -->
                 <!-- en -->
                 <!-- zxx -->
             </xs:extension>
