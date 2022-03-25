@@ -16,7 +16,7 @@
     <xs:import namespace="https://uwlib-cams.github.io/sinopia_maps/xsd/"
         schemaLocation="https://uwlib-cams.github.io/sinopia_maps/xsd/uwsinopia.xsd"/>
     
-    <!--  ***** REUSE THESE TYPES , INCLUDING IN OTHER NAMESPACES ***** -->
+    <!--  ***** REUSE THESE TYPES ***** -->
     
     <xs:simpleType name="prop_set_label_type">
         <xs:annotation>
@@ -97,7 +97,7 @@
         </xs:attribute>
     </xs:complexType>
     
-    <!-- ****** prop_set INSTANCE SCHEMA ****** -->
+    <!-- ********* SCHEMA ********* -->
 
     <!-- **** prop_set **** -->
     <xs:element name="prop_set" type="prop_set_type"/>
@@ -117,7 +117,9 @@
             <xs:element name="prop_label" type="lang_string_type" minOccurs="1"
                 maxOccurs="unbounded"/>
             <xs:element name="prop_domain" type="iri_type" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="prop_domain_includes" type="iri_type" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element name="prop_range" type="iri_type" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="prop_range_includes" type="iri_type" minOccurs="0" maxOccurs="unbounded"/>
             <!-- CONSIDER creating additional elements so that URLs can be stored for 1) output as ref links to appear in Sinopia UI and
                 2) output as ref links with descriptive text to appear in HTML -->
             <xs:element name="prop_related_url" type="url_type" minOccurs="0" maxOccurs="unbounded"/>
