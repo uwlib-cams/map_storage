@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema targetNamespace="https://uwlib-cams.github.io/map_storage/"
-    xmlns="https://uwlib-cams.github.io/map_storage/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<xs:schema targetNamespace="https://uwlib-cams.github.io/map_storage/xsd/"
+    xmlns="https://uwlib-cams.github.io/map_storage/xsd/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified"
     vc:minVersion="1.1">
 
@@ -9,7 +9,7 @@
         schemaLocation="http://www.w3.org/2001/03/xml.xsd"/>
     <xs:import namespace="http://www.w3.org/2001/XMLSchema"
         schemaLocation="https://www.w3.org/2001/XMLSchema.xsd"/>
-    <xs:include schemaLocation="map_storage.xsd"/>
+    <xs:include schemaLocation="prop_set.xsd"/>
 
     <xs:element name="get_prop_sets" type="get_prop_sets_type"/>
 

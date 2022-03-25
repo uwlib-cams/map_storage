@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<get_prop_sets xmlns="https://uwlib-cams.github.io/map_storage/" 
+<get_prop_sets xmlns="https://uwlib-cams.github.io/map_storage/xsd/" 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/ 
-    https://uwlib-cams.github.io/map_storage/get_prop_sets_xsd">
+    xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ 
+    https://uwlib-cams.github.io/map_storage/xsd/get_prop_sets_xsd">
     <get_set>
         <set_name>rdaw_p10k</set_name>
         <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/w.xml</set_source>

@@ -4,7 +4,7 @@
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-    xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/" 
+    xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/" 
     xmlns:dcam="http://purl.org/dc/dcam/"
     version="3.0">
 
