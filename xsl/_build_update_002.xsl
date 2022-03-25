@@ -17,7 +17,7 @@
         <xsl:for-each select="uwmaps:get_prop_sets/uwmaps:get_set">
             <xsl:result-document href="{concat('../prop_set_', uwmaps:set_name, '.xml')}">
                 <prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-                    xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/map_storage/xsd/prop_set.xsd"
+                    xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd"
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                     xmlns:xs="http://www.w3.org/2001/XMLSchema">
                     <prop_set_label>

@@ -17,7 +17,7 @@
                 document($get_set/uwmaps:set_source)/rdf:RDF/rdf:Description
                 [rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]
                 [not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]">
-            <prop xmlns="https://uwlib-cams.github.io/map_storage/"
+            <prop xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
                 localid_prop="{concat($start_localid, 
                     substring-after(@rdf:about, 'http://rdaregistry.info/Elements/'))}">
                 <prop_iri iri="{@rdf:about}"/>
@@ -47,7 +47,7 @@
             group-by="@rdf:about">
             <xsl:for-each
                 select="current-group()[rdf:type/@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']">
-                <prop xmlns="https://uwlib-cams.github.io/map_storage/"
+                <prop xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
                     localid_prop="{concat($start_localid, 
                     substring-after(@rdf:about, 'http://purl.org/dc/terms/'))}">
                     <prop_iri iri="{@rdf:about}"/>
