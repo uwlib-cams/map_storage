@@ -20,7 +20,29 @@
         <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/i.xml</set_source>
     </get_set>
     <get_set>
+        <set_name>rdaa_p50k</set_name>
+        <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/a.xml</set_source>
+    </get_set>
+    <get_set>
+        <set_name>rdan_p80k</set_name>
+        <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/n.xml</set_source>
+    </get_set>
+    <get_set>
+        <set_name>rdap_p70k</set_name>
+        <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/p.xml</set_source>
+    </get_set>
+    <get_set>
+        <set_name>rdat_p70k</set_name>
+        <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/t.xml</set_source>
+    </get_set>
+    <get_set>
+        <set_name>rdax_p00k</set_name>
+        <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/x.xml</set_source>
+    </get_set>
+    <!-- 
+    <get_set>
         <set_name>dcterms</set_name>
         <set_source>https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dublin_core_terms.rdf</set_source>
     </get_set>
+    -->
 </get_prop_sets>

@@ -8,7 +8,7 @@
     xmlns:dcam="http://purl.org/dc/dcam/"
     version="3.0">
 
-    <!-- get RDA properties -->
+    <!-- get RDA Registry properties -->
     <xsl:template name="get_rda">
         <xsl:param name="get_set"/>
         <xsl:variable name="start_localid"
@@ -38,7 +38,7 @@
         </xsl:for-each>
     </xsl:template>
 
-    <!-- get Dublin Core properties -->
+    <!-- get Dublin Core Terms -->
     <xsl:template name="get_dcTerms">
         <xsl:param name="get_set"/>
         <xsl:variable name="start_localid"

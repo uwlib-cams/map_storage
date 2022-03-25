@@ -38,6 +38,9 @@
             <xs:enumeration value="rdap_p70k"/>
             <xs:enumeration value="rdat_p70k"/>
             <xs:enumeration value="rdax_p00k"/>
+            <!-- RDA/ONIX Framework element set not yet added  -->
+            <!-- RDA unconstrained not yet added -->
+            <!-- RDA metadata element properties (Deprecated) will not be added -->
             <xs:enumeration value="dcterms"/>
         </xs:restriction>
     </xs:simpleType>
