@@ -4,13 +4,13 @@
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-    xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/" 
-    xmlns:dcam="http://purl.org/dc/dcam/"
-    version="3.0">
+    xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
+    xmlns:dcam="http://purl.org/dc/dcam/" version="3.0">
 
     <!-- get RDA Registry properties -->
     <xsl:template name="get_rda">
         <xsl:param name="get_set"/>
+        <!-- move start_localid or similar to reuse.xsl? -->
         <xsl:variable name="start_localid"
             select="concat('map_storage_', $get_set/uwmaps:set_name, '_')"/>
         <xsl:for-each select="
@@ -24,6 +24,7 @@
                 <prop_label xml:lang="en">
                     <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
                 </prop_label>
+                <!-- should domain and range be for-each? -->
                 <xsl:if test="rdfs:domain = node()">
                     <prop_domain iri="{rdfs:domain/@rdf:resource}"/>
                 </xsl:if>
@@ -41,6 +42,7 @@
     <!-- get Dublin Core Terms -->
     <xsl:template name="get_dcTerms">
         <xsl:param name="get_set"/>
+        <!-- move start_localid or similar to reuse.xsl? -->
         <xsl:variable name="start_localid"
             select="concat('map_storage_', $get_set/uwmaps:set_name, '_')"/>
         <xsl:for-each-group select="document($get_set/uwmaps:set_source)/rdf:RDF/rdf:Description"
@@ -54,7 +56,26 @@
                     <prop_label xml:lang="en">
                         <xsl:value-of select="current-group()/rdfs:label[@xml:lang = 'en']"/>
                     </prop_label>
-                    <!-- ... to do bring in other needed prop info! -->
+                    <xsl:if test="current-group()/rdfs:domain">
+                        <xsl:for-each select="current-group()/rdfs:domain">
+                            <prop_domain iri="{@rdf:resource}"/>
+                        </xsl:for-each>
+                    </xsl:if>
+                    <xsl:if test="current-group()/dcam:domainIncludes">
+                        <xsl:for-each select="current-group()/dcam:domainIncludes">
+                            <prop_domain_includes iri="{@rdf:resource}"/>
+                        </xsl:for-each>
+                    </xsl:if>
+                    <xsl:if test="current-group()/rdfs:range">
+                        <xsl:for-each select="current-group()/rdfs:range">
+                            <prop_range iri="{@rdf:resource}"/>
+                        </xsl:for-each>
+                    </xsl:if>
+                    <xsl:if test="current-group()/dcam:rangeIncludes">
+                        <xsl:for-each select="current-group()/dcam:rangeIncludes">
+                            <prop_range_includes iri="{@rdf:resource}"/>
+                        </xsl:for-each>
+                    </xsl:if>
                 </prop>
             </xsl:for-each>
         </xsl:for-each-group>
