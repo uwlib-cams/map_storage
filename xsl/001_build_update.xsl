@@ -11,7 +11,7 @@
     <xsl:output method="xml" indent="yes"/>
     
     <!-- Include named templates -->
-    <xsl:include href="source_templates.xsl"/>
+    <xsl:include href="001source_templates.xsl"/>
     
     <xsl:template match="/">
         <xsl:for-each select="uwmaps:get_prop_sets/uwmaps:get_set">
