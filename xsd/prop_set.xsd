@@ -18,6 +18,7 @@
     
     <!--  ***** REUSE THESE TYPES ***** -->
     
+    <!-- (MAP ID component) -->
     <xs:simpleType name="prop_set_label_type">
         <xs:annotation>
             <xs:documentation>For RDA property sets:</xs:documentation>
@@ -27,7 +28,6 @@
             <xs:documentation>For other property sets:</xs:documentation>
             <xs:documentation>The 'dcterms' property set includes the Dublin Core Terms.</xs:documentation>
         </xs:annotation>
-        <!-- (MAP ID component) -->
         <xs:restriction base="xs:string">
             <xs:enumeration value="rdaw_p10k"/>
             <xs:enumeration value="rdae_p20k"/>
@@ -42,12 +42,13 @@
             <!-- RDA unconstrained not yet added -->
             <!-- RDA metadata element properties (Deprecated) will not be added -->
             <xs:enumeration value="dcterms"/>
+            <xs:enumeration value="prov"/>
         </xs:restriction>
     </xs:simpleType>
     
+    <!-- (MAP ID component) -->
     <xs:simpleType name="resource_label_type">
         <xs:restriction base="xs:string">
-            <!-- (MAP ID component) -->
             <xs:enumeration value="rdaWork"/>
             <xs:enumeration value="rdaAgent"/>
             <xs:enumeration value="rdaItem"/>
@@ -61,8 +62,7 @@
             <xs:enumeration value="rdaCollectiveAgent"/>
             <xs:enumeration value="rdaNomen"/>
             <xs:enumeration value="rdaEntity"/>
-            <!-- enumeration below for testing to do delete later -->
-            <xs:enumeration value="testMultiplePropSets"/>
+            <xs:enumeration value="provBundle"/>
         </xs:restriction>
     </xs:simpleType>
     

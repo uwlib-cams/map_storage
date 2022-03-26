@@ -5,20 +5,23 @@
     xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
-    xmlns:dcam="http://purl.org/dc/dcam/" version="3.0">
+    xmlns:dcam="http://purl.org/dc/dcam/" xmlns:bmrxml="https://briesenberg07.github.io/xml_stack/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prov="http://www.w3.org/ns/prov#" version="3.0">
+
+    <xsl:function name="bmrxml:start_local_id">
+        <xsl:param name="set_name"/>
+        <xsl:value-of select="concat('map_storage_', $set_name, '_')"/>
+    </xsl:function>
 
     <!-- get RDA Registry properties -->
     <xsl:template name="get_rda">
         <xsl:param name="get_set"/>
-        <!-- move start_localid or similar to reuse.xsl? -->
-        <xsl:variable name="start_localid"
-            select="concat('map_storage_', $get_set/uwmaps:set_name, '_')"/>
         <xsl:for-each select="
                 document($get_set/uwmaps:set_source)/rdf:RDF/rdf:Description
                 [rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]
                 [not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]">
             <prop xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-                localid_prop="{concat($start_localid, 
+                localid_prop="{concat(bmrxml:start_local_id($get_set/uwmaps:set_name), 
                     substring-after(@rdf:about, 'http://rdaregistry.info/Elements/'))}">
                 <prop_iri iri="{@rdf:about}"/>
                 <prop_label xml:lang="en">
@@ -42,15 +45,13 @@
     <!-- get Dublin Core Terms -->
     <xsl:template name="get_dcTerms">
         <xsl:param name="get_set"/>
-        <!-- move start_localid or similar to reuse.xsl? -->
-        <xsl:variable name="start_localid"
-            select="concat('map_storage_', $get_set/uwmaps:set_name, '_')"/>
         <xsl:for-each-group select="document($get_set/uwmaps:set_source)/rdf:RDF/rdf:Description"
             group-by="@rdf:about">
-            <xsl:for-each
-                select="current-group()[rdf:type/@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']">
+            <xsl:for-each select="
+                    current-group()
+                    [rdf:type/@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']">
                 <prop xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-                    localid_prop="{concat($start_localid, 
+                    localid_prop="{concat(bmrxml:start_local_id($get_set/uwmaps:set_name), 
                     substring-after(@rdf:about, 'http://purl.org/dc/terms/'))}">
                     <prop_iri iri="{@rdf:about}"/>
                     <prop_label xml:lang="en">
@@ -80,9 +81,31 @@
             </xsl:for-each>
         </xsl:for-each-group>
     </xsl:template>
-    
+
+    <!-- get PROV object properties -->
+    <!-- [!] only retrieves object properties! -->
     <xsl:template name="get_prov">
-        
+        <xsl:param name="get_set"/>
+        <xsl:for-each select="document($get_set/uwmaps:set_source)/rdf:RDF/owl:ObjectProperty">
+            <prop xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
+                localid_prop="{concat(bmrxml:start_local_id($get_set/uwmaps:set_name), 
+                translate(substring-after(@rdf:about, 'http://www.w3.org/ns/'), '#', '_'))}">
+                <prop_iri iri="{@rdf:about}"/>
+                <prop_label xml:lang="en">
+                    <xsl:value-of select="rdfs:label"/>
+                </prop_label>
+                <xsl:if test="rdfs:domain/@rdf:resource">
+                    <xsl:for-each select="rdfs:domain[@rdf:resource]">
+                        <prop_domain iri="{@rdf:resource}"/>
+                    </xsl:for-each>
+                </xsl:if>
+                <xsl:if test="rdfs:range/@rdf:resource">
+                    <xsl:for-each select="rdfs:range[@rdf:resource]">
+                        <prop_range iri="{@rdf:resource}"/>
+                    </xsl:for-each>
+                </xsl:if>
+            </prop>
+        </xsl:for-each>
     </xsl:template>
 
 </xsl:stylesheet>

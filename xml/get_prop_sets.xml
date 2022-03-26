@@ -45,5 +45,10 @@
         <set_name>dcterms</set_name>
         <set_source>https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dublin_core_terms.rdf</set_source>
     </get_set>
-
+    
+    <get_set>
+        <set_name>prov</set_name>
+        <set_source>http://www.w3.org/ns/prov.owl</set_source>
+    </get_set>
+    
 </get_prop_sets>

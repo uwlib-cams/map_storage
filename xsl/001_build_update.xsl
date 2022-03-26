@@ -6,6 +6,9 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
     xmlns:dcam="http://purl.org/dc/dcam/"
+    xmlns:bmrxml="https://briesenberg07.github.io/xml_stack/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
     version="3.0">
     
     <xsl:output method="xml" indent="yes"/>
@@ -29,8 +32,13 @@
                                 <xsl:with-param name="get_set" select="."/>
                             </xsl:call-template>
                         </xsl:when>
-                        <xsl:when test="starts-with(uwmaps:set_name, 'dc')">
+                        <xsl:when test="starts-with(uwmaps:set_name, 'dct')">
                             <xsl:call-template name="get_dcTerms">
+                                <xsl:with-param name="get_set" select="."/>
+                            </xsl:call-template>
+                        </xsl:when>
+                        <xsl:when test="starts-with(uwmaps:set_name, 'prov')">
+                            <xsl:call-template name="get_prov">
                                 <xsl:with-param name="get_set" select="."/>
                             </xsl:call-template>
                         </xsl:when>
