@@ -46,26 +46,6 @@
         </xs:restriction>
     </xs:simpleType>
     
-    <!-- (MAP ID component) -->
-    <xs:simpleType name="resource_label_type">
-        <xs:restriction base="xs:string">
-            <xs:enumeration value="rdaWork"/>
-            <xs:enumeration value="rdaAgent"/>
-            <xs:enumeration value="rdaItem"/>
-            <xs:enumeration value="rdaPerson"/>
-            <xs:enumeration value="rdaCorporateBody"/>
-            <xs:enumeration value="rdaExpression"/>
-            <xs:enumeration value="rdaManifestation"/>
-            <xs:enumeration value="rdaFamily"/>
-            <xs:enumeration value="rdaPlace"/>
-            <xs:enumeration value="rdaTimespan"/>
-            <xs:enumeration value="rdaCollectiveAgent"/>
-            <xs:enumeration value="rdaNomen"/>
-            <xs:enumeration value="rdaEntity"/>
-            <xs:enumeration value="provBundle"/>
-        </xs:restriction>
-    </xs:simpleType>
-    
     <xs:complexType name="lang_string_type">
         <!-- Use values from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry  -->
         <!-- to do need default "en" -->
