@@ -5,10 +5,10 @@
     xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
+    xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
     xmlns:dcam="http://purl.org/dc/dcam/"
-    xmlns:bmrxml="https://briesenberg07.github.io/xml_stack/"
-    xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
     version="3.0">
     
     <xsl:output method="xml" indent="yes"/>
