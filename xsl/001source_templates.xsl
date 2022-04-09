@@ -21,8 +21,8 @@
                 [rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]
                 [not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]">
             <prop xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-                localid_prop="{concat(bmrxml:start_local_id($get_set/uwmaps:set_name), 
-                    substring-after(@rdf:about, 'http://rdaregistry.info/Elements/'))}">
+                localid_prop="{concat(bmrxml:start_local_id($get_set/uwmaps:set_name),
+                    translate(substring-after(@rdf:about, 'http://rdaregistry.info/Elements/'), '/', '_'))}">
                 <prop_iri iri="{@rdf:about}"/>
                 <prop_label xml:lang="en">
                     <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
@@ -51,7 +51,7 @@
                     current-group()
                     [rdf:type/@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']">
                 <prop xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-                    localid_prop="{concat(bmrxml:start_local_id($get_set/uwmaps:set_name), 
+                    localid_prop="{concat(bmrxml:start_local_id($get_set/uwmaps:set_name),
                     substring-after(@rdf:about, 'http://purl.org/dc/terms/'))}">
                     <prop_iri iri="{@rdf:about}"/>
                     <prop_label xml:lang="en">
@@ -88,8 +88,8 @@
         <xsl:param name="get_set"/>
         <xsl:for-each select="document($get_set/uwmaps:set_source)/rdf:RDF/owl:ObjectProperty">
             <prop xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-                localid_prop="{concat(bmrxml:start_local_id($get_set/uwmaps:set_name), 
-                translate(substring-after(@rdf:about, 'http://www.w3.org/ns/'), '#', '_'))}">
+                localid_prop="{concat(bmrxml:start_local_id($get_set/uwmaps:set_name),
+                substring-after(@rdf:about, 'http://www.w3.org/ns/prov#'))}">
                 <prop_iri iri="{@rdf:about}"/>
                 <prop_label xml:lang="en">
                     <xsl:value-of select="rdfs:label"/>
