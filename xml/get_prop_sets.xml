@@ -6,38 +6,47 @@
 
     <get_set>
         <set_name>rdaw_p10k</set_name>
+        <set_domain>rdaWork</set_domain>
         <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/w.xml</set_source>
     </get_set>
     <get_set>
         <set_name>rdae_p20k</set_name>
+        <set_domain>rdaExpression</set_domain>
         <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/e.xml</set_source>
     </get_set>
     <get_set>
         <set_name>rdam_p30k</set_name>
+        <set_domain>rdaManifestation</set_domain>
         <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/m.xml</set_source>
     </get_set>
     <get_set>
         <set_name>rdai_p40k</set_name>
+        <set_domain>rdaItem</set_domain>
         <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/i.xml</set_source>
     </get_set>
     <get_set>
         <set_name>rdaa_p50k</set_name>
+        <set_domain>rdaAgent</set_domain>
         <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/a.xml</set_source>
     </get_set>
     <get_set>
         <set_name>rdan_p80k</set_name>
+        <set_domain>rdaNomen</set_domain>
         <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/n.xml</set_source>
     </get_set>
     <get_set>
         <set_name>rdap_p70k</set_name>
+        <set_domain>rdaPlace</set_domain>
         <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/p.xml</set_source>
     </get_set>
     <get_set>
         <set_name>rdat_p70k</set_name>
+        <set_domain>rdaTimespan</set_domain>
         <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/t.xml</set_source>
     </get_set>
     <get_set>
         <set_name>rdax_p00k</set_name>
+        <set_domain>rdaEntity</set_domain>
         <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/x.xml</set_source>
     </get_set>
 
