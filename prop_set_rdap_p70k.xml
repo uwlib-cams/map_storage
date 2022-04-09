@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-          xmlns:bmrxml="https://briesenberg07.github.io/xml_stack/"
           xmlns:dcam="http://purl.org/dc/dcam/"
           xmlns:owl="http://www.w3.org/2002/07/owl#"
           xmlns:prov="http://www.w3.org/ns/prov#"
@@ -8,276 +7,277 @@
           xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
           xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
           xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
+          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
           xmlns:xs="http://www.w3.org/2001/XMLSchema"
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdap_p70k</prop_set_label>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70018">
+   <prop localid_prop="map_storage_rdap_p70kp_P70018">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70018"/>
       <prop_label xml:lang="en">has access point for place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70019">
+   <prop localid_prop="map_storage_rdap_p70kp_P70019">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70019"/>
       <prop_label xml:lang="en">has appellation of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70045">
+   <prop localid_prop="map_storage_rdap_p70kp_P70045">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70045"/>
       <prop_label xml:lang="en">has authorized access point for place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70044">
+   <prop localid_prop="map_storage_rdap_p70kp_P70044">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70044"/>
       <prop_label xml:lang="en">has category of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70023">
+   <prop localid_prop="map_storage_rdap_p70kp_P70023">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70023"/>
       <prop_label xml:lang="en">is coordinates of cartographic content of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70024">
+   <prop localid_prop="map_storage_rdap_p70kp_P70024">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70024"/>
       <prop_label xml:lang="en">is country associated with person of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70001">
+   <prop localid_prop="map_storage_rdap_p70kp_P70001">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70001"/>
       <prop_label xml:lang="en">has name of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70003">
+   <prop localid_prop="map_storage_rdap_p70kp_P70003">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70003"/>
       <prop_label xml:lang="en">has variant name of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70002">
+   <prop localid_prop="map_storage_rdap_p70kp_P70002">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70002"/>
       <prop_label xml:lang="en">has preferred name of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70017">
+   <prop localid_prop="map_storage_rdap_p70kp_P70017">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70017"/>
       <prop_label xml:lang="en">is subject place of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70020">
+   <prop localid_prop="map_storage_rdap_p70kp_P70020">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70020"/>
       <prop_label xml:lang="en">has identifier for place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70051">
+   <prop localid_prop="map_storage_rdap_p70kp_P70051">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70051"/>
       <prop_label xml:lang="en">is jurisdiction governed of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70008">
+   <prop localid_prop="map_storage_rdap_p70kp_P70008">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70008"/>
       <prop_label xml:lang="en">has related agent of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70015">
+   <prop localid_prop="map_storage_rdap_p70kp_P70015">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70015"/>
       <prop_label xml:lang="en">has related family of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70010">
+   <prop localid_prop="map_storage_rdap_p70kp_P70010">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70010"/>
       <prop_label xml:lang="en">has related place of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70011">
+   <prop localid_prop="map_storage_rdap_p70kp_P70011">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70011"/>
       <prop_label xml:lang="en">has related timespan of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70005">
+   <prop localid_prop="map_storage_rdap_p70kp_P70005">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70005"/>
       <prop_label xml:lang="en">has related expression of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70009">
+   <prop localid_prop="map_storage_rdap_p70kp_P70009">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70009"/>
       <prop_label xml:lang="en">has related collective agent of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70006">
+   <prop localid_prop="map_storage_rdap_p70kp_P70006">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70006"/>
       <prop_label xml:lang="en">has related manifestation of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70004">
+   <prop localid_prop="map_storage_rdap_p70kp_P70004">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70004"/>
       <prop_label xml:lang="en">has related work of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70012">
+   <prop localid_prop="map_storage_rdap_p70kp_P70012">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70012"/>
       <prop_label xml:lang="en">has related nomen of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70007">
+   <prop localid_prop="map_storage_rdap_p70kp_P70007">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70007"/>
       <prop_label xml:lang="en">has related item of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70014">
+   <prop localid_prop="map_storage_rdap_p70kp_P70014">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70014"/>
       <prop_label xml:lang="en">has related person of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70016">
+   <prop localid_prop="map_storage_rdap_p70kp_P70016">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70016"/>
       <prop_label xml:lang="en">has related corporate body of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70043">
+   <prop localid_prop="map_storage_rdap_p70kp_P70043">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70043"/>
       <prop_label xml:lang="en">has location</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70034">
+   <prop localid_prop="map_storage_rdap_p70kp_P70034">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70034"/>
       <prop_label xml:lang="en">is longitude and latitude of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70022">
+   <prop localid_prop="map_storage_rdap_p70kp_P70022">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70022"/>
       <prop_label xml:lang="en">has note on place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70047">
+   <prop localid_prop="map_storage_rdap_p70kp_P70047">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70047"/>
       <prop_label xml:lang="en">is parallel place of distribution of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70048">
+   <prop localid_prop="map_storage_rdap_p70kp_P70048">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70048"/>
       <prop_label xml:lang="en">is parallel place of manufacture of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70049">
+   <prop localid_prop="map_storage_rdap_p70kp_P70049">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70049"/>
       <prop_label xml:lang="en">is parallel place of production of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70050">
+   <prop localid_prop="map_storage_rdap_p70kp_P70050">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70050"/>
       <prop_label xml:lang="en">is parallel place of publication of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70032">
+   <prop localid_prop="map_storage_rdap_p70kp_P70032">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70032"/>
       <prop_label xml:lang="en">is part of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70033">
+   <prop localid_prop="map_storage_rdap_p70kp_P70033">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70033"/>
       <prop_label xml:lang="en">has part place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70054">
+   <prop localid_prop="map_storage_rdap_p70kp_P70054">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70054"/>
       <prop_label xml:lang="en">is place described by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70025">
+   <prop localid_prop="map_storage_rdap_p70kp_P70025">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70025"/>
       <prop_label xml:lang="en">is place of birth of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70038">
+   <prop localid_prop="map_storage_rdap_p70kp_P70038">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70038"/>
       <prop_label xml:lang="en">is place of capture of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70052">
+   <prop localid_prop="map_storage_rdap_p70kp_P70052">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70052"/>
       <prop_label xml:lang="en">is place of capture of representative expression of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70028">
+   <prop localid_prop="map_storage_rdap_p70kp_P70028">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70028"/>
       <prop_label xml:lang="en">is place of conference of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70026">
+   <prop localid_prop="map_storage_rdap_p70kp_P70026">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70026"/>
       <prop_label xml:lang="en">is place of death of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70039">
+   <prop localid_prop="map_storage_rdap_p70kp_P70039">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70039"/>
       <prop_label xml:lang="en">is place of distribution of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70021">
+   <prop localid_prop="map_storage_rdap_p70kp_P70021">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70021"/>
       <prop_label xml:lang="en">is place of manifestation of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70040">
+   <prop localid_prop="map_storage_rdap_p70kp_P70040">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70040"/>
       <prop_label xml:lang="en">is place of manufacture of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70035">
+   <prop localid_prop="map_storage_rdap_p70kp_P70035">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70035"/>
       <prop_label xml:lang="en">is place of origin of work of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70041">
+   <prop localid_prop="map_storage_rdap_p70kp_P70041">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70041"/>
       <prop_label xml:lang="en">is place of production of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70042">
+   <prop localid_prop="map_storage_rdap_p70kp_P70042">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70042"/>
       <prop_label xml:lang="en">is place of publication of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70027">
+   <prop localid_prop="map_storage_rdap_p70kp_P70027">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70027"/>
       <prop_label xml:lang="en">is place of residence of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70053">
+   <prop localid_prop="map_storage_rdap_p70kp_P70053">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70053"/>
       <prop_label xml:lang="en">has related entity of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70013">
+   <prop localid_prop="map_storage_rdap_p70kp_P70013">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70013"/>
       <prop_label xml:lang="en">has related RDA entity of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70036">
+   <prop localid_prop="map_storage_rdap_p70kp_P70036">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70036"/>
       <prop_label xml:lang="en">is right ascension and declination of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70037">
+   <prop localid_prop="map_storage_rdap_p70kp_P70037">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70037"/>
       <prop_label xml:lang="en">is strings of coordinate pairs of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70046">
+   <prop localid_prop="map_storage_rdap_p70kp_P70046">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70046"/>
       <prop_label xml:lang="en">has variant access point for place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70055">
+   <prop localid_prop="map_storage_rdap_p70kp_P70055">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70055"/>
       <prop_label xml:lang="en">is location of collection of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70056">
+   <prop localid_prop="map_storage_rdap_p70kp_P70056">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70056"/>
       <prop_label xml:lang="en">is location of item of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="map_storage_rdap_p70k_p_P70057">
+   <prop localid_prop="map_storage_rdap_p70kp_P70057">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70057"/>
       <prop_label xml:lang="en">is place described with metadata by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>

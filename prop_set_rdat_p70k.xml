@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-          xmlns:bmrxml="https://briesenberg07.github.io/xml_stack/"
           xmlns:dcam="http://purl.org/dc/dcam/"
           xmlns:owl="http://www.w3.org/2002/07/owl#"
           xmlns:prov="http://www.w3.org/ns/prov#"
@@ -8,296 +7,297 @@
           xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
           xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
           xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
+          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
           xmlns:xs="http://www.w3.org/2001/XMLSchema"
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdat_p70k</prop_set_label>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70015">
+   <prop localid_prop="map_storage_rdat_p70kt_P70015">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70015"/>
       <prop_label xml:lang="en">has access point for timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70016">
+   <prop localid_prop="map_storage_rdat_p70kt_P70016">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70016"/>
       <prop_label xml:lang="en">has appellation of timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70047">
+   <prop localid_prop="map_storage_rdat_p70kt_P70047">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70047"/>
       <prop_label xml:lang="en">has authorized access point for timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70039">
+   <prop localid_prop="map_storage_rdat_p70kt_P70039">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70039"/>
       <prop_label xml:lang="en">has beginning</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70059">
+   <prop localid_prop="map_storage_rdat_p70kt_P70059">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70059"/>
       <prop_label xml:lang="en">has category of timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70019">
+   <prop localid_prop="map_storage_rdat_p70kt_P70019">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70019"/>
       <prop_label xml:lang="en">is copyright date of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70029">
+   <prop localid_prop="map_storage_rdat_p70kt_P70029">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70029"/>
       <prop_label xml:lang="en">is date of birth of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70023">
+   <prop localid_prop="map_storage_rdat_p70kt_P70023">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70023"/>
       <prop_label xml:lang="en">is date of capture of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70054">
+   <prop localid_prop="map_storage_rdat_p70kt_P70054">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70054"/>
       <prop_label xml:lang="en">is date of capture of representative expression of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70031">
+   <prop localid_prop="map_storage_rdat_p70kt_P70031">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70031"/>
       <prop_label xml:lang="en">is date of conference of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70030">
+   <prop localid_prop="map_storage_rdat_p70kt_P70030">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70030"/>
       <prop_label xml:lang="en">is date of death of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70025">
+   <prop localid_prop="map_storage_rdat_p70kt_P70025">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70025"/>
       <prop_label xml:lang="en">is date of distribution of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70032">
+   <prop localid_prop="map_storage_rdat_p70kt_P70032">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70032"/>
       <prop_label xml:lang="en">is date of establishment of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70024">
+   <prop localid_prop="map_storage_rdat_p70kt_P70024">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70024"/>
       <prop_label xml:lang="en">is date of expression of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70020">
+   <prop localid_prop="map_storage_rdat_p70kt_P70020">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70020"/>
       <prop_label xml:lang="en">is date of manifestation of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70026">
+   <prop localid_prop="map_storage_rdat_p70kt_P70026">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70026"/>
       <prop_label xml:lang="en">is date of manufacture of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70027">
+   <prop localid_prop="map_storage_rdat_p70kt_P70027">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70027"/>
       <prop_label xml:lang="en">is date of production of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70028">
+   <prop localid_prop="map_storage_rdat_p70kt_P70028">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70028"/>
       <prop_label xml:lang="en">is date of publication of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70057">
+   <prop localid_prop="map_storage_rdat_p70kt_P70057">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70057"/>
       <prop_label xml:lang="en">is date of representative expression of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70033">
+   <prop localid_prop="map_storage_rdat_p70kt_P70033">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70033"/>
       <prop_label xml:lang="en">is date of termination of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70056">
+   <prop localid_prop="map_storage_rdat_p70kt_P70056">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70056"/>
       <prop_label xml:lang="en">is date of usage of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70022">
+   <prop localid_prop="map_storage_rdat_p70kt_P70022">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70022"/>
       <prop_label xml:lang="en">is date of work of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70040">
+   <prop localid_prop="map_storage_rdat_p70kt_P70040">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70040"/>
       <prop_label xml:lang="en">has ending</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70021">
+   <prop localid_prop="map_storage_rdat_p70kt_P70021">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70021"/>
       <prop_label xml:lang="en">is epoch of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70042">
+   <prop localid_prop="map_storage_rdat_p70kt_P70042">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70042"/>
       <prop_label xml:lang="en">is equinox of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70018">
+   <prop localid_prop="map_storage_rdat_p70kt_P70018">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70018"/>
       <prop_label xml:lang="en">has identifier for timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70017">
+   <prop localid_prop="map_storage_rdat_p70kt_P70017">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70017"/>
       <prop_label xml:lang="en">has name of timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70045">
+   <prop localid_prop="map_storage_rdat_p70kt_P70045">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70045"/>
       <prop_label xml:lang="en">has note on timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70034">
+   <prop localid_prop="map_storage_rdat_p70kt_P70034">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70034"/>
       <prop_label xml:lang="en">is part of timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70035">
+   <prop localid_prop="map_storage_rdat_p70kt_P70035">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70035"/>
       <prop_label xml:lang="en">has part timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70051">
+   <prop localid_prop="map_storage_rdat_p70kt_P70051">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70051"/>
       <prop_label xml:lang="en">is period of activity of agent of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70052">
+   <prop localid_prop="map_storage_rdat_p70kt_P70052">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70052"/>
       <prop_label xml:lang="en">is period of activity of collective agent of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70043">
+   <prop localid_prop="map_storage_rdat_p70kt_P70043">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70043"/>
       <prop_label xml:lang="en">is period of activity of corporate body of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70053">
+   <prop localid_prop="map_storage_rdat_p70kt_P70053">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70053"/>
       <prop_label xml:lang="en">is period of activity of family of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70044">
+   <prop localid_prop="map_storage_rdat_p70kt_P70044">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70044"/>
       <prop_label xml:lang="en">is period of activity of person of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70049">
+   <prop localid_prop="map_storage_rdat_p70kt_P70049">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70049"/>
       <prop_label xml:lang="en">has preferred name of timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70005">
+   <prop localid_prop="map_storage_rdat_p70kt_P70005">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70005"/>
       <prop_label xml:lang="en">has related agent of timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70006">
+   <prop localid_prop="map_storage_rdat_p70kt_P70006">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70006"/>
       <prop_label xml:lang="en">has related collective agent of timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70013">
+   <prop localid_prop="map_storage_rdat_p70kt_P70013">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70013"/>
       <prop_label xml:lang="en">has related corporate body of timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70058">
+   <prop localid_prop="map_storage_rdat_p70kt_P70058">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70058"/>
       <prop_label xml:lang="en">has related entity of timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70002">
+   <prop localid_prop="map_storage_rdat_p70kt_P70002">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70002"/>
       <prop_label xml:lang="en">has related expression of timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70012">
+   <prop localid_prop="map_storage_rdat_p70kt_P70012">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70012"/>
       <prop_label xml:lang="en">has related family of timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70004">
+   <prop localid_prop="map_storage_rdat_p70kt_P70004">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70004"/>
       <prop_label xml:lang="en">has related item of timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70003">
+   <prop localid_prop="map_storage_rdat_p70kt_P70003">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70003"/>
       <prop_label xml:lang="en">has related manifestation of timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70009">
+   <prop localid_prop="map_storage_rdat_p70kt_P70009">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70009"/>
       <prop_label xml:lang="en">has related nomen of timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70011">
+   <prop localid_prop="map_storage_rdat_p70kt_P70011">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70011"/>
       <prop_label xml:lang="en">has related person of timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70007">
+   <prop localid_prop="map_storage_rdat_p70kt_P70007">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70007"/>
       <prop_label xml:lang="en">has related place of timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70010">
+   <prop localid_prop="map_storage_rdat_p70kt_P70010">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70010"/>
       <prop_label xml:lang="en">has related RDA entity of timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70008">
+   <prop localid_prop="map_storage_rdat_p70kt_P70008">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70008"/>
       <prop_label xml:lang="en">has related timespan of timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70001">
+   <prop localid_prop="map_storage_rdat_p70kt_P70001">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70001"/>
       <prop_label xml:lang="en">has related work of timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70014">
+   <prop localid_prop="map_storage_rdat_p70kt_P70014">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70014"/>
       <prop_label xml:lang="en">is subject timespan of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70060">
+   <prop localid_prop="map_storage_rdat_p70kt_P70060">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70060"/>
       <prop_label xml:lang="en">is timespan described by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70048">
+   <prop localid_prop="map_storage_rdat_p70kt_P70048">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70048"/>
       <prop_label xml:lang="en">has variant access point for timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70050">
+   <prop localid_prop="map_storage_rdat_p70kt_P70050">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70050"/>
       <prop_label xml:lang="en">has variant name of timespan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70046">
+   <prop localid_prop="map_storage_rdat_p70kt_P70046">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70046"/>
       <prop_label xml:lang="en">is year degree granted of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70061">
+   <prop localid_prop="map_storage_rdat_p70kt_P70061">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70061"/>
       <prop_label xml:lang="en">is beginning of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70062">
+   <prop localid_prop="map_storage_rdat_p70kt_P70062">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70062"/>
       <prop_label xml:lang="en">is ending of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
    </prop>
-   <prop localid_prop="map_storage_rdat_p70k_t_P70063">
+   <prop localid_prop="map_storage_rdat_p70kt_P70063">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70063"/>
       <prop_label xml:lang="en">is timespan described with metadata by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10010"/>
