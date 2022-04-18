@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:reg="http://metadataregistry.org/uri/profile/regap/" xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/" xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
+   xmlns:dcam="http://purl.org/dc/dcam/" xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:prov="http://www.w3.org/ns/prov#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+   xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
+   xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdam_p30k</prop_set_label>
    <prop localid_prop="map_storage_rdam_p30km_P30276">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30276"/>
@@ -19,6 +28,14 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30084"/>
       <prop_label xml:lang="en">has applied material</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="">
+            <uwsinopia:resource></uwsinopia:resource>
+            <uwsinopia:format></uwsinopia:format>
+            <uwsinopia:user></uwsinopia:user>
+            <uwsinopia:form_order></uwsinopia:form_order>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="map_storage_rdam_p30km_P30216">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30216"/>
