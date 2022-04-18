@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
+          xmlns:dcam="http://purl.org/dc/dcam/"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:prov="http://www.w3.org/ns/prov#"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+          xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
+          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
+          xmlns:xs="http://www.w3.org/2001/XMLSchema"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
+   <prop_set_label>prov</prop_set_label>
+   <prop localid_prop="map_storage_provactedOnBehalfOf">
+      <prop_iri iri="http://www.w3.org/ns/prov#actedOnBehalfOf"/>
+      <prop_label xml:lang="en">actedOnBehalfOf</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Agent"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Agent"/>
+   </prop>
+   <prop localid_prop="map_storage_provactivity">
+      <prop_iri iri="http://www.w3.org/ns/prov#activity"/>
+      <prop_label xml:lang="en">activity</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#ActivityInfluence"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Activity"/>
+   </prop>
+   <prop localid_prop="map_storage_provagent">
+      <prop_iri iri="http://www.w3.org/ns/prov#agent"/>
+      <prop_label xml:lang="en">agent</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#AgentInfluence"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Agent"/>
+   </prop>
+   <prop localid_prop="map_storage_provalternateOf">
+      <prop_iri iri="http://www.w3.org/ns/prov#alternateOf"/>
+      <prop_label xml:lang="en">alternateOf</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Entity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Entity"/>
+   </prop>
+   <prop localid_prop="map_storage_provatLocation">
+      <prop_iri iri="http://www.w3.org/ns/prov#atLocation"/>
+      <prop_label xml:lang="en">atLocation</prop_label>
+      <prop_range iri="http://www.w3.org/ns/prov#Location"/>
+   </prop>
+   <prop localid_prop="map_storage_proventity">
+      <prop_iri iri="http://www.w3.org/ns/prov#entity"/>
+      <prop_label xml:lang="en">entity</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#EntityInfluence"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Entity"/>
+   </prop>
+   <prop localid_prop="map_storage_provgenerated">
+      <prop_iri iri="http://www.w3.org/ns/prov#generated"/>
+      <prop_label xml:lang="en">generated</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Activity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Entity"/>
+   </prop>
+   <prop localid_prop="map_storage_provhadActivity">
+      <prop_iri iri="http://www.w3.org/ns/prov#hadActivity"/>
+      <prop_label xml:lang="en">hadActivity</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Influence"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Activity"/>
+   </prop>
+   <prop localid_prop="map_storage_provhadGeneration">
+      <prop_iri iri="http://www.w3.org/ns/prov#hadGeneration"/>
+      <prop_label xml:lang="en">hadGeneration</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Derivation"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Generation"/>
+   </prop>
+   <prop localid_prop="map_storage_provhadMember">
+      <prop_iri iri="http://www.w3.org/ns/prov#hadMember"/>
+      <prop_label xml:lang="en">hadMember</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Collection"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Entity"/>
+   </prop>
+   <prop localid_prop="map_storage_provhadPlan">
+      <prop_iri iri="http://www.w3.org/ns/prov#hadPlan"/>
+      <prop_label xml:lang="en">hadPlan</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Association"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Plan"/>
+   </prop>
+   <prop localid_prop="map_storage_provhadPrimarySource">
+      <prop_iri iri="http://www.w3.org/ns/prov#hadPrimarySource"/>
+      <prop_label xml:lang="en">hadPrimarySource</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Entity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Entity"/>
+   </prop>
+   <prop localid_prop="map_storage_provhadRole">
+      <prop_iri iri="http://www.w3.org/ns/prov#hadRole"/>
+      <prop_label xml:lang="en">hadRole</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Influence"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Role"/>
+   </prop>
+   <prop localid_prop="map_storage_provhadUsage">
+      <prop_iri iri="http://www.w3.org/ns/prov#hadUsage"/>
+      <prop_label xml:lang="en">hadUsage</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Derivation"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Usage"/>
+   </prop>
+   <prop localid_prop="map_storage_provinfluenced">
+      <prop_iri iri="http://www.w3.org/ns/prov#influenced"/>
+      <prop_label xml:lang="en">influenced</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_provinfluencer">
+      <prop_iri iri="http://www.w3.org/ns/prov#influencer"/>
+      <prop_label xml:lang="en">influencer</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Influence"/>
+      <prop_range iri="http://www.w3.org/2002/07/owl#Thing"/>
+   </prop>
+   <prop localid_prop="map_storage_provinvalidated">
+      <prop_iri iri="http://www.w3.org/ns/prov#invalidated"/>
+      <prop_label xml:lang="en">invalidated</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Activity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Entity"/>
+   </prop>
+   <prop localid_prop="map_storage_provqualifiedAssociation">
+      <prop_iri iri="http://www.w3.org/ns/prov#qualifiedAssociation"/>
+      <prop_label xml:lang="en">qualifiedAssociation</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Activity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Association"/>
+   </prop>
+   <prop localid_prop="map_storage_provqualifiedAttribution">
+      <prop_iri iri="http://www.w3.org/ns/prov#qualifiedAttribution"/>
+      <prop_label xml:lang="en">qualifiedAttribution</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Entity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Attribution"/>
+   </prop>
+   <prop localid_prop="map_storage_provqualifiedCommunication">
+      <prop_iri iri="http://www.w3.org/ns/prov#qualifiedCommunication"/>
+      <prop_label xml:lang="en">qualifiedCommunication</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Activity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Communication"/>
+   </prop>
+   <prop localid_prop="map_storage_provqualifiedDelegation">
+      <prop_iri iri="http://www.w3.org/ns/prov#qualifiedDelegation"/>
+      <prop_label xml:lang="en">qualifiedDelegation</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Agent"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Delegation"/>
+   </prop>
+   <prop localid_prop="map_storage_provqualifiedDerivation">
+      <prop_iri iri="http://www.w3.org/ns/prov#qualifiedDerivation"/>
+      <prop_label xml:lang="en">qualifiedDerivation</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Entity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Derivation"/>
+   </prop>
+   <prop localid_prop="map_storage_provqualifiedEnd">
+      <prop_iri iri="http://www.w3.org/ns/prov#qualifiedEnd"/>
+      <prop_label xml:lang="en">qualifiedEnd</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Activity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#End"/>
+   </prop>
+   <prop localid_prop="map_storage_provqualifiedGeneration">
+      <prop_iri iri="http://www.w3.org/ns/prov#qualifiedGeneration"/>
+      <prop_label xml:lang="en">qualifiedGeneration</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Entity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Generation"/>
+   </prop>
+   <prop localid_prop="map_storage_provqualifiedInfluence">
+      <prop_iri iri="http://www.w3.org/ns/prov#qualifiedInfluence"/>
+      <prop_label xml:lang="en">qualifiedInfluence</prop_label>
+      <prop_range iri="http://www.w3.org/ns/prov#Influence"/>
+   </prop>
+   <prop localid_prop="map_storage_provqualifiedInvalidation">
+      <prop_iri iri="http://www.w3.org/ns/prov#qualifiedInvalidation"/>
+      <prop_label xml:lang="en">qualifiedInvalidation</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Entity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Invalidation"/>
+   </prop>
+   <prop localid_prop="map_storage_provqualifiedPrimarySource">
+      <prop_iri iri="http://www.w3.org/ns/prov#qualifiedPrimarySource"/>
+      <prop_label xml:lang="en">qualifiedPrimarySource</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Entity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#PrimarySource"/>
+   </prop>
+   <prop localid_prop="map_storage_provqualifiedQuotation">
+      <prop_iri iri="http://www.w3.org/ns/prov#qualifiedQuotation"/>
+      <prop_label xml:lang="en">qualifiedQuotation</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Entity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Quotation"/>
+   </prop>
+   <prop localid_prop="map_storage_provqualifiedRevision">
+      <prop_iri iri="http://www.w3.org/ns/prov#qualifiedRevision"/>
+      <prop_label xml:lang="en">qualifiedRevision</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Entity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Revision"/>
+   </prop>
+   <prop localid_prop="map_storage_provqualifiedStart">
+      <prop_iri iri="http://www.w3.org/ns/prov#qualifiedStart"/>
+      <prop_label xml:lang="en">qualifiedStart</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Activity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Start"/>
+   </prop>
+   <prop localid_prop="map_storage_provqualifiedUsage">
+      <prop_iri iri="http://www.w3.org/ns/prov#qualifiedUsage"/>
+      <prop_label xml:lang="en">qualifiedUsage</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Activity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Usage"/>
+   </prop>
+   <prop localid_prop="map_storage_provspecializationOf">
+      <prop_iri iri="http://www.w3.org/ns/prov#specializationOf"/>
+      <prop_label xml:lang="en">specializationOf</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Entity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Entity"/>
+   </prop>
+   <prop localid_prop="map_storage_provused">
+      <prop_iri iri="http://www.w3.org/ns/prov#used"/>
+      <prop_label xml:lang="en">used</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Activity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Entity"/>
+   </prop>
+   <prop localid_prop="map_storage_provwasAssociatedWith">
+      <prop_iri iri="http://www.w3.org/ns/prov#wasAssociatedWith"/>
+      <prop_label xml:lang="en">wasAssociatedWith</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Activity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Agent"/>
+   </prop>
+   <prop localid_prop="map_storage_provwasAttributedTo">
+      <prop_iri iri="http://www.w3.org/ns/prov#wasAttributedTo"/>
+      <prop_label xml:lang="en">wasAttributedTo</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Entity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Agent"/>
+   </prop>
+   <prop localid_prop="map_storage_provwasDerivedFrom">
+      <prop_iri iri="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+      <prop_label xml:lang="en">wasDerivedFrom</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Entity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Entity"/>
+   </prop>
+   <prop localid_prop="map_storage_provwasEndedBy">
+      <prop_iri iri="http://www.w3.org/ns/prov#wasEndedBy"/>
+      <prop_label xml:lang="en">wasEndedBy</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Activity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Entity"/>
+   </prop>
+   <prop localid_prop="map_storage_provwasGeneratedBy">
+      <prop_iri iri="http://www.w3.org/ns/prov#wasGeneratedBy"/>
+      <prop_label xml:lang="en">wasGeneratedBy</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Entity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Activity"/>
+   </prop>
+   <prop localid_prop="map_storage_provwasInfluencedBy">
+      <prop_iri iri="http://www.w3.org/ns/prov#wasInfluencedBy"/>
+      <prop_label xml:lang="en">wasInfluencedBy</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_provwasInformedBy">
+      <prop_iri iri="http://www.w3.org/ns/prov#wasInformedBy"/>
+      <prop_label xml:lang="en">wasInformedBy</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Activity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Activity"/>
+   </prop>
+   <prop localid_prop="map_storage_provwasInvalidatedBy">
+      <prop_iri iri="http://www.w3.org/ns/prov#wasInvalidatedBy"/>
+      <prop_label xml:lang="en">wasInvalidatedBy</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Entity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Activity"/>
+   </prop>
+   <prop localid_prop="map_storage_provwasQuotedFrom">
+      <prop_iri iri="http://www.w3.org/ns/prov#wasQuotedFrom"/>
+      <prop_label xml:lang="en">wasQuotedFrom</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Entity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Entity"/>
+   </prop>
+   <prop localid_prop="map_storage_provwasRevisionOf">
+      <prop_iri iri="http://www.w3.org/ns/prov#wasRevisionOf"/>
+      <prop_label xml:lang="en">wasRevisionOf</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Entity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Entity"/>
+   </prop>
+   <prop localid_prop="map_storage_provwasStartedBy">
+      <prop_iri iri="http://www.w3.org/ns/prov#wasStartedBy"/>
+      <prop_label xml:lang="en">wasStartedBy</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Activity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Entity"/>
+   </prop>
+   <prop localid_prop="map_storage_prov">
+      <prop_iri iri="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+      <prop_label xml:lang="en"/>
+   </prop>
+   <prop localid_prop="map_storage_provdescribesService">
+      <prop_iri iri="http://www.w3.org/ns/prov#describesService"/>
+      <prop_label xml:lang="en">describesService</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_provhadUsage">
+      <prop_iri iri="http://www.w3.org/ns/prov#hadUsage"/>
+      <prop_label xml:lang="en">hadUsage</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_provhas_anchor">
+      <prop_iri iri="http://www.w3.org/ns/prov#has_anchor"/>
+      <prop_label xml:lang="en">has_anchor</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_provhas_provenance">
+      <prop_iri iri="http://www.w3.org/ns/prov#has_provenance"/>
+      <prop_label xml:lang="en">has_provenance</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_provhas_query_service">
+      <prop_iri iri="http://www.w3.org/ns/prov#has_query_service"/>
+      <prop_label xml:lang="en">hasProvenanceService</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_provpingback">
+      <prop_iri iri="http://www.w3.org/ns/prov#pingback"/>
+      <prop_label xml:lang="en">provenance pingback</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_provspecializationOf">
+      <prop_iri iri="http://www.w3.org/ns/prov#specializationOf"/>
+      <prop_label xml:lang="en">specializationOf</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_provderivedByInsertionFrom">
+      <prop_iri iri="http://www.w3.org/ns/prov#derivedByInsertionFrom"/>
+      <prop_label xml:lang="en">derivedByInsertionFrom</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Dictionary"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Dictionary"/>
+   </prop>
+   <prop localid_prop="map_storage_provderivedByRemovalFrom">
+      <prop_iri iri="http://www.w3.org/ns/prov#derivedByRemovalFrom"/>
+      <prop_label xml:lang="en">derivedByRemovalFrom</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Dictionary"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Dictionary"/>
+   </prop>
+   <prop localid_prop="map_storage_provdictionary">
+      <prop_iri iri="http://www.w3.org/ns/prov#dictionary"/>
+      <prop_label xml:lang="en">dictionary</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Insertion"/>
+      <prop_domain iri="http://www.w3.org/ns/prov#Removal"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Dictionary"/>
+   </prop>
+   <prop localid_prop="map_storage_provhadDictionaryMember">
+      <prop_iri iri="http://www.w3.org/ns/prov#hadDictionaryMember"/>
+      <prop_label xml:lang="en">hadDictionaryMember</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Dictionary"/>
+      <prop_range iri="http://www.w3.org/ns/prov#KeyEntityPair"/>
+   </prop>
+   <prop localid_prop="map_storage_provinsertedKeyEntityPair">
+      <prop_iri iri="http://www.w3.org/ns/prov#insertedKeyEntityPair"/>
+      <prop_label xml:lang="en">insertedKeyEntityPair</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Insertion"/>
+      <prop_range iri="http://www.w3.org/ns/prov#KeyEntityPair"/>
+   </prop>
+   <prop localid_prop="map_storage_provpairEntity">
+      <prop_iri iri="http://www.w3.org/ns/prov#pairEntity"/>
+      <prop_label xml:lang="en">pairKey</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#KeyEntityPair"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Entity"/>
+   </prop>
+   <prop localid_prop="map_storage_provqualifiedInsertion">
+      <prop_iri iri="http://www.w3.org/ns/prov#qualifiedInsertion"/>
+      <prop_label xml:lang="en">qualifiedInsertion</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Dictionary"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Insertion"/>
+   </prop>
+   <prop localid_prop="map_storage_provqualifiedRemoval">
+      <prop_iri iri="http://www.w3.org/ns/prov#qualifiedRemoval"/>
+      <prop_label xml:lang="en">qualifiedRemoval</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Dictionary"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Removal"/>
+   </prop>
+   <prop localid_prop="map_storage_provasInBundle">
+      <prop_iri iri="http://www.w3.org/ns/prov#asInBundle"/>
+      <prop_label xml:lang="en">asInBundle</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Entity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Bundle"/>
+   </prop>
+   <prop localid_prop="map_storage_provmentionOf">
+      <prop_iri iri="http://www.w3.org/ns/prov#mentionOf"/>
+      <prop_label xml:lang="en">mentionOf</prop_label>
+      <prop_domain iri="http://www.w3.org/ns/prov#Entity"/>
+      <prop_range iri="http://www.w3.org/ns/prov#Entity"/>
+   </prop>
+</prop_set>

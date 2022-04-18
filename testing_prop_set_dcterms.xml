@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
+          xmlns:dcam="http://purl.org/dc/dcam/"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:prov="http://www.w3.org/ns/prov#"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+          xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
+          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
+          xmlns:xs="http://www.w3.org/2001/XMLSchema"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
+   <prop_set_label>dcterms</prop_set_label>
+   <prop localid_prop="map_storage_dctermsabstract">
+      <prop_iri iri="http://purl.org/dc/terms/abstract"/>
+      <prop_label xml:lang="en">Abstract</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_dctermsaccessRights">
+      <prop_iri iri="http://purl.org/dc/terms/accessRights"/>
+      <prop_label xml:lang="en">Access Rights</prop_label>
+      <prop_range_includes iri="http://purl.org/dc/terms/RightsStatement"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermsaccrualMethod">
+      <prop_iri iri="http://purl.org/dc/terms/accrualMethod"/>
+      <prop_label xml:lang="en">Accrual Method</prop_label>
+      <prop_domain iri="http://purl.org/dc/dcmitype/Collection"/>
+      <prop_range_includes iri="http://purl.org/dc/terms/MethodOfAccrual"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermsaccrualPeriodicity">
+      <prop_iri iri="http://purl.org/dc/terms/accrualPeriodicity"/>
+      <prop_label xml:lang="en">Accrual Periodicity</prop_label>
+      <prop_domain iri="http://purl.org/dc/dcmitype/Collection"/>
+      <prop_range_includes iri="http://purl.org/dc/terms/Frequency"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermsaccrualPolicy">
+      <prop_iri iri="http://purl.org/dc/terms/accrualPolicy"/>
+      <prop_label xml:lang="en">Accrual Policy</prop_label>
+      <prop_domain iri="http://purl.org/dc/dcmitype/Collection"/>
+      <prop_range_includes iri="http://purl.org/dc/terms/Policy"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermsalternative">
+      <prop_iri iri="http://purl.org/dc/terms/alternative"/>
+      <prop_label xml:lang="en">Alternative Title</prop_label>
+      <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermsaudience">
+      <prop_iri iri="http://purl.org/dc/terms/audience"/>
+      <prop_label xml:lang="en">Audience</prop_label>
+      <prop_range_includes iri="http://purl.org/dc/terms/AgentClass"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermsavailable">
+      <prop_iri iri="http://purl.org/dc/terms/available"/>
+      <prop_label xml:lang="en">Date Available</prop_label>
+      <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermsbibliographicCitation">
+      <prop_iri iri="http://purl.org/dc/terms/bibliographicCitation"/>
+      <prop_label xml:lang="en">Bibliographic Citation</prop_label>
+      <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermsconformsTo">
+      <prop_iri iri="http://purl.org/dc/terms/conformsTo"/>
+      <prop_label xml:lang="en">Conforms To</prop_label>
+      <prop_range_includes iri="http://purl.org/dc/terms/Standard"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermscontributor">
+      <prop_iri iri="http://purl.org/dc/terms/contributor"/>
+      <prop_label xml:lang="en">Contributor</prop_label>
+      <prop_range_includes iri="http://purl.org/dc/terms/Agent"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermscoverage">
+      <prop_iri iri="http://purl.org/dc/terms/coverage"/>
+      <prop_label xml:lang="en">Coverage</prop_label>
+      <prop_range_includes iri="http://purl.org/dc/terms/Location"/>
+      <prop_range_includes iri="http://purl.org/dc/terms/Period"/>
+      <prop_range_includes iri="http://purl.org/dc/terms/Jurisdiction"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermscreated">
+      <prop_iri iri="http://purl.org/dc/terms/created"/>
+      <prop_label xml:lang="en">Date Created</prop_label>
+      <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermscreator">
+      <prop_iri iri="http://purl.org/dc/terms/creator"/>
+      <prop_label xml:lang="en">Creator</prop_label>
+      <prop_range_includes iri="http://purl.org/dc/terms/Agent"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermsdate">
+      <prop_iri iri="http://purl.org/dc/terms/date"/>
+      <prop_label xml:lang="en">Date</prop_label>
+      <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermsdateAccepted">
+      <prop_iri iri="http://purl.org/dc/terms/dateAccepted"/>
+      <prop_label xml:lang="en">Date Accepted</prop_label>
+      <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermsdateCopyrighted">
+      <prop_iri iri="http://purl.org/dc/terms/dateCopyrighted"/>
+      <prop_label xml:lang="en">Date Copyrighted</prop_label>
+      <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermsdateSubmitted">
+      <prop_iri iri="http://purl.org/dc/terms/dateSubmitted"/>
+      <prop_label xml:lang="en">Date Submitted</prop_label>
+      <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermsdescription">
+      <prop_iri iri="http://purl.org/dc/terms/description"/>
+      <prop_label xml:lang="en">Description</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_dctermseducationLevel">
+      <prop_iri iri="http://purl.org/dc/terms/educationLevel"/>
+      <prop_label xml:lang="en">Audience Education Level</prop_label>
+      <prop_range_includes iri="http://purl.org/dc/terms/AgentClass"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermsextent">
+      <prop_iri iri="http://purl.org/dc/terms/extent"/>
+      <prop_label xml:lang="en">Extent</prop_label>
+      <prop_range_includes iri="http://purl.org/dc/terms/SizeOrDuration"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermsformat">
+      <prop_iri iri="http://purl.org/dc/terms/format"/>
+      <prop_label xml:lang="en">Format</prop_label>
+      <prop_range_includes iri="http://purl.org/dc/terms/MediaType"/>
+      <prop_range_includes iri="http://purl.org/dc/terms/Extent"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermshasFormat">
+      <prop_iri iri="http://purl.org/dc/terms/hasFormat"/>
+      <prop_label xml:lang="en">Has Format</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_dctermshasPart">
+      <prop_iri iri="http://purl.org/dc/terms/hasPart"/>
+      <prop_label xml:lang="en">Has Part</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_dctermshasVersion">
+      <prop_iri iri="http://purl.org/dc/terms/hasVersion"/>
+      <prop_label xml:lang="en">Has Version</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_dctermsidentifier">
+      <prop_iri iri="http://purl.org/dc/terms/identifier"/>
+      <prop_label xml:lang="en">Identifier</prop_label>
+      <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermsinstructionalMethod">
+      <prop_iri iri="http://purl.org/dc/terms/instructionalMethod"/>
+      <prop_label xml:lang="en">Instructional Method</prop_label>
+      <prop_range_includes iri="http://purl.org/dc/terms/MethodOfInstruction"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermsisFormatOf">
+      <prop_iri iri="http://purl.org/dc/terms/isFormatOf"/>
+      <prop_label xml:lang="en">Is Format Of</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_dctermsisPartOf">
+      <prop_iri iri="http://purl.org/dc/terms/isPartOf"/>
+      <prop_label xml:lang="en">Is Part Of</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_dctermsisReferencedBy">
+      <prop_iri iri="http://purl.org/dc/terms/isReferencedBy"/>
+      <prop_label xml:lang="en">Is Referenced By</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_dctermsisReplacedBy">
+      <prop_iri iri="http://purl.org/dc/terms/isReplacedBy"/>
+      <prop_label xml:lang="en">Is Replaced By</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_dctermsisRequiredBy">
+      <prop_iri iri="http://purl.org/dc/terms/isRequiredBy"/>
+      <prop_label xml:lang="en">Is Required By</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_dctermsisVersionOf">
+      <prop_iri iri="http://purl.org/dc/terms/isVersionOf"/>
+      <prop_label xml:lang="en">Is Version Of</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_dctermsissued">
+      <prop_iri iri="http://purl.org/dc/terms/issued"/>
+      <prop_label xml:lang="en">Date Issued</prop_label>
+      <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermslanguage">
+      <prop_iri iri="http://purl.org/dc/terms/language"/>
+      <prop_label xml:lang="en">Language</prop_label>
+      <prop_range_includes iri="http://purl.org/dc/terms/LinguisticSystem"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermslicense">
+      <prop_iri iri="http://purl.org/dc/terms/license"/>
+      <prop_label xml:lang="en">License</prop_label>
+      <prop_range_includes iri="http://purl.org/dc/terms/LicenseDocument"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermsmediator">
+      <prop_iri iri="http://purl.org/dc/terms/mediator"/>
+      <prop_label xml:lang="en">Mediator</prop_label>
+      <prop_range_includes iri="http://purl.org/dc/terms/AgentClass"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermsmedium">
+      <prop_iri iri="http://purl.org/dc/terms/medium"/>
+      <prop_label xml:lang="en">Medium</prop_label>
+      <prop_domain_includes iri="http://purl.org/dc/terms/PhysicalResource"/>
+      <prop_range_includes iri="http://purl.org/dc/terms/PhysicalMedium"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermsmodified">
+      <prop_iri iri="http://purl.org/dc/terms/modified"/>
+      <prop_label xml:lang="en">Date Modified</prop_label>
+      <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermsprovenance">
+      <prop_iri iri="http://purl.org/dc/terms/provenance"/>
+      <prop_label xml:lang="en">Provenance</prop_label>
+      <prop_range_includes iri="http://purl.org/dc/terms/ProvenanceStatement"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermspublisher">
+      <prop_iri iri="http://purl.org/dc/terms/publisher"/>
+      <prop_label xml:lang="en">Publisher</prop_label>
+      <prop_range_includes iri="http://purl.org/dc/terms/Agent"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermsreferences">
+      <prop_iri iri="http://purl.org/dc/terms/references"/>
+      <prop_label xml:lang="en">References</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_dctermsrelation">
+      <prop_iri iri="http://purl.org/dc/terms/relation"/>
+      <prop_label xml:lang="en">Relation</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_dctermsreplaces">
+      <prop_iri iri="http://purl.org/dc/terms/replaces"/>
+      <prop_label xml:lang="en">Replaces</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_dctermsrequires">
+      <prop_iri iri="http://purl.org/dc/terms/requires"/>
+      <prop_label xml:lang="en">Requires</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_dctermsrights">
+      <prop_iri iri="http://purl.org/dc/terms/rights"/>
+      <prop_label xml:lang="en">Rights</prop_label>
+      <prop_range_includes iri="http://purl.org/dc/terms/RightsStatement"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermsrightsHolder">
+      <prop_iri iri="http://purl.org/dc/terms/rightsHolder"/>
+      <prop_label xml:lang="en">Rights Holder</prop_label>
+      <prop_range_includes iri="http://purl.org/dc/terms/Agent"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermssource">
+      <prop_iri iri="http://purl.org/dc/terms/source"/>
+      <prop_label xml:lang="en">Source</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_dctermsspatial">
+      <prop_iri iri="http://purl.org/dc/terms/spatial"/>
+      <prop_label xml:lang="en">Spatial Coverage</prop_label>
+      <prop_range_includes iri="http://purl.org/dc/terms/Location"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermssubject">
+      <prop_iri iri="http://purl.org/dc/terms/subject"/>
+      <prop_label xml:lang="en">Subject</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_dctermstableOfContents">
+      <prop_iri iri="http://purl.org/dc/terms/tableOfContents"/>
+      <prop_label xml:lang="en">Table Of Contents</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_dctermstemporal">
+      <prop_iri iri="http://purl.org/dc/terms/temporal"/>
+      <prop_label xml:lang="en">Temporal Coverage</prop_label>
+      <prop_range_includes iri="http://purl.org/dc/terms/PeriodOfTime"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermstitle">
+      <prop_iri iri="http://purl.org/dc/terms/title"/>
+      <prop_label xml:lang="en">Title</prop_label>
+      <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+   </prop>
+   <prop localid_prop="map_storage_dctermstype">
+      <prop_iri iri="http://purl.org/dc/terms/type"/>
+      <prop_label xml:lang="en">Type</prop_label>
+   </prop>
+   <prop localid_prop="map_storage_dctermsvalid">
+      <prop_iri iri="http://purl.org/dc/terms/valid"/>
+      <prop_label xml:lang="en">Date Valid</prop_label>
+      <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+   </prop>
+</prop_set>
