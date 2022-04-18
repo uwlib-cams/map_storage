@@ -14,7 +14,7 @@
     <xsl:output method="xml" indent="yes"/>
     
     <!-- Include named templates -->
-    <xsl:include href="001source_templates.xsl"/>
+    <xsl:include href="001_02_source_templates.xsl"/>
     
     <xsl:template match="/">
         <xsl:for-each select="uwmaps:get_prop_sets/uwmaps:get_set">
@@ -45,7 +45,7 @@
                         <!-- to do : other templates for other sources -->
                         <xsl:otherwise>
                             <xsl:text>&#10;&#10;</xsl:text>
-                            <xsl:text>ERROR - NO TEMPLATE ASSOCIATED WITH THIS SET NAME</xsl:text>
+                            <xsl:text>ERROR - NO TEMPLATE ASSOCIATED WITH THIS SOURCE SET NAME</xsl:text>
                             <xsl:text>&#10;&#10;</xsl:text>
                         </xsl:otherwise>
                     </xsl:choose>
