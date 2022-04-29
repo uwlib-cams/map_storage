@@ -6,7 +6,7 @@
     exclude-result-prefixes="xs uwmaps uwsinopia"
     version="3.0">
     
-    <xsl:output indent="1"/>
+    <xsl:output method="xml" indent="1"/>
     
     <xsl:mode on-no-match="shallow-copy"/>
     
