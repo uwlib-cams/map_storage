@@ -12,2052 +12,2052 @@
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdam_p30k</prop_set_label>
-   <prop localid_prop="map_storage_rdam_p30km_P30276">
+   <prop localid_prop="uwmaps_rdam_p30km_P30276_prop_d5e43">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30276"/>
       <prop_label xml:lang="en">has access point for manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30208">
+   <prop localid_prop="uwmaps_rdam_p30km_P30208_prop_d5e371">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30208"/>
       <prop_label xml:lang="en">has base material</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30217">
+   <prop localid_prop="uwmaps_rdam_p30km_P30217_prop_d5e600">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30217"/>
       <prop_label xml:lang="en">has details of base material</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30084">
+   <prop localid_prop="uwmaps_rdam_p30km_P30084_prop_d5e826">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30084"/>
       <prop_label xml:lang="en">has applied material</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30216">
+   <prop localid_prop="uwmaps_rdam_p30km_P30216_prop_d5e1055">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30216"/>
       <prop_label xml:lang="en">has details of applied material</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30171">
+   <prop localid_prop="uwmaps_rdam_p30km_P30171_prop_d5e1269">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30171"/>
       <prop_label xml:lang="en">has dimensions of still image</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30277">
+   <prop localid_prop="uwmaps_rdam_p30km_P30277_prop_d5e2552">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30277"/>
       <prop_label xml:lang="en">has appellation of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30294">
+   <prop localid_prop="uwmaps_rdam_p30km_P30294_prop_d5e2749">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30294"/>
       <prop_label xml:lang="en">has authorized access point for manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30164">
+   <prop localid_prop="uwmaps_rdam_p30km_P30164_prop_d5e2941">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30164"/>
       <prop_label xml:lang="en">has groove characteristic</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30232">
+   <prop localid_prop="uwmaps_rdam_p30km_P30232_prop_d5e3172">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30232"/>
       <prop_label xml:lang="en">has details of groove characteristic</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30022">
+   <prop localid_prop="uwmaps_rdam_p30km_P30022_prop_d5e3432">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30022"/>
       <prop_label xml:lang="en">has insert</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30025">
+   <prop localid_prop="uwmaps_rdam_p30km_P30025_prop_d5e3696">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30025"/>
       <prop_label xml:lang="en">is inserted in</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30199">
+   <prop localid_prop="uwmaps_rdam_p30km_P30199_prop_d5e3960">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30199"/>
       <prop_label xml:lang="en">has font size</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30226">
+   <prop localid_prop="uwmaps_rdam_p30km_P30226_prop_d5e4186">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30226"/>
       <prop_label xml:lang="en">has details of font size</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30197">
+   <prop localid_prop="uwmaps_rdam_p30km_P30197_prop_d5e4411">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30197"/>
       <prop_label xml:lang="en">has bibliographic format</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30218">
+   <prop localid_prop="uwmaps_rdam_p30km_P30218_prop_d5e4639">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30218"/>
       <prop_label xml:lang="en">has details of bibliographic format</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30310">
+   <prop localid_prop="uwmaps_rdam_p30km_P30310_prop_d5e4868">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30310"/>
       <prop_label xml:lang="en">has binding of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30069">
+   <prop localid_prop="uwmaps_rdam_p30km_P30069_prop_d5e5057">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30069"/>
       <prop_label xml:lang="en">has book designer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30378">
+   <prop localid_prop="uwmaps_rdam_p30km_P30378_prop_d5e5316">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30378"/>
       <prop_label xml:lang="en">has book designer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30407">
+   <prop localid_prop="uwmaps_rdam_p30km_P30407_prop_d5e5512">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30407"/>
       <prop_label xml:lang="en">has book designer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30436">
+   <prop localid_prop="uwmaps_rdam_p30km_P30436_prop_d5e5703">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30436"/>
       <prop_label xml:lang="en">has book designer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30349">
+   <prop localid_prop="uwmaps_rdam_p30km_P30349_prop_d5e5894">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30349"/>
       <prop_label xml:lang="en">has book designer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30071">
+   <prop localid_prop="uwmaps_rdam_p30km_P30071_prop_d5e6086">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30071"/>
       <prop_label xml:lang="en">has braille embosser agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30380">
+   <prop localid_prop="uwmaps_rdam_p30km_P30380_prop_d5e6345">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30380"/>
       <prop_label xml:lang="en">has braille embosser collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30409">
+   <prop localid_prop="uwmaps_rdam_p30km_P30409_prop_d5e6540">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30409"/>
       <prop_label xml:lang="en">has braille embosser corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30438">
+   <prop localid_prop="uwmaps_rdam_p30km_P30438_prop_d5e6732">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30438"/>
       <prop_label xml:lang="en">has braille embosser family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30351">
+   <prop localid_prop="uwmaps_rdam_p30km_P30351_prop_d5e6923">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30351"/>
       <prop_label xml:lang="en">has braille embosser person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30067">
+   <prop localid_prop="uwmaps_rdam_p30km_P30067_prop_d5e7114">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30067"/>
       <prop_label xml:lang="en">has broadcaster agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30376">
+   <prop localid_prop="uwmaps_rdam_p30km_P30376_prop_d5e7374">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30376"/>
       <prop_label xml:lang="en">has broadcaster collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30405">
+   <prop localid_prop="uwmaps_rdam_p30km_P30405_prop_d5e7569">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30405"/>
       <prop_label xml:lang="en">has broadcaster corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30434">
+   <prop localid_prop="uwmaps_rdam_p30km_P30434_prop_d5e7760">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30434"/>
       <prop_label xml:lang="en">has broadcaster family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30347">
+   <prop localid_prop="uwmaps_rdam_p30km_P30347_prop_d5e7952">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30347"/>
       <prop_label xml:lang="en">has broadcaster person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30073">
+   <prop localid_prop="uwmaps_rdam_p30km_P30073_prop_d5e8143">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30073"/>
       <prop_label xml:lang="en">has caster agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30382">
+   <prop localid_prop="uwmaps_rdam_p30km_P30382_prop_d5e8402">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30382"/>
       <prop_label xml:lang="en">has caster collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30411">
+   <prop localid_prop="uwmaps_rdam_p30km_P30411_prop_d5e8598">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30411"/>
       <prop_label xml:lang="en">has caster corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30440">
+   <prop localid_prop="uwmaps_rdam_p30km_P30440_prop_d5e8789">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30440"/>
       <prop_label xml:lang="en">has caster family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30353">
+   <prop localid_prop="uwmaps_rdam_p30km_P30353_prop_d5e8980">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30353"/>
       <prop_label xml:lang="en">has caster person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30335">
+   <prop localid_prop="uwmaps_rdam_p30km_P30335_prop_d5e9172">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30335"/>
       <prop_label xml:lang="en">has category of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30134">
+   <prop localid_prop="uwmaps_rdam_p30km_P30134_prop_d5e9390">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30134"/>
       <prop_label xml:lang="en">has title of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30128">
+   <prop localid_prop="uwmaps_rdam_p30km_P30128_prop_d5e9632">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30128"/>
       <prop_label xml:lang="en">has variant title of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30077">
+   <prop localid_prop="uwmaps_rdam_p30km_P30077_prop_d5e9867">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30077"/>
       <prop_label xml:lang="en">has collotyper agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30386">
+   <prop localid_prop="uwmaps_rdam_p30km_P30386_prop_d5e10126">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30386"/>
       <prop_label xml:lang="en">has collotyper collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30415">
+   <prop localid_prop="uwmaps_rdam_p30km_P30415_prop_d5e10321">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30415"/>
       <prop_label xml:lang="en">has collotyper corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30444">
+   <prop localid_prop="uwmaps_rdam_p30km_P30444_prop_d5e10513">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30444"/>
       <prop_label xml:lang="en">has collotyper family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30357">
+   <prop localid_prop="uwmaps_rdam_p30km_P30357_prop_d5e10704">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30357"/>
       <prop_label xml:lang="en">has collotyper person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30315">
+   <prop localid_prop="uwmaps_rdam_p30km_P30315_prop_d5e10926">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30315"/>
       <prop_label xml:lang="en">has contributor agent of cartography</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30316">
+   <prop localid_prop="uwmaps_rdam_p30km_P30316_prop_d5e11117">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30316"/>
       <prop_label xml:lang="en">has contributor agent of choreography</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30333">
+   <prop localid_prop="uwmaps_rdam_p30km_P30333_prop_d5e11300">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30333"/>
       <prop_label xml:lang="en">has contributor agent of computer content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30326">
+   <prop localid_prop="uwmaps_rdam_p30km_P30326_prop_d5e11494">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30326"/>
       <prop_label xml:lang="en">has contributor agent of moving image</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30311">
+   <prop localid_prop="uwmaps_rdam_p30km_P30311_prop_d5e11677">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30311"/>
       <prop_label xml:lang="en">has contributor agent of music</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30332">
+   <prop localid_prop="uwmaps_rdam_p30km_P30332_prop_d5e11866">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30332"/>
       <prop_label xml:lang="en">has contributor agent of object</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30331">
+   <prop localid_prop="uwmaps_rdam_p30km_P30331_prop_d5e12060">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30331"/>
       <prop_label xml:lang="en">has contributor agent of speech</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30321">
+   <prop localid_prop="uwmaps_rdam_p30km_P30321_prop_d5e12253">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30321"/>
       <prop_label xml:lang="en">has contributor agent of still image</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30328">
+   <prop localid_prop="uwmaps_rdam_p30km_P30328_prop_d5e12467">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30328"/>
       <prop_label xml:lang="en">has contributor agent of text</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30327">
+   <prop localid_prop="uwmaps_rdam_p30km_P30327_prop_d5e12876">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30327"/>
       <prop_label xml:lang="en">has contributor agent to aggregate</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30367">
+   <prop localid_prop="uwmaps_rdam_p30km_P30367_prop_d5e13076">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30367"/>
       <prop_label xml:lang="en">has contributor collective agent of cartography</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30368">
+   <prop localid_prop="uwmaps_rdam_p30km_P30368_prop_d5e13273">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30368"/>
       <prop_label xml:lang="en">has contributor collective agent of choreography</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30375">
+   <prop localid_prop="uwmaps_rdam_p30km_P30375_prop_d5e13469">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30375"/>
       <prop_label xml:lang="en">has contributor collective agent of computer content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30369">
+   <prop localid_prop="uwmaps_rdam_p30km_P30369_prop_d5e13664">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30369"/>
       <prop_label xml:lang="en">has contributor collective agent of moving image</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30370">
+   <prop localid_prop="uwmaps_rdam_p30km_P30370_prop_d5e13859">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30370"/>
       <prop_label xml:lang="en">has contributor collective agent of music</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30374">
+   <prop localid_prop="uwmaps_rdam_p30km_P30374_prop_d5e14055">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30374"/>
       <prop_label xml:lang="en">has contributor collective agent of object</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30371">
+   <prop localid_prop="uwmaps_rdam_p30km_P30371_prop_d5e14250">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30371"/>
       <prop_label xml:lang="en">has contributor collective agent of speech</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30372">
+   <prop localid_prop="uwmaps_rdam_p30km_P30372_prop_d5e14445">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30372"/>
       <prop_label xml:lang="en">has contributor collective agent of still image</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30373">
+   <prop localid_prop="uwmaps_rdam_p30km_P30373_prop_d5e14641">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30373"/>
       <prop_label xml:lang="en">has contributor collective agent of text</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30365">
+   <prop localid_prop="uwmaps_rdam_p30km_P30365_prop_d5e14836">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30365"/>
       <prop_label xml:lang="en">has contributor collective agent to aggregate</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30396">
+   <prop localid_prop="uwmaps_rdam_p30km_P30396_prop_d5e15051">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30396"/>
       <prop_label xml:lang="en">has contributor corporate body of cartography</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30397">
+   <prop localid_prop="uwmaps_rdam_p30km_P30397_prop_d5e15245">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30397"/>
       <prop_label xml:lang="en">has contributor corporate body of choreography</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30404">
+   <prop localid_prop="uwmaps_rdam_p30km_P30404_prop_d5e15436">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30404"/>
       <prop_label xml:lang="en">has contributor corporate body of computer content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30398">
+   <prop localid_prop="uwmaps_rdam_p30km_P30398_prop_d5e15627">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30398"/>
       <prop_label xml:lang="en">has contributor corporate body of moving image</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30399">
+   <prop localid_prop="uwmaps_rdam_p30km_P30399_prop_d5e15819">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30399"/>
       <prop_label xml:lang="en">has contributor corporate body of music</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30403">
+   <prop localid_prop="uwmaps_rdam_p30km_P30403_prop_d5e16010">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30403"/>
       <prop_label xml:lang="en">has contributor corporate body of object</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30400">
+   <prop localid_prop="uwmaps_rdam_p30km_P30400_prop_d5e16201">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30400"/>
       <prop_label xml:lang="en">has contributor corporate body of speech</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30401">
+   <prop localid_prop="uwmaps_rdam_p30km_P30401_prop_d5e16393">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30401"/>
       <prop_label xml:lang="en">has contributor corporate body of still image</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30402">
+   <prop localid_prop="uwmaps_rdam_p30km_P30402_prop_d5e16584">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30402"/>
       <prop_label xml:lang="en">has contributor corporate body of text</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30394">
+   <prop localid_prop="uwmaps_rdam_p30km_P30394_prop_d5e16775">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30394"/>
       <prop_label xml:lang="en">has contributor corporate body to aggregate</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30425">
+   <prop localid_prop="uwmaps_rdam_p30km_P30425_prop_d5e16986">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30425"/>
       <prop_label xml:lang="en">has contributor family of cartography</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30426">
+   <prop localid_prop="uwmaps_rdam_p30km_P30426_prop_d5e17179">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30426"/>
       <prop_label xml:lang="en">has contributor family of choreography</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30433">
+   <prop localid_prop="uwmaps_rdam_p30km_P30433_prop_d5e17370">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30433"/>
       <prop_label xml:lang="en">has contributor family of computer content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30427">
+   <prop localid_prop="uwmaps_rdam_p30km_P30427_prop_d5e17562">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30427"/>
       <prop_label xml:lang="en">has contributor family of moving image</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30428">
+   <prop localid_prop="uwmaps_rdam_p30km_P30428_prop_d5e17753">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30428"/>
       <prop_label xml:lang="en">has contributor family of music</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30432">
+   <prop localid_prop="uwmaps_rdam_p30km_P30432_prop_d5e17944">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30432"/>
       <prop_label xml:lang="en">has contributor family of object</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30429">
+   <prop localid_prop="uwmaps_rdam_p30km_P30429_prop_d5e18136">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30429"/>
       <prop_label xml:lang="en">has contributor family of speech</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30430">
+   <prop localid_prop="uwmaps_rdam_p30km_P30430_prop_d5e18327">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30430"/>
       <prop_label xml:lang="en">has contributor family of still image</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30431">
+   <prop localid_prop="uwmaps_rdam_p30km_P30431_prop_d5e18518">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30431"/>
       <prop_label xml:lang="en">has contributor family of text</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30423">
+   <prop localid_prop="uwmaps_rdam_p30km_P30423_prop_d5e18710">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30423"/>
       <prop_label xml:lang="en">has contributor family to aggregate</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30338">
+   <prop localid_prop="uwmaps_rdam_p30km_P30338_prop_d5e18920">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30338"/>
       <prop_label xml:lang="en">has contributor person of cartography</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30339">
+   <prop localid_prop="uwmaps_rdam_p30km_P30339_prop_d5e19113">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30339"/>
       <prop_label xml:lang="en">has contributor person of choreography</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30346">
+   <prop localid_prop="uwmaps_rdam_p30km_P30346_prop_d5e19305">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30346"/>
       <prop_label xml:lang="en">has contributor person of computer content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30340">
+   <prop localid_prop="uwmaps_rdam_p30km_P30340_prop_d5e19496">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30340"/>
       <prop_label xml:lang="en">has contributor person of moving image</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30341">
+   <prop localid_prop="uwmaps_rdam_p30km_P30341_prop_d5e19687">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30341"/>
       <prop_label xml:lang="en">has contributor person of music</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30345">
+   <prop localid_prop="uwmaps_rdam_p30km_P30345_prop_d5e19879">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30345"/>
       <prop_label xml:lang="en">has contributor person of object</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30342">
+   <prop localid_prop="uwmaps_rdam_p30km_P30342_prop_d5e20070">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30342"/>
       <prop_label xml:lang="en">has contributor person of speech</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30343">
+   <prop localid_prop="uwmaps_rdam_p30km_P30343_prop_d5e20261">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30343"/>
       <prop_label xml:lang="en">has contributor person of still image</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30344">
+   <prop localid_prop="uwmaps_rdam_p30km_P30344_prop_d5e20453">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30344"/>
       <prop_label xml:lang="en">has contributor person of text</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30336">
+   <prop localid_prop="uwmaps_rdam_p30km_P30336_prop_d5e20644">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30336"/>
       <prop_label xml:lang="en">has contributor person to aggregate</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30007">
+   <prop localid_prop="uwmaps_rdam_p30km_P30007_prop_d5e20854">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30007"/>
       <prop_label xml:lang="en">has copyright date</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30329">
+   <prop localid_prop="uwmaps_rdam_p30km_P30329_prop_d5e21131">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30329"/>
       <prop_label xml:lang="en">has creator agent of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30392">
+   <prop localid_prop="uwmaps_rdam_p30km_P30392_prop_d5e21356">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30392"/>
       <prop_label xml:lang="en">has creator collective agent of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30421">
+   <prop localid_prop="uwmaps_rdam_p30km_P30421_prop_d5e21599">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30421"/>
       <prop_label xml:lang="en">has creator corporate body of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30450">
+   <prop localid_prop="uwmaps_rdam_p30km_P30450_prop_d5e21839">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30450"/>
       <prop_label xml:lang="en">has creator family of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30363">
+   <prop localid_prop="uwmaps_rdam_p30km_P30363_prop_d5e22078">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30363"/>
       <prop_label xml:lang="en">has creator person of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30263">
+   <prop localid_prop="uwmaps_rdam_p30km_P30263_prop_d5e22348">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30263"/>
       <prop_label xml:lang="en">has reduction ratio designation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30244">
+   <prop localid_prop="uwmaps_rdam_p30km_P30244_prop_d5e22560">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30244"/>
       <prop_label xml:lang="en">has details of reduction ratio designation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30198">
+   <prop localid_prop="uwmaps_rdam_p30km_P30198_prop_d5e22785">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30198"/>
       <prop_label xml:lang="en">has reduction ratio</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30278">
+   <prop localid_prop="uwmaps_rdam_p30km_P30278_prop_d5e23011">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30278"/>
       <prop_label xml:lang="en">has date of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30124">
+   <prop localid_prop="uwmaps_rdam_p30km_P30124_prop_d5e23529">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30124"/>
       <prop_label xml:lang="en">has digital file characteristic</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30221">
+   <prop localid_prop="uwmaps_rdam_p30km_P30221_prop_d5e23769">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30221"/>
       <prop_label xml:lang="en">has details of digital file characteristic</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30298">
+   <prop localid_prop="uwmaps_rdam_p30km_P30298_prop_d5e24003">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30298"/>
       <prop_label xml:lang="en">is digital transfer of item of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30029">
+   <prop localid_prop="uwmaps_rdam_p30km_P30029_prop_d5e24195">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30029"/>
       <prop_label xml:lang="en">has digital transfer of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30040">
+   <prop localid_prop="uwmaps_rdam_p30km_P30040_prop_d5e24421">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30040"/>
       <prop_label xml:lang="en">is digital transfer of manifestation of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30170">
+   <prop localid_prop="uwmaps_rdam_p30km_P30170_prop_d5e24648">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30170"/>
       <prop_label xml:lang="en">has dimensions of cartographic image</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30080">
+   <prop localid_prop="uwmaps_rdam_p30km_P30080_prop_d5e24906">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30080"/>
       <prop_label xml:lang="en">has distributor agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30388">
+   <prop localid_prop="uwmaps_rdam_p30km_P30388_prop_d5e25173">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30388"/>
       <prop_label xml:lang="en">has distributor collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30417">
+   <prop localid_prop="uwmaps_rdam_p30km_P30417_prop_d5e25371">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30417"/>
       <prop_label xml:lang="en">has distributor corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30446">
+   <prop localid_prop="uwmaps_rdam_p30km_P30446_prop_d5e25564">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30446"/>
       <prop_label xml:lang="en">has distributor family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30359">
+   <prop localid_prop="uwmaps_rdam_p30km_P30359_prop_d5e25757">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30359"/>
       <prop_label xml:lang="en">has distributor person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30024">
+   <prop localid_prop="uwmaps_rdam_p30km_P30024_prop_d5e25951">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30024"/>
       <prop_label xml:lang="en">has equivalent manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30154">
+   <prop localid_prop="uwmaps_rdam_p30km_P30154_prop_d5e26185">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30154"/>
       <prop_label xml:lang="en">has uniform resource locator</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30299">
+   <prop localid_prop="uwmaps_rdam_p30km_P30299_prop_d5e26489">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30299"/>
       <prop_label xml:lang="en">is electronic reproduction of item of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30136">
+   <prop localid_prop="uwmaps_rdam_p30km_P30136_prop_d5e26682">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30136"/>
       <prop_label xml:lang="en">is electronic reproduction of manifestation of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30016">
+   <prop localid_prop="uwmaps_rdam_p30km_P30016_prop_d5e26908">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30016"/>
       <prop_label xml:lang="en">has electronic reproduction of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30110">
+   <prop localid_prop="uwmaps_rdam_p30km_P30110_prop_d5e27137">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30110"/>
       <prop_label xml:lang="en">has production statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30238">
+   <prop localid_prop="uwmaps_rdam_p30km_P30238_prop_d5e27410">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30238"/>
       <prop_label xml:lang="en">has details of production method</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30091">
+   <prop localid_prop="uwmaps_rdam_p30km_P30091_prop_d5e27639">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30091"/>
       <prop_label xml:lang="en">has parallel place of production</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30174">
+   <prop localid_prop="uwmaps_rdam_p30km_P30174_prop_d5e27868">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30174"/>
       <prop_label xml:lang="en">has name of producer</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30005">
+   <prop localid_prop="uwmaps_rdam_p30km_P30005_prop_d5e28119">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30005"/>
       <prop_label xml:lang="en">has preferred citation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30122">
+   <prop localid_prop="uwmaps_rdam_p30km_P30122_prop_d5e28344">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30122"/>
       <prop_label xml:lang="en">has emulsion on microfilm and microfiche</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30070">
+   <prop localid_prop="uwmaps_rdam_p30km_P30070_prop_d5e28571">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30070"/>
       <prop_label xml:lang="en">has engraver agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30379">
+   <prop localid_prop="uwmaps_rdam_p30km_P30379_prop_d5e28831">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30379"/>
       <prop_label xml:lang="en">has engraver collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30408">
+   <prop localid_prop="uwmaps_rdam_p30km_P30408_prop_d5e29026">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30408"/>
       <prop_label xml:lang="en">has engraver corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30437">
+   <prop localid_prop="uwmaps_rdam_p30km_P30437_prop_d5e29217">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30437"/>
       <prop_label xml:lang="en">has engraver family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30350">
+   <prop localid_prop="uwmaps_rdam_p30km_P30350_prop_d5e29409">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30350"/>
       <prop_label xml:lang="en">has engraver person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30162">
+   <prop localid_prop="uwmaps_rdam_p30km_P30162_prop_d5e29732">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30162"/>
       <prop_label xml:lang="en">has equipment or system requirement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30076">
+   <prop localid_prop="uwmaps_rdam_p30km_P30076_prop_d5e29958">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30076"/>
       <prop_label xml:lang="en">has etcher agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30385">
+   <prop localid_prop="uwmaps_rdam_p30km_P30385_prop_d5e30217">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30385"/>
       <prop_label xml:lang="en">has etcher collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30414">
+   <prop localid_prop="uwmaps_rdam_p30km_P30414_prop_d5e30412">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30414"/>
       <prop_label xml:lang="en">has etcher corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30443">
+   <prop localid_prop="uwmaps_rdam_p30km_P30443_prop_d5e30604">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30443"/>
       <prop_label xml:lang="en">has etcher family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30356">
+   <prop localid_prop="uwmaps_rdam_p30km_P30356_prop_d5e30795">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30356"/>
       <prop_label xml:lang="en">has etcher person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30300">
+   <prop localid_prop="uwmaps_rdam_p30km_P30300_prop_d5e31228">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30300"/>
       <prop_label xml:lang="en">is facsimile of item of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30047">
+   <prop localid_prop="uwmaps_rdam_p30km_P30047_prop_d5e31420">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30047"/>
       <prop_label xml:lang="en">is facsimile of manifestation of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30046">
+   <prop localid_prop="uwmaps_rdam_p30km_P30046_prop_d5e31645">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30046"/>
       <prop_label xml:lang="en">has facsimile part</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30019">
+   <prop localid_prop="uwmaps_rdam_p30km_P30019_prop_d5e31874">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30019"/>
       <prop_label xml:lang="en">is facsimile part of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30186">
+   <prop localid_prop="uwmaps_rdam_p30km_P30186_prop_d5e32101">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30186"/>
       <prop_label xml:lang="en">has mount</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30234">
+   <prop localid_prop="uwmaps_rdam_p30km_P30234_prop_d5e32326">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30234"/>
       <prop_label xml:lang="en">has details of mount</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30183">
+   <prop localid_prop="uwmaps_rdam_p30km_P30183_prop_d5e32551">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30183"/>
       <prop_label xml:lang="en">has file size</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30018">
+   <prop localid_prop="uwmaps_rdam_p30km_P30018_prop_d5e32779">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30018"/>
       <prop_label xml:lang="en">has file type</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30225">
+   <prop localid_prop="uwmaps_rdam_p30km_P30225_prop_d5e33006">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30225"/>
       <prop_label xml:lang="en">has details of file type</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30159">
+   <prop localid_prop="uwmaps_rdam_p30km_P30159_prop_d5e33233">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30159"/>
       <prop_label xml:lang="en">has resolution</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30172">
+   <prop localid_prop="uwmaps_rdam_p30km_P30172_prop_d5e33461">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30172"/>
       <prop_label xml:lang="en">has type of recording</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30185">
+   <prop localid_prop="uwmaps_rdam_p30km_P30185_prop_d5e33688">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30185"/>
       <prop_label xml:lang="en">has tape configuration</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30068">
+   <prop localid_prop="uwmaps_rdam_p30km_P30068_prop_d5e33915">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30068"/>
       <prop_label xml:lang="en">has film distributor agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30377">
+   <prop localid_prop="uwmaps_rdam_p30km_P30377_prop_d5e34175">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30377"/>
       <prop_label xml:lang="en">has film distributor collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30406">
+   <prop localid_prop="uwmaps_rdam_p30km_P30406_prop_d5e34370">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30406"/>
       <prop_label xml:lang="en">has film distributor corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30435">
+   <prop localid_prop="uwmaps_rdam_p30km_P30435_prop_d5e34561">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30435"/>
       <prop_label xml:lang="en">has film distributor family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30348">
+   <prop localid_prop="uwmaps_rdam_p30km_P30348_prop_d5e34753">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30348"/>
       <prop_label xml:lang="en">has film distributor person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30241">
+   <prop localid_prop="uwmaps_rdam_p30km_P30241_prop_d5e34944">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30241"/>
       <prop_label xml:lang="en">has details of projection characteristic of motion picture film</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30296">
+   <prop localid_prop="uwmaps_rdam_p30km_P30296_prop_d5e35171">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30296"/>
       <prop_label xml:lang="en">has fingerprint</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30097">
+   <prop localid_prop="uwmaps_rdam_p30km_P30097_prop_d5e35361">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30097"/>
       <prop_label xml:lang="en">has first alphanumeric designation of alternative sequence</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30147">
+   <prop localid_prop="uwmaps_rdam_p30km_P30147_prop_d5e35618">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30147"/>
       <prop_label xml:lang="en">has first alphanumeric designation of sequence</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30099">
+   <prop localid_prop="uwmaps_rdam_p30km_P30099_prop_d5e35878">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30099"/>
       <prop_label xml:lang="en">has first chronological designation of alternative sequence</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30149">
+   <prop localid_prop="uwmaps_rdam_p30km_P30149_prop_d5e36174">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30149"/>
       <prop_label xml:lang="en">has first chronological designation of sequence</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30306">
+   <prop localid_prop="uwmaps_rdam_p30km_P30306_prop_d5e36475">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30306"/>
       <prop_label xml:lang="en">has font point size</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30191">
+   <prop localid_prop="uwmaps_rdam_p30km_P30191_prop_d5e36659">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30191"/>
       <prop_label xml:lang="en">has generation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30252">
+   <prop localid_prop="uwmaps_rdam_p30km_P30252_prop_d5e36895">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30252"/>
       <prop_label xml:lang="en">has details of generation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30307">
+   <prop localid_prop="uwmaps_rdam_p30km_P30307_prop_d5e37342">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30307"/>
       <prop_label xml:lang="en">has groove pitch</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30308">
+   <prop localid_prop="uwmaps_rdam_p30km_P30308_prop_d5e37529">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30308"/>
       <prop_label xml:lang="en">has groove width</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30087">
+   <prop localid_prop="uwmaps_rdam_p30km_P30087_prop_d5e37878">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30087"/>
       <prop_label xml:lang="en">has place of manufacture</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30010">
+   <prop localid_prop="uwmaps_rdam_p30km_P30010_prop_d5e38109">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30010"/>
       <prop_label xml:lang="en">has date of manufacture</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30109">
+   <prop localid_prop="uwmaps_rdam_p30km_P30109_prop_d5e38338">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30109"/>
       <prop_label xml:lang="en">has manufacture statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30187">
+   <prop localid_prop="uwmaps_rdam_p30km_P30187_prop_d5e38611">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30187"/>
       <prop_label xml:lang="en">has production method</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30090">
+   <prop localid_prop="uwmaps_rdam_p30km_P30090_prop_d5e38840">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30090"/>
       <prop_label xml:lang="en">has parallel place of manufacture</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30175">
+   <prop localid_prop="uwmaps_rdam_p30km_P30175_prop_d5e39069">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30175"/>
       <prop_label xml:lang="en">has name of manufacturer</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30125">
+   <prop localid_prop="uwmaps_rdam_p30km_P30125_prop_d5e39320">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30125"/>
       <prop_label xml:lang="en">has sound characteristic</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30245">
+   <prop localid_prop="uwmaps_rdam_p30km_P30245_prop_d5e39562">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30245"/>
       <prop_label xml:lang="en">has details of sound characteristic</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30247">
+   <prop localid_prop="uwmaps_rdam_p30km_P30247_prop_d5e39802">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30247"/>
       <prop_label xml:lang="en">has details of tape configuration</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30031">
+   <prop localid_prop="uwmaps_rdam_p30km_P30031_prop_d5e40030">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30031"/>
       <prop_label xml:lang="en">has facsimile of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30001">
+   <prop localid_prop="uwmaps_rdam_p30km_P30001_prop_d5e40261">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30001"/>
       <prop_label xml:lang="en">has carrier type</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30305">
+   <prop localid_prop="uwmaps_rdam_p30km_P30305_prop_d5e40530">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30305"/>
       <prop_label xml:lang="en">has intended audience of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30141">
+   <prop localid_prop="uwmaps_rdam_p30km_P30141_prop_d5e40715">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30141"/>
       <prop_label xml:lang="en">has contact information</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30267">
+   <prop localid_prop="uwmaps_rdam_p30km_P30267_prop_d5e40987">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30267"/>
       <prop_label xml:lang="en">has related agent of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30269">
+   <prop localid_prop="uwmaps_rdam_p30km_P30269_prop_d5e41207">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30269"/>
       <prop_label xml:lang="en">has related family of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30272">
+   <prop localid_prop="uwmaps_rdam_p30km_P30272_prop_d5e41418">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30272"/>
       <prop_label xml:lang="en">has related place of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30273">
+   <prop localid_prop="uwmaps_rdam_p30km_P30273_prop_d5e41626">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30273"/>
       <prop_label xml:lang="en">has related timespan of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30266">
+   <prop localid_prop="uwmaps_rdam_p30km_P30266_prop_d5e41832">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30266"/>
       <prop_label xml:lang="en">has related expression of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30271">
+   <prop localid_prop="uwmaps_rdam_p30km_P30271_prop_d5e42039">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30271"/>
       <prop_label xml:lang="en">has related collective agent of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30265">
+   <prop localid_prop="uwmaps_rdam_p30km_P30265_prop_d5e42253">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30265"/>
       <prop_label xml:lang="en">has related work of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30274">
+   <prop localid_prop="uwmaps_rdam_p30km_P30274_prop_d5e42467">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30274"/>
       <prop_label xml:lang="en">has related nomen of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30268">
+   <prop localid_prop="uwmaps_rdam_p30km_P30268_prop_d5e42689">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30268"/>
       <prop_label xml:lang="en">has related person of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30270">
+   <prop localid_prop="uwmaps_rdam_p30km_P30270_prop_d5e42899">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30270"/>
       <prop_label xml:lang="en">has related corporate body of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30222">
+   <prop localid_prop="uwmaps_rdam_p30km_P30222_prop_d5e43109">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30222"/>
       <prop_label xml:lang="en">has details of digital representation of cartographic content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30086">
+   <prop localid_prop="uwmaps_rdam_p30km_P30086_prop_d5e43503">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30086"/>
       <prop_label xml:lang="en">has place of production</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30009">
+   <prop localid_prop="uwmaps_rdam_p30km_P30009_prop_d5e43734">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30009"/>
       <prop_label xml:lang="en">has date of production</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30088">
+   <prop localid_prop="uwmaps_rdam_p30km_P30088_prop_d5e43964">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30088"/>
       <prop_label xml:lang="en">has place of publication</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30011">
+   <prop localid_prop="uwmaps_rdam_p30km_P30011_prop_d5e44195">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30011"/>
       <prop_label xml:lang="en">has date of publication</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30111">
+   <prop localid_prop="uwmaps_rdam_p30km_P30111_prop_d5e44424">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30111"/>
       <prop_label xml:lang="en">has publication statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30133">
+   <prop localid_prop="uwmaps_rdam_p30km_P30133_prop_d5e44697">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30133"/>
       <prop_label xml:lang="en">has designation of edition</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30132">
+   <prop localid_prop="uwmaps_rdam_p30km_P30132_prop_d5e44924">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30132"/>
       <prop_label xml:lang="en">has designation of named revision of edition</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30012">
+   <prop localid_prop="uwmaps_rdam_p30km_P30012_prop_d5e45151">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30012"/>
       <prop_label xml:lang="en">has parallel designation of named revision of edition</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30092">
+   <prop localid_prop="uwmaps_rdam_p30km_P30092_prop_d5e45379">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30092"/>
       <prop_label xml:lang="en">has parallel place of publication</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30013">
+   <prop localid_prop="uwmaps_rdam_p30km_P30013_prop_d5e45608">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30013"/>
       <prop_label xml:lang="en">has parallel designation of edition</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30065">
+   <prop localid_prop="uwmaps_rdam_p30km_P30065_prop_d5e45835">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30065"/>
       <prop_label xml:lang="en">has publisher number for notated music</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30176">
+   <prop localid_prop="uwmaps_rdam_p30km_P30176_prop_d5e46116">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30176"/>
       <prop_label xml:lang="en">has name of publisher</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30035">
+   <prop localid_prop="uwmaps_rdam_p30km_P30035_prop_d5e46410">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30035"/>
       <prop_label xml:lang="en">is on carrier unit with</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30003">
+   <prop localid_prop="uwmaps_rdam_p30km_P30003_prop_d5e46640">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30003"/>
       <prop_label xml:lang="en">has mode of issuance</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30139">
+   <prop localid_prop="uwmaps_rdam_p30km_P30139_prop_d5e46866">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30139"/>
       <prop_label xml:lang="en">has expression manifested</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30096">
+   <prop localid_prop="uwmaps_rdam_p30km_P30096_prop_d5e47095">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30096"/>
       <prop_label xml:lang="en">has encoding format</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30224">
+   <prop localid_prop="uwmaps_rdam_p30km_P30224_prop_d5e47322">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30224"/>
       <prop_label xml:lang="en">has details of encoding format</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30202">
+   <prop localid_prop="uwmaps_rdam_p30km_P30202_prop_d5e47550">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30202"/>
       <prop_label xml:lang="en">has encoded bitrate</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30256">
+   <prop localid_prop="uwmaps_rdam_p30km_P30256_prop_d5e47777">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30256"/>
       <prop_label xml:lang="en">is manifestation commentary in</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30140">
+   <prop localid_prop="uwmaps_rdam_p30km_P30140_prop_d5e48198">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30140"/>
       <prop_label xml:lang="en">has related item of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30002">
+   <prop localid_prop="uwmaps_rdam_p30km_P30002_prop_d5e48427">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30002"/>
       <prop_label xml:lang="en">has media type</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30098">
+   <prop localid_prop="uwmaps_rdam_p30km_P30098_prop_d5e49137">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30098"/>
       <prop_label xml:lang="en">has last alphanumeric designation of alternative sequence</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30148">
+   <prop localid_prop="uwmaps_rdam_p30km_P30148_prop_d5e49395">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30148"/>
       <prop_label xml:lang="en">has last alphanumeric designation of sequence</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30100">
+   <prop localid_prop="uwmaps_rdam_p30km_P30100_prop_d5e49655">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30100"/>
       <prop_label xml:lang="en">has last chronological designation of alternative sequence</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30150">
+   <prop localid_prop="uwmaps_rdam_p30km_P30150_prop_d5e49950">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30150"/>
       <prop_label xml:lang="en">has last chronological designation of sequence</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30201">
+   <prop localid_prop="uwmaps_rdam_p30km_P30201_prop_d5e50252">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30201"/>
       <prop_label xml:lang="en">has playing speed</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30235">
+   <prop localid_prop="uwmaps_rdam_p30km_P30235_prop_d5e50479">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30235"/>
       <prop_label xml:lang="en">has details of playing speed</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30074">
+   <prop localid_prop="uwmaps_rdam_p30km_P30074_prop_d5e50704">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30074"/>
       <prop_label xml:lang="en">has lithographer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30383">
+   <prop localid_prop="uwmaps_rdam_p30km_P30383_prop_d5e51011">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30383"/>
       <prop_label xml:lang="en">has lithographer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30412">
+   <prop localid_prop="uwmaps_rdam_p30km_P30412_prop_d5e51247">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30412"/>
       <prop_label xml:lang="en">has lithographer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30441">
+   <prop localid_prop="uwmaps_rdam_p30km_P30441_prop_d5e51479">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30441"/>
       <prop_label xml:lang="en">has lithographer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30354">
+   <prop localid_prop="uwmaps_rdam_p30km_P30354_prop_d5e51712">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30354"/>
       <prop_label xml:lang="en">has lithographer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30280">
+   <prop localid_prop="uwmaps_rdam_p30km_P30280_prop_d5e51944">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30280"/>
       <prop_label xml:lang="en">has manifestation copyright statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30281">
+   <prop localid_prop="uwmaps_rdam_p30km_P30281_prop_d5e52172">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30281"/>
       <prop_label xml:lang="en">has manifestation designation of sequence statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30282">
+   <prop localid_prop="uwmaps_rdam_p30km_P30282_prop_d5e52401">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30282"/>
       <prop_label xml:lang="en">has manifestation dissertation statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30283">
+   <prop localid_prop="uwmaps_rdam_p30km_P30283_prop_d5e52629">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30283"/>
       <prop_label xml:lang="en">has manifestation distribution statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30284">
+   <prop localid_prop="uwmaps_rdam_p30km_P30284_prop_d5e52857">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30284"/>
       <prop_label xml:lang="en">has manifestation edition statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30285">
+   <prop localid_prop="uwmaps_rdam_p30km_P30285_prop_d5e53086">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30285"/>
       <prop_label xml:lang="en">has manifestation frequency statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30286">
+   <prop localid_prop="uwmaps_rdam_p30km_P30286_prop_d5e53273">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30286"/>
       <prop_label xml:lang="en">has manifestation identifier statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30287">
+   <prop localid_prop="uwmaps_rdam_p30km_P30287_prop_d5e53501">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30287"/>
       <prop_label xml:lang="en">has manifestation manufacture statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30288">
+   <prop localid_prop="uwmaps_rdam_p30km_P30288_prop_d5e53714">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30288"/>
       <prop_label xml:lang="en">has manifestation production statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30289">
+   <prop localid_prop="uwmaps_rdam_p30km_P30289_prop_d5e53942">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30289"/>
       <prop_label xml:lang="en">has manifestation publication statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30290">
+   <prop localid_prop="uwmaps_rdam_p30km_P30290_prop_d5e54170">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30290"/>
       <prop_label xml:lang="en">has manifestation regional encoding statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30291">
+   <prop localid_prop="uwmaps_rdam_p30km_P30291_prop_d5e54358">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30291"/>
       <prop_label xml:lang="en">has manifestation series statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30292">
+   <prop localid_prop="uwmaps_rdam_p30km_P30292_prop_d5e54586">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30292"/>
       <prop_label xml:lang="en">has manifestation statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30293">
+   <prop localid_prop="uwmaps_rdam_p30km_P30293_prop_d5e54799">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30293"/>
       <prop_label xml:lang="en">has manifestation title and responsibility statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30082">
+   <prop localid_prop="uwmaps_rdam_p30km_P30082_prop_d5e55028">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30082"/>
       <prop_label xml:lang="en">has manufacturer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30390">
+   <prop localid_prop="uwmaps_rdam_p30km_P30390_prop_d5e55317">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30390"/>
       <prop_label xml:lang="en">has manufacturer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30419">
+   <prop localid_prop="uwmaps_rdam_p30km_P30419_prop_d5e55536">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30419"/>
       <prop_label xml:lang="en">has manufacturer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30448">
+   <prop localid_prop="uwmaps_rdam_p30km_P30448_prop_d5e55752">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30448"/>
       <prop_label xml:lang="en">has manufacturer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30361">
+   <prop localid_prop="uwmaps_rdam_p30km_P30361_prop_d5e55967">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30361"/>
       <prop_label xml:lang="en">has manufacturer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30142">
+   <prop localid_prop="uwmaps_rdam_p30km_P30142_prop_d5e56182">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30142"/>
       <prop_label xml:lang="en">has other title information</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30304">
+   <prop localid_prop="uwmaps_rdam_p30km_P30304_prop_d5e56606">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30304"/>
       <prop_label xml:lang="en">has material</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30063">
+   <prop localid_prop="uwmaps_rdam_p30km_P30063_prop_d5e56795">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30063"/>
       <prop_label xml:lang="en">has note on title</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30059">
+   <prop localid_prop="uwmaps_rdam_p30km_P30059_prop_d5e57023">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30059"/>
       <prop_label xml:lang="en">has note on copyright date</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30053">
+   <prop localid_prop="uwmaps_rdam_p30km_P30053_prop_d5e57413">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30053"/>
       <prop_label xml:lang="en">has note on manufacture statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30214">
+   <prop localid_prop="uwmaps_rdam_p30km_P30214_prop_d5e57641">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30214"/>
       <prop_label xml:lang="en">has note on carrier</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30051">
+   <prop localid_prop="uwmaps_rdam_p30km_P30051_prop_d5e57874">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30051"/>
       <prop_label xml:lang="en">has note on changes in carrier characteristics</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30055">
+   <prop localid_prop="uwmaps_rdam_p30km_P30055_prop_d5e58101">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30055"/>
       <prop_label xml:lang="en">has note on publication statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30050">
+   <prop localid_prop="uwmaps_rdam_p30km_P30050_prop_d5e58329">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30050"/>
       <prop_label xml:lang="en">has note on issue or part or iteration used as basis for identification of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30260">
+   <prop localid_prop="uwmaps_rdam_p30km_P30260_prop_d5e58556">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30260"/>
       <prop_label xml:lang="en">has note on identifier for manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30060">
+   <prop localid_prop="uwmaps_rdam_p30km_P30060_prop_d5e58770">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30060"/>
       <prop_label xml:lang="en">has note on dimensions of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30137">
+   <prop localid_prop="uwmaps_rdam_p30km_P30137_prop_d5e58998">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30137"/>
       <prop_label xml:lang="en">has note on manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30061">
+   <prop localid_prop="uwmaps_rdam_p30km_P30061_prop_d5e59287">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30061"/>
       <prop_label xml:lang="en">has note on extent of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30054">
+   <prop localid_prop="uwmaps_rdam_p30km_P30054_prop_d5e59514">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30054"/>
       <prop_label xml:lang="en">has note on production statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30058">
+   <prop localid_prop="uwmaps_rdam_p30km_P30058_prop_d5e59742">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30058"/>
       <prop_label xml:lang="en">has note on series statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30064">
+   <prop localid_prop="uwmaps_rdam_p30km_P30064_prop_d5e59969">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30064"/>
       <prop_label xml:lang="en">has note on edition statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30057">
+   <prop localid_prop="uwmaps_rdam_p30km_P30057_prop_d5e60196">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30057"/>
       <prop_label xml:lang="en">has note on statement of responsibility</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30052">
+   <prop localid_prop="uwmaps_rdam_p30km_P30052_prop_d5e60424">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30052"/>
       <prop_label xml:lang="en">has note on distribution statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30027">
+   <prop localid_prop="uwmaps_rdam_p30km_P30027_prop_d5e60651">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30027"/>
       <prop_label xml:lang="en">is accompanied by manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30004">
+   <prop localid_prop="uwmaps_rdam_p30km_P30004_prop_d5e60885">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30004"/>
       <prop_label xml:lang="en">has identifier for manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30259">
+   <prop localid_prop="uwmaps_rdam_p30km_P30259_prop_d5e61171">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30259"/>
       <prop_label xml:lang="en">is manifestation reviewed by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30257">
+   <prop localid_prop="uwmaps_rdam_p30km_P30257_prop_d5e61425">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30257"/>
       <prop_label xml:lang="en">is manifestation critiqued by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30255">
+   <prop localid_prop="uwmaps_rdam_p30km_P30255_prop_d5e61679">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30255"/>
       <prop_label xml:lang="en">is manifestation analysed in</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30258">
+   <prop localid_prop="uwmaps_rdam_p30km_P30258_prop_d5e61934">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30258"/>
       <prop_label xml:lang="en">is manifestation evaluated by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30254">
+   <prop localid_prop="uwmaps_rdam_p30km_P30254_prop_d5e62193">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30254"/>
       <prop_label xml:lang="en">is manifestation described by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30146">
+   <prop localid_prop="uwmaps_rdam_p30km_P30146_prop_d5e62454">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30146"/>
       <prop_label xml:lang="en">has restriction on use of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30145">
+   <prop localid_prop="uwmaps_rdam_p30km_P30145_prop_d5e62680">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30145"/>
       <prop_label xml:lang="en">has restriction on access to manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30048">
+   <prop localid_prop="uwmaps_rdam_p30km_P30048_prop_d5e62905">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30048"/>
       <prop_label xml:lang="en">has related manifestation of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30039">
+   <prop localid_prop="uwmaps_rdam_p30km_P30039_prop_d5e63129">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30039"/>
       <prop_label xml:lang="en">is reproduced as manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30038">
+   <prop localid_prop="uwmaps_rdam_p30km_P30038_prop_d5e63361">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30038"/>
       <prop_label xml:lang="en">is reprinted as manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30103">
+   <prop localid_prop="uwmaps_rdam_p30km_P30103_prop_d5e63584">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30103"/>
       <prop_label xml:lang="en">has exemplar of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30253">
+   <prop localid_prop="uwmaps_rdam_p30km_P30253_prop_d5e63813">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30253"/>
       <prop_label xml:lang="en">is subject manifestation of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30036">
+   <prop localid_prop="uwmaps_rdam_p30km_P30036_prop_d5e64073">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30036"/>
       <prop_label xml:lang="en">is on disc with manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30037">
+   <prop localid_prop="uwmaps_rdam_p30km_P30037_prop_d5e64296">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30037"/>
       <prop_label xml:lang="en">is filmed with manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30135">
+   <prop localid_prop="uwmaps_rdam_p30km_P30135_prop_d5e64519">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30135"/>
       <prop_label xml:lang="en">has work manifested</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30021">
+   <prop localid_prop="uwmaps_rdam_p30km_P30021_prop_d5e64749">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30021"/>
       <prop_label xml:lang="en">has preservation facsimile of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30169">
+   <prop localid_prop="uwmaps_rdam_p30km_P30169_prop_d5e64978">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30169"/>
       <prop_label xml:lang="en">has dimensions</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30223">
+   <prop localid_prop="uwmaps_rdam_p30km_P30223_prop_d5e65252">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30223"/>
       <prop_label xml:lang="en">has details of emulsion on microfilm and microfiche</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30127">
+   <prop localid_prop="uwmaps_rdam_p30km_P30127_prop_d5e65480">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30127"/>
       <prop_label xml:lang="en">has projection characteristic of motion picture film</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30297">
+   <prop localid_prop="uwmaps_rdam_p30km_P30297_prop_d5e65709">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30297"/>
       <prop_label xml:lang="en">has name of agent of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30062">
+   <prop localid_prop="uwmaps_rdam_p30km_P30062_prop_d5e65906">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30062"/>
       <prop_label xml:lang="en">has note on numbering of sequence</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30165">
+   <prop localid_prop="uwmaps_rdam_p30km_P30165_prop_d5e66165">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30165"/>
       <prop_label xml:lang="en">has numbering of sequence</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30014">
+   <prop localid_prop="uwmaps_rdam_p30km_P30014_prop_d5e66469">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30014"/>
       <prop_label xml:lang="en">has numbering within sequence</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30215">
+   <prop localid_prop="uwmaps_rdam_p30km_P30215_prop_d5e66806">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30215"/>
       <prop_label xml:lang="en">has papermaker agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30393">
+   <prop localid_prop="uwmaps_rdam_p30km_P30393_prop_d5e67066">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30393"/>
       <prop_label xml:lang="en">has papermaker collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30422">
+   <prop localid_prop="uwmaps_rdam_p30km_P30422_prop_d5e67261">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30422"/>
       <prop_label xml:lang="en">has papermaker corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30451">
+   <prop localid_prop="uwmaps_rdam_p30km_P30451_prop_d5e67452">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30451"/>
       <prop_label xml:lang="en">has papermaker family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30364">
+   <prop localid_prop="uwmaps_rdam_p30km_P30364_prop_d5e67644">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30364"/>
       <prop_label xml:lang="en">has papermaker person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30204">
+   <prop localid_prop="uwmaps_rdam_p30km_P30204_prop_d5e67835">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30204"/>
       <prop_label xml:lang="en">has parallel title of series</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30151">
+   <prop localid_prop="uwmaps_rdam_p30km_P30151_prop_d5e68128">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30151"/>
       <prop_label xml:lang="en">has parallel other title information</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30094">
+   <prop localid_prop="uwmaps_rdam_p30km_P30094_prop_d5e68360">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30094"/>
       <prop_label xml:lang="en">has parallel name of producer</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30049">
+   <prop localid_prop="uwmaps_rdam_p30km_P30049_prop_d5e68595">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30049"/>
       <prop_label xml:lang="en">has parallel name of manufacturer</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30095">
+   <prop localid_prop="uwmaps_rdam_p30km_P30095_prop_d5e68830">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30095"/>
       <prop_label xml:lang="en">has parallel name of publisher</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30112">
+   <prop localid_prop="uwmaps_rdam_p30km_P30112_prop_d5e69229">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30112"/>
       <prop_label xml:lang="en">has parallel statement of responsibility relating to named revision of edition</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30115">
+   <prop localid_prop="uwmaps_rdam_p30km_P30115_prop_d5e69456">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30115"/>
       <prop_label xml:lang="en">has parallel statement of responsibility relating to edition</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30113">
+   <prop localid_prop="uwmaps_rdam_p30km_P30113_prop_d5e69684">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30113"/>
       <prop_label xml:lang="en">has parallel statement of responsibility relating to series</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30116">
+   <prop localid_prop="uwmaps_rdam_p30km_P30116_prop_d5e69946">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30116"/>
       <prop_label xml:lang="en">has parallel statement of responsibility relating to title proper</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30017">
+   <prop localid_prop="uwmaps_rdam_p30km_P30017_prop_d5e70160">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30017"/>
       <prop_label xml:lang="en">has parallel name of distributor</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30203">
+   <prop localid_prop="uwmaps_rdam_p30km_P30203_prop_d5e70396">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30203"/>
       <prop_label xml:lang="en">has parallel title proper</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30033">
+   <prop localid_prop="uwmaps_rdam_p30km_P30033_prop_d5e70656">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30033"/>
       <prop_label xml:lang="en">has part manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30020">
+   <prop localid_prop="uwmaps_rdam_p30km_P30020_prop_d5e70919">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30020"/>
       <prop_label xml:lang="en">is part of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30279">
+   <prop localid_prop="uwmaps_rdam_p30km_P30279_prop_d5e71186">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30279"/>
       <prop_label xml:lang="en">has place of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30075">
+   <prop localid_prop="uwmaps_rdam_p30km_P30075_prop_d5e71383">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30075"/>
       <prop_label xml:lang="en">has platemaker agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30384">
+   <prop localid_prop="uwmaps_rdam_p30km_P30384_prop_d5e71642">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30384"/>
       <prop_label xml:lang="en">has platemaker collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30413">
+   <prop localid_prop="uwmaps_rdam_p30km_P30413_prop_d5e71838">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30413"/>
       <prop_label xml:lang="en">has platemaker corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30442">
+   <prop localid_prop="uwmaps_rdam_p30km_P30442_prop_d5e72029">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30442"/>
       <prop_label xml:lang="en">has platemaker family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30355">
+   <prop localid_prop="uwmaps_rdam_p30km_P30355_prop_d5e72220">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30355"/>
       <prop_label xml:lang="en">has platemaker person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30184">
+   <prop localid_prop="uwmaps_rdam_p30km_P30184_prop_d5e72412">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30184"/>
       <prop_label xml:lang="en">has configuration of playback channels</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30220">
+   <prop localid_prop="uwmaps_rdam_p30km_P30220_prop_d5e72639">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30220"/>
       <prop_label xml:lang="en">has details of configuration of playback channels</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30196">
+   <prop localid_prop="uwmaps_rdam_p30km_P30196_prop_d5e72866">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30196"/>
       <prop_label xml:lang="en">has polarity</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30236">
+   <prop localid_prop="uwmaps_rdam_p30km_P30236_prop_d5e73092">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30236"/>
       <prop_label xml:lang="en">has details of polarity</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30301">
+   <prop localid_prop="uwmaps_rdam_p30km_P30301_prop_d5e73317">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30301"/>
       <prop_label xml:lang="en">is preservation facsimile of item of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30045">
+   <prop localid_prop="uwmaps_rdam_p30km_P30045_prop_d5e73506">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30045"/>
       <prop_label xml:lang="en">is preservation facsimile of manifestation of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30163">
+   <prop localid_prop="uwmaps_rdam_p30km_P30163_prop_d5e73730">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30163"/>
       <prop_label xml:lang="en">has presentation format</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30237">
+   <prop localid_prop="uwmaps_rdam_p30km_P30237_prop_d5e73957">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30237"/>
       <prop_label xml:lang="en">has details of presentation format</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30078">
+   <prop localid_prop="uwmaps_rdam_p30km_P30078_prop_d5e74182">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30078"/>
       <prop_label xml:lang="en">has printer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30387">
+   <prop localid_prop="uwmaps_rdam_p30km_P30387_prop_d5e74457">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30387"/>
       <prop_label xml:lang="en">has printer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30416">
+   <prop localid_prop="uwmaps_rdam_p30km_P30416_prop_d5e74662">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30416"/>
       <prop_label xml:lang="en">has printer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30445">
+   <prop localid_prop="uwmaps_rdam_p30km_P30445_prop_d5e74862">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30445"/>
       <prop_label xml:lang="en">has printer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30358">
+   <prop localid_prop="uwmaps_rdam_p30km_P30358_prop_d5e75063">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30358"/>
       <prop_label xml:lang="en">has printer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30072">
+   <prop localid_prop="uwmaps_rdam_p30km_P30072_prop_d5e75263">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30072"/>
       <prop_label xml:lang="en">has printmaker agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30381">
+   <prop localid_prop="uwmaps_rdam_p30km_P30381_prop_d5e75522">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30381"/>
       <prop_label xml:lang="en">has printmaker collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30410">
+   <prop localid_prop="uwmaps_rdam_p30km_P30410_prop_d5e75718">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30410"/>
       <prop_label xml:lang="en">has printmaker corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30439">
+   <prop localid_prop="uwmaps_rdam_p30km_P30439_prop_d5e75909">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30439"/>
       <prop_label xml:lang="en">has printmaker family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30352">
+   <prop localid_prop="uwmaps_rdam_p30km_P30352_prop_d5e76100">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30352"/>
       <prop_label xml:lang="en">has printmaker person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30081">
+   <prop localid_prop="uwmaps_rdam_p30km_P30081_prop_d5e76292">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30081"/>
       <prop_label xml:lang="en">has producer agent of unpublished manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30389">
+   <prop localid_prop="uwmaps_rdam_p30km_P30389_prop_d5e76557">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30389"/>
       <prop_label xml:lang="en">has producer collective agent of unpublished manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30418">
+   <prop localid_prop="uwmaps_rdam_p30km_P30418_prop_d5e76752">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30418"/>
       <prop_label xml:lang="en">has producer corporate body of unpublished manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30447">
+   <prop localid_prop="uwmaps_rdam_p30km_P30447_prop_d5e76944">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30447"/>
       <prop_label xml:lang="en">has producer family of unpublished manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30360">
+   <prop localid_prop="uwmaps_rdam_p30km_P30360_prop_d5e77135">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30360"/>
       <prop_label xml:lang="en">has producer person of unpublished manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30083">
+   <prop localid_prop="uwmaps_rdam_p30km_P30083_prop_d5e77417">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30083"/>
       <prop_label xml:lang="en">has publisher agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30391">
+   <prop localid_prop="uwmaps_rdam_p30km_P30391_prop_d5e77684">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30391"/>
       <prop_label xml:lang="en">has publisher collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30420">
+   <prop localid_prop="uwmaps_rdam_p30km_P30420_prop_d5e77882">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30420"/>
       <prop_label xml:lang="en">has publisher corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30449">
+   <prop localid_prop="uwmaps_rdam_p30km_P30449_prop_d5e78075">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30449"/>
       <prop_label xml:lang="en">has publisher family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30362">
+   <prop localid_prop="uwmaps_rdam_p30km_P30362_prop_d5e78268">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30362"/>
       <prop_label xml:lang="en">has publisher person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30006">
+   <prop localid_prop="uwmaps_rdam_p30km_P30006_prop_d5e78462">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30006"/>
       <prop_label xml:lang="en">has regional encoding</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30275">
+   <prop localid_prop="uwmaps_rdam_p30km_P30275_prop_d5e78676">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30275"/>
       <prop_label xml:lang="en">has details of regional encoding</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30330">
+   <prop localid_prop="uwmaps_rdam_p30km_P30330_prop_d5e78890">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30330"/>
       <prop_label xml:lang="en">has related entity of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30264">
+   <prop localid_prop="uwmaps_rdam_p30km_P30264_prop_d5e79067">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30264"/>
       <prop_label xml:lang="en">has related RDA entity of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30160">
+   <prop localid_prop="uwmaps_rdam_p30km_P30160_prop_d5e79288">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30160"/>
       <prop_label xml:lang="en">has term of availability</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30302">
+   <prop localid_prop="uwmaps_rdam_p30km_P30302_prop_d5e79525">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30302"/>
       <prop_label xml:lang="en">is reprint of item of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30093">
+   <prop localid_prop="uwmaps_rdam_p30km_P30093_prop_d5e79718">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30093"/>
       <prop_label xml:lang="en">is reprint of manifestation of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30303">
+   <prop localid_prop="uwmaps_rdam_p30km_P30303_prop_d5e79944">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30303"/>
       <prop_label xml:lang="en">is reproduction of item of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30043">
+   <prop localid_prop="uwmaps_rdam_p30km_P30043_prop_d5e80145">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30043"/>
       <prop_label xml:lang="en">is reproduction of manifestation of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30206">
+   <prop localid_prop="uwmaps_rdam_p30km_P30206_prop_d5e80410">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30206"/>
       <prop_label xml:lang="en">has recording medium</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30249">
+   <prop localid_prop="uwmaps_rdam_p30km_P30249_prop_d5e80637">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30249"/>
       <prop_label xml:lang="en">has details of type of recording</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30243">
+   <prop localid_prop="uwmaps_rdam_p30km_P30243_prop_d5e80865">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30243"/>
       <prop_label xml:lang="en">has details of recording medium</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30131">
+   <prop localid_prop="uwmaps_rdam_p30km_P30131_prop_d5e81092">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30131"/>
       <prop_label xml:lang="en">has abbreviated title</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30161">
+   <prop localid_prop="uwmaps_rdam_p30km_P30161_prop_d5e81321">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30161"/>
       <prop_label xml:lang="en">has track configuration</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30248">
+   <prop localid_prop="uwmaps_rdam_p30km_P30248_prop_d5e81549">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30248"/>
       <prop_label xml:lang="en">has details of track configuration</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30106">
+   <prop localid_prop="uwmaps_rdam_p30km_P30106_prop_d5e81776">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30106"/>
       <prop_label xml:lang="en">has series statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30143">
+   <prop localid_prop="uwmaps_rdam_p30km_P30143_prop_d5e82213">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30143"/>
       <prop_label xml:lang="en">has other title information of series</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30152">
+   <prop localid_prop="uwmaps_rdam_p30km_P30152_prop_d5e82477">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30152"/>
       <prop_label xml:lang="en">has parallel other title information of series</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30334">
+   <prop localid_prop="uwmaps_rdam_p30km_P30334_prop_d5e82742">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30334"/>
       <prop_label xml:lang="en">is source consulted of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30138">
+   <prop localid_prop="uwmaps_rdam_p30km_P30138_prop_d5e82932">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30138"/>
       <prop_label xml:lang="en">has special playback characteristic</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30246">
+   <prop localid_prop="uwmaps_rdam_p30km_P30246_prop_d5e83159">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30246"/>
       <prop_label xml:lang="en">has details of special playback characteristic</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30118">
+   <prop localid_prop="uwmaps_rdam_p30km_P30118_prop_d5e83386">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30118"/>
       <prop_label xml:lang="en">has statement of responsibility relating to named revision of edition</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30123">
+   <prop localid_prop="uwmaps_rdam_p30km_P30123_prop_d5e83619">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30123"/>
       <prop_label xml:lang="en">has broadcast standard</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30219">
+   <prop localid_prop="uwmaps_rdam_p30km_P30219_prop_d5e83846">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30219"/>
       <prop_label xml:lang="en">has details of broadcast standard</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30312">
+   <prop localid_prop="uwmaps_rdam_p30km_P30312_prop_d5e84073">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30312"/>
       <prop_label xml:lang="en">has surveyor agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30366">
+   <prop localid_prop="uwmaps_rdam_p30km_P30366_prop_d5e84285">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30366"/>
       <prop_label xml:lang="en">has surveyor collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30395">
+   <prop localid_prop="uwmaps_rdam_p30km_P30395_prop_d5e84480">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30395"/>
       <prop_label xml:lang="en">has surveyor corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30424">
+   <prop localid_prop="uwmaps_rdam_p30km_P30424_prop_d5e84671">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30424"/>
       <prop_label xml:lang="en">has surveyor family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30337">
+   <prop localid_prop="uwmaps_rdam_p30km_P30337_prop_d5e84863">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30337"/>
       <prop_label xml:lang="en">has surveyor person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30107">
+   <prop localid_prop="uwmaps_rdam_p30km_P30107_prop_d5e85054">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30107"/>
       <prop_label xml:lang="en">has edition statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30117">
+   <prop localid_prop="uwmaps_rdam_p30km_P30117_prop_d5e85326">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30117"/>
       <prop_label xml:lang="en">has statement of responsibility</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30121">
+   <prop localid_prop="uwmaps_rdam_p30km_P30121_prop_d5e85776">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30121"/>
       <prop_label xml:lang="en">has statement of responsibility relating to edition</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30119">
+   <prop localid_prop="uwmaps_rdam_p30km_P30119_prop_d5e86005">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30119"/>
       <prop_label xml:lang="en">has statement of responsibility relating to series</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30105">
+   <prop localid_prop="uwmaps_rdam_p30km_P30105_prop_d5e86267">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30105"/>
       <prop_label xml:lang="en">has statement of responsibility relating to title proper</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30026">
+   <prop localid_prop="uwmaps_rdam_p30km_P30026_prop_d5e86537">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30026"/>
       <prop_label xml:lang="en">is also issued as</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30233">
+   <prop localid_prop="uwmaps_rdam_p30km_P30233_prop_d5e86760">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30233"/>
       <prop_label xml:lang="en">has details of layout</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30182">
+   <prop localid_prop="uwmaps_rdam_p30km_P30182_prop_d5e86986">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30182"/>
       <prop_label xml:lang="en">has extent of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30085">
+   <prop localid_prop="uwmaps_rdam_p30km_P30085_prop_d5e87228">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30085"/>
       <prop_label xml:lang="en">has place of distribution</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30008">
+   <prop localid_prop="uwmaps_rdam_p30km_P30008_prop_d5e87459">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30008"/>
       <prop_label xml:lang="en">has date of distribution</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30108">
+   <prop localid_prop="uwmaps_rdam_p30km_P30108_prop_d5e87689">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30108"/>
       <prop_label xml:lang="en">has distribution statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30089">
+   <prop localid_prop="uwmaps_rdam_p30km_P30089_prop_d5e87914">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30089"/>
       <prop_label xml:lang="en">has parallel place of distribution</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30173">
+   <prop localid_prop="uwmaps_rdam_p30km_P30173_prop_d5e88143">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30173"/>
       <prop_label xml:lang="en">has name of distributor</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30261">
+   <prop localid_prop="uwmaps_rdam_p30km_P30261_prop_d5e88394">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30261"/>
       <prop_label xml:lang="en">has cartographic data type</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30262">
+   <prop localid_prop="uwmaps_rdam_p30km_P30262_prop_d5e88606">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30262"/>
       <prop_label xml:lang="en">has details of cartographic data type</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30102">
+   <prop localid_prop="uwmaps_rdam_p30km_P30102_prop_d5e88818">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30102"/>
       <prop_label xml:lang="en">has digital representation of cartographic content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30157">
+   <prop localid_prop="uwmaps_rdam_p30km_P30157_prop_d5e89039">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30157"/>
       <prop_label xml:lang="en">has title of series</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30155">
+   <prop localid_prop="uwmaps_rdam_p30km_P30155_prop_d5e89332">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30155"/>
       <prop_label xml:lang="en">has layout</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30028">
+   <prop localid_prop="uwmaps_rdam_p30km_P30028_prop_d5e89557">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30028"/>
       <prop_label xml:lang="en">has mirror site</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30309">
+   <prop localid_prop="uwmaps_rdam_p30km_P30309_prop_d5e89781">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30309"/>
       <prop_label xml:lang="en">has type of binding</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30156">
+   <prop localid_prop="uwmaps_rdam_p30km_P30156_prop_d5e89965">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30156"/>
       <prop_label xml:lang="en">has title proper</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30295">
+   <prop localid_prop="uwmaps_rdam_p30km_P30295_prop_d5e90336">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30295"/>
       <prop_label xml:lang="en">has variant access point for manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30200">
+   <prop localid_prop="uwmaps_rdam_p30km_P30200_prop_d5e90528">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30200"/>
       <prop_label xml:lang="en">has projection speed</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30242">
+   <prop localid_prop="uwmaps_rdam_p30km_P30242_prop_d5e90755">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30242"/>
       <prop_label xml:lang="en">has details of projection speed</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30104">
+   <prop localid_prop="uwmaps_rdam_p30km_P30104_prop_d5e90982">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30104"/>
       <prop_label xml:lang="en">has video format</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30251">
+   <prop localid_prop="uwmaps_rdam_p30km_P30251_prop_d5e91210">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30251"/>
       <prop_label xml:lang="en">has details of video format</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30126">
+   <prop localid_prop="uwmaps_rdam_p30km_P30126_prop_d5e91437">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30126"/>
       <prop_label xml:lang="en">has video characteristic</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30250">
+   <prop localid_prop="uwmaps_rdam_p30km_P30250_prop_d5e91666">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30250"/>
       <prop_label xml:lang="en">has details of video characteristic</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30066">
+   <prop localid_prop="uwmaps_rdam_p30km_P30066_prop_d5e92028">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30066"/>
       <prop_label xml:lang="en">has plate number for notated music</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30452">
+   <prop localid_prop="uwmaps_rdam_p30km_P30452_prop_d5e92317">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30452"/>
       <prop_label xml:lang="en">has accessibility content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30456">
+   <prop localid_prop="uwmaps_rdam_p30km_P30456_prop_d5e92402">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30456"/>
       <prop_label xml:lang="en">has colour content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30453">
+   <prop localid_prop="uwmaps_rdam_p30km_P30453_prop_d5e92492">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30453"/>
       <prop_label xml:lang="en">has illustrative content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30454">
+   <prop localid_prop="uwmaps_rdam_p30km_P30454_prop_d5e92577">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30454"/>
       <prop_label xml:lang="en">has sound content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30455">
+   <prop localid_prop="uwmaps_rdam_p30km_P30455_prop_d5e92660">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30455"/>
       <prop_label xml:lang="en">has supplementary content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30457">
+   <prop localid_prop="uwmaps_rdam_p30km_P30457_prop_d5e92735">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30457"/>
       <prop_label xml:lang="en">is reference source of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30458">
+   <prop localid_prop="uwmaps_rdam_p30km_P30458_prop_d5e92809">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30458"/>
       <prop_label xml:lang="en">has subcollection</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30459">
+   <prop localid_prop="uwmaps_rdam_p30km_P30459_prop_d5e92844">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30459"/>
       <prop_label xml:lang="en">is subcollection of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30460">
+   <prop localid_prop="uwmaps_rdam_p30km_P30460_prop_d5e92879">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30460"/>
       <prop_label xml:lang="en">has holding</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30461">
+   <prop localid_prop="uwmaps_rdam_p30km_P30461_prop_d5e92914">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30461"/>
       <prop_label xml:lang="en">has location of collection</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30462">
+   <prop localid_prop="uwmaps_rdam_p30km_P30462_prop_d5e92949">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30462"/>
       <prop_label xml:lang="en">is manifestation described with metadata by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30463">
+   <prop localid_prop="uwmaps_rdam_p30km_P30463_prop_d5e92986">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30463"/>
       <prop_label xml:lang="en">has finding aid</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30464">
+   <prop localid_prop="uwmaps_rdam_p30km_P30464_prop_d5e93026">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30464"/>
       <prop_label xml:lang="en">has catalogue</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30465">
+   <prop localid_prop="uwmaps_rdam_p30km_P30465_prop_d5e93067">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30465"/>
       <prop_label xml:lang="en">has hierarchic finding aid</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_P30466">
+   <prop localid_prop="uwmaps_rdam_p30km_P30466_prop_d5e93108">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30466"/>
       <prop_label xml:lang="en">has index</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
    </prop>
-   <prop localid_prop="map_storage_rdam_p30km_">
+   <prop localid_prop="uwmaps_rdam_p30km__prop_d5e93143">
       <prop_iri iri="http://rdaregistry.info/Elements/m/"/>
       <prop_label xml:lang="en">has details of generation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
