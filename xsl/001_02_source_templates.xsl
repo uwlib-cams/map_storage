@@ -19,8 +19,9 @@
                 [rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]
                 [not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]">
             <prop xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-                localid_prop="{concat('map_storage_', $get_set/uwmaps:set_name,
-                    translate(substring-after(@rdf:about, 'http://rdaregistry.info/Elements/'), '/', '_'))}">
+                localid_prop="{concat('uwmaps_', $get_set/uwmaps:set_name,
+                    translate(substring-after(@rdf:about, 'http://rdaregistry.info/Elements/'), '/', '_'),
+                    '_prop_', generate-id())}">
                 <prop_iri iri="{@rdf:about}"/>
                 <prop_label xml:lang="en">
                     <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
@@ -49,8 +50,9 @@
                     current-group()
                     [rdf:type/@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']">
                 <prop xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-                    localid_prop="{concat('map_storage_', $get_set/uwmaps:set_name,
-                    substring-after(@rdf:about, 'http://purl.org/dc/terms/'))}">
+                    localid_prop="{concat('uwmaps_', $get_set/uwmaps:set_name, '_',
+                    substring-after(@rdf:about, 'http://purl.org/dc/terms/'),
+                    '_prop_', generate-id())}">
                     <prop_iri iri="{@rdf:about}"/>
                     <prop_label xml:lang="en">
                         <xsl:value-of select="current-group()/rdfs:label[@xml:lang = 'en']"/>
@@ -86,8 +88,9 @@
         <xsl:param name="get_set"/>
         <xsl:for-each select="document($get_set/uwmaps:set_source)/rdf:RDF/owl:ObjectProperty">
             <prop xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-                localid_prop="{concat('map_storage_', $get_set/uwmaps:set_name,
-                substring-after(@rdf:about, 'http://www.w3.org/ns/prov#'))}">
+                localid_prop="{concat('uwmaps_', $get_set/uwmaps:set_name, '_',
+                substring-after(@rdf:about, 'http://www.w3.org/ns/prov#'),
+                '_prop_', generate-id())}">
                 <prop_iri iri="{@rdf:about}"/>
                 <prop_label xml:lang="en">
                     <xsl:value-of select="rdfs:label"/>
