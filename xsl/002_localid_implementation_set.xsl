@@ -6,15 +6,16 @@
     exclude-result-prefixes="xs uwmaps uwsinopia"
     version="3.0">
     
+    <xsl:output indent="1"/>
+    
     <xsl:mode on-no-match="shallow-copy"/>
     
     <xsl:template match="uwmaps:prop_set/uwmaps:prop/uwmaps:sinopia/uwsinopia:implementation_set">
         <xsl:choose>
             <xsl:when test="@localid_implementation_set/text()"/>
             <xsl:otherwise>
-                <!-- add some kind of property identification to the localid as well -->
                 <uwsinopia:implementation_set 
-                    localid_implementation_set="{concat(../../../../uwmaps:prop_set/uwmaps:prop_set_label, '_', generate-id())}">
+                    localid_implementation_set="{concat(../../@localid_prop, '_is_', generate-id())}">
                     <xsl:copy-of select="node()"/>
                 </uwsinopia:implementation_set>
             </xsl:otherwise>
