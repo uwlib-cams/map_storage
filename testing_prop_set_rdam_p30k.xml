@@ -16,14 +16,6 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30276"/>
       <prop_label xml:lang="en">has access point for manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30276_prop_d5e43_is_d1e16">
-            <uwsinopia:resource/>
-            <uwsinopia:format/>
-            <uwsinopia:user/>
-            <uwsinopia:form_order/>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30208_prop_d5e371">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30208"/>
@@ -109,6 +101,21 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30069"/>
       <prop_label xml:lang="en">has book designer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30069_prop_d5e5057_is_d1e189">
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>test_nested_resource_props</uwsinopia:format>
+            <uwsinopia:user>ries07</uwsinopia:user>
+            <uwsinopia:form_order>0.0001</uwsinopia:form_order>
+            <uwsinopia:repeatable/>
+            <uwsinopia:nested_resource_pt>
+               <uwsinopia:prop_instance>
+                  <uwsinopia:rt_id>wau:test:20220108:agent</uwsinopia:rt_id>
+                  <uwsinopia:rt_id>wau:test:20220108:rdacCorporateBody:rdacCorporateBody:ries07</uwsinopia:rt_id>
+               </uwsinopia:prop_instance>
+            </uwsinopia:nested_resource_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30378_prop_d5e5316">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30378"/>
