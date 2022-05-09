@@ -91,7 +91,7 @@
             <xs:simpleType>
                 <xs:restriction base="xs:anyURI">
                     <!-- IRI validation pattern -->
-                    <xs:pattern value="https?:\/\/\S*"/>
+                    <xs:pattern value="https?://\S*"/>
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
