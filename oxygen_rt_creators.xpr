@@ -10,6 +10,26 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>testing_prop_set_dcterms.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>localid_implementation_set</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>testing_prop_set_rdam_p30k.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -31,26 +51,6 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>testing_prop_set_prov.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>localid_implementation_set</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>testing_prop_set_dcterms.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -162,7 +162,8 @@
             </serialized>
         </options>
     </meta>
-    <projectTree name="rt_creators.xpr">
+    <projectTree name="oxygen_rt_creators.xpr">
         <folder path="."/>
+        <folder path="../sinopia_maps/"/>
     </projectTree>
 </project>
