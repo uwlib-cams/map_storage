@@ -27,6 +27,7 @@
     <xs:complexType name="get_set_type">
         <xs:sequence>
             <xs:element name="set_name" type="prop_set_label_type"/>
+            <!-- [?] what is the purpose of this element again? -->
             <xs:element name="set_domain" type="uwsinopia:resource_label_type" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element name="set_source" type="set_source_type"/>
         </xs:sequence>

@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- are both targetNamespace and xmlns attrs needed? -->
 <xs:schema targetNamespace="https://uwlib-cams.github.io/map_storage/xsd/"
-    xmlns="https://uwlib-cams.github.io/map_storage/xsd/" 
+    xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
     xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified"
     vc:minVersion="1.1">
 
     <!-- ***** IMPORT/INCLUDE ***** -->
-    
+
     <xs:import namespace="http://www.w3.org/XML/1998/namespace"
         schemaLocation="http://www.w3.org/2001/03/xml.xsd"/>
     <xs:import namespace="http://www.w3.org/2001/XMLSchema"
         schemaLocation="https://www.w3.org/2001/XMLSchema.xsd"/>
     <xs:import namespace="https://uwlib-cams.github.io/sinopia_maps/xsd/"
         schemaLocation="https://uwlib-cams.github.io/sinopia_maps/xsd/uwsinopia.xsd"/>
-    
+
     <!--  ***** REUSE THESE TYPES ***** -->
-    
+
     <!-- (MAP ID component) -->
     <xs:simpleType name="prop_set_label_type">
         <xs:annotation>
             <xs:documentation>For RDA property sets:</xs:documentation>
-            <xs:documentation>These options correspond to documents published at the RDA Registry detailing RDA/RDF properties for use with a given domain.</xs:documentation>
-            <xs:documentation>Most property-set labels will be self-explanatory, but note that...</xs:documentation>
-            <xs:documentation>The 'rdax_p00k' property set includes properties for use with the class 'RDA Entity'.</xs:documentation>
+            <xs:documentation>These options correspond to documents published at the RDA Registry
+                detailing RDA/RDF properties for use with a given domain.</xs:documentation>
+            <xs:documentation>Most property-set labels will be self-explanatory, but note
+                that...</xs:documentation>
+            <xs:documentation>The 'rdax_p00k' property set includes properties for use with the
+                class 'RDA Entity'.</xs:documentation>
             <xs:documentation>For other property sets:</xs:documentation>
-            <xs:documentation>The 'dcterms' property set includes the Dublin Core Terms.</xs:documentation>
+            <xs:documentation>The 'dcterms' property set includes the Dublin Core
+                Terms.</xs:documentation>
         </xs:annotation>
         <xs:restriction base="xs:string">
             <xs:enumeration value="rdaw_p10k"/>
@@ -45,10 +49,12 @@
             <xs:enumeration value="prov"/>
         </xs:restriction>
     </xs:simpleType>
-    
+
     <xs:complexType name="lang_string_type">
         <xs:annotation>
-            <xs:documentation>Use this element to enter the literal value or text string which should appear in the resource template as a default value, label, etc.</xs:documentation>
+            <xs:documentation>Use this element to enter the literal value or text string which
+                should appear in the resource template as a default value, label,
+                etc.</xs:documentation>
         </xs:annotation>
         <!-- Use values from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry  -->
         <!-- to do need default "en" -->
@@ -56,38 +62,58 @@
             <xs:annotation>
                 <xs:documentation>Enter a language tag from the IANA registry.</xs:documentation>
                 <xs:documentation>For English, use 'en'.</xs:documentation>
-                <xs:documentation>For literals with no linguistic content, use 'zxx'.</xs:documentation>
+                <xs:documentation>For literals with no linguistic content, use
+                    'zxx'.</xs:documentation>
             </xs:annotation>
             <xs:extension base="xs:string">
-                <xs:attribute ref="xml:lang" use="required"/>
+                <xs:attribute ref="xml:lang" use="required">
+                    <xs:annotation>
+                        <xs:documentation>`xml:lang` attribute values: RDF language tags will be
+                            pulled from prop_sets as-is, so lang tags should be taken from the IANA
+                            Language Subtag Registry.</xs:documentation>
+                        <xs:documentation>For English-language text (for example, when providing)
+                            default literal values) use "en".</xs:documentation>
+                        <xs:documentation>For literal values without linguistic content (for
+                            example, when providing a default date or numeric value), use "zxx", or
+                            use the language_suppressed element.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
                 <!-- to do / wishlist / question: possible to add enumerations here?? -->
                 <!-- en -->
                 <!-- zxx -->
             </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
-    
+
     <xs:simpleType name="localid_attr">
         <xs:annotation>
-            <xs:documentation>This attribute is used to store local identifiers for properties used in application profiles, and for sets of implementation information for a given property.</xs:documentation>
-            <xs:documentation>Do not enter local identifiers when editing prop_set instances.</xs:documentation>
-            <xs:documentation>Local identifiers for properties will be generated by the stylesheets which create prop_set instances from external sources.</xs:documentation>
-            <xs:documentation>To create a local identifier for a new set of implementation information (implementation_set), use the 002_localid_implementation_set.xsl stylesheet.</xs:documentation>
-            <xs:documentation>Instructions for doing this are included in the sinopia_maps wiki, available at https://github.com/uwlib-cams/sinopia_maps/wiki .</xs:documentation>
+            <xs:documentation>Do not enter local identifiers when editing prop_set
+                instances.</xs:documentation>
+            <xs:documentation>This attribute is used to store local identifiers for properties used
+                in application profiles, and for sets of implementation information for a given
+                property.</xs:documentation>
+            <xs:documentation>Local identifiers for properties will be generated by the stylesheets
+                which create prop_set instances from external sources.</xs:documentation>
+            <xs:documentation>To create a local identifier for a new set of implementation
+                information (implementation_set), use the 002_localid_implementation_set.xsl
+                stylesheet.</xs:documentation>
+            <xs:documentation>Instructions for doing this are included in the sinopia_maps wiki,
+                available at https://github.com/uwlib-cams/sinopia_maps/wiki .</xs:documentation>
         </xs:annotation>
         <xs:restriction base="xs:string">
             <!-- Possible to an XSD mechanism to prevent duplicate values? -->
             <xs:pattern value="\S+"/>
         </xs:restriction>
     </xs:simpleType>
-    
+
     <xs:complexType name="iri_type">
+        <xs:annotation>
+            <xs:documentation>This element type is used to provide IRIs, and in some cases URLs,
+                in prop_set instances.</xs:documentation>
+            <xs:documentation>IRIs/URLs are entered as values of the `iri`
+                attribute.</xs:documentation>
+        </xs:annotation>
         <xs:attribute name="iri">
-            <xs:annotation>
-                <xs:documentation>This attribute is used to provide IRIs in prop_set instances.</xs:documentation>
-                <xs:documentation>This includes property IRIs, as well as IRIs for the domain and range of properties.</xs:documentation>
-                <xs:documentation>When writing implementation information for a property, use this attribute to provide information such as default IRI values.</xs:documentation>
-            </xs:annotation>
             <xs:simpleType>
                 <xs:restriction base="xs:anyURI">
                     <!-- IRI validation pattern -->
@@ -96,7 +122,7 @@
             </xs:simpleType>
         </xs:attribute>
     </xs:complexType>
-    
+
     <!-- ********* SCHEMA ********* -->
 
     <!-- **** prop_set **** -->
@@ -105,11 +131,10 @@
             <xs:documentation>This is the root element of a prop_set instance.</xs:documentation>
         </xs:annotation>
     </xs:element>
-    
+
     <xs:complexType name="prop_set_type">
         <xs:sequence>
-            <xs:element name="prop_set_label" type="prop_set_label_type" minOccurs="1"
-            maxOccurs="1"/>
+            <xs:element name="prop_set_label" type="prop_set_label_type" minOccurs="1" maxOccurs="1"/>
             <xs:element name="prop" type="prop_type" minOccurs="1" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
@@ -117,18 +142,25 @@
     <!-- *** prop *** -->
     <xs:complexType name="prop_type">
         <xs:annotation>
-            <xs:documentation>The prop element is used to store information about published RDF properties, as well as information about how to implement them in a variety of application profiles.</xs:documentation>
-            <xs:documentation>The former information is provided in child elements such as prop_iri, prop_label, etc.</xs:documentation>
-            <xs:documentation>The latter information is provided in platform-specific elements and child elements, such as the sinopia element and its child elements.</xs:documentation>
+            <xs:documentation>The prop element is used to store information about published RDF
+                properties, as well as information about how to implement them in a variety of
+                application profiles.</xs:documentation>
+            <xs:documentation>The former information is provided in child elements such as prop_iri,
+                prop_label, etc.</xs:documentation>
+            <xs:documentation>The latter information is provided in platform-specific elements and
+                child elements, such as the sinopia element and its child
+                elements.</xs:documentation>
         </xs:annotation>
         <xs:sequence>
             <xs:element name="prop_iri" type="iri_type" minOccurs="1" maxOccurs="1"/>
             <xs:element name="prop_label" type="lang_string_type" minOccurs="1"
                 maxOccurs="unbounded"/>
             <xs:element name="prop_domain" type="iri_type" minOccurs="0" maxOccurs="unbounded"/>
-            <xs:element name="prop_domain_includes" type="iri_type" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="prop_domain_includes" type="iri_type" minOccurs="0"
+                maxOccurs="unbounded"/>
             <xs:element name="prop_range" type="iri_type" minOccurs="0" maxOccurs="unbounded"/>
-            <xs:element name="prop_range_includes" type="iri_type" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="prop_range_includes" type="iri_type" minOccurs="0"
+                maxOccurs="unbounded"/>
             <!-- CONSIDER creating additional elements so that URLs can be stored for 1) output as ref links to appear in Sinopia UI and
                 2) output as ref links with descriptive text to appear in HTML -->
             <xs:element name="prop_related_url" type="url_type" minOccurs="0" maxOccurs="unbounded"/>
@@ -140,8 +172,10 @@
     <!-- BMR TO DO [!] This element needs work; attributes need better constraints -->
     <xs:complexType name="url_type">
         <xs:annotation>
-            <xs:documentation>Use the prop_related_url element to provide a web address where information related to the property may be found.</xs:documentation>
-            <xs:documentation>This should be information which is relevant to and supports correct usage of the property.</xs:documentation>
+            <xs:documentation>Use the prop_related_url element to provide a web address where
+                information related to the property may be found.</xs:documentation>
+            <xs:documentation>This should be information which is relevant to and supports correct
+                usage of the property.</xs:documentation>
         </xs:annotation>
         <xs:simpleContent>
             <!-- Need to improve constraints on URL values here; xs:anyURI alone not effective -->
@@ -158,6 +192,6 @@
                 <xs:attribute name="link_text"/>
             </xs:extension>
         </xs:simpleContent>
-    </xs:complexType>    
+    </xs:complexType>
 
 </xs:schema>
