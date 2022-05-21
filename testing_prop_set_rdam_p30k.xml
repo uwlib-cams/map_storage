@@ -21,6 +21,22 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30208"/>
       <prop_label xml:lang="en">has base material</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30208_prop_d5e371_is_d1e26">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>test_all_props</uwsinopia:format>
+            <uwsinopia:user>ries07</uwsinopia:user>
+            <uwsinopia:form_order>0.05</uwsinopia:form_order>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>GETTY_AAT Materials__Materials (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+               <uwsinopia:lookup_default_iri iri="http://example/amaterial001"/>
+               <uwsinopia:lookup_default_iri_label xml:lang="en">some material</uwsinopia:lookup_default_iri_label>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30217_prop_d5e600">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30217"/>
@@ -101,21 +117,6 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30069"/>
       <prop_label xml:lang="en">has book designer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30069_prop_d5e5057_is_d1e189">
-            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
-            <uwsinopia:format>test_nested_resource_props</uwsinopia:format>
-            <uwsinopia:user>ries07</uwsinopia:user>
-            <uwsinopia:form_order>0.0001</uwsinopia:form_order>
-            <uwsinopia:repeatable/>
-            <uwsinopia:nested_resource_pt>
-               <uwsinopia:prop_instance>
-                  <uwsinopia:rt_id>wau:test:20220108:agent</uwsinopia:rt_id>
-                  <uwsinopia:rt_id>wau:test:20220108:rdacCorporateBody:rdacCorporateBody:ries07</uwsinopia:rt_id>
-               </uwsinopia:prop_instance>
-            </uwsinopia:nested_resource_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30378_prop_d5e5316">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30378"/>
@@ -666,22 +667,6 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30070"/>
       <prop_label xml:lang="en">has engraver agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30070_prop_d5e28571_is_d1e1334">
-            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
-            <uwsinopia:format>test_uri_props</uwsinopia:format>
-            <uwsinopia:user>tgis</uwsinopia:user>
-            <uwsinopia:form_order>0.0004</uwsinopia:form_order>
-            <uwsinopia:required>false</uwsinopia:required>
-            <uwsinopia:repeatable>1</uwsinopia:repeatable>
-            <uwsinopia:uri_pt>
-               <uwsinopia:default_uri iri="http://hogwash.edu/tgis/"/>
-                  <!-- why is default uri required? Also it's @a only, no text node. -->
-               <!-- <default_uri_label> is not required so I leave it our:
-               <uwsinopia:default_uri_label xml:lang=""></uwsinopia:default_uri_label>-->
-            </uwsinopia:uri_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30379_prop_d5e28831">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30379"/>
@@ -772,23 +757,6 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30018"/>
       <prop_label xml:lang="en">has file type</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30018_prop_d5e32779_is_d1e1531">
-            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
-            <uwsinopia:format>test_literal_props</uwsinopia:format>
-            <uwsinopia:user>tgis</uwsinopia:user>
-            <uwsinopia:form_order>0.0001</uwsinopia:form_order>
-            <uwsinopia:remark xml:lang="en">Use a MIME type</uwsinopia:remark>
-            <uwsinopia:required>false</uwsinopia:required>
-            <uwsinopia:repeatable>1</uwsinopia:repeatable>
-            <uwsinopia:literal_pt>
-               <uwsinopia:default_literal xml:lang="en">
-                  <!-- something her's required byt there is no default literal; each value potentially varies from another -->
-               </uwsinopia:default_literal>
-               <!-- It seems either <default_literal> or <validation_datatype> is required here but it's not clear for what purpose -->
-            </uwsinopia:literal_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30225_prop_d5e33006">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30225"/>
@@ -1354,20 +1322,6 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30052"/>
       <prop_label xml:lang="en">has note on distribution statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30052_prop_d5e60424_is_d1e2712">
-            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
-            <uwsinopia:format>test_literal_props</uwsinopia:format>
-            <uwsinopia:user>tgis</uwsinopia:user>
-            <uwsinopia:form_order>0.0002</uwsinopia:form_order>
-            <uwsinopia:required>false</uwsinopia:required>
-            <uwsinopia:repeatable>1</uwsinopia:repeatable>
-            <uwsinopia:literal_pt>
-               <uwsinopia:userId_default>true</uwsinopia:userId_default>
-               <!-- what is that above, "userId_default"? -->
-            </uwsinopia:literal_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30027_prop_d5e60651">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30027"/>
@@ -1818,18 +1772,6 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30131"/>
       <prop_label xml:lang="en">has abbreviated title</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30131_prop_d5e81092_is_d1e3653">
-            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
-            <uwsinopia:format>test_literal_props</uwsinopia:format>
-            <uwsinopia:user>tgis</uwsinopia:user>
-            <uwsinopia:form_order>0.0003</uwsinopia:form_order>
-            <uwsinopia:literal_pt>
-               <uwsinopia:date_default>true</uwsinopia:date_default>
-               <!-- what is that above, dateDefault? -->
-            </uwsinopia:literal_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30161_prop_d5e81321">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30161"/>
