@@ -21,6 +21,17 @@
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70019"/>
       <prop_label xml:lang="en">has appellation of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdap_p70kp_P70019_prop_d9e239_is_d1e26">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaPlace</uwsinopia:resource>
+            <uwsinopia:format>na</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000001</uwsinopia:form_order>
+            <uwsinopia:required>true</uwsinopia:required>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdap_p70kp_P70045_prop_d9e436">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70045"/>
