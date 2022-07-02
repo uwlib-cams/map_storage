@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-          xmlns:dcam="http://purl.org/dc/dcam/"
-          xmlns:owl="http://www.w3.org/2002/07/owl#"
-          xmlns:prov="http://www.w3.org/ns/prov#"
-          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-          xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
-          xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
-          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-          xmlns:xs="http://www.w3.org/2001/XMLSchema"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
+   xmlns:dcam="http://purl.org/dc/dcam/" xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:prov="http://www.w3.org/ns/prov#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+   xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
+   xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdaa_p50k</prop_set_label>
    <prop localid_prop="uwmaps_rdaa_p50ka_P50157_prop_d7e43">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50157"/>
@@ -236,6 +233,18 @@
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50378"/>
       <prop_label xml:lang="en">has appellation of agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10002"/>
+      <sinopia>
+         <uwsinopia:implementation_set
+            localid_implementation_set="uwmaps_rdaa_p50ka_P50378_prop_d7e9550_is_d1e463">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaAgent</uwsinopia:resource>
+            <uwsinopia:format>na</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000001</uwsinopia:form_order>
+            <uwsinopia:required>true</uwsinopia:required>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaa_p50ka_P50379_prop_d7e9758">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50379"/>
@@ -1521,6 +1530,26 @@
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50052"/>
       <prop_label xml:lang="en">has identifier for family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10008"/>
+      <sinopia>
+         <uwsinopia:implementation_set
+            localid_implementation_set="uwmaps_rdaa_p50ka_P50052_prop_d7e66682_is_d1e3097">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaAgent</uwsinopia:resource>
+            <uwsinopia:format>na</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000006</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>LOC organization [names (rwo)] (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_ULAN organization (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_AAT Agents (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_AAT Agents__Organizations (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaa_p50ka_P50065_prop_d7e67211">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50065"/>
@@ -2491,11 +2520,55 @@
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50383"/>
       <prop_label xml:lang="en">has identifier for agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10002"/>
+      <sinopia>
+         <uwsinopia:implementation_set
+            localid_implementation_set="uwmaps_rdaa_p50ka_P50383_prop_d7e110655_is_d1e5104">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaAgent</uwsinopia:resource>
+            <uwsinopia:format>na</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000002</uwsinopia:form_order>
+            <uwsinopia:remark xml:lang="en">Use a more specific property (identifier for person, collective agent, etc.) when possible.</uwsinopia:remark>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>LOC person [names (rwo)] (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>LOC organization [names (rwo)] (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_ULAN person (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_ULAN organization (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_AAT Agents (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_AAT Agents__People (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_AAT Agents__Organizations (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaa_p50ka_P50384_prop_d7e110857">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50384"/>
       <prop_label xml:lang="en">has identifier for collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10011"/>
+      <sinopia>
+         <uwsinopia:implementation_set
+            localid_implementation_set="uwmaps_rdaa_p50ka_P50384_prop_d7e110857_is_d1e5160">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaAgent</uwsinopia:resource>
+            <uwsinopia:format>na</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000004</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>LOC organization [names (rwo)] (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_ULAN organization (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_AAT Agents (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_AAT Agents__Organizations (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaa_p50ka_P50092_prop_d7e111207">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50092"/>
@@ -4801,6 +4874,25 @@
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50094"/>
       <prop_label xml:lang="en">has identifier for person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10004"/>
+      <sinopia>
+         <uwsinopia:implementation_set
+            localid_implementation_set="uwmaps_rdaa_p50ka_P50094_prop_d7e212035_is_d1e9881">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaAgent</uwsinopia:resource>
+            <uwsinopia:format>na</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000005</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>LOC person [names (rwo)] (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_ULAN person (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_AAT Agents__People (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaa_p50ka_P50110_prop_d7e212269">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50110"/>
@@ -4966,6 +5058,26 @@
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50006"/>
       <prop_label xml:lang="en">has identifier for corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10005"/>
+      <sinopia>
+         <uwsinopia:implementation_set
+            localid_implementation_set="uwmaps_rdaa_p50ka_P50006_prop_d7e219561_is_d1e10250">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaAgent</uwsinopia:resource>
+            <uwsinopia:format>na</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000003</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>LOC organization [names (rwo)] (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_ULAN organization (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_AAT Agents (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_AAT Agents__Organizations (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaa_p50ka_P50023_prop_d7e219796">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50023"/>
