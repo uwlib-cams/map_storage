@@ -8,7 +8,6 @@
    xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
-   <!-- test -->
    <prop_set_label>rdaw_p10k</prop_set_label>
    <prop localid_prop="uwmaps_rdaw_p10kw_P10407_prop_d3e43">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10407"/>
