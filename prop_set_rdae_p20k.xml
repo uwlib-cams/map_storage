@@ -256,7 +256,9 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000002</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:literal_pt/>
+            <uwsinopia:nested_resource_pt>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:na:CAMS</uwsinopia:rt_id>
+            </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -272,15 +274,9 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000016</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>DBPEDIA_(QA)</uwsinopia:authority_urn>
-                  <uwsinopia:authority_urn>ISNI (QA)</uwsinopia:authority_urn>
-                  <uwsinopia:authority_urn>LOC all names (QA)</uwsinopia:authority_urn>
-                  <uwsinopia:authority_urn>OCLCFAST (QA) - cache</uwsinopia:authority_urn>
-                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
+            <uwsinopia:nested_resource_pt>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:na:CAMS</uwsinopia:rt_id>
+            </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -1321,7 +1317,9 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000007</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:literal_pt/>
+            <uwsinopia:nested_resource_pt>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaTimespan:na:CAMS</uwsinopia:rt_id>
+            </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -3038,7 +3036,9 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000003</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:literal_pt/>
+            <uwsinopia:nested_resource_pt>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:na:CAMS</uwsinopia:rt_id>
+            </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
