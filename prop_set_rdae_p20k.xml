@@ -2216,21 +2216,6 @@
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20212"/>
       <prop_label xml:lang="en">is merged to form expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20212_prop_d4e74772_is_d1e4399">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaExpression</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000027</uwsinopia:form_order>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdae_p20ke_P20019_prop_d4e75166">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20019"/>
