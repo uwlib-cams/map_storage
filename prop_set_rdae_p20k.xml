@@ -1712,21 +1712,6 @@
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20108"/>
       <prop_label xml:lang="en">has concordance expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20108_prop_d4e57889_is_d1e3388">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaExpression</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000039</uwsinopia:form_order>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdae_p20ke_P20253_prop_d4e58087">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20253"/>
