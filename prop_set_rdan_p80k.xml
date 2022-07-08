@@ -444,7 +444,7 @@
       <sinopia>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdan_p80kn_P80068_prop_d8e16800_is_d1e880">
             <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:resource>rdaNomen</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000001</uwsinopia:form_order>
