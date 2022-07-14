@@ -211,6 +211,17 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30128"/>
       <prop_label xml:lang="en">has variant title of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30128_prop_d5e9632_is_d1e412">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000003</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30077_prop_d5e9867">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30077"/>
@@ -491,6 +502,19 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30007"/>
       <prop_label xml:lang="en">has copyright date</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30007_prop_d5e20854_is_d1e1003">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000011</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:nested_resource_pt>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaTimespan:na:CAMS</uwsinopia:rt_id>
+            </uwsinopia:nested_resource_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30329_prop_d5e21131">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30329"/>
@@ -601,6 +625,17 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30154"/>
       <prop_label xml:lang="en">has uniform resource locator</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30154_prop_d5e26185_is_d1e1250">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000015</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:uri_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30299_prop_d5e26489">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30299"/>
@@ -976,21 +1011,68 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30088"/>
       <prop_label xml:lang="en">has place of publication</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30088_prop_d5e43964_is_d1e2034">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000005</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:nested_resource_pt>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaPlace:na:CAMS</uwsinopia:rt_id>
+            </uwsinopia:nested_resource_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30011_prop_d5e44195">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30011"/>
       <prop_label xml:lang="en">has date of publication</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30011_prop_d5e44195_is_d1e2068">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000009</uwsinopia:form_order>
+            <uwsinopia:nested_resource_pt>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaTimespan:na:CAMS</uwsinopia:rt_id>
+            </uwsinopia:nested_resource_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30111_prop_d5e44424">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30111"/>
       <prop_label xml:lang="en">has publication statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30111_prop_d5e44424_is_d1e2100">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000006</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30133_prop_d5e44697">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30133"/>
       <prop_label xml:lang="en">has designation of edition</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30133_prop_d5e44697_is_d1e2131">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000010</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30132_prop_d5e44924">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30132"/>
@@ -1021,6 +1103,19 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30176"/>
       <prop_label xml:lang="en">has name of publisher</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30176_prop_d5e46116_is_d1e2213">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000007</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:nested_resource_pt>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:na:CAMS</uwsinopia:rt_id>
+            </uwsinopia:nested_resource_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30035_prop_d5e46410">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30035"/>
@@ -1036,6 +1131,22 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30139"/>
       <prop_label xml:lang="en">has expression manifested</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30139_prop_d5e46866_is_d1e2268">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000001</uwsinopia:form_order>
+            <uwsinopia:required>true</uwsinopia:required>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30096_prop_d5e47095">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30096"/>
@@ -1221,6 +1332,17 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30142"/>
       <prop_label xml:lang="en">has other title information</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30142_prop_d5e56182_is_d1e2673">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000016</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30304_prop_d5e56606">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30304"/>
@@ -1276,6 +1398,17 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30137"/>
       <prop_label xml:lang="en">has note on manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30137_prop_d5e58998_is_d1e2806">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000013</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30061_prop_d5e59287">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30061"/>
@@ -1316,6 +1449,19 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30004"/>
       <prop_label xml:lang="en">has identifier for manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30004_prop_d5e60885_is_d1e2908">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000008</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:nested_resource_pt>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:na:CAMS</uwsinopia:rt_id>
+            </uwsinopia:nested_resource_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30259_prop_d5e61171">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30259"/>
@@ -1401,6 +1547,17 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30169"/>
       <prop_label xml:lang="en">has dimensions</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30169_prop_d5e64978_is_d1e3105">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000014</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30223_prop_d5e65252">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30223"/>
@@ -1431,6 +1588,19 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30014"/>
       <prop_label xml:lang="en">has numbering within sequence</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30014_prop_d5e66469_is_d1e3187">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000018</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:nested_resource_pt>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:na:CAMS</uwsinopia:rt_id>
+            </uwsinopia:nested_resource_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30215_prop_d5e66806">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30215"/>
@@ -1466,6 +1636,17 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30151"/>
       <prop_label xml:lang="en">has parallel other title information</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30151_prop_d5e68128_is_d1e3282">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000020</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30094_prop_d5e68360">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30094"/>
@@ -1511,6 +1692,19 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30203"/>
       <prop_label xml:lang="en">has parallel title proper</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30203_prop_d5e70396_is_d1e3395">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000019</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:nested_resource_pt>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:na:CAMS</uwsinopia:rt_id>
+            </uwsinopia:nested_resource_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30033_prop_d5e70656">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30033"/>
@@ -1671,6 +1865,19 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30083"/>
       <prop_label xml:lang="en">has publisher agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30083_prop_d5e77417_is_d1e3744">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000021</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:nested_resource_pt>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:na:CAMS</uwsinopia:rt_id>
+            </uwsinopia:nested_resource_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30391_prop_d5e77684">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30391"/>
@@ -1771,6 +1978,17 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30106"/>
       <prop_label xml:lang="en">has series statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30106_prop_d5e81776_is_d1e3971">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000022</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30143_prop_d5e82213">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30143"/>
@@ -1861,6 +2079,17 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30105"/>
       <prop_label xml:lang="en">has statement of responsibility relating to title proper</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30105_prop_d5e86267_is_d1e4170">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000004</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30026_prop_d5e86537">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30026"/>
@@ -1876,6 +2105,17 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30182"/>
       <prop_label xml:lang="en">has extent of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30182_prop_d5e86986_is_d1e4222">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000012</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30085_prop_d5e87228">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30085"/>
@@ -1921,6 +2161,19 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30157"/>
       <prop_label xml:lang="en">has title of series</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30157_prop_d5e89039_is_d1e4334">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000017</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:nested_resource_pt>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:na:CAMS</uwsinopia:rt_id>
+            </uwsinopia:nested_resource_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30155_prop_d5e89332">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30155"/>
@@ -1941,6 +2194,20 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30156"/>
       <prop_label xml:lang="en">has title proper</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30156_prop_d5e89965_is_d1e4399">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000002</uwsinopia:form_order>
+            <uwsinopia:required>true</uwsinopia:required>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:nested_resource_pt>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:na:CAMS</uwsinopia:rt_id>
+            </uwsinopia:nested_resource_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30295_prop_d5e90336">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30295"/>

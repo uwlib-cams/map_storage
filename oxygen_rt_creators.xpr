@@ -10,6 +10,49 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>../sinopia_maps/xsl/001_01_storage_to_rdfxml.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>001_storage_to_rdfxml_PRODUCTION</String>
+                                        <String>001_storage_to_rdfxml_DEVELOPMENT_TEST</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>prop_set_rdam_p30k.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>localid_implementation_set</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>../sinopia_maps/xsl/001_09_define_nested_resource_pts.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -194,29 +237,6 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>../sinopia_maps/xsl/001_01_storage_to_rdfxml.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>001_storage_to_rdfxml_PRODUCTION</String>
-                                        <String>001_storage_to_rdfxml_DEVELOPMENT_TEST</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>prop_set_rdax_p00k.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -298,26 +318,6 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>prop_set_rdan_p80k.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>localid_implementation_set</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>prop_set_rdam_p30k.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -892,7 +892,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>003_01_rts_to_uwsinopia</String>
+                                    <String>002_01_authorities_to_uwsinopia</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
@@ -975,7 +975,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>002_01_authorities_to_uwsinopia</String>
+                                    <String>003_01_rts_to_uwsinopia</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
