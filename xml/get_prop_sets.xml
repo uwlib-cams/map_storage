@@ -2,7 +2,7 @@
 <get_prop_sets xmlns="https://uwlib-cams.github.io/map_storage/xsd/" 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ 
-    https://uwlib-cams.github.io/map_storage/xsd/get_prop_sets_xsd">
+    https://uwlib-cams.github.io/map_storage/xsd/get_prop_sets.xsd">
     <get_set>
         <set_name>rdaw_p10k</set_name>
         <set_domain>rdaWork</set_domain>
