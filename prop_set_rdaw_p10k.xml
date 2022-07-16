@@ -633,6 +633,22 @@
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10531"/>
       <prop_label xml:lang="en">has creator corporate body of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10531_prop_d3e22278_is_d1e1247">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000022</uwsinopia:form_order>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
+            </uwsinopia:multiple_prop>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:nested_resource_pt>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:na:CAMS</uwsinopia:rt_id>
+            </uwsinopia:nested_resource_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaw_p10kw_P10578_prop_d3e22571">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10578"/>
@@ -644,7 +660,7 @@
       <prop_label xml:lang="en">has creator person of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10437_prop_d3e22859_is_d1e1267">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10437_prop_d3e22859_is_d1e1296">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -695,7 +711,7 @@
       <prop_label xml:lang="en">has date of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10219_prop_d3e24321_is_d1e1354">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10219_prop_d3e24321_is_d1e1396">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1293,6 +1309,22 @@
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10311"/>
       <prop_label xml:lang="en">has related agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10311_prop_d3e50838_is_d1e2612">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000021</uwsinopia:form_order>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
+            </uwsinopia:multiple_prop>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:nested_resource_pt>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:na:CAMS</uwsinopia:rt_id>
+            </uwsinopia:nested_resource_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaw_p10kw_P10313_prop_d3e51077">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10313"/>
@@ -1343,6 +1375,20 @@
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10314"/>
       <prop_label xml:lang="en">has related corporate body of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10314_prop_d3e53044_is_d1e2742">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000023</uwsinopia:form_order>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
+            </uwsinopia:multiple_prop>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaw_p10kw_P10251_prop_d3e53494">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10251"/>
@@ -1639,7 +1685,7 @@
       <prop_label xml:lang="en">has identifier for work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10002_prop_d3e67588_is_d1e3271">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10002_prop_d3e67588_is_d1e3358">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1714,7 +1760,7 @@
       <prop_label xml:lang="en">has variant title of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10086_prop_d3e70461_is_d1e3419">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10086_prop_d3e70461_is_d1e3506">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1740,7 +1786,7 @@
       <prop_label xml:lang="en">has place of origin of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10218_prop_d3e71351_is_d1e3471">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10218_prop_d3e71351_is_d1e3558">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1827,7 +1873,7 @@
       <prop_label xml:lang="en">has related work of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10198_prop_d3e75354_is_d1e3645">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10198_prop_d3e75354_is_d1e3732">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1952,7 +1998,7 @@
       <prop_label xml:lang="en">has preferred title of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10223_prop_d3e80440_is_d1e3896">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10223_prop_d3e80440_is_d1e3983">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -2093,7 +2139,7 @@
       <prop_label xml:lang="en">has history of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10210_prop_d3e86735_is_d1e4181">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10210_prop_d3e86735_is_d1e4268">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -2194,7 +2240,7 @@
       <prop_label xml:lang="en">has note on work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10330_prop_d3e90804_is_d1e4385">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10330_prop_d3e90804_is_d1e4472">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -2830,7 +2876,7 @@
       <prop_label xml:lang="en">has subject</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10256_prop_d3e118962_is_d1e5677">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10256_prop_d3e118962_is_d1e5764">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -2892,7 +2938,7 @@
       <prop_label xml:lang="en">has coverage of content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10216_prop_d3e121122_is_d1e5800">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10216_prop_d3e121122_is_d1e5887">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -2908,7 +2954,7 @@
       <prop_label xml:lang="en">has nature of content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10222_prop_d3e121347_is_d1e5831">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10222_prop_d3e121347_is_d1e5918">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -3104,7 +3150,7 @@
       <prop_label xml:lang="en">has variant access point for work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10332_prop_d3e129134_is_d1e6229">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10332_prop_d3e129134_is_d1e6316">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
