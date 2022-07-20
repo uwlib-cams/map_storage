@@ -100,18 +100,48 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30022"/>
       <prop_label xml:lang="en">has insert</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30022_prop_d5e3432_is_d1e182">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.00000000566</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30025_prop_d5e3696">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30025"/>
       <prop_label xml:lang="en">is inserted in</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30025_prop_d5e3696_is_d1e219">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.00000000569</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30199_prop_d5e3960">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30199"/>
       <prop_label xml:lang="en">has font size</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30199_prop_d5e3960_is_d1e202">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30199_prop_d5e3960_is_d1e256">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -136,7 +166,7 @@
       <prop_label xml:lang="en">has bibliographic format</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30197_prop_d5e4411_is_d1e249">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30197_prop_d5e4411_is_d1e303">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -161,7 +191,7 @@
       <prop_label xml:lang="en">has binding of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30310_prop_d5e4868_is_d1e297">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30310_prop_d5e4868_is_d1e351">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -277,7 +307,7 @@
       <prop_label xml:lang="en">has category of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30335_prop_d5e9172_is_d1e531">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30335_prop_d5e9172_is_d1e585">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -303,7 +333,7 @@
       <prop_label xml:lang="en">has variant title of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30128_prop_d5e9632_is_d1e580">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30128_prop_d5e9632_is_d1e634">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -389,7 +419,7 @@
       <prop_label xml:lang="en">has contributor agent to aggregate</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30327_prop_d5e12876_is_d1e754">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30327_prop_d5e12876_is_d1e808">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -610,7 +640,7 @@
       <prop_label xml:lang="en">has copyright date</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30007_prop_d5e20854_is_d1e1200">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30007_prop_d5e20854_is_d1e1254">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -703,7 +733,7 @@
       <prop_label xml:lang="en">has distributor agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30080_prop_d5e24906_is_d1e1386">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30080_prop_d5e24906_is_d1e1440">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -740,13 +770,28 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30024"/>
       <prop_label xml:lang="en">has equivalent manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30024_prop_d5e25951_is_d1e1515">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.00000000562</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30154_prop_d5e26185">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30154"/>
       <prop_label xml:lang="en">has uniform resource locator</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30154_prop_d5e26185_is_d1e1471">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30154_prop_d5e26185_is_d1e1552">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -792,7 +837,7 @@
       <prop_label xml:lang="en">has name of producer</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30174_prop_d5e27868_is_d1e1564">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30174_prop_d5e27868_is_d1e1645">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -878,7 +923,7 @@
       <prop_label xml:lang="en">is facsimile of item of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30300_prop_d5e31228_is_d1e1735">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30300_prop_d5e31228_is_d1e1816">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -905,11 +950,41 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30046"/>
       <prop_label xml:lang="en">has facsimile part</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30046_prop_d5e31645_is_d1e1868">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.00000000567</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30019_prop_d5e31874">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30019"/>
       <prop_label xml:lang="en">is facsimile part of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30019_prop_d5e31874_is_d1e1905">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.00000000568</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30186_prop_d5e32101">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30186"/>
@@ -1036,7 +1111,7 @@
       <prop_label xml:lang="en">has place of manufacture</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30087_prop_d5e37878_is_d1e2036">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30087_prop_d5e37878_is_d1e2187">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1057,7 +1132,7 @@
       <prop_label xml:lang="en">has date of manufacture</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30010_prop_d5e38109_is_d1e2075">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30010_prop_d5e38109_is_d1e2226">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1080,7 +1155,7 @@
       <prop_label xml:lang="en">has production method</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30187_prop_d5e38611_is_d1e2119">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30187_prop_d5e38611_is_d1e2270">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1105,7 +1180,7 @@
       <prop_label xml:lang="en">has name of manufacturer</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30175_prop_d5e39069_is_d1e2166">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30175_prop_d5e39069_is_d1e2317">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1146,7 +1221,7 @@
       <prop_label xml:lang="en">has carrier type</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30001_prop_d5e40261_is_d1e2246">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30001_prop_d5e40261_is_d1e2397">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1168,7 +1243,7 @@
       <prop_label xml:lang="en">has intended audience of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30305_prop_d5e40530_is_d1e2288">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30305_prop_d5e40530_is_d1e2439">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1194,7 +1269,7 @@
       <prop_label xml:lang="en">has related agent of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30267_prop_d5e40987_is_d1e2338">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30267_prop_d5e40987_is_d1e2489">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1262,7 +1337,7 @@
       <prop_label xml:lang="en">has place of production</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30086_prop_d5e43503_is_d1e2474">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30086_prop_d5e43503_is_d1e2625">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1283,7 +1358,7 @@
       <prop_label xml:lang="en">has date of production</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30009_prop_d5e43734_is_d1e2513">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30009_prop_d5e43734_is_d1e2664">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1301,7 +1376,7 @@
       <prop_label xml:lang="en">has place of publication</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30088_prop_d5e43964_is_d1e2547">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30088_prop_d5e43964_is_d1e2698">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1322,7 +1397,7 @@
       <prop_label xml:lang="en">has date of publication</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30011_prop_d5e44195_is_d1e2586">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30011_prop_d5e44195_is_d1e2737">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1339,7 +1414,7 @@
       <prop_label xml:lang="en">has publication statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30111_prop_d5e44424_is_d1e2618">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30111_prop_d5e44424_is_d1e2769">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1355,7 +1430,7 @@
       <prop_label xml:lang="en">has designation of edition</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30133_prop_d5e44697_is_d1e2649">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30133_prop_d5e44697_is_d1e2800">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1399,7 +1474,7 @@
       <prop_label xml:lang="en">has name of publisher</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30176_prop_d5e46116_is_d1e2736">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30176_prop_d5e46116_is_d1e2887">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1425,7 +1500,7 @@
       <prop_label xml:lang="en">has mode of issuance</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30003_prop_d5e46640_is_d1e2786">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30003_prop_d5e46640_is_d1e2937">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1446,7 +1521,7 @@
       <prop_label xml:lang="en">has expression manifested</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30139_prop_d5e46866_is_d1e2826">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30139_prop_d5e46866_is_d1e2977">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1492,7 +1567,7 @@
       <prop_label xml:lang="en">has media type</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30002_prop_d5e48427_is_d1e2916">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30002_prop_d5e48427_is_d1e3067">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1639,7 +1714,7 @@
       <prop_label xml:lang="en">has manufacturer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30082_prop_d5e55028_is_d1e3212">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30082_prop_d5e55028_is_d1e3363">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1680,7 +1755,7 @@
       <prop_label xml:lang="en">has other title information</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30142_prop_d5e56182_is_d1e3292">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30142_prop_d5e56182_is_d1e3443">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1749,7 +1824,7 @@
       <prop_label xml:lang="en">has note on manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30137_prop_d5e58998_is_d1e3430">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30137_prop_d5e58998_is_d1e3581">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1797,13 +1872,28 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30027"/>
       <prop_label xml:lang="en">is accompanied by manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30027_prop_d5e60651_is_d1e3678">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.00000000561</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30004_prop_d5e60885">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30004"/>
       <prop_label xml:lang="en">has identifier for manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30004_prop_d5e60885_is_d1e3537">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30004_prop_d5e60885_is_d1e3715">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1846,7 +1936,7 @@
       <prop_label xml:lang="en">has restriction on use of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30146_prop_d5e62454_is_d1e3622">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30146_prop_d5e62454_is_d1e3800">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1867,15 +1957,12 @@
       <prop_label xml:lang="en">has related manifestation of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30048_prop_d5e62905_is_d1e3664">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30048_prop_d5e62905_is_d1e3842">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000056</uwsinopia:form_order>
-            <uwsinopia:multiple_prop>
-               <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
-            </uwsinopia:multiple_prop>
+            <uwsinopia:form_order>0.00000000560</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1889,11 +1976,41 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30039"/>
       <prop_label xml:lang="en">is reproduced as manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30039_prop_d5e63129_is_d1e3879">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.00000000564</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30038_prop_d5e63361">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30038"/>
       <prop_label xml:lang="en">is reprinted as manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30038_prop_d5e63361_is_d1e3916">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.00000000565</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30103_prop_d5e63584">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30103"/>
@@ -1905,7 +2022,7 @@
       <prop_label xml:lang="en">is subject manifestation of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30253_prop_d5e63813_is_d1e3736">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30253_prop_d5e63813_is_d1e3963">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1945,7 +2062,7 @@
       <prop_label xml:lang="en">has dimensions</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30169_prop_d5e64978_is_d1e3814">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30169_prop_d5e64978_is_d1e4041">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1986,7 +2103,7 @@
       <prop_label xml:lang="en">has numbering within sequence</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30014_prop_d5e66469_is_d1e3896">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30014_prop_d5e66469_is_d1e4123">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -2214,7 +2331,7 @@
       <prop_label xml:lang="en">has producer agent of unpublished manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30081_prop_d5e76292_is_d1e4357">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30081_prop_d5e76292_is_d1e4584">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -2252,7 +2369,7 @@
       <prop_label xml:lang="en">has publisher agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30083_prop_d5e77417_is_d1e4432">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30083_prop_d5e77417_is_d1e4659">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -2365,7 +2482,7 @@
       <prop_label xml:lang="en">has series statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30106_prop_d5e81776_is_d1e4659">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30106_prop_d5e81776_is_d1e4886">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -2381,7 +2498,7 @@
       <prop_label xml:lang="en">has other title information of series</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30143_prop_d5e82213_is_d1e4691">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30143_prop_d5e82213_is_d1e4918">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -2420,7 +2537,7 @@
       <prop_label xml:lang="en">has statement of responsibility relating to named revision of edition</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30118_prop_d5e83386_is_d1e4767">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30118_prop_d5e83386_is_d1e4994">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -2484,7 +2601,7 @@
       <prop_label xml:lang="en">has statement of responsibility relating to edition</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30121_prop_d5e85776_is_d1e4895">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30121_prop_d5e85776_is_d1e5122">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -2503,7 +2620,7 @@
       <prop_label xml:lang="en">has statement of responsibility relating to series</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30119_prop_d5e86005_is_d1e4931">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30119_prop_d5e86005_is_d1e5158">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -2522,7 +2639,7 @@
       <prop_label xml:lang="en">has statement of responsibility relating to title proper</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30105_prop_d5e86267_is_d1e4967">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30105_prop_d5e86267_is_d1e5194">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -2540,6 +2657,21 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30026"/>
       <prop_label xml:lang="en">is also issued as</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30026_prop_d5e86537_is_d1e5231">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.00000000563</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30233_prop_d5e86760">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30233"/>
@@ -2551,7 +2683,7 @@
       <prop_label xml:lang="en">has extent of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30182_prop_d5e86986_is_d1e5024">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30182_prop_d5e86986_is_d1e5278">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -2567,7 +2699,7 @@
       <prop_label xml:lang="en">has place of distribution</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30085_prop_d5e87228_is_d1e5055">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30085_prop_d5e87228_is_d1e5309">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -2588,7 +2720,7 @@
       <prop_label xml:lang="en">has date of distribution</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30008_prop_d5e87459_is_d1e5094">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30008_prop_d5e87459_is_d1e5348">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -2616,7 +2748,7 @@
       <prop_label xml:lang="en">has name of distributor</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30173_prop_d5e88143_is_d1e5149">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30173_prop_d5e88143_is_d1e5403">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -2652,7 +2784,7 @@
       <prop_label xml:lang="en">has title of series</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30157_prop_d5e89039_is_d1e5218">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30157_prop_d5e89039_is_d1e5472">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -2673,7 +2805,7 @@
       <prop_label xml:lang="en">has layout</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30155_prop_d5e89332_is_d1e5258">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30155_prop_d5e89332_is_d1e5512">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -2698,7 +2830,7 @@
       <prop_label xml:lang="en">has type of binding</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30309_prop_d5e89781_is_d1e5305">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30309_prop_d5e89781_is_d1e5559">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -2714,7 +2846,7 @@
       <prop_label xml:lang="en">has title proper</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30156_prop_d5e89965_is_d1e5336">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30156_prop_d5e89965_is_d1e5590">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
