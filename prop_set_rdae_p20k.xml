@@ -148,6 +148,7 @@
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000025</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-d39a850d-6259-353f-b518-b5a2432f2273"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
                <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:na:CAMS</uwsinopia:rt_id>
@@ -180,12 +181,13 @@
       <prop_label xml:lang="en">is revision of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20189_prop_d4e6148_is_d1e345">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20189_prop_d4e6148_is_d1e347">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000013</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-d06a170d-e9c7-33cf-831e-a391ea0a8efc"/>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
                   <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
@@ -199,12 +201,13 @@
       <prop_label xml:lang="en">is revised as</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20211_prop_d4e6345_is_d1e380">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20211_prop_d4e6345_is_d1e384">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000036</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-8b0514e0-49dc-3b85-bf61-d6719a17e400"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -249,12 +252,13 @@
       <prop_label xml:lang="en">has authorized access point for expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20313_prop_d4e7672_is_d1e478">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20313_prop_d4e7672_is_d1e484">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000002</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-7af61468-85ab-3d86-ad8d-4a1158edb7c7"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
                <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:na:CAMS</uwsinopia:rt_id>
@@ -267,12 +271,13 @@
       <prop_label xml:lang="en">has identifier for expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20002_prop_d4e7864_is_d1e512">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20002_prop_d4e7864_is_d1e520">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000016</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-fda05153-cd8b-3b9b-b68e-e2c1834b64df"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
                <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:na:CAMS</uwsinopia:rt_id>
@@ -285,7 +290,7 @@
       <prop_label xml:lang="en">is augmented by expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20105_prop_d4e8246_is_d1e547">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20105_prop_d4e8246_is_d1e557">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -294,6 +299,7 @@
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-2d1dd766-f032-3f15-80e7-1aadd8e0f7b4"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -308,12 +314,13 @@
       <prop_label xml:lang="en">has category of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20331_prop_d4e8465_is_d1e589">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20331_prop_d4e8465_is_d1e601">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000017</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-e94dd5de-fd5b-3a52-a023-af41c78078db"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -454,7 +461,7 @@
       <prop_label xml:lang="en">has contributor agent to amalgamation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20328_prop_d4e13595_is_d1e882">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20328_prop_d4e13595_is_d1e896">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -463,6 +470,7 @@
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-4b46a7ed-4e39-369c-93ba-13c661469708"/>
             <uwsinopia:nested_resource_pt>
                <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:na:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
@@ -619,12 +627,13 @@
       <prop_label xml:lang="en">has designation of version</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20572_prop_d4e19715_is_d1e1214">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20572_prop_d4e19715_is_d1e1230">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000022</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-7bd21167-dc79-3e79-b5e1-46e7449778fb"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
@@ -815,12 +824,13 @@
       <prop_label xml:lang="en">is translated as</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20171_prop_d4e27573_is_d1e1611">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20171_prop_d4e27573_is_d1e1629">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000015</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-5bb93b2d-4c5a-3c4d-8fa5-06c9060317b3"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -835,12 +845,13 @@
       <prop_label xml:lang="en">is translation of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20141_prop_d4e27772_is_d1e1648">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20141_prop_d4e27772_is_d1e1668">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000014</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-4fba5f0f-ee39-3849-9cd0-a4b432e3201b"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -855,12 +866,13 @@
       <prop_label xml:lang="en">has script</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20065_prop_d4e27972_is_d1e1686">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20065_prop_d4e27972_is_d1e1708">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000006</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-a89bae56-7f62-3c32-bd61-51fc145b0385"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -887,7 +899,7 @@
       <prop_label xml:lang="en">is screenplay for expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20102_prop_d4e28569_is_d1e1748">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20102_prop_d4e28569_is_d1e1772">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -896,6 +908,7 @@
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-0a06760e-4adc-308e-906a-7955fc5a9903"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -910,12 +923,13 @@
       <prop_label xml:lang="en">is script for radio program expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20176_prop_d4e28773_is_d1e1790">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20176_prop_d4e28773_is_d1e1816">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.00000000404</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-a84302c2-df81-365a-bff0-9e9b417e7f8f"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1085,12 +1099,13 @@
       <prop_label xml:lang="en">has intended audience of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20322_prop_d4e37052_is_d1e2143">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20322_prop_d4e37052_is_d1e2171">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000011</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-99a08ade-99c9-3701-a143-c4228bfd4a36"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1176,12 +1191,13 @@
       <prop_label xml:lang="en">is adapted as graphic novel expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20255_prop_d4e39951_is_d1e2324">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20255_prop_d4e39951_is_d1e2354">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.00000000352</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-9a55ab14-f206-3735-ba3e-61675d0dc8f0"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1201,12 +1217,13 @@
       <prop_label xml:lang="en">is complemented by expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20100_prop_d4e41097_is_d1e2371">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20100_prop_d4e41097_is_d1e2403">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.00000000400</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-ba912129-99ea-3927-bdf4-aefd7f7759c2"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1226,7 +1243,7 @@
       <prop_label xml:lang="en">is adaptation of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20152_prop_d4e41538_is_d1e2419">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20152_prop_d4e41538_is_d1e2453">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1235,6 +1252,7 @@
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-ad1fcd50-7a30-338a-83cf-a9e27843e99a"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1259,7 +1277,7 @@
       <prop_label xml:lang="en">is succeeded by expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20169_prop_d4e42248_is_d1e2481">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20169_prop_d4e42248_is_d1e2517">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1268,6 +1286,7 @@
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-39372338-43ee-3168-a4e3-c695a37c63dc"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1282,7 +1301,7 @@
       <prop_label xml:lang="en">is preceded by expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20154_prop_d4e42465_is_d1e2523">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20154_prop_d4e42465_is_d1e2561">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1291,6 +1310,7 @@
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-03ef2a9c-ee7e-3320-a20d-f884467f3eee"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1320,7 +1340,7 @@
       <prop_label xml:lang="en">is augmentation of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20192_prop_d4e43344_is_d1e2596">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20192_prop_d4e43344_is_d1e2636">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1329,6 +1349,7 @@
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-b59f7a55-a6d0-378d-97b3-f90ca0836dc2"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1343,12 +1364,13 @@
       <prop_label xml:lang="en">is expanded version of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20184_prop_d4e43564_is_d1e2638">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20184_prop_d4e43564_is_d1e2680">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.00000000345</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-86177699-a698-39a3-9960-5c974b430a68"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1388,12 +1410,13 @@
       <prop_label xml:lang="en">has date of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20214_prop_d4e44837_is_d1e2726">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20214_prop_d4e44837_is_d1e2770">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000007</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-04e1ab9d-f78a-38b1-877b-f6e8670f49a3"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
                <uwsinopia:rt_id>UWSINOPIA:WAU:rdaTimespan:na:CAMS</uwsinopia:rt_id>
@@ -1406,12 +1429,13 @@
       <prop_label xml:lang="en">has related expression of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20205_prop_d4e45052_is_d1e2760">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20205_prop_d4e45052_is_d1e2806">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000029</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-458a5896-b879-3c9d-a0d7-065110c3968c"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1436,12 +1460,13 @@
       <prop_label xml:lang="en">is expanded as expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20115_prop_d4e45900_is_d1e2818">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20115_prop_d4e45900_is_d1e2866">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.00000000355</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-4270c7f7-5690-3091-889b-cc535d49ffdd"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1456,12 +1481,13 @@
       <prop_label xml:lang="en">is digested as expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20170_prop_d4e46098_is_d1e2855">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20170_prop_d4e46098_is_d1e2905">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.00000000354</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-9f76f3a5-9250-330e-9828-5ae0e3a2f4a2"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1491,12 +1517,13 @@
       <prop_label xml:lang="en">is abridged as expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20166_prop_d4e46887_is_d1e2923">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20166_prop_d4e46887_is_d1e2975">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.00000000351</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-600c97dc-bdcc-3da0-a9c4-8b64c9f12a90"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1511,12 +1538,13 @@
       <prop_label xml:lang="en">is freely translated as expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20119_prop_d4e47084_is_d1e2960">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20119_prop_d4e47084_is_d1e3014">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.00000000356</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-447749b3-b850-35f4-a919-9314f8d5f609"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1536,7 +1564,7 @@
       <prop_label xml:lang="en">is imitated as expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20114_prop_d4e47479_is_d1e3007">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20114_prop_d4e47479_is_d1e3063">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1545,6 +1573,7 @@
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-4453733c-d7de-3bc8-a341-94ac72779f29"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1569,12 +1598,13 @@
       <prop_label xml:lang="en">is digest of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20135_prop_d4e48270_is_d1e3070">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20135_prop_d4e48270_is_d1e3128">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.00000000344</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-26ca9df6-608c-31f6-8aa9-c6aee36e9a2c"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1589,12 +1619,13 @@
       <prop_label xml:lang="en">is concordance to expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20181_prop_d4e48468_is_d1e3107">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20181_prop_d4e48468_is_d1e3167">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.00000000359</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-8d24c08b-15c4-3c37-8c8f-57a6ac00b238"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1619,12 +1650,13 @@
       <prop_label xml:lang="en">is paraphrase of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20186_prop_d4e49066_is_d1e3164">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20186_prop_d4e49066_is_d1e3226">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.00000000348</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-2cf8ce2a-4fd0-3b6d-83e3-60b240e8b38a"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1639,12 +1671,13 @@
       <prop_label xml:lang="en">has manifestation of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20059_prop_d4e49418_is_d1e3202">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20059_prop_d4e49418_is_d1e3266">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000028</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-36cea3ce-03c7-3286-a342-3255b55cb4f6"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1669,12 +1702,13 @@
       <prop_label xml:lang="en">has expression of source work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20204_prop_d4e50017_is_d1e3259">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20204_prop_d4e50017_is_d1e3325">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.00000000340</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-8b5fab00-0345-306d-9bb7-c89547a48a62"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1719,12 +1753,13 @@
       <prop_label xml:lang="en">has language of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20006_prop_d4e51442_is_d1e3357">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20006_prop_d4e51442_is_d1e3425">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000005</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-b7de61e2-fe4b-3cc3-a4a2-7a3c4c55b4fc"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1789,12 +1824,13 @@
       <prop_label xml:lang="en">is abridgement of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20121_prop_d4e53875_is_d1e3496">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20121_prop_d4e53875_is_d1e3566">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.00000000341</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-cb013887-4c97-37fc-820d-a06cdf3ed082"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1809,12 +1845,13 @@
       <prop_label xml:lang="en">is free translation of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20140_prop_d4e54072_is_d1e3533">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20140_prop_d4e54072_is_d1e3605">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.00000000346</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-f92a3274-87d3-38d4-8f6a-058da593dea9"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1849,7 +1886,7 @@
       <prop_label xml:lang="en">is imitation of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20195_prop_d4e55091_is_d1e3611">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20195_prop_d4e55091_is_d1e3685">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -1858,6 +1895,7 @@
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-3b61e219-261b-3e88-9562-1512fc43e337"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1897,12 +1935,13 @@
       <prop_label xml:lang="en">has work expressed</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20231_prop_d4e56280_is_d1e3704">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20231_prop_d4e56280_is_d1e3780">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000001</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-7c8e2afe-1d71-3ae5-bb39-33b26d0d723a"/>
             <uwsinopia:required>true</uwsinopia:required>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
@@ -1928,12 +1967,13 @@
       <prop_label xml:lang="en">has award</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20005_prop_d4e56879_is_d1e3764">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20005_prop_d4e56879_is_d1e3842">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000020</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-193b3685-d4fd-3146-862d-780c8bd02a1b"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
@@ -1944,12 +1984,13 @@
       <prop_label xml:lang="en">is abstracts for expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20193_prop_d4e57078_is_d1e3795">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20193_prop_d4e57078_is_d1e3875">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.00000000342</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-bc738c0d-e050-3901-a35e-00190776ad3b"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1984,12 +2025,13 @@
       <prop_label xml:lang="en">is choreography for expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20254_prop_d4e58287_is_d1e3873">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20254_prop_d4e58287_is_d1e3955">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.00000000401</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-4ad17fc2-5734-3f4d-bff0-1f230b002edb"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -2004,12 +2046,13 @@
       <prop_label xml:lang="en">has related agent of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20301_prop_d4e58641_is_d1e3910">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20301_prop_d4e58641_is_d1e3994">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000023</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-161ffefc-6e0f-3570-8edf-fd414bd6a066"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
                <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:na:CAMS</uwsinopia:rt_id>
@@ -2042,12 +2085,13 @@
       <prop_label xml:lang="en">has related manifestation of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20299_prop_d4e59552_is_d1e3985">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20299_prop_d4e59552_is_d1e4071">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000031</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-6a6120c2-b78e-38d3-948f-bcf59a2618c3"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -2062,12 +2106,13 @@
       <prop_label xml:lang="en">has related work of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20298_prop_d4e59733_is_d1e4022">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20298_prop_d4e59733_is_d1e4110">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000030</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-ef382487-a046-31a4-aa8a-c0ff4d4cd427"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -2162,12 +2207,13 @@
       <prop_label xml:lang="en">is libretto for expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20084_prop_d4e62930_is_d1e4222">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20084_prop_d4e62930_is_d1e4312">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.00000000402</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-c0e53719-8bf7-3fb7-a034-418f676e604c"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -2237,12 +2283,13 @@
       <prop_label xml:lang="en">has note on expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20071_prop_d4e65080_is_d1e4371">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20071_prop_d4e65080_is_d1e4463">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000021</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-9bcdee0a-0051-3aff-bb30-fdce5aa37216"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
@@ -2263,12 +2310,13 @@
       <prop_label xml:lang="en">is set to music as expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20087_prop_d4e65706_is_d1e4422">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20087_prop_d4e65706_is_d1e4516">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.00000000358</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-25e1ef3a-24a6-317e-8e72-f52b110f2ac4"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -2538,12 +2586,13 @@
       <prop_label xml:lang="en">has part expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20145_prop_d4e76063_is_d1e4978">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20145_prop_d4e76063_is_d1e5074">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000041</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-8744d302-f7b3-30a4-a0d4-3be3d87d7c85"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -2558,12 +2607,13 @@
       <prop_label xml:lang="en">is part of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20074_prop_d4e76289_is_d1e5015">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20074_prop_d4e76289_is_d1e5113">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000042</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-04ecb631-2198-3f89-83d2-45772b8cf3b2"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -2578,7 +2628,7 @@
       <prop_label xml:lang="en">has performer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20039_prop_d4e76513_is_d1e5052">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20039_prop_d4e76513_is_d1e5152">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -2587,6 +2637,7 @@
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-f657feb9-3fbc-3387-8b01-c0924211c5a9"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
                <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:na:CAMS</uwsinopia:rt_id>
@@ -2819,7 +2870,7 @@
       <prop_label xml:lang="en">has reviser agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20327_prop_d4e84871_is_d1e5539">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20327_prop_d4e84871_is_d1e5641">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
@@ -2828,6 +2879,7 @@
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-b61fa966-4cfd-3b96-8035-0b457b08aaad"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
                <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:na:CAMS</uwsinopia:rt_id>
@@ -3060,12 +3112,13 @@
       <prop_label xml:lang="en">has expression of derivative work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20203_prop_d4e93355_is_d1e6025">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20203_prop_d4e93355_is_d1e6129">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.00000000350</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-adc49fa3-2615-35fa-a8c1-f74b8ed69a26"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -3095,12 +3148,13 @@
       <prop_label xml:lang="en">has form of tactile notation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20061_prop_d4e94799_is_d1e6093">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20061_prop_d4e94799_is_d1e6199">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000019</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-71c80615-9ec4-393d-92b0-8e978bd0f76b"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -3115,12 +3169,13 @@
       <prop_label xml:lang="en">has details of form of tactile notation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20265_prop_d4e95001_is_d1e6130">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20265_prop_d4e95001_is_d1e6238">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000018</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-7a1c0e39-4c5b-3489-aac0-b67251dd0453"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
@@ -3131,12 +3186,13 @@
       <prop_label xml:lang="en">has summarization of content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20069_prop_d4e95349_is_d1e6161">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20069_prop_d4e95349_is_d1e6271">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000012</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-96aa1921-45db-31a9-8128-9661f60799dc"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
@@ -3147,12 +3203,13 @@
       <prop_label xml:lang="en">has content type</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20001_prop_d4e95549_is_d1e6192">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20001_prop_d4e95549_is_d1e6304">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000010</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-1a6a5219-2cd5-3762-87e8-6ee28e327b8b"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -3244,12 +3301,13 @@
       <prop_label xml:lang="en">has translator agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20037_prop_d4e99021_is_d1e6387">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20037_prop_d4e99021_is_d1e6501">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000008</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-ccde0d4d-91d9-34df-9a58-036fa5d28a49"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
                <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:na:CAMS</uwsinopia:rt_id>
@@ -3302,12 +3360,13 @@
       <prop_label xml:lang="en">has variant access point for expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20314_prop_d4e101192_is_d1e6502">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20314_prop_d4e101192_is_d1e6618">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000003</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-a9d30566-a1ef-3878-be3a-082a872ea553"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
                <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:na:CAMS</uwsinopia:rt_id>
@@ -3345,12 +3404,13 @@
       <prop_label xml:lang="en">is adapted as video expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20067_prop_d4e102296_is_d1e6587">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20067_prop_d4e102296_is_d1e6705">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.00000000353</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-79d05388-07ae-336f-ac8f-4ca6bc709f59"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -3470,12 +3530,13 @@
       <prop_label xml:lang="en">has colour</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20573_prop_d4e106789_is_d1e6838">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20ke_P20573_prop_d4e106789_is_d1e6958">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000004</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-8a4d2027-93a5-3fa9-9c9e-e1a3b6e45498"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>

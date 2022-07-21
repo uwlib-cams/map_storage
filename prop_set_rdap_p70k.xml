@@ -28,6 +28,7 @@
             <uwsinopia:format>na</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000001</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-f9e86bf4-1118-3e1b-9517-252c71f2cffe"/>
             <uwsinopia:required>true</uwsinopia:required>
             <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>

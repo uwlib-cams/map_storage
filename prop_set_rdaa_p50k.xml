@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-   xmlns:dcam="http://purl.org/dc/dcam/" xmlns:owl="http://www.w3.org/2002/07/owl#"
-   xmlns:prov="http://www.w3.org/ns/prov#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-   xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
-   xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
-   xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-   xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
+          xmlns:dcam="http://purl.org/dc/dcam/"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:prov="http://www.w3.org/ns/prov#"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+          xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
+          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
+          xmlns:xs="http://www.w3.org/2001/XMLSchema"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdaa_p50k</prop_set_label>
    <prop localid_prop="uwmaps_rdaa_p50ka_P50157_prop_d7e43">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50157"/>
@@ -234,13 +237,13 @@
       <prop_label xml:lang="en">has appellation of agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10002"/>
       <sinopia>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdaa_p50ka_P50378_prop_d7e9550_is_d1e463">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50ka_P50378_prop_d7e9550_is_d1e463">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaAgent</uwsinopia:resource>
             <uwsinopia:format>na</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000001</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-c210adcc-037f-3058-b00b-023cd0eb20c2"/>
             <uwsinopia:required>true</uwsinopia:required>
             <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
@@ -1531,13 +1534,13 @@
       <prop_label xml:lang="en">has identifier for family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10008"/>
       <sinopia>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdaa_p50ka_P50052_prop_d7e66682_is_d1e3097">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50ka_P50052_prop_d7e66682_is_d1e3099">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaAgent</uwsinopia:resource>
             <uwsinopia:format>na</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000006</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-57cd6e34-134f-3212-afce-921049764c38"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -2521,13 +2524,13 @@
       <prop_label xml:lang="en">has identifier for agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10002"/>
       <sinopia>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdaa_p50ka_P50383_prop_d7e110655_is_d1e5104">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50ka_P50383_prop_d7e110655_is_d1e5108">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaAgent</uwsinopia:resource>
             <uwsinopia:format>na</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000002</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-a0c56f46-635d-3975-b0e0-36b72dac4e4f"/>
             <uwsinopia:remark xml:lang="en">Use a more specific property (identifier for person, collective agent, etc.) when possible.</uwsinopia:remark>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
@@ -2550,13 +2553,13 @@
       <prop_label xml:lang="en">has identifier for collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10011"/>
       <sinopia>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdaa_p50ka_P50384_prop_d7e110857_is_d1e5160">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50ka_P50384_prop_d7e110857_is_d1e5166">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaAgent</uwsinopia:resource>
             <uwsinopia:format>na</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000004</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-66fd5c23-8f64-385a-99ee-c31676e8772b"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -4875,13 +4878,13 @@
       <prop_label xml:lang="en">has identifier for person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10004"/>
       <sinopia>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdaa_p50ka_P50094_prop_d7e212035_is_d1e9881">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50ka_P50094_prop_d7e212035_is_d1e9889">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaAgent</uwsinopia:resource>
             <uwsinopia:format>na</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000005</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-a2174ab6-43a1-3455-8fcc-36e641e9c95d"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -5059,13 +5062,13 @@
       <prop_label xml:lang="en">has identifier for corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10005"/>
       <sinopia>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdaa_p50ka_P50006_prop_d7e219561_is_d1e10250">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50ka_P50006_prop_d7e219561_is_d1e10260">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaAgent</uwsinopia:resource>
             <uwsinopia:format>na</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.0000000003</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-4aa08d65-f76d-37fb-a59d-61b95f2f0b7f"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
