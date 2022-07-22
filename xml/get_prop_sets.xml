@@ -49,6 +49,10 @@
         <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/x.xml</set_source>
     </get_set>
     <get_set>
+        <set_name>rdaExtension</set_name>
+        <set_source>https://www.lib.washington.edu/static/public/cams/data/localResources/rdaApplicationProfileExtension-1-0-1.rdf</set_source>
+    </get_set>
+    <get_set>
         <set_name>dcterms</set_name>
         <set_source>https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dublin_core_terms.rdf</set_source>
     </get_set>

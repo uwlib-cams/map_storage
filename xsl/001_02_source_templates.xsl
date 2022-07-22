@@ -40,6 +40,36 @@
             </prop>
         </xsl:for-each>
     </xsl:template>
+    
+    <!-- get RDA Extension properties -->
+    <xsl:template name="get_rdaExtension">
+        <xsl:param name="get_set"/>
+        <xsl:for-each select="
+            document($get_set/uwmaps:set_source)/rdf:RDF/rdf:Description
+            [rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]
+            [not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]">
+            <prop xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
+                localid_prop="{concat('uwmaps_', $get_set/uwmaps:set_name, '_',
+                substring-after(@rdf:about, 'https://doi.org/10.6069/uwlib.55.d.4#'),
+                '_prop_', generate-id())}">
+                <prop_iri iri="{@rdf:about}"/>
+                <prop_label xml:lang="en">
+                    <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
+                </prop_label>
+                <!-- should domain and range be for-each? -->
+                <xsl:if test="rdfs:domain = node()">
+                    <prop_domain iri="{rdfs:domain/@rdf:resource}"/>
+                </xsl:if>
+                <xsl:if test="rdfs:range = node()">
+                    <prop_range iri="{rdfs:range/@rdf:resource}"/>
+                </xsl:if>
+                <!-- TO DO:
+                        Bring in <prop_related_url> values
+                        No Toolkit URLs available in current RDF/XML
+                        Need to bring in from another source, see alignRDA2TK -->
+            </prop>
+        </xsl:for-each>
+    </xsl:template>
 
     <!-- get Dublin Core Terms -->
     <xsl:template name="get_dcTerms">
