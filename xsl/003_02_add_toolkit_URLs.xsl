@@ -13,9 +13,11 @@
 
     <xsl:template match="uwmaps:prop_set/uwmaps:prop/uwmaps:sinopia/uwsinopia:implementation_set">
         <xsl:choose>
-            <xsl:when test="uwsinopia:remark_url/@iri=text()"/>
+            <xsl:when test="uwsinopia:remark_url/@iri">
+                <xsl:copy-of select="."/>
+            </xsl:when>
             <xsl:otherwise>
-                <uwsinopia:implementation_set localid_implementation_set="">
+                <uwsinopia:implementation_set localid_implementation_set="{@localid_implementation_set}">
                     <xsl:copy-of select="uwsinopia:institution"/>
                     <xsl:copy-of select="uwsinopia:resource"/>
                     <xsl:copy-of select="uwsinopia:format"/>
