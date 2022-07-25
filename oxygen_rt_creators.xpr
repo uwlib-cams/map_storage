@@ -10,6 +10,26 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>prop_set_rdaExtension.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>localid_implementation_set</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>xsl/003_02_add_toolkit_URLs.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
