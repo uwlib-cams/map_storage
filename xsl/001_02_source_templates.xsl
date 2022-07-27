@@ -6,10 +6,8 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
     xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-    xmlns:dcam="http://purl.org/dc/dcam/"
-    xmlns:prov="http://www.w3.org/ns/prov#"
-    xmlns:owl="http://www.w3.org/2002/07/owl#"
-    version="3.0">
+    xmlns:dcam="http://purl.org/dc/dcam/" xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#" version="3.0">
 
     <!-- get RDA Registry properties -->
     <xsl:template name="get_rda">
@@ -40,30 +38,36 @@
             </prop>
         </xsl:for-each>
     </xsl:template>
-    
+
     <!-- get RDA Extension properties -->
     <xsl:template name="get_rdaExtension">
         <xsl:param name="get_set"/>
-        <xsl:for-each select="
-            document($get_set/uwmaps:set_source)/rdf:RDF/rdf:Description
-            [rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]">
-            <prop xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-                localid_prop="{concat('uwmaps_', $get_set/uwmaps:set_name, '_',
-                substring-after(@rdf:about, 'https://doi.org/10.6069/uwlib.55.d.4#'),
-                '_prop_', generate-id())}">
-                <prop_iri iri="{@rdf:about}"/>
-                <prop_label xml:lang="en">
-                    <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
-                </prop_label>
-                <!-- should domain and range be for-each? -->
-                <xsl:if test="rdfs:domain">
-                    <prop_domain iri="{rdfs:domain/@rdf:resource}"/>
-                </xsl:if>
-                <xsl:if test="rdfs:range">
-                    <prop_range iri="{rdfs:range/@rdf:resource}"/>
-                </xsl:if>
-            </prop>
-        </xsl:for-each>
+        <xsl:for-each-group select="document($get_set/uwmaps:set_source)/rdf:RDF/rdf:Description"
+            group-by="@rdf:about">
+            <xsl:for-each select="
+                    current-group()
+                    [rdf:type/@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']">
+                <prop xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
+                    localid_prop="{concat('uwmaps_', $get_set/uwmaps:set_name, '_',
+                    substring-after(@rdf:about, 'https://doi.org/10.6069/uwlib.55.d.4#'),
+                    '_prop_', generate-id())}">
+                    <prop_iri iri="{@rdf:about}"/>
+                    <prop_label xml:lang="en">
+                        <xsl:value-of select="current-group()/rdfs:label[@xml:lang = 'en']"/>
+                    </prop_label>
+                    <xsl:if test="current-group()/rdfs:domain">
+                        <xsl:for-each select="current-group()/rdfs:domain">
+                            <prop_domain iri="{@rdf:resource}"/>
+                        </xsl:for-each>
+                    </xsl:if>
+                    <xsl:if test="current-group()/rdfs:range">
+                        <xsl:for-each select="current-group()/rdfs:range">
+                            <prop_range iri="{@rdf:resource}"/>
+                        </xsl:for-each>
+                    </xsl:if>
+                </prop>
+            </xsl:for-each>
+        </xsl:for-each-group>
     </xsl:template>
 
     <!-- get Dublin Core Terms -->
