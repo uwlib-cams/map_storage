@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ 
     https://uwlib-cams.github.io/map_storage/xsd/get_prop_sets.xsd">
-    <!-- [!] DON'T OVERWRITE RDA prop_sets [!]; pending map_storage #10 -->
+    <!-- [!] DON'T OVERWRITE RDA prop_sets [!]; pending map_storage #10
     <get_set>
         <set_name>rdaw_p10k</set_name>
         <set_domain>rdaWork</set_domain>
@@ -49,6 +49,7 @@
         <set_domain>rdaEntity</set_domain>
         <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/x.xml</set_source>
     </get_set>
+    -->
     <get_set>
         <set_name>uwRdaExtension</set_name>
         <!-- [!] CAUTION: RDF/XML URL will change for updates to dataset -->

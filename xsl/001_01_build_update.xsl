@@ -33,7 +33,7 @@
                             </xsl:call-template>
                         </xsl:when>
                         <xsl:when test="starts-with(uwmaps:set_name, 'uwRdaExtension')">
-                            <xsl:call-template name="get_RdaExtension">
+                            <xsl:call-template name="get_uwRdaExtension">
                                 <xsl:with-param name="get_set" select="."/>
                             </xsl:call-template>
                         </xsl:when>
