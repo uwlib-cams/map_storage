@@ -40,7 +40,7 @@
     </xsl:template>
 
     <!-- get RDA Extension properties -->
-    <xsl:template name="get_rdaExtension">
+    <xsl:template name="get_uwRdaExtension">
         <xsl:param name="get_set"/>
         <xsl:for-each-group select="document($get_set/uwmaps:set_source)/rdf:RDF/rdf:Description"
             group-by="@rdf:about">
