@@ -10,16 +10,16 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>xsl/001_01_build_update.xsl</String>
+                                    <String>prop_set_uwRdaExtension.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>001_01_build_update</String>
+                                        <String>localid_implementation_set</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
-                                        <String>XML</String>
+                                        <String>XSL</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
@@ -30,18 +30,18 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>../sinopia_maps/xsl/001_05_multiple_properties.xsl</String>
+                                    <String>prop_set_rdaw_p10k.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>001_storage_to_rdfxml_DEVELOPMENT_TEST</String>
-                                        <String>001_storage_to_rdfxml_PRODUCTION</String>
+                                        <String>add_toolkit_URLs</String>
+                                        <String>localid_implementation_set</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
-                                        <String>XML</String>
-                                        <String>XML</String>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
@@ -76,18 +76,61 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>prop_set_rdaw_p10k.xml</String>
+                                    <String>prop_set_rdan_p80k.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>add_toolkit_URLs</String>
                                         <String>localid_implementation_set</String>
+                                        <String>add_toolkit_URLs</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
                                         <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>xsl/001_01_build_update.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>001_01_build_update</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../sinopia_maps/xsl/001_05_multiple_properties.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>001_storage_to_rdfxml_DEVELOPMENT_TEST</String>
+                                        <String>001_storage_to_rdfxml_PRODUCTION</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                        <String>XML</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
@@ -229,29 +272,6 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>prop_set_rdap_p70k.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>localid_implementation_set</String>
-                                        <String>add_toolkit_URLs</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>prop_set_rdan_p80k.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
