@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xmlns:xs="http://www.w3.org/2001/XMLSchema"
+          xmlns:dcam="http://purl.org/dc/dcam/"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:prov="http://www.w3.org/ns/prov#"
           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-          xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
           xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
           xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
           xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-          xmlns:dcam="http://purl.org/dc/dcam/"
-          xmlns:prov="http://www.w3.org/ns/prov#"
-          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:xs="http://www.w3.org/2001/XMLSchema"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>uwRdaExtension</prop_set_label>
    <prop localid_prop="uwmaps_uwRdaExtension_hasCreatorCharacteristic_prop_d12e130">
@@ -20,6 +20,19 @@
    <prop localid_prop="uwmaps_uwRdaExtension_hasContributorAgent_prop_d12e164">
       <prop_iri iri="https://doi.org/10.6069/uwlib.55.d.4#hasContributorAgent"/>
       <prop_label xml:lang="en">Has Contributor Agent</prop_label>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasContributorAgent_prop_d12e164_is_d1e24">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.0000000027</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:nested_resource_pt>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:na:CAMS</uwsinopia:rt_id>
+            </uwsinopia:nested_resource_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_uwRdaExtension_hasUniversityOfWashingtonNote_prop_d12e193">
       <prop_iri iri="https://doi.org/10.6069/uwlib.55.d.4#hasUniversityOfWashingtonNote"/>
