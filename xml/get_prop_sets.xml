@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ 
     https://uwlib-cams.github.io/map_storage/xsd/get_prop_sets.xsd">
-    <!-- [!] DON'T OVERWRITE RDA prop_sets [!]; pending map_storage #10
+    <!-- [!] DON'T OVERWRITE RDA prop_sets [!]; pending map_storage #10 -->
     <get_set>
         <set_name>rdaw_p10k</set_name>
         <set_domain>rdaWork</set_domain>
@@ -49,12 +49,14 @@
         <set_domain>rdaEntity</set_domain>
         <set_source>https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/x.xml</set_source>
     </get_set>
-    -->
+    <!-- [!] CAUTION: Don't overwrite prop_set > implementation_sets pending resolution of #10 -->
+
     <get_set>
         <set_name>uwRdaExtension</set_name>
         <!-- [!] CAUTION: RDF/XML URL will change for updates to dataset -->
         <set_source>https://www.lib.washington.edu/static/public/cams/data/localResources/rdaApplicationProfileExtension-1-0-1.rdf</set_source>
     </get_set>
+    
     <!-- NOT USING DC TERMS, PROV AT PRESENT -->
     <get_set>
         <set_name>dcterms</set_name>
@@ -64,4 +66,5 @@
         <set_name>prov</set_name>
         <set_source>http://www.w3.org/ns/prov.owl</set_source>
     </get_set>
+    
 </get_prop_sets>
