@@ -32,12 +32,34 @@
                <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:na:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasContributorAgent_prop_d12e164_is_d1e45">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaExpression</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.00000000231</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:nested_resource_pt>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:na:CAMS</uwsinopia:rt_id>
+            </uwsinopia:nested_resource_pt>
+         </uwsinopia:implementation_set>
       </sinopia>
    </prop>
    <prop localid_prop="uwmaps_uwRdaExtension_hasUniversityOfWashingtonNote_prop_d12e193">
       <prop_iri iri="https://doi.org/10.6069/uwlib.55.d.4#hasUniversityOfWashingtonNote"/>
       <prop_label xml:lang="en">Has University Of Washington Note.</prop_label>
       <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasUniversityOfWashingtonNote_prop_d12e193_is_d1e71">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaExpression</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.00000000221</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_uwRdaExtension_heldBy_prop_d12e227">
       <prop_iri iri="https://doi.org/10.6069/uwlib.55.d.4#heldBy"/>
