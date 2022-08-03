@@ -113,6 +113,15 @@
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasLcClassificationPartA_prop_d12e255_is_d1e202">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaItem</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.00000000022</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
       </sinopia>
    </prop>
    <prop localid_prop="uwmaps_uwRdaExtension_hasLcClassificationPartB_prop_d12e289">
@@ -120,12 +129,21 @@
       <prop_label xml:lang="en">Has LC Classification Part B</prop_label>
       <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasLcClassificationPartB_prop_d12e289_is_d1e215">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasLcClassificationPartB_prop_d12e289_is_d1e233">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.00000000152</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasLcClassificationPartB_prop_d12e289_is_d1e251">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaItem</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.00000000023</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
@@ -136,12 +154,21 @@
       <prop_label xml:lang="en">Has NLM Classification Part A</prop_label>
       <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasNlmClassificationPartA_prop_d12e323_is_d1e246">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasNlmClassificationPartA_prop_d12e323_is_d1e282">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.00000000492</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasNlmClassificationPartA_prop_d12e323_is_d1e300">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaItem</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.00000000024</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
@@ -152,12 +179,21 @@
       <prop_label xml:lang="en">Has NLM Classification Part B</prop_label>
       <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasNlmClassificationPartB_prop_d12e357_is_d1e277">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasNlmClassificationPartB_prop_d12e357_is_d1e331">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.00000000493</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasNlmClassificationPartB_prop_d12e357_is_d1e349">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaItem</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.00000000025</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
@@ -173,12 +209,21 @@
       <prop_label xml:lang="en">Has SuDoc Classification Number</prop_label>
       <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasSuDocClassificationNumber_prop_d12e425_is_d1e318">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasSuDocClassificationNumber_prop_d12e425_is_d1e390">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.00000000491</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasSuDocClassificationNumber_prop_d12e425_is_d1e408">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaItem</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.00000000021</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
@@ -195,12 +240,34 @@
       <prop_label xml:lang="en">Has Physical Sub-Location</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasPhysicalSubLocation_prop_d12e499_is_d1e454">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaItem</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.00000000041</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_uwRdaExtension_hasBarcode_prop_d12e538">
       <prop_iri iri="https://doi.org/10.6069/uwlib.55.d.4#hasBarcode"/>
       <prop_label xml:lang="en">Has Barcode</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasBarcode_prop_d12e538_is_d1e487">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaItem</uwsinopia:resource>
+            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.00000000042</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_uwRdaExtension_hasCallNumber_prop_d12e577">
       <prop_iri iri="https://doi.org/10.6069/uwlib.55.d.4#hasCallNumber"/>
