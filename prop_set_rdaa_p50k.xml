@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-          xmlns:dcam="http://purl.org/dc/dcam/"
-          xmlns:owl="http://www.w3.org/2002/07/owl#"
-          xmlns:prov="http://www.w3.org/ns/prov#"
-          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-          xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
-          xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
-          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-          xmlns:xs="http://www.w3.org/2001/XMLSchema"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
+<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:reg="http://metadataregistry.org/uri/profile/regap/" xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/" xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdaa_p50k</prop_set_label>
    <prop localid_prop="uwmaps_rdaa_p50ka_P50157_prop_d7e43">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50157"/>
@@ -242,7 +230,7 @@
             <uwsinopia:resource>rdaAgent</uwsinopia:resource>
             <uwsinopia:format>na</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000001</uwsinopia:form_order>
+            <uwsinopia:form_order>0.001</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-c210adcc-037f-3058-b00b-023cd0eb20c2"/>
             <uwsinopia:required>true</uwsinopia:required>
             <uwsinopia:literal_pt/>
@@ -1539,7 +1527,7 @@
             <uwsinopia:resource>rdaAgent</uwsinopia:resource>
             <uwsinopia:format>na</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000006</uwsinopia:form_order>
+            <uwsinopia:form_order>0.025</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-57cd6e34-134f-3212-afce-921049764c38"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
@@ -2529,7 +2517,7 @@
             <uwsinopia:resource>rdaAgent</uwsinopia:resource>
             <uwsinopia:format>na</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000002</uwsinopia:form_order>
+            <uwsinopia:form_order>0.005</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-a0c56f46-635d-3975-b0e0-36b72dac4e4f"/>
             <uwsinopia:remark xml:lang="en">Use a more specific property (identifier for person, collective agent, etc.) when possible.</uwsinopia:remark>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
@@ -2558,7 +2546,7 @@
             <uwsinopia:resource>rdaAgent</uwsinopia:resource>
             <uwsinopia:format>na</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000004</uwsinopia:form_order>
+            <uwsinopia:form_order>0.015</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-66fd5c23-8f64-385a-99ee-c31676e8772b"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
@@ -4883,7 +4871,7 @@
             <uwsinopia:resource>rdaAgent</uwsinopia:resource>
             <uwsinopia:format>na</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000005</uwsinopia:form_order>
+            <uwsinopia:form_order>0.020</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-a2174ab6-43a1-3455-8fcc-36e641e9c95d"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
@@ -5067,7 +5055,7 @@
             <uwsinopia:resource>rdaAgent</uwsinopia:resource>
             <uwsinopia:format>na</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000003</uwsinopia:form_order>
+            <uwsinopia:form_order>0.010</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-4aa08d65-f76d-37fb-a59d-61b95f2f0b7f"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
