@@ -70,7 +70,11 @@ def create_form_order_dict(RT_dict, prop_set):
 			form_order = implementation_set.find('{https://uwlib-cams.github.io/sinopia_maps/xsd/}form_order')
 			form_order_value = form_order.text
 
-			RT_dict[ID_tuple][form_order_value] = localid_implementation_set
+			if form_order_value not in RT_dict[ID_tuple].keys():
+				RT_dict[ID_tuple][form_order_value] = localid_implementation_set
+			else:
+				print(f'Error: Repeat form order value.\n- {localid_implementation_set}\n- {RT_dict[ID_tuple][form_order_value]}')
+				quit()
 
 	return RT_dict
 
