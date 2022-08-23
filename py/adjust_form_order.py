@@ -84,13 +84,17 @@ def create_new_form_order_values(RT_dict):
 
 		sorted_form_order_dict = dict(sorted(OG_form_order_dict.items()))
 
-		new_form_order_value = 1
+		new_form_order_value = 0.000
 
 		for old_form_order_value in sorted_form_order_dict.keys():
 			localid_implementation_set = sorted_form_order_dict[old_form_order_value]
-			new_form_order_dict[localid_implementation_set] = new_form_order_value
+			if new_form_order_value == 0.000:
+				new_form_order_dict[localid_implementation_set] = 0.001
+			else:
+				new_form_order_dict[localid_implementation_set] = new_form_order_value
 
-			new_form_order_value += 1
+			new_form_order_value += 0.005
+			new_form_order_value = round(new_form_order_value, 3)
 
 		new_RT_dict[key] = new_form_order_dict
 
@@ -132,7 +136,10 @@ def replace_form_order(RT_dict):
 
 				form_order = implementation_set.find('{https://uwlib-cams.github.io/sinopia_maps/xsd/}form_order')
 
-				form_order.text = str(new_form_order_dict[localid_implementation_set])
+				try:
+					form_order.text = str("{0:.3f}".format(new_form_order_dict[localid_implementation_set]))
+				except:
+					"""nothing"""
 
 		tree.write(f'../{prop_set}')
 
