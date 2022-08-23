@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-          xmlns:dcam="http://purl.org/dc/dcam/"
-          xmlns:owl="http://www.w3.org/2002/07/owl#"
-          xmlns:prov="http://www.w3.org/ns/prov#"
-          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-          xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
-          xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
-          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-          xmlns:xs="http://www.w3.org/2001/XMLSchema"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
+<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:reg="http://metadataregistry.org/uri/profile/regap/" xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/" xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdaw_p10k</prop_set_label>
    <prop localid_prop="uwmaps_rdaw_p10kw_P10407_prop_d3e43">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10407"/>
@@ -57,7 +45,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000050</uwsinopia:form_order>
+            <uwsinopia:form_order>0.055</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -164,7 +152,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000085</uwsinopia:form_order>
+            <uwsinopia:form_order>0.090</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -236,7 +224,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000030</uwsinopia:form_order>
+            <uwsinopia:form_order>0.030</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -277,7 +265,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000001</uwsinopia:form_order>
+            <uwsinopia:form_order>0.001</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-086aad00-3bd2-3cc1-8dd0-52a5353b227b"/>
             <uwsinopia:required>1</uwsinopia:required>
             <uwsinopia:literal_pt/>
@@ -429,7 +417,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000025</uwsinopia:form_order>
+            <uwsinopia:form_order>0.025</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-28e39ed9-43ec-3a0d-bd30-83c805efaa8c"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
@@ -602,7 +590,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000045</uwsinopia:form_order>
+            <uwsinopia:form_order>0.050</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -624,7 +612,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000090</uwsinopia:form_order>
+            <uwsinopia:form_order>0.095</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -646,7 +634,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000105</uwsinopia:form_order>
+            <uwsinopia:form_order>0.110</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -673,7 +661,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000095</uwsinopia:form_order>
+            <uwsinopia:form_order>0.100</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -725,7 +713,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000035</uwsinopia:form_order>
+            <uwsinopia:form_order>0.040</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-a23c8e78-ebc8-34ea-9a63-23c35b9c36ba"/>
             <uwsinopia:language_suppressed>true</uwsinopia:language_suppressed>
             <uwsinopia:nested_resource_pt>
@@ -1079,7 +1067,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000205</uwsinopia:form_order>
+            <uwsinopia:form_order>0.210</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -1294,7 +1282,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000260</uwsinopia:form_order>
+            <uwsinopia:form_order>0.265</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -1319,7 +1307,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000115</uwsinopia:form_order>
+            <uwsinopia:form_order>0.120</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -1381,7 +1369,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000100</uwsinopia:form_order>
+            <uwsinopia:form_order>0.105</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -1418,7 +1406,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000145</uwsinopia:form_order>
+            <uwsinopia:form_order>0.150</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -1448,7 +1436,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000150</uwsinopia:form_order>
+            <uwsinopia:form_order>0.155</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -1478,7 +1466,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000155</uwsinopia:form_order>
+            <uwsinopia:form_order>0.160</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -1507,7 +1495,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000110</uwsinopia:form_order>
+            <uwsinopia:form_order>0.115</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -1549,7 +1537,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000280</uwsinopia:form_order>
+            <uwsinopia:form_order>0.285</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -1574,7 +1562,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000275</uwsinopia:form_order>
+            <uwsinopia:form_order>0.280</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -1814,7 +1802,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000285</uwsinopia:form_order>
+            <uwsinopia:form_order>0.290</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -1854,7 +1842,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000170</uwsinopia:form_order>
+            <uwsinopia:form_order>0.175</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -1879,7 +1867,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000220</uwsinopia:form_order>
+            <uwsinopia:form_order>0.225</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -1904,7 +1892,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000250</uwsinopia:form_order>
+            <uwsinopia:form_order>0.255</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -1934,7 +1922,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000225</uwsinopia:form_order>
+            <uwsinopia:form_order>0.230</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -1964,7 +1952,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000245</uwsinopia:form_order>
+            <uwsinopia:form_order>0.250</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -1999,7 +1987,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000060</uwsinopia:form_order>
+            <uwsinopia:form_order>0.065</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -2075,7 +2063,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000015</uwsinopia:form_order>
+            <uwsinopia:form_order>0.015</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-046d9a65-e489-39c7-a99e-31cc014127c5"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:literal_pt/>
@@ -2102,7 +2090,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000040</uwsinopia:form_order>
+            <uwsinopia:form_order>0.045</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-4a02af89-66ae-3c18-963f-1535c3d6d970"/>
             <uwsinopia:nested_resource_pt>
                <uwsinopia:rt_id>UWSINOPIA:WAU:rdaPlace:na:CAMS</uwsinopia:rt_id>
@@ -2125,7 +2113,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000210</uwsinopia:form_order>
+            <uwsinopia:form_order>0.215</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -2209,7 +2197,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000055</uwsinopia:form_order>
+            <uwsinopia:form_order>0.060</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -2235,7 +2223,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000200</uwsinopia:form_order>
+            <uwsinopia:form_order>0.205</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -2300,7 +2288,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000195</uwsinopia:form_order>
+            <uwsinopia:form_order>0.200</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -2340,7 +2328,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000255</uwsinopia:form_order>
+            <uwsinopia:form_order>0.260</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -2370,7 +2358,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000215</uwsinopia:form_order>
+            <uwsinopia:form_order>0.220</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -2395,7 +2383,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000270</uwsinopia:form_order>
+            <uwsinopia:form_order>0.275</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -2420,7 +2408,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000140</uwsinopia:form_order>
+            <uwsinopia:form_order>0.145</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-e23bf7e1-aa3e-3e8d-874e-9a16d0cdee57"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
@@ -2452,7 +2440,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000010</uwsinopia:form_order>
+            <uwsinopia:form_order>0.010</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-f21836a5-7397-341a-bd4c-bd641e765511"/>
             <uwsinopia:required>true</uwsinopia:required>
             <uwsinopia:literal_pt/>
@@ -2489,7 +2477,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000265</uwsinopia:form_order>
+            <uwsinopia:form_order>0.270</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -2539,7 +2527,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000165</uwsinopia:form_order>
+            <uwsinopia:form_order>0.170</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-487735e2-23ce-3543-834f-d8f687fe3ff8"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
@@ -2631,7 +2619,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000080</uwsinopia:form_order>
+            <uwsinopia:form_order>0.085</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-6991c355-409b-37af-8ded-8902061f40e8"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:literal_pt/>
@@ -2653,7 +2641,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000185</uwsinopia:form_order>
+            <uwsinopia:form_order>0.190</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -2693,7 +2681,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000160</uwsinopia:form_order>
+            <uwsinopia:form_order>0.165</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -2723,7 +2711,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000175</uwsinopia:form_order>
+            <uwsinopia:form_order>0.180</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -2793,7 +2781,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000075</uwsinopia:form_order>
+            <uwsinopia:form_order>0.080</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-521fa629-f515-3247-9db0-f03e8736bf15"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:literal_pt/>
@@ -2860,7 +2848,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000295</uwsinopia:form_order>
+            <uwsinopia:form_order>0.300</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-3462b350-01b0-33c6-b448-9d1b7d8dc1e9"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
@@ -2892,7 +2880,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000290</uwsinopia:form_order>
+            <uwsinopia:form_order>0.295</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -3176,7 +3164,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000120</uwsinopia:form_order>
+            <uwsinopia:form_order>0.125</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -3222,7 +3210,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000135</uwsinopia:form_order>
+            <uwsinopia:form_order>0.140</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-c6ca12bd-2511-3c1c-bed6-746936d39d35"/>
             <!-- BMR: I was surprised to see that this was repeatable in legacy templates -->
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
@@ -3395,7 +3383,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000130</uwsinopia:form_order>
+            <uwsinopia:form_order>0.130</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -3451,7 +3439,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000190</uwsinopia:form_order>
+            <uwsinopia:form_order>0.195</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -3491,7 +3479,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000240</uwsinopia:form_order>
+            <uwsinopia:form_order>0.245</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -3551,7 +3539,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000020</uwsinopia:form_order>
+            <uwsinopia:form_order>0.020</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-5ee35816-8c52-31fa-8d71-3d7748494082"/>
             <uwsinopia:repeatable ordered="true">true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
@@ -3614,7 +3602,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000070</uwsinopia:form_order>
+            <uwsinopia:form_order>0.075</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-b0a21725-2202-38d3-a1de-7be8199d845b"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:literal_pt/>
@@ -3631,7 +3619,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000065</uwsinopia:form_order>
+            <uwsinopia:form_order>0.070</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-31679e68-b94f-3868-993e-94c3fc5ac0f3"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:literal_pt/>
@@ -3733,7 +3721,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000230</uwsinopia:form_order>
+            <uwsinopia:form_order>0.235</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -3823,7 +3811,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000180</uwsinopia:form_order>
+            <uwsinopia:form_order>0.185</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>
@@ -3868,7 +3856,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000005</uwsinopia:form_order>
+            <uwsinopia:form_order>0.005</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-3975091a-4c88-332f-bc3e-a5c19e86d315"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:literal_pt/>
@@ -3925,7 +3913,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>monograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000235</uwsinopia:form_order>
+            <uwsinopia:form_order>0.240</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
             </uwsinopia:multiple_prop>

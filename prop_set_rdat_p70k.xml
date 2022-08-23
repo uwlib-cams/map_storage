@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-          xmlns:dcam="http://purl.org/dc/dcam/"
-          xmlns:owl="http://www.w3.org/2002/07/owl#"
-          xmlns:prov="http://www.w3.org/ns/prov#"
-          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-          xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
-          xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
-          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-          xmlns:xs="http://www.w3.org/2001/XMLSchema"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
+<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:reg="http://metadataregistry.org/uri/profile/regap/" xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/" xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdat_p70k</prop_set_label>
    <prop localid_prop="uwmaps_rdat_p70kt_P70015_prop_d10e43">
       <prop_iri iri="http://rdaregistry.info/Elements/t/P70015"/>
@@ -27,7 +15,7 @@
             <uwsinopia:resource>rdaTimespan</uwsinopia:resource>
             <uwsinopia:format>na</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.0000000001</uwsinopia:form_order>
+            <uwsinopia:form_order>0.001</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-eefb55bf-38b5-391c-9c55-bbe5f93063fa"/>
             <uwsinopia:language_suppressed>true</uwsinopia:language_suppressed>
             <uwsinopia:required>true</uwsinopia:required>
