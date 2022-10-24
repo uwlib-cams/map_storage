@@ -13,7 +13,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdat_p70kt_P70016_prop_d10e239_is_d1e26">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaTimespan</uwsinopia:resource>
-            <uwsinopia:format>na</uwsinopia:format>
+            <uwsinopia:format>nested</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.001</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-eefb55bf-38b5-391c-9c55-bbe5f93063fa"/>

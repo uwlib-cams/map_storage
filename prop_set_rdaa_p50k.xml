@@ -228,7 +228,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50ka_P50378_prop_d7e9550_is_d1e463">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaAgent</uwsinopia:resource>
-            <uwsinopia:format>na</uwsinopia:format>
+            <uwsinopia:format>nested</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.001</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-c210adcc-037f-3058-b00b-023cd0eb20c2"/>
@@ -1525,7 +1525,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50ka_P50052_prop_d7e66682_is_d1e3099">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaAgent</uwsinopia:resource>
-            <uwsinopia:format>na</uwsinopia:format>
+            <uwsinopia:format>nested</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.025</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-57cd6e34-134f-3212-afce-921049764c38"/>
@@ -2515,7 +2515,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50ka_P50383_prop_d7e110655_is_d1e5108">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaAgent</uwsinopia:resource>
-            <uwsinopia:format>na</uwsinopia:format>
+            <uwsinopia:format>nested</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.005</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-a0c56f46-635d-3975-b0e0-36b72dac4e4f"/>
@@ -2544,7 +2544,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50ka_P50384_prop_d7e110857_is_d1e5166">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaAgent</uwsinopia:resource>
-            <uwsinopia:format>na</uwsinopia:format>
+            <uwsinopia:format>nested</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.015</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-66fd5c23-8f64-385a-99ee-c31676e8772b"/>
@@ -4869,7 +4869,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50ka_P50094_prop_d7e212035_is_d1e9889">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaAgent</uwsinopia:resource>
-            <uwsinopia:format>na</uwsinopia:format>
+            <uwsinopia:format>nested</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.020</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-a2174ab6-43a1-3455-8fcc-36e641e9c95d"/>
@@ -5053,7 +5053,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50ka_P50006_prop_d7e219561_is_d1e10260">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaAgent</uwsinopia:resource>
-            <uwsinopia:format>na</uwsinopia:format>
+            <uwsinopia:format>nested</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.010</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-4aa08d65-f76d-37fb-a59d-61b95f2f0b7f"/>
