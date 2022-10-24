@@ -33,7 +33,7 @@
             <uwsinopia:form_order>0.135</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasContributorAgent_prop_d12e164_is_d1e74">
@@ -44,7 +44,7 @@
             <uwsinopia:form_order>0.120</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasContributorAgent_prop_d12e164_is_d1e95">
@@ -55,7 +55,7 @@
             <uwsinopia:form_order>0.260</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -98,7 +98,7 @@
             <uwsinopia:required>true</uwsinopia:required>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>

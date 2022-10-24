@@ -430,7 +430,7 @@
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-0e27dec8-c1fe-3cfd-af40-857b72882cc0"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -649,7 +649,7 @@
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-452cb3af-3c8e-3c20-8d59-2362ad325a09"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaTimespan:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaTimespan:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -743,7 +743,7 @@
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-4092aab4-d4ef-3820-9503-81ba1ec19b11"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -854,7 +854,7 @@
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-afdb9990-0d14-33ef-83f0-e514f188e95f"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -1134,7 +1134,7 @@
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-d9676281-26fe-3751-ae5a-d45689d80171"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaPlace:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaPlace:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -1153,7 +1153,7 @@
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-f6396d3f-6883-3ad2-84f1-d0714cfd42a0"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaTimespan:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaTimespan:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -1206,7 +1206,7 @@
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-2a4d1fa1-84b7-32a4-95d3-2ea1cba8642b"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -1295,7 +1295,7 @@
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-dcb88128-0780-3036-be8c-91c7e5ef395c"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -1367,7 +1367,7 @@
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-6bd2f401-d85e-3cdc-9151-b0ff84c51806"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaPlace:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaPlace:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -1386,7 +1386,7 @@
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-34b5a5fd-dede-3020-97f6-6b4e1111568c"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaTimespan:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaTimespan:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -1408,7 +1408,7 @@
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-b569c353-c792-3617-8c83-d974466ccc02"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaPlace:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaPlace:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -1426,7 +1426,7 @@
             <uwsinopia:form_order>0.040</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-26b84eaa-054e-3c8c-8933-8760b9b2046f"/>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaTimespan:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaTimespan:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -1510,7 +1510,7 @@
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-8fb9e501-1ef9-3b1f-9afa-078737576947"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -1755,7 +1755,7 @@
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-18a8b4c4-155c-31cc-858e-cabd60df787f"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -1936,7 +1936,7 @@
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-95f6a60f-3d2b-32d8-9486-cf810708d4ba"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -2157,7 +2157,7 @@
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-04e52191-96ac-3870-ac6a-de37540f45f5"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -2386,7 +2386,7 @@
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-33581eab-6f3d-3f32-9cd5-4a3ec5f58a15"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -2425,7 +2425,7 @@
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-dca98326-8bca-346f-9b5e-a262632daee5"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -2768,7 +2768,7 @@
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-5e4b0696-b177-34a4-9671-7cb0cdec37bd"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaPlace:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaPlace:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -2787,7 +2787,7 @@
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-65ea44c3-a78e-3883-9d14-6ef34c77067a"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaTimespan:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaTimespan:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -2819,7 +2819,7 @@
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-d34564b0-6a8a-384f-b966-a9638b234d89"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -2856,7 +2856,7 @@
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-0338d0e4-e62e-377f-80f8-f7b06b2f11a4"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -2922,7 +2922,7 @@
             <uwsinopia:required>true</uwsinopia:required>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:na:CAMS</uwsinopia:rt_id>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaNomen:nested:CAMS</uwsinopia:rt_id>
             </uwsinopia:nested_resource_pt>
          </uwsinopia:implementation_set>
       </sinopia>
