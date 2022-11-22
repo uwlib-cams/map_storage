@@ -43,7 +43,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10393_prop_d3e1766_is_d1e87">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.055</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -150,7 +150,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10058_prop_d3e5752_is_d1e301">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.090</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -222,7 +222,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10061_prop_d3e8018_is_d1e444">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.030</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -263,7 +263,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10331_prop_d3e9064_is_d1e523">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.001</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-086aad00-3bd2-3cc1-8dd0-52a5353b227b"/>
@@ -415,7 +415,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10004_prop_d3e14768_is_d1e830">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.025</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-28e39ed9-43ec-3a0d-bd30-83c805efaa8c"/>
@@ -588,7 +588,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10065_prop_d3e21632_is_d1e1178">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.050</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -610,7 +610,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10484_prop_d3e22001_is_d1e1220">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.095</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -632,7 +632,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10531_prop_d3e22278_is_d1e1261">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.110</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -659,7 +659,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10437_prop_d3e22859_is_d1e1312">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.100</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -711,7 +711,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10219_prop_d3e24321_is_d1e1414">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.040</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-a23c8e78-ebc8-34ea-9a63-23c35b9c36ba"/>
@@ -1065,7 +1065,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10095_prop_d3e39888_is_d1e2132">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.210</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1280,7 +1280,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10102_prop_d3e48501_is_d1e2564">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.265</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1305,7 +1305,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10046_prop_d3e48796_is_d1e2610">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.120</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1367,7 +1367,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10311_prop_d3e50838_is_d1e2733">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.105</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1404,7 +1404,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10308_prop_d3e51737_is_d1e2804">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.150</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1434,7 +1434,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10309_prop_d3e52179_is_d1e2861">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.155</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1464,7 +1464,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10310_prop_d3e52609_is_d1e2917">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.160</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1493,7 +1493,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10314_prop_d3e53044_is_d1e2971">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.115</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1535,7 +1535,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10279_prop_d3e54800_is_d1e3053">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.285</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1560,7 +1560,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10277_prop_d3e55027_is_d1e3099">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.280</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1775,7 +1775,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10273_prop_d3e64235_is_d1e3532">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.295</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1800,7 +1800,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10271_prop_d3e64462_is_d1e3578">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.290</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1840,7 +1840,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10142_prop_d3e65364_is_d1e3655">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.175</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1865,7 +1865,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10108_prop_d3e65669_is_d1e3701">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.225</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1890,7 +1890,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10170_prop_d3e65915_is_d1e3747">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.255</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1920,7 +1920,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10103_prop_d3e66428_is_d1e3803">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.230</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1950,7 +1950,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10156_prop_d3e66899_is_d1e3860">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.250</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1985,7 +1985,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10002_prop_d3e67588_is_d1e3926">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.065</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -2061,7 +2061,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10086_prop_d3e70461_is_d1e4076">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.015</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-046d9a65-e489-39c7-a99e-31cc014127c5"/>
@@ -2088,7 +2088,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10218_prop_d3e71351_is_d1e4130">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.045</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-4a02af89-66ae-3c18-963f-1535c3d6d970"/>
@@ -2111,7 +2111,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10105_prop_d3e71851_is_d1e4174">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.215</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -2195,7 +2195,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10198_prop_d3e75354_is_d1e4340">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.060</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -2221,7 +2221,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10155_prop_d3e75846_is_d1e4389">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.205</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -2286,7 +2286,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10109_prop_d3e77941_is_d1e4517">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.200</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -2326,7 +2326,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10117_prop_d3e78840_is_d1e4593">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.260</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -2356,7 +2356,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10192_prop_d3e79288_is_d1e4650">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.220</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -2381,7 +2381,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10153_prop_d3e79535_is_d1e4696">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.275</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -2406,7 +2406,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10078_prop_d3e79762_is_d1e4742">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.145</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-e23bf7e1-aa3e-3e8d-874e-9a16d0cdee57"/>
@@ -2438,7 +2438,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10223_prop_d3e80440_is_d1e4804">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.010</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-f21836a5-7397-341a-bd4c-bd641e765511"/>
@@ -2475,7 +2475,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10100_prop_d3e81819_is_d1e4877">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.270</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -2525,7 +2525,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10179_prop_d3e83175_is_d1e4974">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.170</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-487735e2-23ce-3543-834f-d8f687fe3ff8"/>
@@ -2617,7 +2617,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10210_prop_d3e86735_is_d1e5158">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.085</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-6991c355-409b-37af-8ded-8902061f40e8"/>
@@ -2639,7 +2639,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10196_prop_d3e87184_is_d1e5201">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.190</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -2679,7 +2679,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10190_prop_d3e88079_is_d1e5278">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.165</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -2709,7 +2709,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10133_prop_d3e88546_is_d1e5334">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.180</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -2779,7 +2779,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10330_prop_d3e90804_is_d1e5472">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.080</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-521fa629-f515-3247-9db0-f03e8736bf15"/>
@@ -2846,7 +2846,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10019_prop_d3e93107_is_d1e5607">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.305</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-3462b350-01b0-33c6-b448-9d1b7d8dc1e9"/>
@@ -2878,7 +2878,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10265_prop_d3e94371_is_d1e5656">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.300</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -3162,7 +3162,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10293_prop_d3e106507_is_d1e6229">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.125</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -3208,7 +3208,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10012_prop_d3e107725_is_d1e6319">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.140</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-c6ca12bd-2511-3c1c-bed6-746936d39d35"/>
@@ -3381,7 +3381,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10067_prop_d3e114468_is_d1e6669">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.130</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -3437,7 +3437,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10148_prop_d3e116312_is_d1e6780">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.195</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -3477,7 +3477,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10176_prop_d3e117211_is_d1e6856">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.245</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -3537,7 +3537,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10256_prop_d3e118962_is_d1e6974">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.020</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-5ee35816-8c52-31fa-8d71-3d7748494082"/>
@@ -3600,7 +3600,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10216_prop_d3e121122_is_d1e7099">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.075</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-b0a21725-2202-38d3-a1de-7be8199d845b"/>
@@ -3617,7 +3617,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10222_prop_d3e121347_is_d1e7132">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.070</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-31679e68-b94f-3868-993e-94c3fc5ac0f3"/>
@@ -3719,7 +3719,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10372_prop_d3e125310_is_d1e7338">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.235</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -3809,7 +3809,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10341_prop_d3e128065_is_d1e7517">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.185</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -3854,7 +3854,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10332_prop_d3e129134_is_d1e7604">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.005</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-3975091a-4c88-332f-bc3e-a5c19e86d315"/>
@@ -3911,7 +3911,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10kw_P10237_prop_d3e131140_is_d1e7718">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>monograph</uwsinopia:format>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.240</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
