@@ -232,7 +232,7 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.001</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-c210adcc-037f-3058-b00b-023cd0eb20c2"/>
-            <uwsinopia:required>true</uwsinopia:required>
+            <uwsinopia:required>false</uwsinopia:required>
             <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
       </sinopia>

@@ -437,7 +437,7 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.001</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-9bea6d11-d96f-3b6c-9775-43148da2a583"/>
-            <uwsinopia:required>true</uwsinopia:required>
+            <uwsinopia:required>false</uwsinopia:required>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
