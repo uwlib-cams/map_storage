@@ -1,4 +1,16 @@
-<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:reg="http://metadataregistry.org/uri/profile/regap/" xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/" xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
+          xmlns:dcam="http://purl.org/dc/dcam/"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:prov="http://www.w3.org/ns/prov#"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+          xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
+          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
+          xmlns:xs="http://www.w3.org/2001/XMLSchema"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdap_p70k</prop_set_label>
    <prop localid_prop="uwmaps_rdap_p70kp_P70018_prop_d9e43">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70018"/>
@@ -10,7 +22,7 @@
       <prop_label xml:lang="en">has appellation of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdap_p70kp_P70019_prop_d9e239_is_d1e26">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdap_p70kp_P70019_prop_d9e239_is_d2e26">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaPlace</uwsinopia:resource>
             <uwsinopia:format>nested</uwsinopia:format>
@@ -66,6 +78,19 @@
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70020"/>
       <prop_label xml:lang="en">has identifier for place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdap_p70kp_P70020_prop_d9e2180_is_d2e141">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaPlace</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>cspayne</uwsinopia:user>
+            <uwsinopia:form_order>0.000001</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-e9425a2a-40d4-385d-b5ec-b554d7cd1173"/>
+            <uwsinopia:required>true</uwsinopia:required>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:uri_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdap_p70kp_P70051_prop_d9e2360">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70051"/>
@@ -101,6 +126,20 @@
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70009"/>
       <prop_label xml:lang="en">has related collective agent of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdap_p70kp_P70009_prop_d9e3606_is_d2e237">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaPlace</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>cspayne</uwsinopia:user>
+            <uwsinopia:form_order>0.002</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-50d510a6-7fa8-3927-a564-e54af7d7346b"/>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:nested_resource_pt>
+               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:nested:CAMS</uwsinopia:rt_id>
+            </uwsinopia:nested_resource_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdap_p70kp_P70006_prop_d9e3814">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70006"/>
