@@ -247,8 +247,7 @@
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
                   <uwsinopia:authority_urn>LOC person [names (rwo)] (QA)</uwsinopia:authority_urn>
-                  <uwsinopia:authority_urn>LOC organization [names (rwo)]
-                     (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>LOC organization [names (rwo)] (QA)</uwsinopia:authority_urn>
                   <uwsinopia:authority_urn>LOC family [names (rwo)] (QA)</uwsinopia:authority_urn>
                </uwsinopia:authorities>
             </uwsinopia:lookup_pt>
@@ -1454,8 +1453,7 @@
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
                   <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
-                  <uwsinopia:authority_urn>Sinopia RDA monograph
-                     expression</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Sinopia RDA monograph expression</uwsinopia:authority_urn>
                </uwsinopia:authorities>
             </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
@@ -1487,8 +1485,7 @@
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
                   <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
-                  <uwsinopia:authority_urn>Sinopia RDA monograph
-                     manifestation</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Sinopia RDA monograph manifestation</uwsinopia:authority_urn>
                </uwsinopia:authorities>
             </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
@@ -1595,8 +1592,7 @@
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
                   <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
-                  <uwsinopia:authority_urn>Sinopia RDA monograph
-                     expression</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Sinopia RDA monograph expression</uwsinopia:authority_urn>
                </uwsinopia:authorities>
             </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
@@ -1623,8 +1619,7 @@
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
                   <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
-                  <uwsinopia:authority_urn>Sinopia RDA monograph
-                     expression</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Sinopia RDA monograph expression</uwsinopia:authority_urn>
                </uwsinopia:authorities>
             </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
@@ -1843,8 +1838,7 @@
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
                   <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
-                  <uwsinopia:authority_urn>Sinopia RDA monograph
-                     manifestation</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Sinopia RDA monograph manifestation</uwsinopia:authority_urn>
                </uwsinopia:authorities>
             </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
@@ -1871,8 +1865,7 @@
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
                   <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
-                  <uwsinopia:authority_urn>Sinopia RDA monograph
-                     manifestation</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Sinopia RDA monograph manifestation</uwsinopia:authority_urn>
                </uwsinopia:authorities>
             </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
@@ -2200,8 +2193,7 @@
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
                   <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
-                  <uwsinopia:authority_urn>Sinopia RDA monograph
-                     expression</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Sinopia RDA monograph expression</uwsinopia:authority_urn>
                </uwsinopia:authorities>
             </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
@@ -2509,8 +2501,7 @@
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
                   <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
-                  <uwsinopia:authority_urn>Sinopia RDA monograph
-                     expression</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Sinopia RDA monograph expression</uwsinopia:authority_urn>
                </uwsinopia:authorities>
             </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
