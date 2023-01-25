@@ -37,16 +37,7 @@
                                 <xsl:with-param name="get_set" select="."/>
                             </xsl:call-template>
                         </xsl:when>
-                        <xsl:when test="starts-with(uwmaps:set_name, 'dct')">
-                            <xsl:call-template name="get_dcTerms">
-                                <xsl:with-param name="get_set" select="."/>
-                            </xsl:call-template>
-                        </xsl:when>
-                        <xsl:when test="starts-with(uwmaps:set_name, 'prov')">
-                            <xsl:call-template name="get_prov">
-                                <xsl:with-param name="get_set" select="."/>
-                            </xsl:call-template>
-                        </xsl:when>
+
                         <!-- to do : other templates for other sources -->
                         <xsl:otherwise>
                             <xsl:text>&#10;&#10;</xsl:text>

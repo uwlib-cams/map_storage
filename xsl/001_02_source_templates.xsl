@@ -70,7 +70,8 @@
         </xsl:for-each-group>
     </xsl:template>
 
-    <!-- get Dublin Core Terms -->
+    <!-- Dublin Core Terms not in use 
+        
     <xsl:template name="get_dcTerms">
         <xsl:param name="get_set"/>
         <xsl:for-each-group select="document($get_set/uwmaps:set_source)/rdf:RDF/rdf:Description"
@@ -110,9 +111,10 @@
             </xsl:for-each>
         </xsl:for-each-group>
     </xsl:template>
+    -->
 
-    <!-- get PROV object properties -->
-    <!-- [!] only retrieves object properties! -->
+    <!-- PROV object properties not in use
+        
     <xsl:template name="get_prov">
         <xsl:param name="get_set"/>
         <xsl:for-each select="document($get_set/uwmaps:set_source)/rdf:RDF/owl:ObjectProperty">
@@ -137,5 +139,6 @@
             </prop>
         </xsl:for-each>
     </xsl:template>
+    -->
 
 </xsl:stylesheet>
