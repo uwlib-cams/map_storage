@@ -2491,6 +2491,25 @@
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50383"/>
       <prop_label xml:lang="en">has identifier for agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10002"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50ka_P50383_prop_d8e111369_is_d2e5048">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>test</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>ries07</uwsinopia:user>
+            <uwsinopia:form_order>0.0001</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-a0c56f46-635d-3975-b0e0-36b72dac4e4f"/>
+            <uwsinopia:remark xml:lang="en">Don't enter a literal!</uwsinopia:remark>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Bibbi authorities Corporation</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Bibbi authorities Person</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>CERL person (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaa_p50ka_P50384_prop_d8e111571">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50384"/>
@@ -4801,6 +4820,23 @@
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50094"/>
       <prop_label xml:lang="en">has identifier for person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10004"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50ka_P50094_prop_d8e212984_is_d2e9778">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>test</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>ries07</uwsinopia:user>
+            <uwsinopia:form_order>0.0002</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-a2174ab6-43a1-3455-8fcc-36e641e9c95d"/>
+            <uwsinopia:remark xml:lang="en">Don't enter a literal!</uwsinopia:remark>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>LOC person [names (rwo)] (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaa_p50ka_P50110_prop_d8e213218">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50110"/>
