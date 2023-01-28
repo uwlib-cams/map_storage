@@ -31,10 +31,6 @@
                 <xsl:if test="rdfs:range = node()">
                     <prop_range iri="{rdfs:range/@rdf:resource}"/>
                 </xsl:if>
-                <!-- TO DO:
-                        Bring in <prop_related_url> values
-                        No Toolkit URLs available in current RDF/XML
-                        Need to bring in from another source, see alignRDA2TK -->
             </prop>
         </xsl:for-each>
     </xsl:template>
