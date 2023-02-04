@@ -2494,7 +2494,7 @@
       <sinopia>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50ka_P50383_prop_d8e111369_is_d2e5048">
             <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>test</uwsinopia:resource>
+            <uwsinopia:resource>rdaAgent</uwsinopia:resource>
             <uwsinopia:format>test</uwsinopia:format>
             <uwsinopia:user>ries07</uwsinopia:user>
             <uwsinopia:form_order>0.0001</uwsinopia:form_order>
@@ -2785,6 +2785,25 @@
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50309"/>
       <prop_label xml:lang="en">has related agent of agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10002"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50ka_P50309_prop_d8e123172_is_d2e5644">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaAgent</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>ries07</uwsinopia:user>
+            <uwsinopia:form_order>0.03</uwsinopia:form_order>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
+            </uwsinopia:multiple_prop>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-bb69d545-5c61-3dcc-92b3-8dcb8298f17e"/>
+            <uwsinopia:remark xml:lang="en">Atttempting to get some repeated prop IRIs</uwsinopia:remark>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>LOC person [names (rwo)] (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaa_p50ka_P50324_prop_d8e123385">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50324"/>
@@ -2800,6 +2819,25 @@
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50315"/>
       <prop_label xml:lang="en">has related agent of person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10004"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50ka_P50315_prop_d8e123799_is_d2e5709">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaAgent</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>ries07</uwsinopia:user>
+            <uwsinopia:form_order>0.03</uwsinopia:form_order>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
+            </uwsinopia:multiple_prop>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-0e51b21c-908f-3f46-aff5-eb668e6f9d4f"/>
+            <uwsinopia:remark xml:lang="en">Atttempting to get some repeated prop IRIs</uwsinopia:remark>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>LOC person [names (rwo)] (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaa_p50ka_P50326_prop_d8e124005">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50326"/>
@@ -4821,9 +4859,9 @@
       <prop_label xml:lang="en">has identifier for person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10004"/>
       <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50ka_P50094_prop_d8e212984_is_d2e9778">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50ka_P50094_prop_d8e212984_is_d2e9849">
             <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>test</uwsinopia:resource>
+            <uwsinopia:resource>rdaAgent</uwsinopia:resource>
             <uwsinopia:format>test</uwsinopia:format>
             <uwsinopia:user>ries07</uwsinopia:user>
             <uwsinopia:form_order>0.0002</uwsinopia:form_order>
