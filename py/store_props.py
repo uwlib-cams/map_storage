@@ -1,3 +1,6 @@
+# Functions to create Prop objects
+# last updated: 2/10/2023
+
 import xml.etree.ElementTree as ET 
 import re
 
@@ -17,6 +20,7 @@ def remove_name_space(xml_string):
     xml_string = re.sub(re_xml, '', xml_string)
     return xml_string
 
+#create and store props in provide dict
 def store_props(file_dict):
     #for each file, store current properties in array 
     for key in file_dict.keys(): 
@@ -48,7 +52,9 @@ def store_props(file_dict):
                 if child.tag == "{https://uwlib-cams.github.io/map_storage/xsd/}prop_domain":
                     new_prop.set_prop_domain(remove_name_space(ET.tostring(child, encoding='utf8').decode('utf8')))
                 if child.tag == "{https://uwlib-cams.github.io/map_storage/xsd/}sinopia":
+                    #implementation_set_string = '<prop_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/">\n' + remove_name_space(ET.tostring(child, encoding='utf8').decode('utf8')) + '\n </prop_set>'
                     new_prop.set_implementation_set(remove_name_space(ET.tostring(child, encoding='utf8').decode('utf8')))
+            new_prop.set_prop_string(remove_name_space(ET.tostring(prop, encoding='utf8').decode('utf8')))
             #add property to array in dictionary 
             file_dict[key].append(new_prop)
 

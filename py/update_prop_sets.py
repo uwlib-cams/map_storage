@@ -1,22 +1,39 @@
-# Written by Cypress Payne - 1/2023
 # This program is designed to update map_storage prop_sets based on
 # RDA updates by storing the current data, updating the xml documents
 # using xslt, and then comparing them to save deprecated properties
 # that contain implementation sets
+# last updated: 2/10/2023
 
 import xml.etree.ElementTree as ET 
-import re
 import os
 from textwrap import dedent
+
 #class to store properties 
 from prop_storage import Prop
 from store_props import store_props 
+from add_props import add_to_tree
+
 # just for testing
 import sys
+
+def compare_props(array1, array2):
+    deprecated_props = []
+
+    for index1, i in enumerate(array1):
+        length = len(array2)
+        for index2, j in enumerate(array2):
+            if(i.prop_iri != j.prop_iri):
+                length = length - 1
+        if length == 0:
+            deprecated_props.append(i)
+    
+    return deprecated_props
 
 # get current xml files from path
 path = './'
 file_list = os.listdir(path)
+
+### change when done testing 
 file_list = [ elem for elem in file_list if (elem.startswith('prop_set_test'))]
 #file_list = [ elem for elem in file_list if (elem.endswith('.xml') 
 #    and (elem.startswith('prop_set_rd') or elem.startswith('prop_set_uw')))]
@@ -26,71 +43,61 @@ file_dict = {}
 for f in file_list:
     file_dict[f] = []
 
-print(file_dict)
 #for each file, store current properties in array 
 store_props(file_dict)
-print(file_dict)
 
-# i = file_dict.get("prop_set_rdaa_p50k.xml")
-# i[0].print_prop()
+# """Setup and run XSLT transformation"""
 
-"""Setup and run XSLT transformation"""
+# saxon_dir_prompt = dedent("""Enter the name of the directory in which the Saxon HE .jar file is stored
+# For example: 'saxon', 'saxon11', etc.
+# > """)
+# saxon_dir = input(saxon_dir_prompt)
 
-saxon_dir_prompt = dedent("""Enter the name of the directory in which the Saxon HE .jar file is stored
-For example: 'saxon', 'saxon11', etc.
-> """)
-saxon_dir = input(saxon_dir_prompt)
+# saxon_version_prompt = dedent("""
+# Enter the Saxon HE version number you'll use for the transformation
+# For example: '11.1', '11.4', etc.
+# > """)
+# saxon_version = input(saxon_version_prompt)
 
-saxon_version_prompt = dedent("""
-Enter the Saxon HE version number you'll use for the transformation
-For example: '11.1', '11.4', etc.
-> """)
-saxon_version = input(saxon_version_prompt)
+# os.system(f'java -cp ~/{saxon_dir}/saxon-he-{saxon_version}.jar net.sf.saxon.Transform -t -s:xml/get_prop_sets.xml -xsl:xsl/001_01_build_update.xsl')
 
-os.system(f'java -cp ~/{saxon_dir}/saxon-he-{saxon_version}.jar net.sf.saxon.Transform -t -s:xml/get_prop_sets.xml -xsl:xsl/001_01_build_update.xsl')
-
+#get updated files
 new_file_list = os.listdir(path)
 
+### replace when done testing
 new_file_list = [ elem for elem in file_list if (elem.startswith('prop_set_test'))]
 ## not using dcterms or prov
 # new_file_list = [ elem for elem in new_file_list if (elem.endswith('.xml') 
 #     and (elem.startswith('prop_set_rd') or elem.startswith('prop_set_uw')))]
 
-print(new_file_list)
 #create dictionary of arrays for each xml file
 new_file_dict = {}
 for f in new_file_list:
     new_file_dict[f] = []
 
-print(new_file_dict)
 #for each file, store current properties in array 
 store_props(new_file_dict)
-print(new_file_dict)
 
-print(sys.getsizeof(file_dict))
-print(sys.getsizeof(new_file_dict))
 # del(file_dict)
 
+#will have to iterate through all keys 
 # for key in file_dict.keys():
-  #  array1 = file_dict.get(key)
-   # for new_key in new_file_dict.keys():
-      #  array2 = new_file_dict.get(key)
+#    array1.append(file_dict.get(key))
+#    for new_key in new_file_dict.keys():
+#        array2.append(new_file_dict.get(key))
 
+### for testing
 array1 = file_dict.get("prop_set_test.xml")
 array2 = new_file_dict.get("prop_set_test1.xml")
-deprecated_props = []
 
-for index1, i in enumerate(array1):
-    #print(i.prop_iri)
-    # print("index1: ")
-    # print(index1)
-    length = len(array2)
-    print(length)
-    for index2, j in enumerate(array2):
-        if(i.prop_iri != j.prop_iri):
-            length = length - 1
-            print(length)
-    if length == 0:
-        deprecated_props.append(i)
-print(len(deprecated_props))
-deprecated_props[0].print_prop()
+# create storage for deprecated props
+deprecated_file_dict = {}
+for f in new_file_list:
+    deprecated_file_dict[f] = []
+
+# compare props to find deprecated ones
+deprecated_props = compare_props(array1, array2)
+props_to_add = []
+
+# add deprecated props back to updated files
+add_to_tree("prop_set_test1.xml", deprecated_props)
