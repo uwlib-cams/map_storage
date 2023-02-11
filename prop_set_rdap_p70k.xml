@@ -16,11 +16,41 @@
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70018"/>
       <prop_label xml:lang="en">has access point for place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdap_p70kp_P70018_prop_d10e49_is_d2e16">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaPlace</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>ries07</uwsinopia:user>
+            <uwsinopia:form_order>0.02</uwsinopia:form_order>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
+            </uwsinopia:multiple_prop>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-e0b9a64f-6343-343b-98a7-25bba892fbe6"/>
+            <uwsinopia:required>true</uwsinopia:required>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdap_p70kp_P70019_prop_d10e245">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70019"/>
       <prop_label xml:lang="en">has appellation of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdap_p70kp_P70019_prop_d10e245_is_d2e54">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaPlace</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>ries07</uwsinopia:user>
+            <uwsinopia:form_order>0.01</uwsinopia:form_order>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
+            </uwsinopia:multiple_prop>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-f9e86bf4-1118-3e1b-9517-252c71f2cffe"/>
+            <uwsinopia:remark xml:lang="en">Hey it's another reminder that I need to output remarks to the HTML templates!</uwsinopia:remark>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdap_p70kp_P70045_prop_d10e442">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70045"/>
@@ -226,6 +256,23 @@
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70035"/>
       <prop_label xml:lang="en">is place of origin of work of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdap_p70kp_P70035_prop_d10e8654_is_d2e500">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaPlace</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>ries07</uwsinopia:user>
+            <uwsinopia:form_order>0.03</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-5ae4060d-912f-33dd-8c7f-e37caea0ff95"/>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Sinopia RDA monograph work</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdap_p70kp_P70041_prop_d10e8844">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70041"/>
