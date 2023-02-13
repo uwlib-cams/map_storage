@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 from xml.dom import minidom
 
 #pass file name and deprecated props array
-def add_to_tree(key, props):
+def add_prop(key, props):
     #main file tree
     tree = ET.parse(key)
 
@@ -31,6 +31,8 @@ def add_to_tree(key, props):
             prop_root = prop_tree.getroot()
             #add deprecated prop to file tree
             root.append(prop_root)
+
+            print(prop.id + " added to " + key)
 
     #write tree to file
     tree.write(key)

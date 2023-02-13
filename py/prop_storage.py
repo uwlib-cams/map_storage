@@ -39,3 +39,6 @@ class Prop:
 
     def get_prop_string(self):
         return self.prop_string
+
+    def get_implementation_set(self):
+        return self.implementation_set

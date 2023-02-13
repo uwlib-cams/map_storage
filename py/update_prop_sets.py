@@ -11,11 +11,12 @@ from textwrap import dedent
 #class to store properties 
 from prop_storage import Prop
 from store_props import store_props 
-from add_props import add_to_tree
+from add_props import add_prop
 
 # just for testing
 import sys
 
+#compare two sets of properties and return ones in 1 not in 2
 def compare_props(array1, array2):
     deprecated_props = []
 
@@ -65,7 +66,7 @@ store_props(file_dict)
 new_file_list = os.listdir(path)
 
 ### replace when done testing
-new_file_list = [ elem for elem in file_list if (elem.startswith('prop_set_test'))]
+new_file_list = [ elem for elem in file_list if (elem.startswith('prop_set_test1'))]
 ## not using dcterms or prov
 # new_file_list = [ elem for elem in new_file_list if (elem.endswith('.xml') 
 #     and (elem.startswith('prop_set_rd') or elem.startswith('prop_set_uw')))]
@@ -81,23 +82,29 @@ store_props(new_file_dict)
 # del(file_dict)
 
 #will have to iterate through all keys 
-# for key in file_dict.keys():
-#    array1.append(file_dict.get(key))
-#    for new_key in new_file_dict.keys():
-#        array2.append(new_file_dict.get(key))
+
+for key in file_dict.keys():
+    array1 = []
+    array2 = []
+    array1 = file_dict.get(key)
+    
+    for new_key in new_file_dict.keys():
+        if new_key == "prop_set_test1.xml":
+            array2 = new_file_dict.get(new_key)
+            #print(array2)
+            # create storage for deprecated props
+            deprecated_file_dict = {}
+            for f in new_file_list:
+                deprecated_file_dict[f] = []
+
+            # compare props to find deprecated ones
+            deprecated_props = compare_props(array1, array2)
+
+            # add deprecated props back to updated files
+            add_prop(new_key, deprecated_props)
 
 ### for testing
-array1 = file_dict.get("prop_set_test.xml")
-array2 = new_file_dict.get("prop_set_test1.xml")
+# array1 = file_dict.get("prop_set_test.xml")
+# array2 = new_file_dict.get("prop_set_test1.xml")
 
-# create storage for deprecated props
-deprecated_file_dict = {}
-for f in new_file_list:
-    deprecated_file_dict[f] = []
 
-# compare props to find deprecated ones
-deprecated_props = compare_props(array1, array2)
-props_to_add = []
-
-# add deprecated props back to updated files
-add_to_tree("prop_set_test1.xml", deprecated_props)
