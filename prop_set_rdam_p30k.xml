@@ -1214,7 +1214,6 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.01</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
-               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30139" xml:lang="en">has expression manifested</uwsinopia:property_selection>
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30135" xml:lang="en">has work manifested</uwsinopia:property_selection>
             </uwsinopia:multiple_prop>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-7917b114-5614-3571-94a6-2284a4339575"/>
@@ -1223,6 +1222,7 @@
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
                   <uwsinopia:authority_urn>Sinopia RDA monograph expression</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Sinopia RDA monograph work</uwsinopia:authority_urn>
                </uwsinopia:authorities>
             </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
@@ -1689,7 +1689,7 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30135"/>
       <prop_label xml:lang="en">has work manifested</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
-      <sinopia>
+      <!-- <sinopia>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30km_P30135_prop_d6e64800_is_d1e3379">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
@@ -1708,7 +1708,7 @@
                </uwsinopia:authorities>
             </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
-      </sinopia>
+      </sinopia> -->
    </prop>
    <prop localid_prop="uwmaps_rdam_p30km_P30021_prop_d6e65030">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30021"/>
