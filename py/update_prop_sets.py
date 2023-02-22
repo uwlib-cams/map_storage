@@ -43,8 +43,9 @@ def match_props(array1, array2, key):
 path = './'
 file_list = os.listdir(path)
 
-### change when done testing 
+### only for testing 
 # file_list = [ elem for elem in file_list if (elem.startswith('prop_set_test'))]
+
 file_list = [ elem for elem in file_list if (elem.endswith('.xml') 
    and (elem.startswith('prop_set_rd') or elem.startswith('prop_set_uw')))]
 
@@ -74,8 +75,9 @@ os.system(f'java -cp ~/{saxon_dir}/saxon-he-{saxon_version}.jar net.sf.saxon.Tra
 #get updated files
 new_file_list = os.listdir(path)
 
-### replace when done testing
+### only for testing 
 # new_file_list = [ elem for elem in file_list if (elem.startswith('prop_set_test1'))]
+
 ## not using dcterms or prov
 new_file_list = [ elem for elem in new_file_list if (elem.endswith('.xml') 
     and (elem.startswith('prop_set_rd') or elem.startswith('prop_set_uw')))]
