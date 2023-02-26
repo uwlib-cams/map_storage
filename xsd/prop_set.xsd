@@ -109,8 +109,8 @@
 
     <xs:complexType name="iri_type">
         <xs:annotation>
-            <xs:documentation>This element type is used to provide IRIs, and in some cases URLs,
-                in prop_set instances.</xs:documentation>
+            <xs:documentation>This element type is used to provide IRIs, and in some cases URLs, in
+                prop_set instances.</xs:documentation>
             <xs:documentation>IRIs/URLs are entered as values of the `iri`
                 attribute.</xs:documentation>
         </xs:annotation>
@@ -136,9 +136,20 @@
     <xs:complexType name="prop_set_type">
         <xs:sequence>
             <xs:element name="prop_set_label" type="prop_set_label_type" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="source_version" type="source_version_type" minOccurs="1" maxOccurs="1"/>
             <xs:element name="prop" type="prop_type" minOccurs="1" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
+
+    <xs:simpleType name="source_version_type">
+        <xs:annotation>
+            <xs:documentation>The source_version element is for recording a version number taken
+                from RDF/XML property representations published at
+                https://github.com/RDARegistry/RDA-Vocabularies, from which information is taken to
+                construct prop_set instance data.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
 
     <!-- *** prop *** -->
     <xs:complexType name="prop_type">
