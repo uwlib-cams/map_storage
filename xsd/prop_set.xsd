@@ -136,6 +136,7 @@
     <xs:complexType name="prop_set_type">
         <xs:sequence>
             <xs:element name="prop_set_label" type="prop_set_label_type" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="source_version" type="xs:string" minOccurs="1" maxOccurs="1"/>
             <xs:element name="prop" type="prop_type" minOccurs="1" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
@@ -166,6 +167,7 @@
                 2) output as ref links with descriptive text to appear in HTML -->
             <xs:element name="prop_related_url" type="url_type" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element name="sinopia" type="uwsinopia:sinopia_type" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="deprecated" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
         </xs:sequence>
         <xs:attribute name="localid_prop" type="localid_attr" use="required"/>
     </xs:complexType>
