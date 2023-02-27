@@ -1,5 +1,5 @@
 # Functions to add props to xml file
-# last updated: 2/22/2023
+# last updated: 2/27/2023
 
 import xml.etree.ElementTree as ET 
 from xml.dom import minidom
@@ -50,8 +50,9 @@ def add_prop(key, props):
             prop_root = prop_tree.getroot()
 
             #mark as deprecated 
-            dep = ET.SubElement(prop_root, "deprecated", )
-            dep.text = 'true'
+            if prop.is_deprecated == "":
+                dep = ET.SubElement(prop_root, "deprecated", )
+                dep.text = 'true'
 
             #add deprecated prop to file tree
             root.append(prop_root)

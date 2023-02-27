@@ -2,7 +2,7 @@
 # RDA updates by storing the current data, updating the xml documents
 # using xslt, and then comparing them to save deprecated properties
 # that contain implementation sets
-# last updated: 2/13/2023
+# last updated: 2/27/2023
 
 import xml.etree.ElementTree as ET 
 import os
@@ -87,7 +87,7 @@ new_file_dict = {}
 for f in new_file_list:
     new_file_dict[f] = []
 
-#for each file, store current properties in array 
+#for each file, store current properties in array
 store_props(new_file_dict)
 
 #will have to iterate through all keys 
@@ -103,11 +103,6 @@ for key in file_dict.keys():
             
             #add implementation_sets to updated props
             match_props(array1, array2, new_key)
-
-            # create storage for deprecated props
-            deprecated_file_dict = {}
-            for f in new_file_list:
-                deprecated_file_dict[f] = []
            
             # compare props to find deprecated ones
             deprecated_props = compare_props(array1, array2)

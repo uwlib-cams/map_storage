@@ -12,6 +12,9 @@
     <!-- get RDA Registry properties -->
     <xsl:template name="get_rda">
         <xsl:param name="get_set"/>
+            <source_version>
+                <xsl:value-of select="document($get_set/uwmaps:set_source)/rdf:RDF/owl:Ontology/owl:versionInfo"/>     
+            </source_version>
         <xsl:for-each select="
                 document($get_set/uwmaps:set_source)/rdf:RDF/rdf:Description
                 [rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]

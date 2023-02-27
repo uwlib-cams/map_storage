@@ -1,6 +1,6 @@
 # This is a class created to store data related to properties 
 # retrieved from xml files before updating
-# last updated: 2/13/2023
+# last updated: 2/27/2023
 
 class Prop:
 
@@ -12,6 +12,7 @@ class Prop:
         self.prop_label = ""
         self.prop_domain = ""
         self.implementation_set = ""
+        self.is_deprecated = ""
 
     #formatted for etree
     def set_prop_string(self, prop_string):
@@ -31,6 +32,10 @@ class Prop:
     def set_implementation_set(self, implementation_set):
         self.implementation_set = implementation_set
 
+    def set_is_deprecated(self, is_deprecated):
+        self.is_deprecated = is_deprecated
+
+    #print prop for testing
     def print_prop(self):
         prop_string = '<prop localid_prop="'+ self.id+'">\n'+'\t'+self.prop_iri + '\t'+self.prop_label +'\t'+self.prop_domain
         if self.implementation_set != "":
