@@ -41,6 +41,9 @@
     <!-- get RDA Extension properties -->
     <xsl:template name="get_uwRdaExtension">
         <xsl:param name="get_set"/>
+            <source_version>
+                <xsl:value-of select="document($get_set/uwmaps:set_source)/rdf:RDF/rdf:Description/owl:versionInfo"/>     
+            </source_version>
         <xsl:for-each-group select="document($get_set/uwmaps:set_source)/rdf:RDF/rdf:Description"
             group-by="@rdf:about">
             <xsl:for-each select="
