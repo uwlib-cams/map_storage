@@ -109,8 +109,8 @@
 
     <xs:complexType name="iri_type">
         <xs:annotation>
-            <xs:documentation>This element type is used to provide IRIs, and in some cases URLs,
-                in prop_set instances.</xs:documentation>
+            <xs:documentation>This element type is used to provide IRIs, and in some cases URLs, in
+                prop_set instances.</xs:documentation>
             <xs:documentation>IRIs/URLs are entered as values of the `iri`
                 attribute.</xs:documentation>
         </xs:annotation>

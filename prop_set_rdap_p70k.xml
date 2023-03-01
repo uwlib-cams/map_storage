@@ -12,311 +12,272 @@
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdap_p70k</prop_set_label>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70018_prop_d9e43">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70018_prop_d10e49">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70018"/>
       <prop_label xml:lang="en">has access point for place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70019_prop_d9e239">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70019_prop_d10e245">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70019"/>
       <prop_label xml:lang="en">has appellation of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdap_p70kp_P70019_prop_d9e239_is_d2e26">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaPlace</uwsinopia:resource>
-            <uwsinopia:format>nested</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.001</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-f9e86bf4-1118-3e1b-9517-252c71f2cffe"/>
-            <uwsinopia:required>false</uwsinopia:required>
-            <uwsinopia:literal_pt/>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70045_prop_d9e436">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70045_prop_d10e442">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70045"/>
       <prop_label xml:lang="en">has authorized access point for place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70044_prop_d9e627">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70044_prop_d10e633">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70044"/>
       <prop_label xml:lang="en">has category of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70023_prop_d9e849">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70023_prop_d10e859">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70023"/>
       <prop_label xml:lang="en">is coordinates of cartographic content of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70024_prop_d9e1044">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70024_prop_d10e1054">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70024"/>
       <prop_label xml:lang="en">is country associated with person of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70001_prop_d9e1233">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70001_prop_d10e1243">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70001"/>
       <prop_label xml:lang="en">has name of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70003_prop_d9e1457">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70003_prop_d10e1467">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70003"/>
       <prop_label xml:lang="en">has variant name of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70002_prop_d9e1726">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70002_prop_d10e1746">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70002"/>
       <prop_label xml:lang="en">has preferred name of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70017_prop_d9e1948">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70017_prop_d10e1974">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70017"/>
       <prop_label xml:lang="en">is subject place of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70020_prop_d9e2180">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70020_prop_d10e2209">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70020"/>
       <prop_label xml:lang="en">has identifier for place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdap_p70kp_P70020_prop_d9e2180_is_d2e141">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaPlace</uwsinopia:resource>
-            <uwsinopia:format>test</uwsinopia:format>
-            <uwsinopia:user>cspayne</uwsinopia:user>
-            <uwsinopia:form_order>0.000001</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-e9425a2a-40d4-385d-b5ec-b554d7cd1173"/>
-            <uwsinopia:required>true</uwsinopia:required>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:uri_pt/>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70051_prop_d9e2360">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70051_prop_d10e2402">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70051"/>
       <prop_label xml:lang="en">is jurisdiction governed of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70008_prop_d9e2549">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70008_prop_d10e2591">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70008"/>
       <prop_label xml:lang="en">has related agent of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70015_prop_d9e2758">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70015_prop_d10e2800">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70015"/>
       <prop_label xml:lang="en">has related family of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70010_prop_d9e2987">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70010_prop_d10e3032">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70010"/>
       <prop_label xml:lang="en">has related place of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70011_prop_d9e3195">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70011_prop_d10e3240">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70011"/>
       <prop_label xml:lang="en">has related timespan of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70005_prop_d9e3400">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70005_prop_d10e3445">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70005"/>
       <prop_label xml:lang="en">has related expression of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70009_prop_d9e3606">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70009_prop_d10e3651">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70009"/>
       <prop_label xml:lang="en">has related collective agent of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdap_p70kp_P70009_prop_d9e3606_is_d2e237">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaPlace</uwsinopia:resource>
-            <uwsinopia:format>test</uwsinopia:format>
-            <uwsinopia:user>cspayne</uwsinopia:user>
-            <uwsinopia:form_order>0.002</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-50d510a6-7fa8-3927-a564-e54af7d7346b"/>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:nested:CAMS</uwsinopia:rt_id>
-            </uwsinopia:nested_resource_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70006_prop_d9e3814">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70006_prop_d10e3859">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70006"/>
       <prop_label xml:lang="en">has related manifestation of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70004_prop_d9e4023">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70004_prop_d10e4068">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70004"/>
       <prop_label xml:lang="en">has related work of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70012_prop_d9e4235">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70012_prop_d10e4280">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70012"/>
       <prop_label xml:lang="en">has related nomen of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70007_prop_d9e4441">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70007_prop_d10e4486">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70007"/>
       <prop_label xml:lang="en">has related item of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70014_prop_d9e4648">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70014_prop_d10e4693">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70014"/>
       <prop_label xml:lang="en">has related person of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70016_prop_d9e4860">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70016_prop_d10e4905">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70016"/>
       <prop_label xml:lang="en">has related corporate body of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70043_prop_d9e5093">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70043_prop_d10e5141">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70043"/>
       <prop_label xml:lang="en">has location</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70034_prop_d9e5278">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70034_prop_d10e5326">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70034"/>
       <prop_label xml:lang="en">is longitude and latitude of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70022_prop_d9e5467">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70022_prop_d10e5515">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70022"/>
       <prop_label xml:lang="en">has note on place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70047_prop_d9e5676">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70047_prop_d10e5724">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70047"/>
       <prop_label xml:lang="en">is parallel place of distribution of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70048_prop_d9e5865">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70048_prop_d10e5913">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70048"/>
       <prop_label xml:lang="en">is parallel place of manufacture of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70049_prop_d9e6054">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70049_prop_d10e6102">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70049"/>
       <prop_label xml:lang="en">is parallel place of production of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70050_prop_d9e6244">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70050_prop_d10e6292">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70050"/>
       <prop_label xml:lang="en">is parallel place of publication of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70032_prop_d9e6433">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70032_prop_d10e6481">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70032"/>
       <prop_label xml:lang="en">is part of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70033_prop_d9e6622">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70033_prop_d10e6670">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70033"/>
       <prop_label xml:lang="en">has part place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70054_prop_d9e6854">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70054_prop_d10e6902">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70054"/>
       <prop_label xml:lang="en">is place described by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70025_prop_d9e7049">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70025_prop_d10e7100">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70025"/>
       <prop_label xml:lang="en">is place of birth of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70038_prop_d9e7238">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70038_prop_d10e7289">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70038"/>
       <prop_label xml:lang="en">is place of capture of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70052_prop_d9e7427">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70052_prop_d10e7478">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70052"/>
       <prop_label xml:lang="en">is place of capture of representative expression of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70028_prop_d9e7617">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70028_prop_d10e7668">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70028"/>
       <prop_label xml:lang="en">is place of conference of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70026_prop_d9e7828">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70026_prop_d10e7885">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70026"/>
       <prop_label xml:lang="en">is place of death of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70039_prop_d9e8017">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70039_prop_d10e8074">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70039"/>
       <prop_label xml:lang="en">is place of distribution of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70021_prop_d9e8209">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70021_prop_d10e8266">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70021"/>
       <prop_label xml:lang="en">is place of manifestation of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70040_prop_d9e8406">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70040_prop_d10e8463">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70040"/>
       <prop_label xml:lang="en">is place of manufacture of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70035_prop_d9e8584">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70035_prop_d10e8654">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70035"/>
       <prop_label xml:lang="en">is place of origin of work of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70041_prop_d9e8774">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70041_prop_d10e8844">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70041"/>
       <prop_label xml:lang="en">is place of production of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70042_prop_d9e8965">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70042_prop_d10e9035">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70042"/>
       <prop_label xml:lang="en">is place of publication of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70027_prop_d9e9156">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70027_prop_d10e9226">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70027"/>
       <prop_label xml:lang="en">is place of residence of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70053_prop_d9e9346">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70053_prop_d10e9416">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70053"/>
       <prop_label xml:lang="en">has related entity of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70013_prop_d9e9535">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70013_prop_d10e9605">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70013"/>
       <prop_label xml:lang="en">has related RDA entity of place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70036_prop_d9e9756">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70036_prop_d10e9826">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70036"/>
       <prop_label xml:lang="en">is right ascension and declination of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70037_prop_d9e9946">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70037_prop_d10e10016">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70037"/>
       <prop_label xml:lang="en">is strings of coordinate pairs of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70046_prop_d9e10132">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70046_prop_d10e10202">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70046"/>
       <prop_label xml:lang="en">has variant access point for place</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70055_prop_d9e10336">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70055_prop_d10e10406">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70055"/>
       <prop_label xml:lang="en">is location of collection of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70056_prop_d9e10371">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70056_prop_d10e10453">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70056"/>
       <prop_label xml:lang="en">is location of item of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>
    </prop>
-   <prop localid_prop="uwmaps_rdap_p70kp_P70057_prop_d9e10406">
+   <prop localid_prop="uwmaps_rdap_p70kp_P70057_prop_d10e10500">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70057"/>
       <prop_label xml:lang="en">is place described with metadata by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10009"/>

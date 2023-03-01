@@ -34,10 +34,6 @@
                 <xsl:if test="rdfs:range = node()">
                     <prop_range iri="{rdfs:range/@rdf:resource}"/>
                 </xsl:if>
-                <!-- TO DO:
-                        Bring in <prop_related_url> values
-                        No Toolkit URLs available in current RDF/XML
-                        Need to bring in from another source, see alignRDA2TK -->
             </prop>
         </xsl:for-each>
     </xsl:template>
@@ -73,7 +69,8 @@
         </xsl:for-each-group>
     </xsl:template>
 
-    <!-- get Dublin Core Terms -->
+    <!-- Dublin Core Terms not in use 
+        
     <xsl:template name="get_dcTerms">
         <xsl:param name="get_set"/>
         <xsl:for-each-group select="document($get_set/uwmaps:set_source)/rdf:RDF/rdf:Description"
@@ -113,9 +110,10 @@
             </xsl:for-each>
         </xsl:for-each-group>
     </xsl:template>
+    -->
 
-    <!-- get PROV object properties -->
-    <!-- [!] only retrieves object properties! -->
+    <!-- PROV object properties not in use
+        
     <xsl:template name="get_prov">
         <xsl:param name="get_set"/>
         <xsl:for-each select="document($get_set/uwmaps:set_source)/rdf:RDF/owl:ObjectProperty">
@@ -140,5 +138,6 @@
             </prop>
         </xsl:for-each>
     </xsl:template>
+    -->
 
 </xsl:stylesheet>

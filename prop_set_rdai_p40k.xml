@@ -1,952 +1,623 @@
-<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:reg="http://metadataregistry.org/uri/profile/regap/" xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/" xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
+          xmlns:dcam="http://purl.org/dc/dcam/"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:prov="http://www.w3.org/ns/prov#"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+          xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
+          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
+          xmlns:xs="http://www.w3.org/2001/XMLSchema"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdai_p40k</prop_set_label>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40080_prop_d6e43">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40080_prop_d7e49">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40080"/>
       <prop_label xml:lang="en">has access point for item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40029_prop_d6e239">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40029_prop_d7e245">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40029"/>
       <prop_label xml:lang="en">is held with</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40ki_P40029_prop_d6e239_is_d1e26">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaItem</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.065</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-660e72e5-d08c-3077-a1f1-cdd1f561537b"/>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40015_prop_d6e629">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40015_prop_d7e648">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40015"/>
       <prop_label xml:lang="en">has annotator</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40ki_P40015_prop_d6e629_is_d1e65">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaItem</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.105</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-8e147bf3-0e73-30f5-96b4-b9f4df2ca691"/>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:nested:CAMS</uwsinopia:rt_id>
-            </uwsinopia:nested_resource_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40081_prop_d6e852">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40081_prop_d7e871">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40081"/>
       <prop_label xml:lang="en">has appellation of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40083_prop_d6e1037">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40083_prop_d7e1068">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40083"/>
       <prop_label xml:lang="en">has authorized access point for item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40016_prop_d6e1229">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40016_prop_d7e1260">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40016"/>
       <prop_label xml:lang="en">has autographer</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40ki_P40016_prop_d6e1229_is_d1e122">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaItem</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.110</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-1a4683be-fc51-3a39-a717-501247c8d9ea"/>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:nested:CAMS</uwsinopia:rt_id>
-            </uwsinopia:nested_resource_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40013_prop_d6e1452">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40013_prop_d7e1483">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40013"/>
       <prop_label xml:lang="en">has binder agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40ki_P40013_prop_d6e1452_is_d1e158">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaItem</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.095</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-59589bd6-470f-3ae2-b04f-924844a2712a"/>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:nested:CAMS</uwsinopia:rt_id>
-            </uwsinopia:nested_resource_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40114_prop_d6e1711">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40114_prop_d7e1745">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40114"/>
       <prop_label xml:lang="en">has binder collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40130_prop_d6e1907">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40130_prop_d7e1941">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40130"/>
       <prop_label xml:lang="en">has binder corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40146_prop_d6e2098">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40146_prop_d7e2132">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40146"/>
       <prop_label xml:lang="en">has binder family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40098_prop_d6e2289">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40098_prop_d7e2323">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40098"/>
       <prop_label xml:lang="en">has binder person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40094_prop_d6e2481">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40094_prop_d7e2515">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40094"/>
       <prop_label xml:lang="en">has binding of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40032_prop_d6e2670">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40032_prop_d7e2704">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40032"/>
       <prop_label xml:lang="en">is bound with</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40ki_P40032_prop_d6e2670_is_d1e245">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaItem</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.060</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-8d40285a-4a24-3b4f-9792-681d99d9a8bc"/>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40096_prop_d6e2896">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40096_prop_d7e2930">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40096"/>
       <prop_label xml:lang="en">has category of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40009_prop_d6e5153">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40009_prop_d7e5243">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40009"/>
       <prop_label xml:lang="en">is contained in item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40ki_P40009_prop_d6e5153_is_d1e294">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaItem</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.075</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-4829edd6-3292-3a0d-926f-505fc3a8228f"/>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40034_prop_d6e5364">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40034_prop_d7e5454">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40034"/>
       <prop_label xml:lang="en">is container of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40ki_P40034_prop_d6e5364_is_d1e331">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaItem</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.070</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-486ff038-d76b-3389-9ac5-3cd353aa4343"/>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40018_prop_d6e6672">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40018_prop_d7e6765">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40018"/>
       <prop_label xml:lang="en">has current owner agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40117_prop_d6e6933">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40117_prop_d7e7029">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40117"/>
       <prop_label xml:lang="en">has current owner collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40133_prop_d6e7131">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40133_prop_d7e7227">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40133"/>
       <prop_label xml:lang="en">has current owner corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40149_prop_d6e7324">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40149_prop_d7e7420">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40149"/>
       <prop_label xml:lang="en">has current owner family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40101_prop_d6e7517">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40101_prop_d7e7613">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40101"/>
       <prop_label xml:lang="en">has current owner person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40026_prop_d6e7711">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40026_prop_d7e7807">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40026"/>
       <prop_label xml:lang="en">has custodial history of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40020_prop_d6e7929">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40020_prop_d7e8025">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40020"/>
       <prop_label xml:lang="en">has custodian agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40ki_P40020_prop_d6e7929_is_d1e432">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaItem</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.145</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-12016b67-7727-3461-bb4f-b3ddd5495c34"/>
-            <uwsinopia:required>true</uwsinopia:required>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:nested:CAMS</uwsinopia:rt_id>
-            </uwsinopia:nested_resource_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40119_prop_d6e8194">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40119_prop_d7e8293">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40119"/>
       <prop_label xml:lang="en">has custodian collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40135_prop_d6e8390">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40135_prop_d7e8489">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40135"/>
       <prop_label xml:lang="en">has custodian corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40151_prop_d6e8581">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40151_prop_d7e8680">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40151"/>
       <prop_label xml:lang="en">has custodian family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40103_prop_d6e8772">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40103_prop_d7e8871">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40103"/>
       <prop_label xml:lang="en">has custodian person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40025_prop_d6e8964">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40025_prop_d7e9063">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40025"/>
       <prop_label xml:lang="en">has dedicatee agent of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40113_prop_d6e9210">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40113_prop_d7e9328">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40113"/>
       <prop_label xml:lang="en">has dedicatee collective agent of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40129_prop_d6e9393">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40129_prop_d7e9523">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40129"/>
       <prop_label xml:lang="en">has dedicatee corporate body of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40145_prop_d6e9585">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40145_prop_d7e9715">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40145"/>
       <prop_label xml:lang="en">has dedicatee family of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40097_prop_d6e9776">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40097_prop_d7e9906">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40097"/>
       <prop_label xml:lang="en">has dedicatee person of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40006_prop_d6e9967">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40006_prop_d7e10097">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40006"/>
       <prop_label xml:lang="en">has depositor agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40123_prop_d6e10227">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40123_prop_d7e10360">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40123"/>
       <prop_label xml:lang="en">has depositor collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40139_prop_d6e10422">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40139_prop_d7e10555">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40139"/>
       <prop_label xml:lang="en">has depositor corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40155_prop_d6e10613">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40155_prop_d7e10746">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40155"/>
       <prop_label xml:lang="en">has depositor family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40107_prop_d6e10805">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40107_prop_d7e10938">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40107"/>
       <prop_label xml:lang="en">has depositor person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40087_prop_d6e11165">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40087_prop_d7e11298">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40087"/>
       <prop_label xml:lang="en">has digital transfer of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40007_prop_d6e11482">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40007_prop_d7e11624">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40007"/>
       <prop_label xml:lang="en">has donor agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40124_prop_d6e11726">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40124_prop_d7e11871">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40124"/>
       <prop_label xml:lang="en">has donor collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40140_prop_d6e11921">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40140_prop_d7e12066">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40140"/>
       <prop_label xml:lang="en">has donor corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40156_prop_d6e12099">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40156_prop_d7e12257">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40156"/>
       <prop_label xml:lang="en">has donor family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40108_prop_d6e12291">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40108_prop_d7e12449">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40108"/>
       <prop_label xml:lang="en">has donor person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40088_prop_d6e12607">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40088_prop_d7e12765">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40088"/>
       <prop_label xml:lang="en">has electronic reproduction of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40ki_P40088_prop_d6e12607_is_d1e661">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaItem</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.130</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-df0cb73e-2752-3ae3-b849-03764fbdbc1e"/>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
-                  <uwsinopia:authority_urn>Sinopia RDA monograph manifestation</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40031_prop_d6e12915">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40031_prop_d7e13096">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40031"/>
       <prop_label xml:lang="en">has equivalent item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40089_prop_d6e13431">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40089_prop_d7e13625">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40089"/>
       <prop_label xml:lang="en">has facsimile of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40ki_P40089_prop_d6e13431_is_d1e710">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaItem</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.135</uwsinopia:form_order>
-            <uwsinopia:multiple_prop>
-               <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
-            </uwsinopia:multiple_prop>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-df0a6c8e-ed76-3682-8ee0-81fd4827f02b"/>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
-                  <uwsinopia:authority_urn>Sinopia RDA monograph manifestation</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40036_prop_d6e13757">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40036_prop_d7e13961">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40036"/>
       <prop_label xml:lang="en">is filmed with item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40019_prop_d6e13980">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40019_prop_d7e14184">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40019"/>
       <prop_label xml:lang="en">has former owner agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40ki_P40019_prop_d6e13980_is_d1e765">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaItem</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.085</uwsinopia:form_order>
-            <uwsinopia:multiple_prop>
-               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40007" xml:lang="en">has donor agent</uwsinopia:property_selection>
-            </uwsinopia:multiple_prop>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-6907bf5e-2a12-357e-8edf-fa64a3254606"/>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:nested:CAMS</uwsinopia:rt_id>
-            </uwsinopia:nested_resource_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40118_prop_d6e14244">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40118_prop_d7e14451">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40118"/>
       <prop_label xml:lang="en">has former owner collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40134_prop_d6e14444">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40134_prop_d7e14651">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40134"/>
       <prop_label xml:lang="en">has former owner corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40150_prop_d6e14639">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40150_prop_d7e14846">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40150"/>
       <prop_label xml:lang="en">has former owner family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40102_prop_d6e14835">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40102_prop_d7e15042">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40102"/>
       <prop_label xml:lang="en">has former owner person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40022_prop_d6e15065">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40022_prop_d7e15272">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40022"/>
       <prop_label xml:lang="en">has honouree agent of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40126_prop_d6e15328">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40126_prop_d7e15538">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40126"/>
       <prop_label xml:lang="en">has honouree collective agent of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40142_prop_d6e15523">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40142_prop_d7e15733">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40142"/>
       <prop_label xml:lang="en">has honouree corporate body of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40158_prop_d6e15714">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40158_prop_d7e15924">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40158"/>
       <prop_label xml:lang="en">has honouree family of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40110_prop_d6e15906">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40110_prop_d7e16116">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40110"/>
       <prop_label xml:lang="en">has honouree person of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40001_prop_d6e16097">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40001_prop_d7e16307">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40001"/>
       <prop_label xml:lang="en">has identifier for item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40012_prop_d6e16303">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40012_prop_d7e16525">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40012"/>
       <prop_label xml:lang="en">has illuminator agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40ki_P40012_prop_d6e16303_is_d1e909">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaItem</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.100</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-a07347f9-b2f7-32fe-a58f-a5fbda2b59cc"/>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:nested:CAMS</uwsinopia:rt_id>
-            </uwsinopia:nested_resource_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40116_prop_d6e16559">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40116_prop_d7e16785">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40116"/>
       <prop_label xml:lang="en">has illuminator collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40132_prop_d6e16754">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40132_prop_d7e16980">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40132"/>
       <prop_label xml:lang="en">has illuminator corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40148_prop_d6e16945">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40148_prop_d7e17171">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40148"/>
       <prop_label xml:lang="en">has illuminator family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40100_prop_d6e17137">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40100_prop_d7e17363">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40100"/>
       <prop_label xml:lang="en">has illuminator person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40050_prop_d6e17328">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40050_prop_d7e17554">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40050"/>
       <prop_label xml:lang="en">has immediate source of acquisition of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40ki_P40050_prop_d6e17328_is_d1e985">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaItem</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.055</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-ef984a87-0876-3e6b-9d71-3d0dfe068767"/>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:literal_pt/>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40014_prop_d6e17553">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40014_prop_d7e17779">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40014"/>
       <prop_label xml:lang="en">has inscriber</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40ki_P40014_prop_d6e17553_is_d1e1019">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaItem</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.115</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-4f75c0bf-2031-3ce2-90a9-fb2fcba65edb"/>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:nested:CAMS</uwsinopia:rt_id>
-            </uwsinopia:nested_resource_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40063_prop_d6e17777">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40063_prop_d7e18006">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40063"/>
       <prop_label xml:lang="en">is item analysed in</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40064_prop_d6e18031">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40064_prop_d7e18260">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40064"/>
       <prop_label xml:lang="en">is item commentary in</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40062_prop_d6e18540">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40062_prop_d7e18769">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40062"/>
       <prop_label xml:lang="en">is item described by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40049_prop_d6e19338">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40049_prop_d7e19567">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40049"/>
       <prop_label xml:lang="en">has manifestation exemplified</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40ki_P40049_prop_d6e19338_is_d1e1085">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaItem</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.001</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-6470ed6b-5ddd-3750-9dd0-199b4cf86ad2"/>
-            <uwsinopia:required>true</uwsinopia:required>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia RDA monograph manifestation</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40003_prop_d6e19756">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40003_prop_d7e19985">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40003"/>
       <prop_label xml:lang="en">has modification of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40093_prop_d6e20002">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40093_prop_d7e20231">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40093"/>
       <prop_label xml:lang="en">has modifier agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40ki_P40093_prop_d6e20002_is_d1e1137">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaItem</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.090</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-018d5613-d94c-30d3-be60-727e29a0e991"/>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:nested:CAMS</uwsinopia:rt_id>
-            </uwsinopia:nested_resource_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40128_prop_d6e20230">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40128_prop_d7e20459">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40128"/>
       <prop_label xml:lang="en">has modifier collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40144_prop_d6e20433">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40144_prop_d7e20662">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40144"/>
       <prop_label xml:lang="en">has modifier corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40160_prop_d6e20630">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40160_prop_d7e20859">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40160"/>
       <prop_label xml:lang="en">has modifier family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40112_prop_d6e20827">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40112_prop_d7e21056">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40112"/>
       <prop_label xml:lang="en">has modifier person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40010_prop_d6e21032">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40010_prop_d7e21261">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40010"/>
       <prop_label xml:lang="en">has note on dimensions of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40011_prop_d6e21246">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40011_prop_d7e21475">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40011"/>
       <prop_label xml:lang="en">has note on extent of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40028_prop_d6e21473">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40028_prop_d7e21702">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40028"/>
       <prop_label xml:lang="en">has note on item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40ki_P40028_prop_d6e21473_is_d1e1234">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaItem</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.035</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-d135d10a-4888-3955-bdb7-30a23c1add97"/>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:literal_pt/>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40035_prop_d6e21707">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40035_prop_d7e21936">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40035"/>
       <prop_label xml:lang="en">is on disc with item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40021_prop_d6e21930">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40021_prop_d7e22159">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40021"/>
       <prop_label xml:lang="en">has owner agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40120_prop_d6e22199">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40120_prop_d7e22431">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40120"/>
       <prop_label xml:lang="en">has owner collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40136_prop_d6e22400">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40136_prop_d7e22632">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40136"/>
       <prop_label xml:lang="en">has owner corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40152_prop_d6e22595">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40152_prop_d7e22827">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40152"/>
       <prop_label xml:lang="en">has owner family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40104_prop_d6e22790">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40104_prop_d7e23022">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40104"/>
       <prop_label xml:lang="en">has owner person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40085_prop_d6e22986">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40085_prop_d7e23218">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40085"/>
       <prop_label xml:lang="en">has preferred title of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40090_prop_d6e23302">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40090_prop_d7e23534">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40090"/>
       <prop_label xml:lang="en">has preservation facsimile of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40072_prop_d6e23623">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40072_prop_d7e23865">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40072"/>
       <prop_label xml:lang="en">has related agent of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40076_prop_d6e23849">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40076_prop_d7e24101">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40076"/>
       <prop_label xml:lang="en">has related collective agent of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40075_prop_d6e24071">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40075_prop_d7e24323">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40075"/>
       <prop_label xml:lang="en">has related corporate body of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40095_prop_d6e24288">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40095_prop_d7e24540">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40095"/>
       <prop_label xml:lang="en">has related entity of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40070_prop_d6e24477">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40070_prop_d7e24729">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40070"/>
       <prop_label xml:lang="en">has related expression of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40074_prop_d6e24682">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40074_prop_d7e24934">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40074"/>
       <prop_label xml:lang="en">has related family of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40046_prop_d6e24899">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40046_prop_d7e25151">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40046"/>
       <prop_label xml:lang="en">has related item of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40071_prop_d6e25132">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40071_prop_d7e25396">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40071"/>
       <prop_label xml:lang="en">has related manifestation of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40079_prop_d6e25343">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40079_prop_d7e25607">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40079"/>
       <prop_label xml:lang="en">has related nomen of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40073_prop_d6e25549">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40073_prop_d7e25813">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40073"/>
       <prop_label xml:lang="en">has related person of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40077_prop_d6e25766">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40077_prop_d7e26030">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40077"/>
       <prop_label xml:lang="en">has related place of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40068_prop_d6e25973">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40068_prop_d7e26237">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40068"/>
       <prop_label xml:lang="en">has related RDA entity of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40078_prop_d6e26181">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40078_prop_d7e26458">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40078"/>
       <prop_label xml:lang="en">has related timespan of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40069_prop_d6e26385">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40069_prop_d7e26662">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40069"/>
       <prop_label xml:lang="en">has related work of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40091_prop_d6e26594">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40091_prop_d7e26871">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40091"/>
       <prop_label xml:lang="en">is reprinted as item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40ki_P40091_prop_d6e26594_is_d1e1491">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaItem</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.140</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-f7922cad-3080-349f-9e75-52da85e7cb4d"/>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia resources</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40092_prop_d6e27034">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40092_prop_d7e27311">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40092"/>
       <prop_label xml:lang="en">is reproduced as item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40ki_P40092_prop_d6e27034_is_d1e1530">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaItem</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.125</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-55308b7f-24f1-386e-886a-5cdc21cedc02"/>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia RDA monograph manifestation</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40024_prop_d6e27500">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40024_prop_d7e27777">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40024"/>
       <prop_label xml:lang="en">has restorationist agent of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40ki_P40024_prop_d6e27500_is_d1e1569">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaItem</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.120</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-d6bde4fd-530c-314d-a79c-6a449a5f6ff1"/>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaAgent:nested:CAMS</uwsinopia:rt_id>
-            </uwsinopia:nested_resource_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40127_prop_d6e27762">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40127_prop_d7e28042">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40127"/>
       <prop_label xml:lang="en">has restorationist collective agent of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40143_prop_d6e27957">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40143_prop_d7e28237">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40143"/>
       <prop_label xml:lang="en">has restorationist corporate body of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40159_prop_d6e28149">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40159_prop_d7e28429">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40159"/>
       <prop_label xml:lang="en">has restorationist family of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40111_prop_d6e28340">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40111_prop_d7e28620">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40111"/>
       <prop_label xml:lang="en">has restorationist person of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40047_prop_d6e28531">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40047_prop_d7e28811">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40047"/>
       <prop_label xml:lang="en">has restriction on access to item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40ki_P40047_prop_d6e28531_is_d1e1646">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaItem</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.080</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-f8b543e9-ad2c-35a6-82fb-ec748181fb6a"/>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:literal_pt/>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40048_prop_d6e28757">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40048_prop_d7e29037">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40048"/>
       <prop_label xml:lang="en">has restriction on use of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40ki_P40048_prop_d6e28757_is_d1e1679">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaItem</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.005</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-476bd24c-fc68-347b-b14f-4c1562a76a53"/>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:literal_pt/>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40008_prop_d6e29014">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40008_prop_d7e29294">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40008"/>
       <prop_label xml:lang="en">has seller agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40125_prop_d6e29258">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40125_prop_d7e29541">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40125"/>
       <prop_label xml:lang="en">has seller collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40141_prop_d6e29453">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40141_prop_d7e29736">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40141"/>
       <prop_label xml:lang="en">has seller corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40157_prop_d6e29644">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40157_prop_d7e29927">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40157"/>
       <prop_label xml:lang="en">has seller family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40109_prop_d6e29836">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40109_prop_d7e30119">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40109"/>
       <prop_label xml:lang="en">has seller person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40061_prop_d6e30027">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40061_prop_d7e30310">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40061"/>
       <prop_label xml:lang="en">is subject item of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40082_prop_d6e30277">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40082_prop_d7e30560">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40082"/>
       <prop_label xml:lang="en">has title of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40084_prop_d6e30473">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40084_prop_d7e30756">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40084"/>
       <prop_label xml:lang="en">has variant access point for item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40086_prop_d6e30664">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40086_prop_d7e30947">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40086"/>
       <prop_label xml:lang="en">has variant title of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40161_prop_d6e30993">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40161_prop_d7e31276">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40161"/>
       <prop_label xml:lang="en">is holding of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40162_prop_d6e31028">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40162_prop_d7e31323">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40162"/>
       <prop_label xml:lang="en">has location of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-      <sinopia>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40ki_P40162_prop_d6e31028_is_d1e1814">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaItem</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.040</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-20722a68-99c1-3a7b-bbf2-131414c7965f"/>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:nested_resource_pt>
-               <uwsinopia:rt_id>UWSINOPIA:WAU:rdaPlace:nested:CAMS</uwsinopia:rt_id>
-            </uwsinopia:nested_resource_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40164_prop_d6e31063">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40164_prop_d7e31370">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40164"/>
       <prop_label xml:lang="en">is item described with metadata by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40163_prop_d6e31098">
+   <prop localid_prop="uwmaps_rdai_p40ki_P40163_prop_d7e31417">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40163"/>
       <prop_label xml:lang="en">is on manifestation with</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
