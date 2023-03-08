@@ -12,2584 +12,2584 @@
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdae_p20k</prop_set_label>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20049_prop_d5e49">
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20049">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20049"/>
       <prop_label xml:lang="en">has abridger agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20416_prop_d5e342">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20416">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20416"/>
       <prop_label xml:lang="en">has abridger collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20475_prop_d5e563">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20475">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20475"/>
       <prop_label xml:lang="en">has abridger corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20534_prop_d5e779">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20534">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20534"/>
       <prop_label xml:lang="en">has abridger family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20357_prop_d5e996">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20357">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20357"/>
       <prop_label xml:lang="en">has abridger person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20310_prop_d5e1212">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20310">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20310"/>
       <prop_label xml:lang="en">has access point for expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20012_prop_d5e1521">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20012">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20012"/>
       <prop_label xml:lang="en">has actor agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20428_prop_d5e1769">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20428">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20428"/>
       <prop_label xml:lang="en">has actor collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20487_prop_d5e1954">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20487">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20487"/>
       <prop_label xml:lang="en">has actor corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20546_prop_d5e2135">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20546">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20546"/>
       <prop_label xml:lang="en">has actor family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20369_prop_d5e2315">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20369">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20369"/>
       <prop_label xml:lang="en">has actor person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20320_prop_d5e2495">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20320">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20320"/>
       <prop_label xml:lang="en">is aggregated by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20319_prop_d5e2672">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20319">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20319"/>
       <prop_label xml:lang="en">aggregates</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20227_prop_d5e2848">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20227">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20227"/>
       <prop_label xml:lang="en">has scale of still image or three-dimensional form</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20028_prop_d5e3123">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20028">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20028"/>
       <prop_label xml:lang="en">has animator agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20453_prop_d5e3415">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20453">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20453"/>
       <prop_label xml:lang="en">has animator collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20512_prop_d5e3637">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20512">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20512"/>
       <prop_label xml:lang="en">has animator corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20571_prop_d5e3853">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20571">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20571"/>
       <prop_label xml:lang="en">has animator family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20394_prop_d5e4069">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20394">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20394"/>
       <prop_label xml:lang="en">has animator person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20311_prop_d5e4286">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20311">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20311"/>
       <prop_label xml:lang="en">has appellation of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20029_prop_d5e4471">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20029">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20029"/>
       <prop_label xml:lang="en">has arranger agent of music</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20424_prop_d5e4763">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20424">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20424"/>
       <prop_label xml:lang="en">has arranger collective agent of music</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20483_prop_d5e4985">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20483">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20483"/>
       <prop_label xml:lang="en">has arranger corporate body of music</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20542_prop_d5e5201">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20542">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20542"/>
       <prop_label xml:lang="en">has arranger family of music</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20365_prop_d5e5417">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20365">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20365"/>
       <prop_label xml:lang="en">has arranger person of music</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20038_prop_d5e5634">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20038">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20038"/>
       <prop_label xml:lang="en">has art director agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20409_prop_d5e5880">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20409">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20409"/>
       <prop_label xml:lang="en">has art director collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20468_prop_d5e6063">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20468">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20468"/>
       <prop_label xml:lang="en">has art director corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20527_prop_d5e6242">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20527">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20527"/>
       <prop_label xml:lang="en">has art director family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20350_prop_d5e6420">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20350">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20350"/>
       <prop_label xml:lang="en">has art director person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20189_prop_d5e6629">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20189">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20189"/>
       <prop_label xml:lang="en">is revision of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20211_prop_d5e6839">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20211">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20211"/>
       <prop_label xml:lang="en">is revised as</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20274_prop_d5e7049">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20274">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20274"/>
       <prop_label xml:lang="en">is expression reviewed by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20292_prop_d5e7288">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20292">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20292"/>
       <prop_label xml:lang="en">has audio engineer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20407_prop_d5e7532">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20407">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20407"/>
       <prop_label xml:lang="en">has audio engineer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20466_prop_d5e7719">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20466">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20466"/>
       <prop_label xml:lang="en">has audio engineer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20525_prop_d5e7903">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20525">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20525"/>
       <prop_label xml:lang="en">has audio engineer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20348_prop_d5e8086">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20348">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20348"/>
       <prop_label xml:lang="en">has audio engineer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20313_prop_d5e8269">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20313">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20313"/>
       <prop_label xml:lang="en">has authorized access point for expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20002_prop_d5e8473">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20002">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20002"/>
       <prop_label xml:lang="en">has identifier for expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20105_prop_d5e8868">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20105">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20105"/>
       <prop_label xml:lang="en">is augmented by expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20331_prop_d5e9100">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20331">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20331"/>
       <prop_label xml:lang="en">has category of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20287_prop_d5e9320">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20287">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20287"/>
       <prop_label xml:lang="en">has censor agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20415_prop_d5e9607">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20415">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20415"/>
       <prop_label xml:lang="en">has censor collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20474_prop_d5e9828">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20474">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20474"/>
       <prop_label xml:lang="en">has censor corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20533_prop_d5e10044">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20533">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20533"/>
       <prop_label xml:lang="en">has censor family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20356_prop_d5e10258">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20356">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20356"/>
       <prop_label xml:lang="en">has censor person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20285_prop_d5e10474">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20285">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20285"/>
       <prop_label xml:lang="en">has choral conductor agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20395_prop_d5e10720">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20395">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20395"/>
       <prop_label xml:lang="en">has choral conductor collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20454_prop_d5e10904">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20454">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20454"/>
       <prop_label xml:lang="en">has choral conductor corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20513_prop_d5e11082">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20513">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20513"/>
       <prop_label xml:lang="en">has choral conductor family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20336_prop_d5e11260">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20336">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20336"/>
       <prop_label xml:lang="en">has choral conductor person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20283_prop_d5e11471">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20283">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20283"/>
       <prop_label xml:lang="en">has colourist agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20399_prop_d5e11723">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20399">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20399"/>
       <prop_label xml:lang="en">has colourist collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20458_prop_d5e11926">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20458">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20458"/>
       <prop_label xml:lang="en">has colourist corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20517_prop_d5e12123">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20517">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20517"/>
       <prop_label xml:lang="en">has colourist family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20340_prop_d5e12320">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20340">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20340"/>
       <prop_label xml:lang="en">has colourist person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20021_prop_d5e12669">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20021">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20021"/>
       <prop_label xml:lang="en">has commentator agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20436_prop_d5e12916">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20436">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20436"/>
       <prop_label xml:lang="en">has commentator collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20495_prop_d5e13099">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20495">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20495"/>
       <prop_label xml:lang="en">has commentator corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20554_prop_d5e13277">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20554">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20554"/>
       <prop_label xml:lang="en">has commentator family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20377_prop_d5e13456">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20377">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20377"/>
       <prop_label xml:lang="en">has commentator person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20011_prop_d5e13634">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20011">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20011"/>
       <prop_label xml:lang="en">has conductor agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20442_prop_d5e13884">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20442">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20442"/>
       <prop_label xml:lang="en">has conductor collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20501_prop_d5e14072">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20501">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20501"/>
       <prop_label xml:lang="en">has conductor corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20560_prop_d5e14255">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20560">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20560"/>
       <prop_label xml:lang="en">has conductor family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20383_prop_d5e14438">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20383">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20383"/>
       <prop_label xml:lang="en">has conductor person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20328_prop_d5e14622">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20328">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20328"/>
       <prop_label xml:lang="en">has contributor agent to amalgamation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20329_prop_d5e14851">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20329">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20329"/>
       <prop_label xml:lang="en">has contributor agent to performance</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20426_prop_d5e15109">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20426">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20426"/>
       <prop_label xml:lang="en">has contributor collective agent to amalgamation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20425_prop_d5e15310">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20425">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20425"/>
       <prop_label xml:lang="en">has contributor collective agent to performance</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20485_prop_d5e15538">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20485">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20485"/>
       <prop_label xml:lang="en">has contributor corporate body to amalgamation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20484_prop_d5e15734">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20484">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20484"/>
       <prop_label xml:lang="en">has contributor corporate body to performance</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20544_prop_d5e15959">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20544">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20544"/>
       <prop_label xml:lang="en">has contributor family to amalgamation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20543_prop_d5e16155">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20543">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20543"/>
       <prop_label xml:lang="en">has contributor family to performance</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20367_prop_d5e16379">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20367">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20367"/>
       <prop_label xml:lang="en">has contributor person to amalgamation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20366_prop_d5e16578">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20366">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20366"/>
       <prop_label xml:lang="en">has contributor person to performance</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20036_prop_d5e16800">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20036">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20036"/>
       <prop_label xml:lang="en">has costume designer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20404_prop_d5e17046">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20404">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20404"/>
       <prop_label xml:lang="en">has costume designer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20463_prop_d5e17230">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20463">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20463"/>
       <prop_label xml:lang="en">has costume designer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20522_prop_d5e17408">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20522">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20522"/>
       <prop_label xml:lang="en">has costume designer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20345_prop_d5e17586">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20345">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20345"/>
       <prop_label xml:lang="en">has costume designer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20040_prop_d5e17765">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20040">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20040"/>
       <prop_label xml:lang="en">has court reporter agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20411_prop_d5e18014">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20411">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20411"/>
       <prop_label xml:lang="en">has court reporter collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20470_prop_d5e18200">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20470">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20470"/>
       <prop_label xml:lang="en">has court reporter corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20529_prop_d5e18382">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20529">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20529"/>
       <prop_label xml:lang="en">has court reporter family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20352_prop_d5e18563">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20352">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20352"/>
       <prop_label xml:lang="en">has court reporter person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20053_prop_d5e18744">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20053">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20053"/>
       <prop_label xml:lang="en">has creator agent of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20448_prop_d5e19051">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20448">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20448"/>
       <prop_label xml:lang="en">has creator collective agent of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20507_prop_d5e19278">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20507">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20507"/>
       <prop_label xml:lang="en">has creator corporate body of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20566_prop_d5e19501">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20566">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20566"/>
       <prop_label xml:lang="en">has creator family of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20389_prop_d5e19725">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20389">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20389"/>
       <prop_label xml:lang="en">has creator person of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20014_prop_d5e20009">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20014">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20014"/>
       <prop_label xml:lang="en">has dancer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20430_prop_d5e20255">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20430">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20430"/>
       <prop_label xml:lang="en">has dancer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20489_prop_d5e20438">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20489">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20489"/>
       <prop_label xml:lang="en">has dancer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20548_prop_d5e20617">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20548">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20548"/>
       <prop_label xml:lang="en">has dancer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20371_prop_d5e20795">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20371">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20371"/>
       <prop_label xml:lang="en">has dancer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20572_prop_d5e21213">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20572">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20572"/>
       <prop_label xml:lang="en">has designation of version</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20210_prop_d5e21413">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20210">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20210"/>
       <prop_label xml:lang="en">has details of cartographic content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20296_prop_d5e21653">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20296">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20296"/>
       <prop_label xml:lang="en">has DJ agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20408_prop_d5e21946">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20408">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20408"/>
       <prop_label xml:lang="en">has DJ collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20467_prop_d5e22173">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20467">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20467"/>
       <prop_label xml:lang="en">has DJ corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20526_prop_d5e22396">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20526">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20526"/>
       <prop_label xml:lang="en">has DJ family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20349_prop_d5e22620">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20349">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20349"/>
       <prop_label xml:lang="en">has DJ person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20033_prop_d5e22843">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20033">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20033"/>
       <prop_label xml:lang="en">has draftsman agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20398_prop_d5e23089">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20398">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20398"/>
       <prop_label xml:lang="en">has draftsman collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20457_prop_d5e23273">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20457">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20457"/>
       <prop_label xml:lang="en">has draftsman corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20516_prop_d5e23451">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20516">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20516"/>
       <prop_label xml:lang="en">has draftsman family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20339_prop_d5e23629">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20339">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20339"/>
       <prop_label xml:lang="en">has draftsman person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20073_prop_d5e23808">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20073">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20073"/>
       <prop_label xml:lang="en">is dramatized as expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20295_prop_d5e24018">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20295">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20295"/>
       <prop_label xml:lang="en">has dubbing director agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20452_prop_d5e24258">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20452">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20452"/>
       <prop_label xml:lang="en">has dubbing director collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20511_prop_d5e24442">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20511">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20511"/>
       <prop_label xml:lang="en">has dubbing director corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20570_prop_d5e24620">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20570">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20570"/>
       <prop_label xml:lang="en">has dubbing director family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20393_prop_d5e24798">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20393">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20393"/>
       <prop_label xml:lang="en">has dubbing director person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20330_prop_d5e24977">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20330">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20330"/>
       <prop_label xml:lang="en">has editor agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20055_prop_d5e25221">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20055">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20055"/>
       <prop_label xml:lang="en">has editor agent of moving image work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20397_prop_d5e25467">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20397">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20397"/>
       <prop_label xml:lang="en">has editor collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20449_prop_d5e25695">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20449">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20449"/>
       <prop_label xml:lang="en">has editor collective agent of moving image work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20456_prop_d5e25881">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20456">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20456"/>
       <prop_label xml:lang="en">has editor corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20508_prop_d5e26104">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20508">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20508"/>
       <prop_label xml:lang="en">has editor corporate body of moving image work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20515_prop_d5e26286">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20515">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20515"/>
       <prop_label xml:lang="en">has editor family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20567_prop_d5e26509">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20567">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20567"/>
       <prop_label xml:lang="en">has editor family of moving image work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20338_prop_d5e26690">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20338">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20338"/>
       <prop_label xml:lang="en">has editor person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20390_prop_d5e26914">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20390">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20390"/>
       <prop_label xml:lang="en">has editor person of moving image work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20139_prop_d5e27402">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20139">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20139"/>
       <prop_label xml:lang="en">is arrangement of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20165_prop_d5e27615">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20165">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20165"/>
       <prop_label xml:lang="en">is arranged as</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20270_prop_d5e27889">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20270">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20270"/>
       <prop_label xml:lang="en">is expression analysed in</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20321_prop_d5e28127">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20321">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20321"/>
       <prop_label xml:lang="en">has extent of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20200_prop_d5e28302">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20200">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20200"/>
       <prop_label xml:lang="en">is split into expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20004_prop_d5e28547">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20004">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20004"/>
       <prop_label xml:lang="en">has date of capture</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20158_prop_d5e28940">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20158">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20158"/>
       <prop_label xml:lang="en">has motion picture screenplay expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20009_prop_d5e29150">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20009">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20009"/>
       <prop_label xml:lang="en">is adapted as motion picture expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20251_prop_d5e29360">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20251">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20251"/>
       <prop_label xml:lang="en">has motion picture music expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20171_prop_d5e29724">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20171">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20171"/>
       <prop_label xml:lang="en">is translated as</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20141_prop_d5e29936">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20141">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20141"/>
       <prop_label xml:lang="en">is translation of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20065_prop_d5e30149">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20065">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20065"/>
       <prop_label xml:lang="en">has script</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20173_prop_d5e30357">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20173">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20173"/>
       <prop_label xml:lang="en">is screenplay for motion picture expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20157_prop_d5e30567">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20157">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20157"/>
       <prop_label xml:lang="en">has screenplay expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20102_prop_d5e30784">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20102">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20102"/>
       <prop_label xml:lang="en">is screenplay for expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20176_prop_d5e31000">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20176">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20176"/>
       <prop_label xml:lang="en">is script for radio program expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20174_prop_d5e31210">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20174">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20174"/>
       <prop_label xml:lang="en">is screenplay for television program expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20175_prop_d5e31421">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20175">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20175"/>
       <prop_label xml:lang="en">is screenplay for video expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20118_prop_d5e31631">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20118">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20118"/>
       <prop_label xml:lang="en">has appendix expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20089_prop_d5e31885">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20089">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20089"/>
       <prop_label xml:lang="en">is appendix to expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20093_prop_d5e32322">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20093">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20093"/>
       <prop_label xml:lang="en">has errata expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20146_prop_d5e32532">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20146">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20146"/>
       <prop_label xml:lang="en">is errata to expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20016_prop_d5e32743">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20016">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20016"/>
       <prop_label xml:lang="en">has host agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20431_prop_d5e32989">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20431">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20431"/>
       <prop_label xml:lang="en">has host collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20490_prop_d5e33172">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20490">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20490"/>
       <prop_label xml:lang="en">has host corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20549_prop_d5e33351">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20549">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20549"/>
       <prop_label xml:lang="en">has host family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20372_prop_d5e33529">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20372">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20372"/>
       <prop_label xml:lang="en">has host person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20219_prop_d5e34423">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20219">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20219"/>
       <prop_label xml:lang="en">has duration</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20278_prop_d5e34639">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20278">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20278"/>
       <prop_label xml:lang="en">has details of duration</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20148_prop_d5e34851">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20148">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20148"/>
       <prop_label xml:lang="en">is illustrations for expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20094_prop_d5e35062">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20094">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20094"/>
       <prop_label xml:lang="en">has illustrations expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20217_prop_d5e36705">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20217">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20217"/>
       <prop_label xml:lang="en">has capture information</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20015_prop_d5e36924">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20015">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20015"/>
       <prop_label xml:lang="en">has instructor agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20440_prop_d5e37170">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20440">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20440"/>
       <prop_label xml:lang="en">has instructor collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20499_prop_d5e37353">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20499">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20499"/>
       <prop_label xml:lang="en">has instructor corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20558_prop_d5e37532">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20558">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20558"/>
       <prop_label xml:lang="en">has instructor family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20381_prop_d5e37710">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20381">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20381"/>
       <prop_label xml:lang="en">has instructor person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20286_prop_d5e37888">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20286">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20286"/>
       <prop_label xml:lang="en">has instrumental conductor agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20427_prop_d5e38132">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20427">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20427"/>
       <prop_label xml:lang="en">has instrumental conductor collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20486_prop_d5e38315">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20486">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20486"/>
       <prop_label xml:lang="en">has instrumental conductor corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20545_prop_d5e38493">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20545">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20545"/>
       <prop_label xml:lang="en">has instrumental conductor family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20368_prop_d5e38672">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20368">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20368"/>
       <prop_label xml:lang="en">has instrumental conductor person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20020_prop_d5e38850">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20020">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20020"/>
       <prop_label xml:lang="en">has instrumentalist agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20435_prop_d5e39096">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20435">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20435"/>
       <prop_label xml:lang="en">has instrumentalist collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20494_prop_d5e39280">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20494">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20494"/>
       <prop_label xml:lang="en">has instrumentalist corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20553_prop_d5e39458">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20553">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20553"/>
       <prop_label xml:lang="en">has instrumentalist family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20376_prop_d5e39636">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20376">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20376"/>
       <prop_label xml:lang="en">has instrumentalist person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20322_prop_d5e39815">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20322">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20322"/>
       <prop_label xml:lang="en">has intended audience of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20323_prop_d5e39987">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20323">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20323"/>
       <prop_label xml:lang="en">has interactivity mode</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20047_prop_d5e40159">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20047">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20047"/>
       <prop_label xml:lang="en">has interviewee agent of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20413_prop_d5e40406">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20413">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20413"/>
       <prop_label xml:lang="en">has interviewee collective agent of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20472_prop_d5e40589">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20472">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20472"/>
       <prop_label xml:lang="en">has interviewee corporate body of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20531_prop_d5e40767">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20531">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20531"/>
       <prop_label xml:lang="en">has interviewee family of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20354_prop_d5e40946">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20354">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20354"/>
       <prop_label xml:lang="en">has interviewee person of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20032_prop_d5e41124">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20032">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20032"/>
       <prop_label xml:lang="en">has interviewer agent of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20396_prop_d5e41370">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20396">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20396"/>
       <prop_label xml:lang="en">has interviewer collective agent of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20455_prop_d5e41547">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20455">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20455"/>
       <prop_label xml:lang="en">has interviewer corporate body of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20514_prop_d5e41725">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20514">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20514"/>
       <prop_label xml:lang="en">has interviewer family of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20337_prop_d5e41903">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20337">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20337"/>
       <prop_label xml:lang="en">has interviewer person of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20062_prop_d5e42082">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20062">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20062"/>
       <prop_label xml:lang="en">has form of notation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20080_prop_d5e42303">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20080">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20080"/>
       <prop_label xml:lang="en">has cadenza expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20083_prop_d5e42513">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20083">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20083"/>
       <prop_label xml:lang="en">is cadenza composed for expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20255_prop_d5e42934">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20255">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20255"/>
       <prop_label xml:lang="en">is adapted as graphic novel expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20326_prop_d5e43565">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20326">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20326"/>
       <prop_label xml:lang="en">has key of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20100_prop_d5e44138">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20100">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20100"/>
       <prop_label xml:lang="en">is complemented by expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20273_prop_d5e44370">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20273">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20273"/>
       <prop_label xml:lang="en">is expression evaluated by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20152_prop_d5e44611">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20152">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20152"/>
       <prop_label xml:lang="en">is adaptation of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20191_prop_d5e44857">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20191">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20191"/>
       <prop_label xml:lang="en">is continued by expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20076_prop_d5e45111">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20076">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20076"/>
       <prop_label xml:lang="en">is replaced by expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20169_prop_d5e45366">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20169">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20169"/>
       <prop_label xml:lang="en">is succeeded by expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20154_prop_d5e45595">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20154">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20154"/>
       <prop_label xml:lang="en">is preceded by expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20075_prop_d5e45824">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20075">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20075"/>
       <prop_label xml:lang="en">is replaced in part by expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20269_prop_d5e46079">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20269">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20269"/>
       <prop_label xml:lang="en">is expression described by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20137_prop_d5e46324">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20137">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20137"/>
       <prop_label xml:lang="en">is absorption of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20192_prop_d5e46534">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20192">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20192"/>
       <prop_label xml:lang="en">is augmentation of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20184_prop_d5e46767">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20184">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20184"/>
       <prop_label xml:lang="en">is expanded version of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20199_prop_d5e46977">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20199">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20199"/>
       <prop_label xml:lang="en">is replacement of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20123_prop_d5e47231">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20123">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20123"/>
       <prop_label xml:lang="en">is dramatization of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20095_prop_d5e47442">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20095">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20095"/>
       <prop_label xml:lang="en">is adapted as motion picture screenplay expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20149_prop_d5e47652">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20149">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20149"/>
       <prop_label xml:lang="en">is continuation of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20096_prop_d5e47906">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20096">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20096"/>
       <prop_label xml:lang="en">is adapted as screenplay expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20214_prop_d5e48123">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20214">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20214"/>
       <prop_label xml:lang="en">has date of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20205_prop_d5e48360">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20205">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20205"/>
       <prop_label xml:lang="en">has related expression of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20153_prop_d5e48810">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20153">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20153"/>
       <prop_label xml:lang="en">is adapted as expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20143_prop_d5e49056">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20143">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20143"/>
       <prop_label xml:lang="en">is absorbed by expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20115_prop_d5e49266">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20115">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20115"/>
       <prop_label xml:lang="en">is expanded as expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20170_prop_d5e49477">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20170">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20170"/>
       <prop_label xml:lang="en">is digested as expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20164_prop_d5e49687">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20164">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20164"/>
       <prop_label xml:lang="en">is paraphrased as expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20142_prop_d5e49897">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20142">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20142"/>
       <prop_label xml:lang="en">is parodied as expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20144_prop_d5e50108">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20144">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20144"/>
       <prop_label xml:lang="en">is absorbed in part by expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20166_prop_d5e50318">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20166">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20166"/>
       <prop_label xml:lang="en">is abridged as expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20119_prop_d5e50528">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20119">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20119"/>
       <prop_label xml:lang="en">is freely translated as expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20086_prop_d5e50739">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20086">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20086"/>
       <prop_label xml:lang="en">is remade as expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20114_prop_d5e50949">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20114">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20114"/>
       <prop_label xml:lang="en">is imitated as expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20077_prop_d5e51161">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20077">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20077"/>
       <prop_label xml:lang="en">is adapted in verse as expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20256_prop_d5e51372">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20256">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20256"/>
       <prop_label xml:lang="en">is graphic novelization of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20135_prop_d5e51792">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20135">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20135"/>
       <prop_label xml:lang="en">is digest of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20181_prop_d5e52003">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20181">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20181"/>
       <prop_label xml:lang="en">is concordance to expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20092_prop_d5e52213">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20092">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20092"/>
       <prop_label xml:lang="en">is adapted as choreography expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20183_prop_d5e52429">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20183">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20183"/>
       <prop_label xml:lang="en">is choreographic adaptation of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20186_prop_d5e52643">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20186">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20186"/>
       <prop_label xml:lang="en">is paraphrase of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20059_prop_d5e53008">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20059">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20059"/>
       <prop_label xml:lang="en">has manifestation of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20151_prop_d5e53225">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20151">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20151"/>
       <prop_label xml:lang="en">is supplement to expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20125_prop_d5e53435">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20125">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20125"/>
       <prop_label xml:lang="en">is motion picture adaptation of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20204_prop_d5e53645">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20204">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20204"/>
       <prop_label xml:lang="en">has expression of source work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20130_prop_d5e53895">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20130">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20130"/>
       <prop_label xml:lang="en">is motion picture screenplay based on expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20129_prop_d5e54105">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20129">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20129"/>
       <prop_label xml:lang="en">is screenplay based on expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20190_prop_d5e54321">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20190">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20190"/>
       <prop_label xml:lang="en">is libretto based on expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20133_prop_d5e54532">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20133">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20133"/>
       <prop_label xml:lang="en">is radio script based on expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20131_prop_d5e54742">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20131">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20131"/>
       <prop_label xml:lang="en">is television screenplay based on expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20132_prop_d5e54952">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20132">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20132"/>
       <prop_label xml:lang="en">is video screenplay based on expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20006_prop_d5e55163">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20006">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20006"/>
       <prop_label xml:lang="en">has language of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20240_prop_d5e55400">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20240">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20240"/>
       <prop_label xml:lang="en">is opera adaptation of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20281_prop_d5e55610">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20281">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20281"/>
       <prop_label xml:lang="en">is oratorio adaptation of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20201_prop_d5e56031">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20201">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20201"/>
       <prop_label xml:lang="en">is merger of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20196_prop_d5e56241">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20196">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20196"/>
       <prop_label xml:lang="en">is parody of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20127_prop_d5e56452">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20127">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20127"/>
       <prop_label xml:lang="en">is radio adaptation of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20099_prop_d5e56662">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20099">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20099"/>
       <prop_label xml:lang="en">is adapted as radio script expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20126_prop_d5e56872">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20126">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20126"/>
       <prop_label xml:lang="en">is novelization of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20088_prop_d5e57083">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20088">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20088"/>
       <prop_label xml:lang="en">is adapted as novel expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20138_prop_d5e57293">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20138">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20138"/>
       <prop_label xml:lang="en">is absorption in part of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20198_prop_d5e57503">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20198">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20198"/>
       <prop_label xml:lang="en">is replacement in part of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20121_prop_d5e57758">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20121">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20121"/>
       <prop_label xml:lang="en">is abridgement of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20140_prop_d5e57968">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20140">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20140"/>
       <prop_label xml:lang="en">is free translation of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20128_prop_d5e58178">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20128">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20128"/>
       <prop_label xml:lang="en">is television adaptation of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20097_prop_d5e58389">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20097">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20097"/>
       <prop_label xml:lang="en">is adapted as television screenplay expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20168_prop_d5e58599">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20168">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20168"/>
       <prop_label xml:lang="en">is separated from expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20185_prop_d5e58844">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20185">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20185"/>
       <prop_label xml:lang="en">is remake of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20195_prop_d5e59055">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20195">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20195"/>
       <prop_label xml:lang="en">is imitation of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20124_prop_d5e59267">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20124">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20124"/>
       <prop_label xml:lang="en">is verse adaptation of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20134_prop_d5e59477">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20134">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20134"/>
       <prop_label xml:lang="en">is video adaptation of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20098_prop_d5e59688">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20098">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20098"/>
       <prop_label xml:lang="en">is adapted as video screenplay expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20159_prop_d5e59898">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20159">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20159"/>
       <prop_label xml:lang="en">is musical setting of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20239_prop_d5e60108">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20239">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20239"/>
       <prop_label xml:lang="en">is musical theatre adaptation of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20231_prop_d5e60325">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20231">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20231"/>
       <prop_label xml:lang="en">has work expressed</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20085_prop_d5e60541">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20085">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20085"/>
       <prop_label xml:lang="en">has incidental music expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20103_prop_d5e60751">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20103">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20103"/>
       <prop_label xml:lang="en">is incidental music for expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20005_prop_d5e60962">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20005">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20005"/>
       <prop_label xml:lang="en">has award</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20193_prop_d5e61174">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20193">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20193"/>
       <prop_label xml:lang="en">is abstracts for expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20090_prop_d5e61384">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20090">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20090"/>
       <prop_label xml:lang="en">is abstracted in expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20271_prop_d5e61805">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20271">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20271"/>
       <prop_label xml:lang="en">is expression commentary in</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20108_prop_d5e62043">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20108">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20108"/>
       <prop_label xml:lang="en">has concordance expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20253_prop_d5e62254">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20253">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20253"/>
       <prop_label xml:lang="en">has choreography expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20254_prop_d5e62470">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20254">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20254"/>
       <prop_label xml:lang="en">is choreography for expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20301_prop_d5e62840">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20301">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20301"/>
       <prop_label xml:lang="en">has related agent of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20303_prop_d5e63037">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20303">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20303"/>
       <prop_label xml:lang="en">has related family of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20306_prop_d5e63230">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20306">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20306"/>
       <prop_label xml:lang="en">has related place of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20307_prop_d5e63424">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20307">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20307"/>
       <prop_label xml:lang="en">has related timespan of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20305_prop_d5e63617">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20305">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20305"/>
       <prop_label xml:lang="en">has related collective agent of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20299_prop_d5e63814">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20299">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20299"/>
       <prop_label xml:lang="en">has related manifestation of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20298_prop_d5e64008">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20298">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20298"/>
       <prop_label xml:lang="en">has related work of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20308_prop_d5e64208">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20308">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20308"/>
       <prop_label xml:lang="en">has related nomen of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20300_prop_d5e64401">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20300">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20300"/>
       <prop_label xml:lang="en">has related item of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20302_prop_d5e64593">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20302">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20302"/>
       <prop_label xml:lang="en">has related person of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20304_prop_d5e64786">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20304">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20304"/>
       <prop_label xml:lang="en">has related corporate body of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20264_prop_d5e64979">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20264">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20264"/>
       <prop_label xml:lang="en">has details of format of notated music</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20263_prop_d5e65192">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20263">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20263"/>
       <prop_label xml:lang="en">has details of form of notated movement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20063_prop_d5e65404">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20063">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20063"/>
       <prop_label xml:lang="en">has form of notated movement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20209_prop_d5e65612">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20209">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20209"/>
       <prop_label xml:lang="en">has format of notated music</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20272_prop_d5e65825">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20272">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20272"/>
       <prop_label xml:lang="en">is expression critiqued by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20259_prop_d5e66063">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20259">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20259"/>
       <prop_label xml:lang="en">has letterer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20446_prop_d5e66309">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20446">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20446"/>
       <prop_label xml:lang="en">has letterer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20505_prop_d5e66493">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20505">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20505"/>
       <prop_label xml:lang="en">has letterer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20564_prop_d5e66671">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20564">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20564"/>
       <prop_label xml:lang="en">has letterer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20387_prop_d5e66849">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20387">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20387"/>
       <prop_label xml:lang="en">has letterer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20110_prop_d5e67028">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20110">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20110"/>
       <prop_label xml:lang="en">is adapted as libretto expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20163_prop_d5e67238">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20163">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20163"/>
       <prop_label xml:lang="en">has libretto expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20084_prop_d5e67448">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20084">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20084"/>
       <prop_label xml:lang="en">is libretto for expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20277_prop_d5e67659">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20277">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20277"/>
       <prop_label xml:lang="en">has lighting designer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20403_prop_d5e67905">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20403">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20403"/>
       <prop_label xml:lang="en">has lighting designer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20462_prop_d5e68088">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20462">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20462"/>
       <prop_label xml:lang="en">has lighting designer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20521_prop_d5e68267">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20521">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20521"/>
       <prop_label xml:lang="en">has lighting designer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20344_prop_d5e68445">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20344">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20344"/>
       <prop_label xml:lang="en">has lighting designer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20284_prop_d5e68623">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20284">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20284"/>
       <prop_label xml:lang="en">has makeup artist agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20400_prop_d5e68870">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20400">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20400"/>
       <prop_label xml:lang="en">has makeup artist collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20459_prop_d5e69053">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20459">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20459"/>
       <prop_label xml:lang="en">has makeup artist corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20518_prop_d5e69231">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20518">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20518"/>
       <prop_label xml:lang="en">has makeup artist family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20341_prop_d5e69410">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20341">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20341"/>
       <prop_label xml:lang="en">has makeup artist person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20324_prop_d5e69588">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20324">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20324"/>
       <prop_label xml:lang="en">has medium of performance of choreographic content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20071_prop_d5e69760">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20071">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20071"/>
       <prop_label xml:lang="en">has note on expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20309_prop_d5e69971">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20309">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20309"/>
       <prop_label xml:lang="en">has note on capture</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20010_prop_d5e70214">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20010">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20010"/>
       <prop_label xml:lang="en">has note on changes in content characteristics</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20087_prop_d5e70428">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20087">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20087"/>
       <prop_label xml:lang="en">is set to music as expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20172_prop_d5e70639">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20172">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20172"/>
       <prop_label xml:lang="en">has supplement expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20228_prop_d5e70849">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20228">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20228"/>
       <prop_label xml:lang="en">has scale</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20291_prop_d5e71114">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20291">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20291"/>
       <prop_label xml:lang="en">has scale designation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20058_prop_d5e71314">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20058">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20058"/>
       <prop_label xml:lang="en">has minute taker agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20451_prop_d5e71560">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20451">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20451"/>
       <prop_label xml:lang="en">has minute taker collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20510_prop_d5e71743">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20510">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20510"/>
       <prop_label xml:lang="en">has minute taker corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20569_prop_d5e71922">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20569">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20569"/>
       <prop_label xml:lang="en">has minute taker family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20392_prop_d5e72100">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20392">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20392"/>
       <prop_label xml:lang="en">has minute taker person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20293_prop_d5e72278">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20293">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20293"/>
       <prop_label xml:lang="en">has mixing engineer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20444_prop_d5e72565">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20444">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20444"/>
       <prop_label xml:lang="en">has mixing engineer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20503_prop_d5e72786">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20503">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20503"/>
       <prop_label xml:lang="en">has mixing engineer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20562_prop_d5e73002">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20562">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20562"/>
       <prop_label xml:lang="en">has mixing engineer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20385_prop_d5e73219">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20385">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20385"/>
       <prop_label xml:lang="en">has mixing engineer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20017_prop_d5e73435">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20017">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20017"/>
       <prop_label xml:lang="en">has moderator agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20432_prop_d5e73681">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20432">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20432"/>
       <prop_label xml:lang="en">has moderator collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20491_prop_d5e73865">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20491">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20491"/>
       <prop_label xml:lang="en">has moderator corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20550_prop_d5e74043">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20550">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20550"/>
       <prop_label xml:lang="en">has moderator family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20373_prop_d5e74221">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20373">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20373"/>
       <prop_label xml:lang="en">has moderator person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20035_prop_d5e74400">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20035">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20035"/>
       <prop_label xml:lang="en">has musical director agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20401_prop_d5e74646">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20401">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20401"/>
       <prop_label xml:lang="en">has musical director collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20460_prop_d5e74829">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20460">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20460"/>
       <prop_label xml:lang="en">has musical director corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20519_prop_d5e75008">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20519">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20519"/>
       <prop_label xml:lang="en">has musical director family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20342_prop_d5e75186">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20342">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20342"/>
       <prop_label xml:lang="en">has musical director person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20294_prop_d5e75364">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20294">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20294"/>
       <prop_label xml:lang="en">has music programmer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20421_prop_d5e75651">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20421">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20421"/>
       <prop_label xml:lang="en">has music programmer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20480_prop_d5e75872">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20480">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20480"/>
       <prop_label xml:lang="en">has music programmer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20539_prop_d5e76088">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20539">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20539"/>
       <prop_label xml:lang="en">has music programmer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20362_prop_d5e76305">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20362">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20362"/>
       <prop_label xml:lang="en">has music programmer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20022_prop_d5e76521">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20022">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20022"/>
       <prop_label xml:lang="en">has narrator agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20437_prop_d5e76767">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20437">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20437"/>
       <prop_label xml:lang="en">has narrator collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20496_prop_d5e76951">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20496">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20496"/>
       <prop_label xml:lang="en">has narrator corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20555_prop_d5e77129">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20555">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20555"/>
       <prop_label xml:lang="en">has narrator family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20378_prop_d5e77307">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20378">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20378"/>
       <prop_label xml:lang="en">has narrator person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20279_prop_d5e77486">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20279">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20279"/>
       <prop_label xml:lang="en">has onscreen participant agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20422_prop_d5e77775">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20422">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20422"/>
       <prop_label xml:lang="en">has onscreen participant collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20481_prop_d5e77996">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20481">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20481"/>
       <prop_label xml:lang="en">has onscreen participant corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20540_prop_d5e78213">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20540">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20540"/>
       <prop_label xml:lang="en">has onscreen participant family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20363_prop_d5e78429">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20363">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20363"/>
       <prop_label xml:lang="en">has onscreen participant person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20013_prop_d5e78645">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20013">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20013"/>
       <prop_label xml:lang="en">has onscreen presenter agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20429_prop_d5e78938">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20429">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20429"/>
       <prop_label xml:lang="en">has onscreen presenter collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20488_prop_d5e79159">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20488">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20488"/>
       <prop_label xml:lang="en">has onscreen presenter corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20547_prop_d5e79375">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20547">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20547"/>
       <prop_label xml:lang="en">has onscreen presenter family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20370_prop_d5e79592">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20370">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20370"/>
       <prop_label xml:lang="en">has onscreen presenter person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20242_prop_d5e79808">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20242">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20242"/>
       <prop_label xml:lang="en">is adapted as opera expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20282_prop_d5e80018">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20282">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20282"/>
       <prop_label xml:lang="en">is adapted as oratorio expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20212_prop_d5e80229">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20212">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20212"/>
       <prop_label xml:lang="en">is merged to form expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20019_prop_d5e80649">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20019">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20019"/>
       <prop_label xml:lang="en">has panelist agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20434_prop_d5e80896">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20434">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20434"/>
       <prop_label xml:lang="en">has panelist collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20493_prop_d5e81079">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20493">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20493"/>
       <prop_label xml:lang="en">has panelist corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20552_prop_d5e81257">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20552">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20552"/>
       <prop_label xml:lang="en">has panelist family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20375_prop_d5e81436">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20375">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20375"/>
       <prop_label xml:lang="en">has panelist person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20145_prop_d5e81614">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20145">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20145"/>
       <prop_label xml:lang="en">has part expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20074_prop_d5e81856">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20074">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20074"/>
       <prop_label xml:lang="en">is part of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20039_prop_d5e82095">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20039">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20039"/>
       <prop_label xml:lang="en">has performer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20410_prop_d5e82376">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20410">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20410"/>
       <prop_label xml:lang="en">has performer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20469_prop_d5e82593">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20469">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20469"/>
       <prop_label xml:lang="en">has performer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20528_prop_d5e82807">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20528">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20528"/>
       <prop_label xml:lang="en">has performer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20351_prop_d5e83050">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20351">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20351"/>
       <prop_label xml:lang="en">has performer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20315_prop_d5e83264">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20315">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20315"/>
       <prop_label xml:lang="en">has preferred title of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20334_prop_d5e83445">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20334">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20334"/>
       <prop_label xml:lang="en">has prequel expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20054_prop_d5e83621">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20054">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20054"/>
       <prop_label xml:lang="en">has presenter agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20447_prop_d5e83868">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20447">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20447"/>
       <prop_label xml:lang="en">has presenter collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20506_prop_d5e84051">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20506">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20506"/>
       <prop_label xml:lang="en">has presenter corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20565_prop_d5e84229">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20565">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20565"/>
       <prop_label xml:lang="en">has presenter family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20388_prop_d5e84408">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20388">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20388"/>
       <prop_label xml:lang="en">has presenter person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20317_prop_d5e84586">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20317">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20317"/>
       <prop_label xml:lang="en">has prime meridian</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20056_prop_d5e84758">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20056">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20056"/>
       <prop_label xml:lang="en">has production designer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20450_prop_d5e85005">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20450">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20450"/>
       <prop_label xml:lang="en">has production designer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20509_prop_d5e85188">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20509">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20509"/>
       <prop_label xml:lang="en">has production designer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20568_prop_d5e85366">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20568">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20568"/>
       <prop_label xml:lang="en">has production designer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20391_prop_d5e85545">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20391">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20391"/>
       <prop_label xml:lang="en">has production designer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20018_prop_d5e85723">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20018">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20018"/>
       <prop_label xml:lang="en">has puppeteer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20433_prop_d5e85969">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20433">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20433"/>
       <prop_label xml:lang="en">has puppeteer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20492_prop_d5e86153">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20492">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20492"/>
       <prop_label xml:lang="en">has puppeteer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20551_prop_d5e86331">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20551">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20551"/>
       <prop_label xml:lang="en">has puppeteer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20374_prop_d5e86509">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20374">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20374"/>
       <prop_label xml:lang="en">has puppeteer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20249_prop_d5e86688">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20249">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20249"/>
       <prop_label xml:lang="en">has radio program music expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20060_prop_d5e86898">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20060">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20060"/>
       <prop_label xml:lang="en">is adapted as radio program expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20160_prop_d5e87108">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20160">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20160"/>
       <prop_label xml:lang="en">has radio script expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20050_prop_d5e87319">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20050">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20050"/>
       <prop_label xml:lang="en">has recording engineer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20445_prop_d5e87565">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20445">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20445"/>
       <prop_label xml:lang="en">has recording engineer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20504_prop_d5e87748">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20504">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20504"/>
       <prop_label xml:lang="en">has recording engineer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20563_prop_d5e87927">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20563">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20563"/>
       <prop_label xml:lang="en">has recording engineer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20386_prop_d5e88105">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20386">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20386"/>
       <prop_label xml:lang="en">has recording engineer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20052_prop_d5e88283">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20052">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20052"/>
       <prop_label xml:lang="en">has recordist agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20417_prop_d5e88562">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20417">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20417"/>
       <prop_label xml:lang="en">has recordist collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20476_prop_d5e88770">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20476">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20476"/>
       <prop_label xml:lang="en">has recordist corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20535_prop_d5e88974">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20535">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20535"/>
       <prop_label xml:lang="en">has recordist family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20358_prop_d5e89179">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20358">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20358"/>
       <prop_label xml:lang="en">has recordist person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20333_prop_d5e89383">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20333">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20333"/>
       <prop_label xml:lang="en">has related entity of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20297_prop_d5e89559">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20297">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20297"/>
       <prop_label xml:lang="en">has related RDA entity of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20318_prop_d5e89768">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20318">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20318"/>
       <prop_label xml:lang="en">has relief representation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20325_prop_d5e89946">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20325">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20325"/>
       <prop_label xml:lang="en">is representative expression of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20289_prop_d5e90122">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20289">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20289"/>
       <prop_label xml:lang="en">has restorationist agent of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20414_prop_d5e90363">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20414">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20414"/>
       <prop_label xml:lang="en">has restorationist collective agent of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20473_prop_d5e90546">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20473">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20473"/>
       <prop_label xml:lang="en">has restorationist corporate body of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20532_prop_d5e90724">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20532">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20532"/>
       <prop_label xml:lang="en">has restorationist family of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20355_prop_d5e90903">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20355">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20355"/>
       <prop_label xml:lang="en">has restorationist person of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20327_prop_d5e91142">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20327">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20327"/>
       <prop_label xml:lang="en">has reviser agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20406_prop_d5e91365">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20406">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20406"/>
       <prop_label xml:lang="en">has reviser collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20465_prop_d5e91558">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20465">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20465"/>
       <prop_label xml:lang="en">has reviser corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20524_prop_d5e91748">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20524">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20524"/>
       <prop_label xml:lang="en">has reviser family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20347_prop_d5e91937">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20347">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20347"/>
       <prop_label xml:lang="en">has reviser person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20218_prop_d5e92126">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20218">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20218"/>
       <prop_label xml:lang="en">has place of capture</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20101_prop_d5e92345">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20101">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20101"/>
       <prop_label xml:lang="en">is separated into expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20335_prop_d5e92625">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20335">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20335"/>
       <prop_label xml:lang="en">has sequel expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20025_prop_d5e92923">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20025">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20025"/>
       <prop_label xml:lang="en">has singer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20441_prop_d5e93213">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20441">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20441"/>
       <prop_label xml:lang="en">has singer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20500_prop_d5e93434">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20500">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20500"/>
       <prop_label xml:lang="en">has singer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20559_prop_d5e93651">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20559">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20559"/>
       <prop_label xml:lang="en">has singer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20382_prop_d5e93867">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20382">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20382"/>
       <prop_label xml:lang="en">has singer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20280_prop_d5e94083">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20280">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20280"/>
       <prop_label xml:lang="en">has software developer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20412_prop_d5e94327">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20412">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20412"/>
       <prop_label xml:lang="en">has software developer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20471_prop_d5e94510">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20471">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20471"/>
       <prop_label xml:lang="en">has software developer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20530_prop_d5e94688">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20530">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20530"/>
       <prop_label xml:lang="en">has software developer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20353_prop_d5e94867">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20353">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20353"/>
       <prop_label xml:lang="en">has software developer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20276_prop_d5e95045">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20276">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20276"/>
       <prop_label xml:lang="en">has sound designer agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20402_prop_d5e95291">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20402">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20402"/>
       <prop_label xml:lang="en">has sound designer collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20461_prop_d5e95475">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20461">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20461"/>
       <prop_label xml:lang="en">has sound designer corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20520_prop_d5e95653">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20520">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20520"/>
       <prop_label xml:lang="en">has sound designer family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20343_prop_d5e95831">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20343">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20343"/>
       <prop_label xml:lang="en">has sound designer person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20024_prop_d5e96010">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20024">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20024"/>
       <prop_label xml:lang="en">has speaker agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20439_prop_d5e96278">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20439">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20439"/>
       <prop_label xml:lang="en">has speaker collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20498_prop_d5e96483">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20498">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20498"/>
       <prop_label xml:lang="en">has speaker corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20557_prop_d5e96684">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20557">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20557"/>
       <prop_label xml:lang="en">has speaker family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20380_prop_d5e96884">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20380">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20380"/>
       <prop_label xml:lang="en">has speaker person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20258_prop_d5e97084">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20258">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20258"/>
       <prop_label xml:lang="en">has special effects provider agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20419_prop_d5e97331">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20419">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20419"/>
       <prop_label xml:lang="en">has special effects provider collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20478_prop_d5e97514">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20478">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20478"/>
       <prop_label xml:lang="en">has special effects provider corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20537_prop_d5e97692">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20537">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20537"/>
       <prop_label xml:lang="en">has special effects provider family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20360_prop_d5e97871">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20360">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20360"/>
       <prop_label xml:lang="en">has special effects provider person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20167_prop_d5e98049">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20167">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20167"/>
       <prop_label xml:lang="en">is split from expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20031_prop_d5e98332">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20031">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20031"/>
       <prop_label xml:lang="en">has stage director agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20423_prop_d5e98579">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20423">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20423"/>
       <prop_label xml:lang="en">has stage director collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20482_prop_d5e98762">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20482">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20482"/>
       <prop_label xml:lang="en">has stage director corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20541_prop_d5e98940">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20541">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20541"/>
       <prop_label xml:lang="en">has stage director family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20364_prop_d5e99119">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20364">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20364"/>
       <prop_label xml:lang="en">has stage director person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20023_prop_d5e99297">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20023">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20023"/>
       <prop_label xml:lang="en">has storyteller agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20438_prop_d5e99543">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20438">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20438"/>
       <prop_label xml:lang="en">has storyteller collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20497_prop_d5e99727">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20497">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20497"/>
       <prop_label xml:lang="en">has storyteller corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20556_prop_d5e99905">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20556">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20556"/>
       <prop_label xml:lang="en">has storyteller family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20379_prop_d5e100083">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20379">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20379"/>
       <prop_label xml:lang="en">has storyteller person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20268_prop_d5e100262">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20268">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20268"/>
       <prop_label xml:lang="en">is subject expression of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20203_prop_d5e100489">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20203">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20203"/>
       <prop_label xml:lang="en">has expression of derivative work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20079_prop_d5e100919">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20079">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20079"/>
       <prop_label xml:lang="en">has dubbed version</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20078_prop_d5e101129">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20078">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20078"/>
       <prop_label xml:lang="en">is dubbed version of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20266_prop_d5e101772">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20266">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20266"/>
       <prop_label xml:lang="en">has details of script</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20061_prop_d5e101984">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20061">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20061"/>
       <prop_label xml:lang="en">has form of tactile notation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20265_prop_d5e102199">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20265">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20265"/>
       <prop_label xml:lang="en">has details of form of tactile notation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20069_prop_d5e102560">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20069">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20069"/>
       <prop_label xml:lang="en">has summarization of content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20001_prop_d5e102773">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20001">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20001"/>
       <prop_label xml:lang="en">has content type</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20066_prop_d5e103051">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20066">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20066"/>
       <prop_label xml:lang="en">is adapted as television program expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20247_prop_d5e103261">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20247">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20247"/>
       <prop_label xml:lang="en">has television program music expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20161_prop_d5e103472">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20161">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20161"/>
       <prop_label xml:lang="en">has television screenplay expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20230_prop_d5e103682">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20230">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20230"/>
       <prop_label xml:lang="en">has vertical scale of cartographic content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20216_prop_d5e103896">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20216">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20216"/>
       <prop_label xml:lang="en">has projection of cartographic content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20226_prop_d5e104112">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20226">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20226"/>
       <prop_label xml:lang="en">has horizontal scale of cartographic content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20312_prop_d5e104473">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20312">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20312"/>
       <prop_label xml:lang="en">has title of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20109_prop_d5e104657">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20109">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20109"/>
       <prop_label xml:lang="en">has addenda expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20177_prop_d5e104867">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20177">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20177"/>
       <prop_label xml:lang="en">is addenda to expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20213_prop_d5e105077">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20213">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20213"/>
       <prop_label xml:lang="en">has additional scale information</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20034_prop_d5e105336">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20034">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20034"/>
       <prop_label xml:lang="en">has transcriber agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20418_prop_d5e105628">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20418">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20418"/>
       <prop_label xml:lang="en">has transcriber collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20477_prop_d5e105849">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20477">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20477"/>
       <prop_label xml:lang="en">has transcriber corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20536_prop_d5e106066">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20536">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20536"/>
       <prop_label xml:lang="en">has transcriber family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20359_prop_d5e106282">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20359">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20359"/>
       <prop_label xml:lang="en">has transcriber person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20037_prop_d5e106498">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20037">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20037"/>
       <prop_label xml:lang="en">has translator agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20405_prop_d5e106789">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20405">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20405"/>
       <prop_label xml:lang="en">has translator collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20464_prop_d5e107010">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20464">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20464"/>
       <prop_label xml:lang="en">has translator corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20523_prop_d5e107226">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20523">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20523"/>
       <prop_label xml:lang="en">has translator family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20346_prop_d5e107443">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20346">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20346"/>
       <prop_label xml:lang="en">has translator person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20120_prop_d5e107659">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20120">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20120"/>
       <prop_label xml:lang="en">has guide expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20147_prop_d5e107869">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20147">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20147"/>
       <prop_label xml:lang="en">is guide to expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20082_prop_d5e108386">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20082">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20082"/>
       <prop_label xml:lang="en">is modified by variation as expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20081_prop_d5e108597">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20081">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20081"/>
       <prop_label xml:lang="en">is variations based on expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20314_prop_d5e108807">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20314">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20314"/>
       <prop_label xml:lang="en">has variant access point for expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20316_prop_d5e108985">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20316">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20316"/>
       <prop_label xml:lang="en">has variant title of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20229_prop_d5e109164">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20229">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20229"/>
       <prop_label xml:lang="en">has aspect ratio</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20290_prop_d5e109370">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20290">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20290"/>
       <prop_label xml:lang="en">has aspect ratio designation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20260_prop_d5e109569">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20260">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20260"/>
       <prop_label xml:lang="en">has details of aspect ratio designation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20162_prop_d5e109776">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20162">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20162"/>
       <prop_label xml:lang="en">has video screenplay expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20067_prop_d5e109986">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20067">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20067"/>
       <prop_label xml:lang="en">is adapted as video expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20245_prop_d5e110196">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20245">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20245"/>
       <prop_label xml:lang="en">has video music expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20257_prop_d5e110407">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20257">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20257"/>
       <prop_label xml:lang="en">has visual effects provider agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20420_prop_d5e110653">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20420">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20420"/>
       <prop_label xml:lang="en">has visual effects provider collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20479_prop_d5e110836">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20479">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20479"/>
       <prop_label xml:lang="en">has visual effects provider corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20538_prop_d5e111015">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20538">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20538"/>
       <prop_label xml:lang="en">has visual effects provider family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20361_prop_d5e111193">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20361">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20361"/>
       <prop_label xml:lang="en">has visual effects provider person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20070_prop_d5e111371">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20070">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20070"/>
       <prop_label xml:lang="en">has voice actor agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20443_prop_d5e111618">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20443">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20443"/>
       <prop_label xml:lang="en">has voice actor collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20502_prop_d5e111804">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20502">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20502"/>
       <prop_label xml:lang="en">has voice actor corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20561_prop_d5e111985">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20561">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20561"/>
       <prop_label xml:lang="en">has voice actor family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20384_prop_d5e112167">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20384">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20384"/>
       <prop_label xml:lang="en">has voice actor person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20252_prop_d5e112469">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20252">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20252"/>
       <prop_label xml:lang="en">is music for motion picture expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20262_prop_d5e112680">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20262">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20262"/>
       <prop_label xml:lang="en">has details of form of musical notation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20243_prop_d5e112892">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20243">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20243"/>
       <prop_label xml:lang="en">has music expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20064_prop_d5e113113">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20064">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20064"/>
       <prop_label xml:lang="en">has form of musical notation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20215_prop_d5e113328">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20215">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20215"/>
       <prop_label xml:lang="en">has medium of performance of musical content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20244_prop_d5e113546">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20244">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20244"/>
       <prop_label xml:lang="en">is music for expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20250_prop_d5e113767">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20250">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20250"/>
       <prop_label xml:lang="en">is music for radio program expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20241_prop_d5e114131">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20241">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20241"/>
       <prop_label xml:lang="en">is adapted as musical theatre expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20248_prop_d5e114354">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20248">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20248"/>
       <prop_label xml:lang="en">is music for television program expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20246_prop_d5e114565">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20246">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20246"/>
       <prop_label xml:lang="en">is music for video expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20573_prop_d5e114787">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20573">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20573"/>
       <prop_label xml:lang="en">has colour</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20575_prop_d5e114941">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20575">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20575"/>
       <prop_label xml:lang="en">has derivative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20574_prop_d5e114998">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20574">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20574"/>
       <prop_label xml:lang="en">has source expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20576_prop_d5e115052">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20576">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20576"/>
       <prop_label xml:lang="en">is expression described with metadata by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdae_p20ke_P20577_prop_d5e115099">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdae_p20k_eP20577">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20577"/>
       <prop_label xml:lang="en">has concordance work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-   </prop>
+   </uwmaps:prop>
 </prop_set>

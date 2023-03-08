@@ -12,614 +12,614 @@
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdai_p40k</prop_set_label>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40080_prop_d7e49">
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40080">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40080"/>
       <prop_label xml:lang="en">has access point for item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40029_prop_d7e245">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40029">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40029"/>
       <prop_label xml:lang="en">is held with</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40015_prop_d7e648">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40015">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40015"/>
       <prop_label xml:lang="en">has annotator</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40081_prop_d7e871">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40081">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40081"/>
       <prop_label xml:lang="en">has appellation of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40083_prop_d7e1068">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40083">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40083"/>
       <prop_label xml:lang="en">has authorized access point for item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40016_prop_d7e1260">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40016">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40016"/>
       <prop_label xml:lang="en">has autographer</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40013_prop_d7e1483">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40013">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40013"/>
       <prop_label xml:lang="en">has binder agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40114_prop_d7e1745">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40114">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40114"/>
       <prop_label xml:lang="en">has binder collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40130_prop_d7e1941">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40130">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40130"/>
       <prop_label xml:lang="en">has binder corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40146_prop_d7e2132">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40146">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40146"/>
       <prop_label xml:lang="en">has binder family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40098_prop_d7e2323">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40098">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40098"/>
       <prop_label xml:lang="en">has binder person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40094_prop_d7e2515">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40094">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40094"/>
       <prop_label xml:lang="en">has binding of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40032_prop_d7e2704">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40032">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40032"/>
       <prop_label xml:lang="en">is bound with</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40096_prop_d7e2930">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40096">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40096"/>
       <prop_label xml:lang="en">has category of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40009_prop_d7e5243">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40009">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40009"/>
       <prop_label xml:lang="en">is contained in item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40034_prop_d7e5454">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40034">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40034"/>
       <prop_label xml:lang="en">is container of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40018_prop_d7e6765">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40018">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40018"/>
       <prop_label xml:lang="en">has current owner agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40117_prop_d7e7029">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40117">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40117"/>
       <prop_label xml:lang="en">has current owner collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40133_prop_d7e7227">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40133">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40133"/>
       <prop_label xml:lang="en">has current owner corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40149_prop_d7e7420">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40149">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40149"/>
       <prop_label xml:lang="en">has current owner family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40101_prop_d7e7613">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40101">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40101"/>
       <prop_label xml:lang="en">has current owner person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40026_prop_d7e7807">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40026">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40026"/>
       <prop_label xml:lang="en">has custodial history of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40020_prop_d7e8025">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40020">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40020"/>
       <prop_label xml:lang="en">has custodian agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40119_prop_d7e8293">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40119">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40119"/>
       <prop_label xml:lang="en">has custodian collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40135_prop_d7e8489">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40135">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40135"/>
       <prop_label xml:lang="en">has custodian corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40151_prop_d7e8680">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40151">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40151"/>
       <prop_label xml:lang="en">has custodian family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40103_prop_d7e8871">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40103">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40103"/>
       <prop_label xml:lang="en">has custodian person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40025_prop_d7e9063">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40025">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40025"/>
       <prop_label xml:lang="en">has dedicatee agent of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40113_prop_d7e9328">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40113">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40113"/>
       <prop_label xml:lang="en">has dedicatee collective agent of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40129_prop_d7e9523">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40129">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40129"/>
       <prop_label xml:lang="en">has dedicatee corporate body of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40145_prop_d7e9715">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40145">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40145"/>
       <prop_label xml:lang="en">has dedicatee family of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40097_prop_d7e9906">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40097">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40097"/>
       <prop_label xml:lang="en">has dedicatee person of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40006_prop_d7e10097">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40006">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40006"/>
       <prop_label xml:lang="en">has depositor agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40123_prop_d7e10360">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40123">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40123"/>
       <prop_label xml:lang="en">has depositor collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40139_prop_d7e10555">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40139">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40139"/>
       <prop_label xml:lang="en">has depositor corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40155_prop_d7e10746">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40155">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40155"/>
       <prop_label xml:lang="en">has depositor family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40107_prop_d7e10938">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40107">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40107"/>
       <prop_label xml:lang="en">has depositor person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40087_prop_d7e11298">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40087">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40087"/>
       <prop_label xml:lang="en">has digital transfer of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40007_prop_d7e11624">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40007">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40007"/>
       <prop_label xml:lang="en">has donor agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40124_prop_d7e11871">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40124">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40124"/>
       <prop_label xml:lang="en">has donor collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40140_prop_d7e12066">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40140">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40140"/>
       <prop_label xml:lang="en">has donor corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40156_prop_d7e12257">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40156">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40156"/>
       <prop_label xml:lang="en">has donor family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40108_prop_d7e12449">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40108">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40108"/>
       <prop_label xml:lang="en">has donor person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40088_prop_d7e12765">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40088">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40088"/>
       <prop_label xml:lang="en">has electronic reproduction of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40031_prop_d7e13096">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40031">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40031"/>
       <prop_label xml:lang="en">has equivalent item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40089_prop_d7e13625">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40089">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40089"/>
       <prop_label xml:lang="en">has facsimile of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40036_prop_d7e13961">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40036">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40036"/>
       <prop_label xml:lang="en">is filmed with item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40019_prop_d7e14184">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40019">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40019"/>
       <prop_label xml:lang="en">has former owner agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40118_prop_d7e14451">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40118">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40118"/>
       <prop_label xml:lang="en">has former owner collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40134_prop_d7e14651">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40134">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40134"/>
       <prop_label xml:lang="en">has former owner corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40150_prop_d7e14846">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40150">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40150"/>
       <prop_label xml:lang="en">has former owner family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40102_prop_d7e15042">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40102">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40102"/>
       <prop_label xml:lang="en">has former owner person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40022_prop_d7e15272">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40022">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40022"/>
       <prop_label xml:lang="en">has honouree agent of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40126_prop_d7e15538">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40126">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40126"/>
       <prop_label xml:lang="en">has honouree collective agent of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40142_prop_d7e15733">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40142">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40142"/>
       <prop_label xml:lang="en">has honouree corporate body of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40158_prop_d7e15924">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40158">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40158"/>
       <prop_label xml:lang="en">has honouree family of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40110_prop_d7e16116">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40110">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40110"/>
       <prop_label xml:lang="en">has honouree person of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40001_prop_d7e16307">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40001">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40001"/>
       <prop_label xml:lang="en">has identifier for item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40012_prop_d7e16525">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40012">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40012"/>
       <prop_label xml:lang="en">has illuminator agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40116_prop_d7e16785">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40116">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40116"/>
       <prop_label xml:lang="en">has illuminator collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40132_prop_d7e16980">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40132">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40132"/>
       <prop_label xml:lang="en">has illuminator corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40148_prop_d7e17171">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40148">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40148"/>
       <prop_label xml:lang="en">has illuminator family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40100_prop_d7e17363">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40100">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40100"/>
       <prop_label xml:lang="en">has illuminator person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40050_prop_d7e17554">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40050">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40050"/>
       <prop_label xml:lang="en">has immediate source of acquisition of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40014_prop_d7e17779">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40014">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40014"/>
       <prop_label xml:lang="en">has inscriber</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40063_prop_d7e18006">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40063">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40063"/>
       <prop_label xml:lang="en">is item analysed in</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40064_prop_d7e18260">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40064">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40064"/>
       <prop_label xml:lang="en">is item commentary in</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40062_prop_d7e18769">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40062">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40062"/>
       <prop_label xml:lang="en">is item described by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40049_prop_d7e19567">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40049">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40049"/>
       <prop_label xml:lang="en">has manifestation exemplified</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40003_prop_d7e19985">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40003">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40003"/>
       <prop_label xml:lang="en">has modification of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40093_prop_d7e20231">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40093">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40093"/>
       <prop_label xml:lang="en">has modifier agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40128_prop_d7e20459">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40128">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40128"/>
       <prop_label xml:lang="en">has modifier collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40144_prop_d7e20662">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40144">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40144"/>
       <prop_label xml:lang="en">has modifier corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40160_prop_d7e20859">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40160">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40160"/>
       <prop_label xml:lang="en">has modifier family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40112_prop_d7e21056">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40112">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40112"/>
       <prop_label xml:lang="en">has modifier person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40010_prop_d7e21261">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40010">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40010"/>
       <prop_label xml:lang="en">has note on dimensions of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40011_prop_d7e21475">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40011">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40011"/>
       <prop_label xml:lang="en">has note on extent of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40028_prop_d7e21702">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40028">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40028"/>
       <prop_label xml:lang="en">has note on item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40035_prop_d7e21936">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40035">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40035"/>
       <prop_label xml:lang="en">is on disc with item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40021_prop_d7e22159">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40021">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40021"/>
       <prop_label xml:lang="en">has owner agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40120_prop_d7e22431">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40120">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40120"/>
       <prop_label xml:lang="en">has owner collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40136_prop_d7e22632">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40136">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40136"/>
       <prop_label xml:lang="en">has owner corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40152_prop_d7e22827">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40152">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40152"/>
       <prop_label xml:lang="en">has owner family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40104_prop_d7e23022">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40104">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40104"/>
       <prop_label xml:lang="en">has owner person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40085_prop_d7e23218">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40085">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40085"/>
       <prop_label xml:lang="en">has preferred title of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40090_prop_d7e23534">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40090">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40090"/>
       <prop_label xml:lang="en">has preservation facsimile of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40072_prop_d7e23865">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40072">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40072"/>
       <prop_label xml:lang="en">has related agent of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40076_prop_d7e24101">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40076">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40076"/>
       <prop_label xml:lang="en">has related collective agent of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40075_prop_d7e24323">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40075">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40075"/>
       <prop_label xml:lang="en">has related corporate body of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40095_prop_d7e24540">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40095">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40095"/>
       <prop_label xml:lang="en">has related entity of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40070_prop_d7e24729">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40070">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40070"/>
       <prop_label xml:lang="en">has related expression of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40074_prop_d7e24934">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40074">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40074"/>
       <prop_label xml:lang="en">has related family of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40046_prop_d7e25151">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40046">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40046"/>
       <prop_label xml:lang="en">has related item of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40071_prop_d7e25396">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40071">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40071"/>
       <prop_label xml:lang="en">has related manifestation of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40079_prop_d7e25607">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40079">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40079"/>
       <prop_label xml:lang="en">has related nomen of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40073_prop_d7e25813">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40073">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40073"/>
       <prop_label xml:lang="en">has related person of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40077_prop_d7e26030">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40077">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40077"/>
       <prop_label xml:lang="en">has related place of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40068_prop_d7e26237">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40068">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40068"/>
       <prop_label xml:lang="en">has related RDA entity of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40078_prop_d7e26458">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40078">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40078"/>
       <prop_label xml:lang="en">has related timespan of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40069_prop_d7e26662">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40069">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40069"/>
       <prop_label xml:lang="en">has related work of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40091_prop_d7e26871">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40091">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40091"/>
       <prop_label xml:lang="en">is reprinted as item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40092_prop_d7e27311">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40092">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40092"/>
       <prop_label xml:lang="en">is reproduced as item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40024_prop_d7e27777">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40024">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40024"/>
       <prop_label xml:lang="en">has restorationist agent of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40127_prop_d7e28042">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40127">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40127"/>
       <prop_label xml:lang="en">has restorationist collective agent of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40143_prop_d7e28237">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40143">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40143"/>
       <prop_label xml:lang="en">has restorationist corporate body of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40159_prop_d7e28429">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40159">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40159"/>
       <prop_label xml:lang="en">has restorationist family of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40111_prop_d7e28620">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40111">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40111"/>
       <prop_label xml:lang="en">has restorationist person of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40047_prop_d7e28811">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40047">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40047"/>
       <prop_label xml:lang="en">has restriction on access to item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40048_prop_d7e29037">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40048">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40048"/>
       <prop_label xml:lang="en">has restriction on use of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40008_prop_d7e29294">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40008">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40008"/>
       <prop_label xml:lang="en">has seller agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40125_prop_d7e29541">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40125">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40125"/>
       <prop_label xml:lang="en">has seller collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40141_prop_d7e29736">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40141">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40141"/>
       <prop_label xml:lang="en">has seller corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40157_prop_d7e29927">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40157">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40157"/>
       <prop_label xml:lang="en">has seller family</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40109_prop_d7e30119">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40109">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40109"/>
       <prop_label xml:lang="en">has seller person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40061_prop_d7e30310">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40061">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40061"/>
       <prop_label xml:lang="en">is subject item of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40082_prop_d7e30560">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40082">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40082"/>
       <prop_label xml:lang="en">has title of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40084_prop_d7e30756">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40084">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40084"/>
       <prop_label xml:lang="en">has variant access point for item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40086_prop_d7e30947">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40086">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40086"/>
       <prop_label xml:lang="en">has variant title of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40161_prop_d7e31276">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40161">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40161"/>
       <prop_label xml:lang="en">is holding of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40162_prop_d7e31323">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40162">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40162"/>
       <prop_label xml:lang="en">has location of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40164_prop_d7e31370">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40164">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40164"/>
       <prop_label xml:lang="en">is item described with metadata by</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdai_p40ki_P40163_prop_d7e31417">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdai_p40k_iP40163">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40163"/>
       <prop_label xml:lang="en">is on manifestation with</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-   </prop>
+   </uwmaps:prop>
 </prop_set>

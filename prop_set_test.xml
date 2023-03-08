@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-           xmlns:dcam="http://purl.org/dc/dcam/"
-           xmlns:owl="http://www.w3.org/2002/07/owl#"
-           xmlns:prov="http://www.w3.org/ns/prov#"
-           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-           xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-           xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
-           xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
-           xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-           xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
+          xmlns:dcam="http://purl.org/dc/dcam/"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:prov="http://www.w3.org/ns/prov#"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+          xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
+          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
+          xmlns:xs="http://www.w3.org/2001/XMLSchema"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdaa_p50k</prop_set_label>
-   <prop localid_prop="uwmaps_rdaa_p50ka_P50157_prop_d8e49">
+   <uwmaps:prop localid_prop="uwmaps_rdaa_p50k_aP50157">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50157"/>
       <prop_label xml:lang="en">is abridger agent of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10002"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdaa_p50ka_P50766_prop_d8e298">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdaa_p50k_aP50766">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50766"/>
       <prop_label xml:lang="en">is abridger collective agent of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10011"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdaa_p50ka_P50917_prop_d8e500">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdaa_p50k_aP50917">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50917"/>
       <prop_label xml:lang="en">is abridger corporate body of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10005"/>
-   </prop>
-   <prop localid_prop="uwmaps_rdaa_p50ka_P51068_prop_d8e697">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_rdaa_p50k_aP51068">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P51068"/>
       <prop_label xml:lang="en">is abridger family of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10008"/>
-   </prop>
+   </uwmaps:prop>
 </prop_set>

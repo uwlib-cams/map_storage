@@ -12,76 +12,76 @@
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>uwRdaExtension</prop_set_label>
-   <prop localid_prop="uwmaps_uwRdaExtension_hasCreatorCharacteristic_prop_d13e130">
+   <uwmaps:prop localid_prop="uwmaps_uwRdaExtension_hasCreatorCharacteristic">
       <prop_iri iri="https://doi.org/10.6069/uwlib.55.d.4#hasCreatorCharacteristic"/>
       <prop_label xml:lang="en">Has Creator Characteristic</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
-   </prop>
-   <prop localid_prop="uwmaps_uwRdaExtension_hasContributorAgent_prop_d13e164">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_uwRdaExtension_hasContributorAgent">
       <prop_iri iri="https://doi.org/10.6069/uwlib.55.d.4#hasContributorAgent"/>
       <prop_label xml:lang="en">Has Contributor Agent</prop_label>
-   </prop>
-   <prop localid_prop="uwmaps_uwRdaExtension_hasUniversityOfWashingtonNote_prop_d13e193">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_uwRdaExtension_hasUniversityOfWashingtonNote">
       <prop_iri iri="https://doi.org/10.6069/uwlib.55.d.4#hasUniversityOfWashingtonNote"/>
       <prop_label xml:lang="en">Has University Of Washington Note.</prop_label>
       <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-   </prop>
-   <prop localid_prop="uwmaps_uwRdaExtension_heldBy_prop_d13e227">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_uwRdaExtension_heldBy">
       <prop_iri iri="https://doi.org/10.6069/uwlib.55.d.4#heldBy"/>
       <prop_label xml:lang="en">Held By</prop_label>
-   </prop>
-   <prop localid_prop="uwmaps_uwRdaExtension_hasLcClassificationPartA_prop_d13e255">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_uwRdaExtension_hasLcClassificationPartA">
       <prop_iri iri="https://doi.org/10.6069/uwlib.55.d.4#hasLcClassificationPartA"/>
       <prop_label xml:lang="en">Has LC Classification Part A</prop_label>
       <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-   </prop>
-   <prop localid_prop="uwmaps_uwRdaExtension_hasLcClassificationPartB_prop_d13e289">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_uwRdaExtension_hasLcClassificationPartB">
       <prop_iri iri="https://doi.org/10.6069/uwlib.55.d.4#hasLcClassificationPartB"/>
       <prop_label xml:lang="en">Has LC Classification Part B</prop_label>
       <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-   </prop>
-   <prop localid_prop="uwmaps_uwRdaExtension_hasNlmClassificationPartA_prop_d13e323">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_uwRdaExtension_hasNlmClassificationPartA">
       <prop_iri iri="https://doi.org/10.6069/uwlib.55.d.4#hasNlmClassificationPartA"/>
       <prop_label xml:lang="en">Has NLM Classification Part A</prop_label>
       <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-   </prop>
-   <prop localid_prop="uwmaps_uwRdaExtension_hasNlmClassificationPartB_prop_d13e357">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_uwRdaExtension_hasNlmClassificationPartB">
       <prop_iri iri="https://doi.org/10.6069/uwlib.55.d.4#hasNlmClassificationPartB"/>
       <prop_label xml:lang="en">Has NLM Classification Part B</prop_label>
       <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-   </prop>
-   <prop localid_prop="uwmaps_uwRdaExtension_hasLcGeographicClassification_prop_d13e391">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_uwRdaExtension_hasLcGeographicClassification">
       <prop_iri iri="https://doi.org/10.6069/uwlib.55.d.4#hasLcGeographicClassification"/>
       <prop_label xml:lang="en">Has LC Geographic Classification</prop_label>
       <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-   </prop>
-   <prop localid_prop="uwmaps_uwRdaExtension_hasSuDocClassificationNumber_prop_d13e425">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_uwRdaExtension_hasSuDocClassificationNumber">
       <prop_iri iri="https://doi.org/10.6069/uwlib.55.d.4#hasSuDocClassificationNumber"/>
       <prop_label xml:lang="en">Has SuDoc Classification Number</prop_label>
       <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-   </prop>
-   <prop localid_prop="uwmaps_uwRdaExtension_hasPhysicalLocation_prop_d13e459">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_uwRdaExtension_hasPhysicalLocation">
       <prop_iri iri="https://doi.org/10.6069/uwlib.55.d.4#hasPhysicalLocation"/>
       <prop_label xml:lang="en">Has Physical Location</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-   </prop>
-   <prop localid_prop="uwmaps_uwRdaExtension_hasPhysicalSubLocation_prop_d13e499">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_uwRdaExtension_hasPhysicalSubLocation">
       <prop_iri iri="https://doi.org/10.6069/uwlib.55.d.4#hasPhysicalSubLocation"/>
       <prop_label xml:lang="en">Has Physical Sub-Location</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-   </prop>
-   <prop localid_prop="uwmaps_uwRdaExtension_hasBarcode_prop_d13e538">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_uwRdaExtension_hasBarcode">
       <prop_iri iri="https://doi.org/10.6069/uwlib.55.d.4#hasBarcode"/>
       <prop_label xml:lang="en">Has Barcode</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-   </prop>
-   <prop localid_prop="uwmaps_uwRdaExtension_hasCallNumber_prop_d13e577">
+   </uwmaps:prop>
+   <uwmaps:prop localid_prop="uwmaps_uwRdaExtension_hasCallNumber">
       <prop_iri iri="https://doi.org/10.6069/uwlib.55.d.4#hasCallNumber"/>
       <prop_label xml:lang="en">Has Call Number</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-   </prop>
+   </uwmaps:prop>
 </prop_set>
