@@ -1,165 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-          xmlns:dcam="http://purl.org/dc/dcam/"
-          xmlns:owl="http://www.w3.org/2002/07/owl#"
-          xmlns:prov="http://www.w3.org/ns/prov#"
-          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-          xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
-          xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
-          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-          xmlns:xs="http://www.w3.org/2001/XMLSchema"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
-   <prop_set_label>rdax_p00k</prop_set_label>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00016">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00016"/>
-      <prop_label xml:lang="en">has access point for RDA entity</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00017">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00017"/>
-      <prop_label xml:lang="en">has appellation of RDA entity</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00020">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00020"/>
-      <prop_label xml:lang="en">has authorized access point for RDA entity</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00029">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00029"/>
-      <prop_label xml:lang="en">has category of RDA entity</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00018">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00018"/>
-      <prop_label xml:lang="en">has identifier for RDA entity</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00019">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00019"/>
-      <prop_label xml:lang="en">has name of RDA entity</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00015">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00015"/>
-      <prop_label xml:lang="en">has note on RDA entity</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00021">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00021"/>
-      <prop_label xml:lang="en">has preferred name of RDA entity</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00024">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00024"/>
-      <prop_label xml:lang="en">is RDA entity critiqued by</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00025">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00025"/>
-      <prop_label xml:lang="en">is RDA entity described by</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00026">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00026"/>
-      <prop_label xml:lang="en">is RDA entity evaluated by</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00027">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00027"/>
-      <prop_label xml:lang="en">is RDA entity reviewed by</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00006">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00006"/>
-      <prop_label xml:lang="en">has related agent of RDA entity</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00012">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00012"/>
-      <prop_label xml:lang="en">has related collective agent of RDA entity</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00009">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00009"/>
-      <prop_label xml:lang="en">has related corporate body of RDA entity</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00028">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00028"/>
-      <prop_label xml:lang="en">has related entity of RDA entity</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00003">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00003"/>
-      <prop_label xml:lang="en">has related expression of RDA entity</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00008">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00008"/>
-      <prop_label xml:lang="en">has related family of RDA entity</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00005">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00005"/>
-      <prop_label xml:lang="en">has related item of RDA entity</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00004">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00004"/>
-      <prop_label xml:lang="en">has related manifestation of RDA entity</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00013">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00013"/>
-      <prop_label xml:lang="en">has related nomen of RDA entity</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00007">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00007"/>
-      <prop_label xml:lang="en">has related person of RDA entity</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00010">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00010"/>
-      <prop_label xml:lang="en">has related place of RDA entity</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00001">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00001"/>
-      <prop_label xml:lang="en">has related RDA entity of RDA entity</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00011">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00011"/>
-      <prop_label xml:lang="en">has related timespan of RDA entity</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00002">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00002"/>
-      <prop_label xml:lang="en">has related work of RDA entity</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00014">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00014"/>
-      <prop_label xml:lang="en">is subject RDA entity of</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00022">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00022"/>
-      <prop_label xml:lang="en">has variant access point for RDA entity</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00023">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00023"/>
-      <prop_label xml:lang="en">has variant name of RDA entity</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
-   <uwmaps:prop localid_prop="uwmaps_rdax_p00k_xP00030">
-      <prop_iri iri="http://rdaregistry.info/Elements/x/P00030"/>
-      <prop_label xml:lang="en">is RDA entity described with metadata by</prop_label>
-      <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
-   </uwmaps:prop>
+<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
+	<prop_set_label>rdax_p00k</prop_set_label>
+	<source_version>v5.0.10</source_version>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00016">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00016"/>
+		<prop_label xml:lang="en">has access point for RDA entity</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00017">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00017"/>
+		<prop_label xml:lang="en">has appellation of RDA entity</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00020">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00020"/>
+		<prop_label xml:lang="en">has authorized access point for RDA entity</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00029">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00029"/>
+		<prop_label xml:lang="en">has category of RDA entity</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00018">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00018"/>
+		<prop_label xml:lang="en">has identifier for RDA entity</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00019">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00019"/>
+		<prop_label xml:lang="en">has name of RDA entity</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00015">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00015"/>
+		<prop_label xml:lang="en">has note on RDA entity</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00021">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00021"/>
+		<prop_label xml:lang="en">has preferred name of RDA entity</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00024">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00024"/>
+		<prop_label xml:lang="en">is RDA entity critiqued by</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00025">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00025"/>
+		<prop_label xml:lang="en">is RDA entity described by</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00026">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00026"/>
+		<prop_label xml:lang="en">is RDA entity evaluated by</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00027">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00027"/>
+		<prop_label xml:lang="en">is RDA entity reviewed by</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00006">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00006"/>
+		<prop_label xml:lang="en">has related agent of RDA entity</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00012">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00012"/>
+		<prop_label xml:lang="en">has related collective agent of RDA entity</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00009">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00009"/>
+		<prop_label xml:lang="en">has related corporate body of RDA entity</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00028">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00028"/>
+		<prop_label xml:lang="en">has related entity of RDA entity</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00003">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00003"/>
+		<prop_label xml:lang="en">has related expression of RDA entity</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00008">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00008"/>
+		<prop_label xml:lang="en">has related family of RDA entity</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00005">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00005"/>
+		<prop_label xml:lang="en">has related item of RDA entity</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00004">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00004"/>
+		<prop_label xml:lang="en">has related manifestation of RDA entity</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00013">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00013"/>
+		<prop_label xml:lang="en">has related nomen of RDA entity</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00007">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00007"/>
+		<prop_label xml:lang="en">has related person of RDA entity</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00010">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00010"/>
+		<prop_label xml:lang="en">has related place of RDA entity</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00001">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00001"/>
+		<prop_label xml:lang="en">has related RDA entity of RDA entity</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00011">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00011"/>
+		<prop_label xml:lang="en">has related timespan of RDA entity</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00002">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00002"/>
+		<prop_label xml:lang="en">has related work of RDA entity</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00014">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00014"/>
+		<prop_label xml:lang="en">is subject RDA entity of</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00022">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00022"/>
+		<prop_label xml:lang="en">has variant access point for RDA entity</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00023">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00023"/>
+		<prop_label xml:lang="en">has variant name of RDA entity</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
+	<prop localid_prop="uwmaps_rdax_p00k_xP00030">
+		<prop_iri iri="http://rdaregistry.info/Elements/x/P00030"/>
+		<prop_label xml:lang="en">is RDA entity described with metadata by</prop_label>
+		<prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+	</prop>
 </prop_set>
