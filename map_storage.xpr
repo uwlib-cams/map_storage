@@ -1850,6 +1850,7 @@
         </options>
     </meta>
     <projectTree name="map_storage.xpr">
+        <folder path="../Desktop/super_scratch/RTs/"/>
         <folder path="."/>
         <folder path="../sinopia_maps/"/>
         <folder path="../webviews/"/>
