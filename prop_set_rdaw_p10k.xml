@@ -212,7 +212,7 @@
          <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
                                        localid_implementation_set="uwmaps_rdaw_p10k_wP10331_is_d1e425">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaManifestation</resource>
+            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
             <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
             <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.04</form_order>
@@ -365,7 +365,7 @@
          <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
                                        localid_implementation_set="uwmaps_rdaw_p10k_wP10004_is_d1e738">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaManifestation</resource>
+            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
             <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
             <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.07</form_order>
@@ -391,7 +391,7 @@
          <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
                                        localid_implementation_set="uwmaps_rdaw_p10k_wP10217_is_d1e792">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaManifestation</resource>
+            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
             <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
             <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.18</form_order>
@@ -556,7 +556,7 @@
          <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
                                        localid_implementation_set="uwmaps_rdaw_p10k_wP10349_is_d1e1127">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaManifestation</resource>
+            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
             <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
             <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.16</form_order>
@@ -628,7 +628,7 @@
          <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
                                        localid_implementation_set="uwmaps_rdaw_p10k_wP10398_is_d1e1274">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaManifestation</resource>
+            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
             <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
             <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.17</form_order>
@@ -650,7 +650,7 @@
          <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
                                        localid_implementation_set="uwmaps_rdaw_p10k_wP10219_is_d1e1319">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaManifestation</resource>
+            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
             <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
             <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.09</form_order>
@@ -891,7 +891,7 @@
          <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
                                        localid_implementation_set="uwmaps_rdaw_p10k_wP10365_is_d1e1809">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaManifestation</resource>
+            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
             <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
             <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.08</form_order>
@@ -1108,7 +1108,7 @@
          <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
                                        localid_implementation_set="uwmaps_rdaw_p10k_wP10400_is_d1e2252">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaManifestation</resource>
+            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
             <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
             <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.06</form_order>
@@ -1436,7 +1436,7 @@
          <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
                                        localid_implementation_set="uwmaps_rdaw_p10k_wP10353_is_d1e2921">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaManifestation</resource>
+            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
             <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
             <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.19</form_order>
@@ -1694,7 +1694,7 @@
          <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
                                        localid_implementation_set="uwmaps_rdaw_p10k_wP10086_is_d1e3446">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaManifestation</resource>
+            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
             <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
             <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.03</form_order>
@@ -1722,7 +1722,7 @@
          <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
                                        localid_implementation_set="uwmaps_rdaw_p10k_wP10218_is_d1e3506">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaManifestation</resource>
+            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
             <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
             <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.10</form_order>
@@ -1906,7 +1906,7 @@
          <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
                                        localid_implementation_set="uwmaps_rdaw_p10k_wP10078_is_d1e3880">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaManifestation</resource>
+            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
             <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
             <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.01</form_order>
@@ -1943,7 +1943,7 @@
          <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
                                        localid_implementation_set="uwmaps_rdaw_p10k_wP10223_is_d1e3957">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaManifestation</resource>
+            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
             <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
             <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.02</form_order>
@@ -2086,7 +2086,7 @@
          <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
                                        localid_implementation_set="uwmaps_rdaw_p10k_wP10210_is_d1e4250">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaManifestation</resource>
+            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
             <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
             <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.11</form_order>
@@ -2189,7 +2189,7 @@
          <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
                                        localid_implementation_set="uwmaps_rdaw_p10k_wP10330_is_d1e4462">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaManifestation</resource>
+            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
             <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
             <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.14</form_order>
@@ -2567,7 +2567,7 @@
          <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
                                        localid_implementation_set="uwmaps_rdaw_p10k_wP10012_is_d1e5233">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaManifestation</resource>
+            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
             <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
             <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.12</form_order>
@@ -2630,7 +2630,7 @@
          <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
                                        localid_implementation_set="uwmaps_rdaw_p10k_wP10357_is_d1e5364">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaManifestation</resource>
+            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
             <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
             <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.20</form_order>
@@ -2858,7 +2858,7 @@
          <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
                                        localid_implementation_set="uwmaps_rdaw_p10k_wP10256_is_d1e5828">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaManifestation</resource>
+            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
             <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
             <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.15</form_order>
@@ -2926,7 +2926,7 @@
          <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
                                        localid_implementation_set="uwmaps_rdaw_p10k_wP10216_is_d1e5967">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaManifestation</resource>
+            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
             <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
             <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.13</form_order>
@@ -3135,7 +3135,7 @@
          <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
                                        localid_implementation_set="uwmaps_rdaw_p10k_wP10332_is_d1e6393">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaManifestation</resource>
+            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
             <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
             <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.05</form_order>
