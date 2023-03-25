@@ -73,7 +73,6 @@
                         </ul>
                     </div>
                     <div>
-                        <!-- test test test -->
                         <script src="https://uwlib-cams.github.io/webviews/js/RDA_hierarchy.js"/>
                     </div>
                 </body>
@@ -86,17 +85,23 @@
             select="doc('https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/w.xml')"/>
         <xsl:variable name="toolkit_URLs" select="doc('../xml/RDA_alignments.xml')"/>
         <ul class="nested">
-            <xsl:for-each
-                select="$work_props/rdf:RDF/rdf:Description[rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']][not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]">
+            <xsl:for-each select="
+                    $work_props/rdf:RDF/rdf:Description
+                    [rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]
+                    [not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]">
                 <xsl:sort select="rdfs:label[@xml:lang = 'en']"/>
                 <xsl:variable name="prop_uri" select="@rdf:about"/>
                 <xsl:choose>
                     <xsl:when test="rdfs:subPropertyOf">
                         <!-- Listed as a subproperty of something -->
                         <xsl:choose>
-                            <xsl:when
-                                test="rdfs:subPropertyOf[not(matches(@rdf:resource, 'http:..rdaregistry.info.Elements.w.datatype.P\d\d\d\d\d'))] and rdfs:subPropertyOf[not(matches(@rdf:resource, 'http:..rdaregistry.info.Elements.w.object.P\d\d\d\d\d'))] and rdfs:subPropertyOf[not(matches(@rdf:resource, 'http:..rdaregistry.info.Elements.x.P\d\d\d\d\d'))]">
-                                <!-- Listed as a subproperty of something that is not a datatype, object, or X property -->
+                            <xsl:when test="
+                                    rdfs:subPropertyOf[not(matches(@rdf:resource, 'http:..rdaregistry.info.Elements.w.datatype.P\d\d\d\d\d'))]
+                                    and
+                                    rdfs:subPropertyOf[not(matches(@rdf:resource, 'http:..rdaregistry.info.Elements.w.object.P\d\d\d\d\d'))]
+                                    and
+                                    rdfs:subPropertyOf[not(matches(@rdf:resource, 'http:..rdaregistry.info.Elements.x.P\d\d\d\d\d'))]">
+                                <!-- Ignore if listed as subproperty of datatype, object, or X property -->
                             </xsl:when>
                             <xsl:otherwise>
                                 <!-- Only listed as a subproperty of one of these matches; top-level term -->
@@ -106,12 +111,20 @@
                                     <xsl:variable name="prop_id"
                                         select="concat('rda', replace($last_8_characters, '/', ':'))"/>
                                     <xsl:choose>
-                                        <xsl:when
-                                            test="$work_props/rdf:RDF/rdf:Description[rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']][not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])][rdfs:subPropertyOf[@rdf:resource = $prop_uri]]">
-                                            <span class="caret"><xsl:value-of
-                                                  select="rdfs:label[@xml:lang = 'en']"/> (<a
-                                                  href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                  ><xsl:value-of select="$prop_id"/></a>)</span>
+                                        <xsl:when test="
+                                                $work_props/rdf:RDF/rdf:Description
+                                                [rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]
+                                                [not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]
+                                                [rdfs:subPropertyOf[@rdf:resource = $prop_uri]]">
+                                            <span class="caret">
+                                                <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                  href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}">
+                                                  <xsl:value-of select="$prop_id"/>
+                                                </a>
+                                                <xsl:text>)</xsl:text>
+                                            </span>
                                             <xsl:call-template name="find_subprops">
                                                 <xsl:with-param name="prop_uri" select="$prop_uri"/>
                                                 <xsl:with-param name="entity" select="'w'"/>
@@ -889,11 +902,18 @@
         <xsl:param name="prop_uri"/>
         <xsl:param name="entity"/>
         <xsl:variable name="toolkit_URLs" select="doc('../xml/RDA_alignments.xml')"/>
-        <xsl:if
-            test="doc(concat('https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/', $entity, '.xml'))/rdf:RDF/rdf:Description[rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']][not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]/rdfs:subPropertyOf[@rdf:resource = $prop_uri]">
+        <xsl:if test="
+                doc(concat('https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/', $entity, '.xml'))/
+                rdf:RDF/rdf:Description
+                [rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]
+                [not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]/
+                rdfs:subPropertyOf[@rdf:resource = $prop_uri]">
             <ul class="nested">
-                <xsl:for-each
-                    select="doc(concat('https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/', $entity, '.xml'))/rdf:RDF/rdf:Description[rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']][not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]">
+                <xsl:for-each select="
+                        doc(concat('https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/', $entity, '.xml'))/
+                        rdf:RDF/rdf:Description
+                        [rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]
+                        [not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]">
                     <xsl:sort select="rdfs:label[@xml:lang = 'en']"/>
                     <xsl:variable name="subprop_uri" select="@rdf:about"/>
                     <xsl:if test="rdfs:subPropertyOf[@rdf:resource = $prop_uri]">
@@ -903,21 +923,34 @@
                             <xsl:variable name="prop_id"
                                 select="concat('rda', replace($last_8_characters, '/', ':'))"/>
                             <xsl:choose>
-                                <xsl:when
-                                    test="doc(concat('https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/', $entity, '.xml'))/rdf:RDF/rdf:Description[rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']][not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])][rdfs:subPropertyOf[@rdf:resource = $subprop_uri]]">
-                                    <span class="caret"><xsl:value-of
-                                            select="rdfs:label[@xml:lang = 'en']"/> (<a
-                                            href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                ><xsl:value-of select="$prop_id"/></a>)</span>
+                                <xsl:when test="
+                                        doc(concat('https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/', $entity, '.xml'))/
+                                        rdf:RDF/rdf:Description
+                                        [rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]
+                                        [not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]
+                                        [rdfs:subPropertyOf[@rdf:resource = $subprop_uri]]">
+                                    <span class="caret">
+                                        <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
+                                        <xsl:text> (</xsl:text>
+                                        <a
+                                            href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}">
+                                            <xsl:value-of select="$prop_id"/>
+                                        </a>
+                                        <xsl:text>)</xsl:text>
+                                    </span>
                                     <xsl:call-template name="find_subprops">
                                         <xsl:with-param name="prop_uri" select="$subprop_uri"/>
                                         <xsl:with-param name="entity" select="$entity"/>
                                     </xsl:call-template>
                                 </xsl:when>
                                 <xsl:otherwise>
-                                    <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/> (<a
-                                        href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                            ><xsl:value-of select="$prop_id"/></a>) </xsl:otherwise>
+                                    <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
+                                    <xsl:text> (</xsl:text>
+                                    <a href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}">
+                                        <xsl:value-of select="$prop_id"/>
+                                    </a>
+                                    <xsl:text>)</xsl:text>
+                                </xsl:otherwise>
                             </xsl:choose>
                         </li>
                     </xsl:if>
