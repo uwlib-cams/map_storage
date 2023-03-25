@@ -11,6 +11,11 @@
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     version="2.0">
     
+    <!-- OUTPUT 'RDA_alignments.xml' is used by:
+        003_02_add_toolkit_URLs.xsl
+        005_RDA_hierarchy.xsl 
+        But I cannot get this stylesheet to function -->
+    
     <xsl:template name="convert_csv_to_xml">
         <xsl:result-document href="../xml/RDA_alignments.xml">
             <alignmentPairs>
