@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
+          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdaw_p10k</prop_set_label>
@@ -133,6 +134,20 @@
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10058"/>
       <prop_label xml:lang="en">has artist agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10058_is_d2e272">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>ries07</uwsinopia:user>
+            <uwsinopia:form_order>0.03</uwsinopia:form_order>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:all_all_subprops>true</uwsinopia:all_all_subprops>
+            </uwsinopia:multiple_prop>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-010f851d-1317-3f87-83aa-7430e4662d08"/>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaw_p10k_wP10498">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10498"/>
@@ -209,8 +224,7 @@
       <prop_label xml:lang="en">has authorized access point for work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-                                       localid_implementation_set="uwmaps_rdaw_p10k_wP10331_is_d1e425">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10331_is_d2e451">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
             <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
@@ -271,6 +285,20 @@
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10428"/>
       <prop_label xml:lang="en">has book artist person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10428_is_d2e581">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>ries07</uwsinopia:user>
+            <uwsinopia:form_order>0.04</uwsinopia:form_order>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:all_all_subprops>true</uwsinopia:all_all_subprops>
+            </uwsinopia:multiple_prop>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-647848a8-d63a-3c80-8493-cb238788cc3e"/>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaw_p10k_wP10253">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10253"/>
@@ -362,8 +390,7 @@
       <prop_label xml:lang="en">has category of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-                                       localid_implementation_set="uwmaps_rdaw_p10k_wP10004_is_d1e738">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10004_is_d2e790">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
             <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
@@ -388,8 +415,7 @@
       <prop_label xml:lang="en">has intended audience of representative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-                                       localid_implementation_set="uwmaps_rdaw_p10k_wP10217_is_d1e792">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10217_is_d2e844">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
             <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
@@ -553,8 +579,7 @@
       <prop_label xml:lang="en">has content type of representative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-                                       localid_implementation_set="uwmaps_rdaw_p10k_wP10349_is_d1e1127">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10349_is_d2e1179">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
             <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
@@ -625,8 +650,7 @@
       <prop_label xml:lang="en">has date of representative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-                                       localid_implementation_set="uwmaps_rdaw_p10k_wP10398_is_d1e1274">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10398_is_d2e1326">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
             <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
@@ -647,8 +671,7 @@
       <prop_label xml:lang="en">has date of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-                                       localid_implementation_set="uwmaps_rdaw_p10k_wP10219_is_d1e1319">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10219_is_d2e1371">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
             <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
@@ -888,8 +911,7 @@
       <prop_label xml:lang="en">has extension plan</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-                                       localid_implementation_set="uwmaps_rdaw_p10k_wP10365_is_d1e1809">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10365_is_d2e1861">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
             <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
@@ -1105,8 +1127,7 @@
       <prop_label xml:lang="en">has identifier for work group</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-                                       localid_implementation_set="uwmaps_rdaw_p10k_wP10400_is_d1e2252">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10400_is_d2e2304">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
             <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
@@ -1272,6 +1293,20 @@
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10311"/>
       <prop_label xml:lang="en">has related agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10311_is_d2e2648">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>ries07</uwsinopia:user>
+            <uwsinopia:form_order>0.02</uwsinopia:form_order>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:all_all_subprops>true</uwsinopia:all_all_subprops>
+            </uwsinopia:multiple_prop>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.og/en-US_ala-31ea511f-ce06-3adc-a598-f55044a75e9c"/>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaw_p10k_wP10313">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10313"/>
@@ -1433,8 +1468,7 @@
       <prop_label xml:lang="en">has language of representative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-                                       localid_implementation_set="uwmaps_rdaw_p10k_wP10353_is_d1e2921">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10353_is_d2e2999">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
             <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
@@ -1691,8 +1725,7 @@
       <prop_label xml:lang="en">has variant title of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-                                       localid_implementation_set="uwmaps_rdaw_p10k_wP10086_is_d1e3446">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10086_is_d2e3524">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
             <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
@@ -1719,8 +1752,7 @@
       <prop_label xml:lang="en">has place of origin of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-                                       localid_implementation_set="uwmaps_rdaw_p10k_wP10218_is_d1e3506">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10218_is_d2e3584">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
             <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
@@ -1903,8 +1935,7 @@
       <prop_label xml:lang="en">has expression of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-                                       localid_implementation_set="uwmaps_rdaw_p10k_wP10078_is_d1e3880">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10078_is_d2e3958">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
             <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
@@ -1940,8 +1971,7 @@
       <prop_label xml:lang="en">has preferred title of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-                                       localid_implementation_set="uwmaps_rdaw_p10k_wP10223_is_d1e3957">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10223_is_d2e4035">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
             <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
@@ -2083,8 +2113,7 @@
       <prop_label xml:lang="en">has history of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-                                       localid_implementation_set="uwmaps_rdaw_p10k_wP10210_is_d1e4250">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10210_is_d2e4328">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
             <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
@@ -2186,8 +2215,7 @@
       <prop_label xml:lang="en">has note on work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-                                       localid_implementation_set="uwmaps_rdaw_p10k_wP10330_is_d1e4462">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10330_is_d2e4540">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
             <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
@@ -2498,6 +2526,20 @@
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10307"/>
       <prop_label xml:lang="en">has related RDA entity of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
+      <sinopia>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10307_is_d2e5179">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>ries07</uwsinopia:user>
+            <uwsinopia:form_order>0.01</uwsinopia:form_order>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:all_all_subprops>true</uwsinopia:all_all_subprops>
+            </uwsinopia:multiple_prop>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-37e47c10-dab0-3145-8e4d-bf4faadaea27"/>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaw_p10k_wP10306">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10306"/>
@@ -2564,8 +2606,7 @@
       <prop_label xml:lang="en">has numbering of part</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-                                       localid_implementation_set="uwmaps_rdaw_p10k_wP10012_is_d1e5233">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10012_is_d2e5337">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
             <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
@@ -2627,8 +2668,7 @@
       <prop_label xml:lang="en">has script of representative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-                                       localid_implementation_set="uwmaps_rdaw_p10k_wP10357_is_d1e5364">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10357_is_d2e5468">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
             <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
@@ -2855,8 +2895,7 @@
       <prop_label xml:lang="en">has subject</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-                                       localid_implementation_set="uwmaps_rdaw_p10k_wP10256_is_d1e5828">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10256_is_d2e5932">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
             <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
@@ -2923,8 +2962,7 @@
       <prop_label xml:lang="en">has coverage of content</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-                                       localid_implementation_set="uwmaps_rdaw_p10k_wP10216_is_d1e5967">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10216_is_d2e6071">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
             <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
@@ -3132,8 +3170,7 @@
       <prop_label xml:lang="en">has variant access point for work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
-         <uwsinopia:implementation_set xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-                                       localid_implementation_set="uwmaps_rdaw_p10k_wP10332_is_d1e6393">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10332_is_d2e6497">
             <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
             <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
             <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
