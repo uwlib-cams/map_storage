@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
           xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdap_p70k</prop_set_label>
    <source_version>v5.0.10</source_version>
