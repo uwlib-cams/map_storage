@@ -24,9 +24,10 @@
         <xsl:for-each select="uwmaps:get_prop_sets/uwmaps:get_set">
             <xsl:result-document href="{concat($oxygenPath, 'prop_set_', uwmaps:set_name, '.xml')}">
                 <prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-                    xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd"
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
+                    xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
                     <prop_set_label>
                         <xsl:value-of select="uwmaps:set_name"/>
                     </prop_set_label>
