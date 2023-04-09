@@ -2600,6 +2600,7 @@ For an augmentation aggregate, use this template to describe a work realized by 
             <uwsinopia:format>test</uwsinopia:format>
             <uwsinopia:user>ries07</uwsinopia:user>
             <uwsinopia:form_order>0.01</uwsinopia:form_order>
+            <uwsinopia:alt_pt_label xml:lang="en">ALTERNATE PT LABEL HERE</uwsinopia:alt_pt_label>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_all_subprops>true</uwsinopia:all_all_subprops>
             </uwsinopia:multiple_prop>
