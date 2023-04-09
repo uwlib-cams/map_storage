@@ -2016,8 +2016,8 @@ For an augmentation aggregate, use this template to describe a work realized by 
             <repeatable xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">true</repeatable>
             <lookup_pt xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">
                <authorities>
-                  <authority_urn>Sinopia RDA monograph expression</authority_urn>
-                  <authority_urn>Sinopia RDA monograph manifestation</authority_urn>
+                  <authority_urn>Sinopia RDA expression</authority_urn>
+                  <authority_urn>Sinopia RDA manifestation</authority_urn>
                </authorities>
             </lookup_pt>
          </uwsinopia:implementation_set>
