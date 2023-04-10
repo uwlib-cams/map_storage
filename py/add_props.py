@@ -1,26 +1,7 @@
 # Functions to add props to xml file
-# last updated: 2/27/2023
+# last updated: 4/10/2023
 
 import xml.etree.ElementTree as ET 
-from xml.dom import minidom
-
-
-# function to make xml file pretty
-## might be a better way to do this but it works for now
-def prettify(key):
-    final = ""
-
-    with open(key, 'r') as f:
-        for line in f:
-            strip_line = line.strip()
-            final = final + strip_line
-
-    open(key, "w").write(final)
-    
-    dom = minidom.parse(key)
-    with open( key, 'w', encoding='UTF-8') as fh:
-        dom.writexml(fh, indent='', addindent='\t', newl='\n', encoding='UTF-8')
-
 
 #function to add deprecated props to updated files
 ## pass file name and deprecated props array
@@ -62,10 +43,7 @@ def add_prop(key, props):
 
     #write tree to file
     tree.write(key)
-
-    #make xml file pretty
-    prettify(key)
-
+    del tree
 
 #function to add implementation set back to updated props
 ##pass file name and implementation set to array
@@ -103,8 +81,6 @@ def add_implementation_set(key, prop):
 
     #write tree to file
     tree.write(key)
-
-    #make xml file pretty
-    prettify(key)
+    del tree
     
     

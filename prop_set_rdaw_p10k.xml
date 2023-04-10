@@ -273,14 +273,14 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10331_is_d1e541">
-            <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
-            <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
-            <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
-            <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.04</form_order>
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.04</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-086aad00-3bd2-3cc1-8dd0-52a5353b227b"/>
-            <remark xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/" xml:lang="en">Do not record an IRI for an authority record</remark>
-            <uri_pt xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/"/>
+            <uwsinopia:remark xml:lang="en">Do not record an IRI for an authority record</uwsinopia:remark>
+            <uwsinopia:uri_pt/>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -439,22 +439,22 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10004_is_d1e880">
-            <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
-            <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
-            <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
-            <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.07</form_order>
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.07</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-28e39ed9-43ec-3a0d-bd30-83c805efaa8c"/>
-            <repeatable xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">true</repeatable>
-            <lookup_pt xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">
-               <authorities>
-                  <authority_urn>LOC all genres (QA)</authority_urn>
-                  <authority_urn>OCLCFAST Form (QA) - direct</authority_urn>
-                  <authority_urn>LOC all subjects (QA)</authority_urn>
-                  <authority_urn>GETTY_AAT all terms (QA)</authority_urn>
-                  <authority_urn>Wikidata (QA)</authority_urn>
-               </authorities>
-            </lookup_pt>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>LOC all genres (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>OCLCFAST Form (QA) - direct</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>LOC all subjects (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_AAT all terms (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -464,21 +464,21 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10217_is_d1e934">
-            <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
-            <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
-            <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
-            <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.18</form_order>
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.18</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-d69eefb5-d2bd-3dba-8faf-4090bb26ebf7"/>
-            <repeatable xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">true</repeatable>
-            <lookup_pt xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">
-               <authorities>
-                  <authority_urn>LOC intended audience [vocabularies] (QA)</authority_urn>
-                  <authority_urn>LOC demographics (QA)</authority_urn>
-                  <authority_urn>LOC all subjects (QA)</authority_urn>
-                  <authority_urn>Wikidata (QA)</authority_urn>
-               </authorities>
-            </lookup_pt>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>LOC intended audience [vocabularies] (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>LOC demographics (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>LOC all subjects (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -644,18 +644,18 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10349_is_d1e1298">
-            <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
-            <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
-            <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
-            <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.16</form_order>
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.16</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-ca5bf367-1887-3510-8f36-42d6c0049524"/>
-            <repeatable xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">true</repeatable>
-            <lookup_pt xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">
-               <authorities>
-                  <authority_urn>RDA Registry content type (QA)</authority_urn>
-               </authorities>
-            </lookup_pt>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>RDA Registry content type (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -715,18 +715,18 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10398_is_d1e1445">
-            <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
-            <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
-            <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
-            <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.17</form_order>
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.17</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-7a8a339d-6f85-3955-a5ee-6626c6eb87a1"/>
-            <repeatable xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">true</repeatable>
-            <lookup_pt xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">
-               <authorities>
-                  <authority_urn>Wikidata (QA)</authority_urn>
-               </authorities>
-            </lookup_pt>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -736,17 +736,17 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10219_is_d1e1490">
-            <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
-            <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
-            <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
-            <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.09</form_order>
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.09</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-a23c8e78-ebc8-34ea-9a63-23c35b9c36ba"/>
-            <lookup_pt xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">
-               <authorities>
-                  <authority_urn>Wikidata (QA)</authority_urn>
-               </authorities>
-            </lookup_pt>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -976,13 +976,13 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10365_is_d1e1980">
-            <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
-            <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
-            <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
-            <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.08</form_order>
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.08</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-8ba8340e-1266-322c-ac0b-24f2ec260084"/>
-            <uri_pt xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/"/>
+            <uwsinopia:uri_pt/>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -1192,14 +1192,14 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10400_is_d1e2423">
-            <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
-            <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
-            <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
-            <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.06</form_order>
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.06</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-5d7d0e35-b230-3fab-bd2c-8f34880ecfdc"/>
-            <repeatable xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">true</repeatable>
-            <uri_pt xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/"/>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:uri_pt/>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -1533,19 +1533,19 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10353_is_d1e3118">
-            <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
-            <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
-            <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
-            <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.19</form_order>
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.19</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-9dbad164-5722-3594-acc9-ed80b49c9e2b"/>
-            <repeatable xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">true</repeatable>
-            <lookup_pt xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">
-               <authorities>
-                  <authority_urn>LOC all subjects (QA)</authority_urn>
-                  <authority_urn>Wikidata (QA)</authority_urn>
-               </authorities>
-            </lookup_pt>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>LOC all subjects (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -1790,14 +1790,14 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10086_is_d1e3643">
-            <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
-            <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
-            <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
-            <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.03</form_order>
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.03</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-046d9a65-e489-39c7-a99e-31cc014127c5"/>
-            <repeatable xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">true</repeatable>
-            <literal_pt xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/"/>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -1817,20 +1817,20 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10218_is_d1e3703">
-            <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
-            <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
-            <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
-            <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.10</form_order>
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.10</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-4a02af89-66ae-3c18-963f-1535c3d6d970"/>
-            <repeatable xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">true</repeatable>
-            <lookup_pt xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">
-               <authorities>
-                  <authority_urn>GEONAMES all (QA)</authority_urn>
-                  <authority_urn>GETTY_TGN (QA)</authority_urn>
-                  <authority_urn>Wikidata (QA)</authority_urn>
-               </authorities>
-            </lookup_pt>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>GEONAMES all (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_TGN (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -2000,26 +2000,26 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10078_is_d1e4077">
-            <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
-            <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
-            <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
-            <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.01</form_order>
-            <multiple_prop xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">
-               <property_selection property_iri="http://rdaregistry.info/Elements/w/P10072" xml:lang="en">has manifestation of work</property_selection>
-            </multiple_prop>
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.01</uwsinopia:form_order>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10072" xml:lang="en">has manifestation of work</uwsinopia:property_selection>
+            </uwsinopia:multiple_prop>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-e23bf7e1-aa3e-3e8d-874e-9a16d0cdee57"/>
             <uwsinopia:remark xml:lang="en">For a collection or a parallel aggregate, use this template to describe an aggregating work. Relate the aggregating work to a manifestation using "has manifestation of work".
                
 For an augmentation aggregate, use this template to describe a work realized by the primary expression. Relate the work to the primary expression using "has expression of work".</uwsinopia:remark>
-            <required xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">true</required>
-            <repeatable xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">true</repeatable>
-            <lookup_pt xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">
-               <authorities>
-                  <authority_urn>Sinopia RDA expression</authority_urn>
-                  <authority_urn>Sinopia RDA manifestation</authority_urn>
-               </authorities>
-            </lookup_pt>
+            <uwsinopia:required>true</uwsinopia:required>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Sinopia RDA expression</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Sinopia RDA manifestation</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -2039,14 +2039,14 @@ For an augmentation aggregate, use this template to describe a work realized by 
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10223_is_d1e4157">
-            <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
-            <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
-            <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
-            <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.02</form_order>
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.02</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-f21836a5-7397-341a-bd4c-bd641e765511"/>
-            <required xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">true</required>
-            <literal_pt xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/"/>
+            <uwsinopia:required>true</uwsinopia:required>
+            <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -2181,14 +2181,14 @@ For an augmentation aggregate, use this template to describe a work realized by 
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10210_is_d1e4450">
-            <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
-            <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
-            <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
-            <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.11</form_order>
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.11</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-6991c355-409b-37af-8ded-8902061f40e8"/>
-            <repeatable xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">true</repeatable>
-            <literal_pt xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/"/>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -2283,14 +2283,14 @@ For an augmentation aggregate, use this template to describe a work realized by 
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10330_is_d1e4662">
-            <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
-            <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
-            <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
-            <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.14</form_order>
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.14</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-521fa629-f515-3247-9db0-f03e8736bf15"/>
-            <repeatable xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">true</repeatable>
-            <literal_pt xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/"/>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -2675,14 +2675,14 @@ For an augmentation aggregate, use this template to describe a work realized by 
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10012_is_d1e5459">
-            <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
-            <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
-            <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
-            <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.12</form_order>
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.12</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-c6ca12bd-2511-3c1c-bed6-746936d39d35"/>
-            <repeatable xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">true</repeatable>
-            <literal_pt xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/"/>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -2737,19 +2737,19 @@ For an augmentation aggregate, use this template to describe a work realized by 
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10357_is_d1e5590">
-            <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
-            <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
-            <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
-            <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.20</form_order>
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.20</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-8d77ba56-e900-3a83-9e70-171bf65c8deb"/>
-            <repeatable xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">true</repeatable>
-            <lookup_pt xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">
-               <authorities>
-                  <authority_urn>LOC script [vocabularies] (QA)</authority_urn>
-                  <authority_urn>Wikidata (QA)</authority_urn>
-               </authorities>
-            </lookup_pt>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>LOC script [vocabularies] (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -2980,24 +2980,24 @@ For an augmentation aggregate, use this template to describe a work realized by 
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10256_is_d1e6083">
-            <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
-            <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
-            <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
-            <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.15</form_order>
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.15</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-5ee35816-8c52-31fa-8d71-3d7748494082"/>
-            <repeatable xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/" ordered="true">true</repeatable>
-            <lookup_pt xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">
-               <authorities>
-                  <authority_urn>LOC all subjects (QA)</authority_urn>
-                  <authority_urn>LOC all names (QA)</authority_urn>
-                  <authority_urn>MESH subjects (QA)</authority_urn>
-                  <authority_urn>NALT (QA)</authority_urn>
-                  <authority_urn>OCLCFAST (QA) - cache</authority_urn>
-                  <authority_urn>GETTY_AAT all terms (QA)</authority_urn>
-                  <authority_urn>Wikidata (QA)</authority_urn>
-               </authorities>
-            </lookup_pt>
+            <uwsinopia:repeatable ordered="true">true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>LOC all subjects (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>LOC all names (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>MESH subjects (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>NALT (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>OCLCFAST (QA) - cache</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_AAT all terms (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -3047,20 +3047,20 @@ For an augmentation aggregate, use this template to describe a work realized by 
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10216_is_d1e6222">
-            <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
-            <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
-            <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
-            <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.13</form_order>
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.13</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-b0a21725-2202-38d3-a1de-7be8199d845b"/>
-            <repeatable xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">true</repeatable>
-            <lookup_pt xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">
-               <authorities>
-                  <authority_urn>Wikidata (QA)</authority_urn>
-                  <authority_urn>GEONAMES all (QA)</authority_urn>
-                  <authority_urn>GETTY_TGN (QA)</authority_urn>
-               </authorities>
-            </lookup_pt>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GEONAMES all (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_TGN (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -3255,15 +3255,15 @@ For an augmentation aggregate, use this template to describe a work realized by 
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10332_is_d1e6648">
-            <institution xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">WAU</institution>
-            <resource xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">rdaWork</resource>
-            <format xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">printMonograph</format>
-            <user xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">CAMS</user>
-            <form_order xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">0.05</form_order>
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.05</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-3975091a-4c88-332f-bc3e-a5c19e86d315"/>
-            <remark xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/" xml:lang="en">Do not record an IRI for an authority record</remark>
-            <repeatable xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/">true</repeatable>
-            <uri_pt xmlns="https://uwlib-cams.github.io/sinopia_maps/xsd/"/>
+            <uwsinopia:remark xml:lang="en">Do not record an IRI for an authority record</uwsinopia:remark>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:uri_pt/>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
