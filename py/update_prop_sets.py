@@ -40,6 +40,7 @@ def match_props(array1, array2, key):
                 if(i.prop_iri == j.prop_iri):
                     add_implementation_set(key, i)
 
+
 # get current xml files from path
 path = './'
 file_list = os.listdir(path)
@@ -79,7 +80,6 @@ new_file_list = os.listdir(path)
 ### only for testing 
 # new_file_list = [ elem for elem in file_list if (elem.startswith('prop_set_test1'))]
 
-# not using dcterms or prov
 new_file_list = [ elem for elem in new_file_list if (elem.endswith('.xml') 
     and (elem.startswith('prop_set_rd') or elem.startswith('prop_set_uw')))]
 
@@ -91,34 +91,32 @@ for f in new_file_list:
 # for each file, store current properties in array
 store_props(new_file_dict)
 
-# will have to iterate through all keys 
-
+# match files from old prop_sets to new prop_sets 
 for key in file_dict.keys():
-    array1 = []
-    array2 = []
-    array1 = file_dict.get(key)
+    file_array = []
+    new_file_array = []
+
+    #file_array contains this file's props
+    file_array = file_dict.get(key)
     
     for new_key in new_file_dict.keys():
         # for testing using prop_set_test and prop_set_test1 use 
         # if new_key == 'prop_set_test1.xml': 
+
+        #if file names match, store new_file's props in new_file_array
         if new_key == key:
-            array2 = new_file_dict.get(new_key)
+            new_file_array = new_file_dict.get(new_key)
             
             # add implementation_sets to updated props
-            match_props(array1, array2, new_key)
+            match_props(file_array, new_file_array, new_key)
            
             # compare props to find deprecated ones
-            deprecated_props = compare_props(array1, array2)
+            deprecated_props = compare_props(file_array, new_file_array)
 
             # add deprecated props back to updated files
             add_prop(new_key, deprecated_props)
 
-# format updated file correctly
-
-# NOTE: lxml, xml, minidom, and beautiful soup offer ways to do this
-# but I ran into issues with spacing and element recognition when running
-# a formatted xml file through the program again (issue #37 in map_storage - now resolved)
-
+# format XML file
 for new_key in new_file_dict.keys():
     with open(new_key, "r") as file:
         filestring = file.read()
