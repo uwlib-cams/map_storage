@@ -83,7 +83,7 @@
             <uwsinopia:required>true</uwsinopia:required>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia RDA monograph work</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Sinopia RDA work</uwsinopia:authority_urn>
                </uwsinopia:authorities>
             </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
@@ -673,7 +673,7 @@
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia RDA monograph manifestation</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Sinopia RDA manifestation</uwsinopia:authority_urn>
                </uwsinopia:authorities>
             </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
