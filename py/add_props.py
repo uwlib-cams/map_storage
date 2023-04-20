@@ -32,7 +32,7 @@ def add_prop(key, props):
 
             #mark as deprecated 
             if prop.is_deprecated == "":
-                dep = ET.SubElement(prop_root, "deprecated", )
+                dep = ET.SubElement(prop_root, "deprecated")
                 dep.text = 'true'
 
             #add deprecated prop to file tree

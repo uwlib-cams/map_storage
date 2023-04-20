@@ -40,7 +40,6 @@ def match_props(array1, array2, key):
                 if(i.prop_iri == j.prop_iri):
                     add_implementation_set(key, i)
 
-
 # get current xml files from path
 path = './'
 file_list = os.listdir(path)

@@ -47,10 +47,6 @@ def store_props(file_dict):
             for child in prop.iter():
                 if child.tag == "{https://uwlib-cams.github.io/map_storage/xsd/}prop_iri":
                     new_prop.set_prop_iri(remove_name_space(ET.tostring(child, encoding='utf8').decode('utf8')))
-                if child.tag == "{https://uwlib-cams.github.io/map_storage/xsd/}prop_label":
-                    new_prop.set_prop_label(remove_name_space(ET.tostring(child, encoding='utf8').decode('utf8')))
-                if child.tag == "{https://uwlib-cams.github.io/map_storage/xsd/}prop_domain":
-                    new_prop.set_prop_domain(remove_name_space(ET.tostring(child, encoding='utf8').decode('utf8')))
                 if child.tag == "{https://uwlib-cams.github.io/map_storage/xsd/}sinopia":
                     new_prop.set_implementation_set(remove_name_space(ET.tostring(child, encoding='utf8').decode('utf8')))
                 if child.tag =="{https://uwlib-cams.github.io/map_storage/xsd/}deprecated":
