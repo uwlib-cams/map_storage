@@ -339,7 +339,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10331_is_d2e667">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.06</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-086aad00-3bd2-3cc1-8dd0-52a5353b227b"/>
@@ -1556,7 +1556,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10400_is_d2e3085">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.07</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-5d7d0e35-b230-3fab-bd2c-8f34880ecfdc"/>
@@ -2492,7 +2492,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10002_is_d2e4907">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.08</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-90d71d36-67b7-3d32-a16c-f6996a162432"/>
