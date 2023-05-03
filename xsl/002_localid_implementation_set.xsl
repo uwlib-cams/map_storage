@@ -10,16 +10,11 @@
     
     <xsl:mode on-no-match="shallow-copy"/>
     
-    <xsl:template match="uwmaps:prop_set/uwmaps:prop/uwmaps:sinopia/uwsinopia:implementation_set">
-        <xsl:choose>
-            <xsl:when test="@localid_implementation_set/text()"/>
-            <xsl:otherwise>
-                <uwsinopia:implementation_set 
-                    localid_implementation_set="{concat(../../@localid_prop, '_is_', generate-id())}">
-                    <xsl:copy-of select="node()"/>
-                </uwsinopia:implementation_set>
-            </xsl:otherwise>
-        </xsl:choose>
+    <xsl:template match="//uwsinopia:implementation_set[@localid_implementation_set = '']">
+        <uwsinopia:implementation_set
+            localid_implementation_set="{concat(../../@localid_prop, '_is_', generate-id())}">
+            <xsl:copy-of select="node()"/>
+        </uwsinopia:implementation_set>
     </xsl:template>
     
 </xsl:stylesheet>

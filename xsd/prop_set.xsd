@@ -6,19 +6,14 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified"
     vc:minVersion="1.1">
-
-    <!-- ***** IMPORT/INCLUDE ***** -->
-
+    <!-- IMPORT -->
     <xs:import namespace="http://www.w3.org/XML/1998/namespace"
         schemaLocation="http://www.w3.org/2001/03/xml.xsd"/>
     <xs:import namespace="http://www.w3.org/2001/XMLSchema"
         schemaLocation="https://www.w3.org/2001/XMLSchema.xsd"/>
     <xs:import namespace="https://uwlib-cams.github.io/sinopia_maps/xsd/"
         schemaLocation="https://uwlib-cams.github.io/sinopia_maps/xsd/uwsinopia.xsd"/>
-
-    <!--  ***** REUSE THESE TYPES ***** -->
-
-    <!-- (MAP ID component) -->
+    <!--  REUSE -->
     <xs:simpleType name="prop_set_label_type">
         <xs:annotation>
             <xs:documentation>For RDA property sets:</xs:documentation>
@@ -45,12 +40,8 @@
             <xs:enumeration value="uwRdaExtension"/>
             <!-- RDA/ONIX Framework element set not yet added  -->
             <!-- RDA unconstrained not yet added -->
-            <!-- RDA metadata element properties (Deprecated) will not be added -->
-            <xs:enumeration value="dcterms"/>
-            <xs:enumeration value="prov"/>
         </xs:restriction>
     </xs:simpleType>
-
     <xs:complexType name="lang_string_type">
         <xs:annotation>
             <xs:documentation>Use this element to enter the literal value or text string which
@@ -85,7 +76,6 @@
             </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
-
     <xs:simpleType name="localid_attr">
         <xs:annotation>
             <xs:documentation>Do not enter local identifiers when editing prop_set
@@ -106,7 +96,6 @@
             <xs:pattern value="\S+"/>
         </xs:restriction>
     </xs:simpleType>
-
     <xs:complexType name="iri_type">
         <xs:annotation>
             <xs:documentation>This element type is used to provide IRIs, and in some cases URLs, in
@@ -123,16 +112,12 @@
             </xs:simpleType>
         </xs:attribute>
     </xs:complexType>
-
-    <!-- ********* SCHEMA ********* -->
-
-    <!-- **** prop_set **** -->
+    <!-- **************** prop_set **************** -->
     <xs:element name="prop_set" type="prop_set_type">
         <xs:annotation>
             <xs:documentation>This is the root element of a prop_set instance.</xs:documentation>
         </xs:annotation>
     </xs:element>
-
     <xs:complexType name="prop_set_type">
         <xs:sequence>
             <xs:element name="prop_set_label" type="prop_set_label_type" minOccurs="1" maxOccurs="1"/>
@@ -140,8 +125,7 @@
             <xs:element name="prop" type="prop_type" minOccurs="1" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
-
-    <!-- *** prop *** -->
+    <!-- **************** prop **************** -->
     <xs:complexType name="prop_type">
         <xs:annotation>
             <xs:documentation>The prop element is used to store information about published RDF
@@ -171,7 +155,6 @@
         </xs:sequence>
         <xs:attribute name="localid_prop" type="localid_attr" use="required"/>
     </xs:complexType>
-
     <!-- BMR TO DO [!] This element needs work; attributes need better constraints -->
     <xs:complexType name="url_type">
         <xs:annotation>
