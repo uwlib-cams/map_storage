@@ -36,7 +36,7 @@ id.pop(0)
 ## REMOVAL FUNCTIONS 
 
 # removeSingleID is called only if there is one case of each id element in the implementation_set 
-def removeSingleID(prop, sinopiaElement, implementation_set, id, setCount):
+def remove_single_id(prop, sinopia_element, implementation_set, id, set_count):
 
     check_id = [False, False, False, False]
 
@@ -58,62 +58,99 @@ def removeSingleID(prop, sinopiaElement, implementation_set, id, setCount):
     # if every segment of the id matches this implementation set
     # AND there is only one implementation set in the sinopia element
     # remove the whole sinopia element
-    if check_id == [True, True, True, True] and setCount == 1:
-        prop.remove(sinopiaElement)
+    if check_id == [True, True, True, True] and set_count == 1:
+        prop.remove(sinopia_element)
         print("sinopia element removed")
     
     # else if the id matches AND there are multiple implementation_sets in the sinopia element
     # remove the matching implementation set ONLY 
-    elif check_id == [True, True, True, True] and setCount > 1:
-        sinopiaElement.remove(implementation_set)
+    elif check_id == [True, True, True, True] and set_count > 1:
+        sinopia_element.remove(implementation_set)
         print("implementation_set element removed")
 
 # removeMultID is called if there is more than one case of an id element in the implementation_set 
-def removeMultiID(implementation_set, id, idNum):
-   # for each id element, if there is more than one, only remove the id element that matches the given RT id
-   # if the id element matches the RT id but there is only one id element of that type, this is NOT deleted 
-   for subelement in implementation_set:
-        if subelement.tag == ('{https://uwlib-cams.github.io/sinopia_maps/xsd/}institution') and idNum[0] > 1:
+def remove_multi_id(implementation_set, id, id_num):
+    check_id = []
+    final_check = True 
+
+    # check the RT id elements in the implementation set to see if the id matches 
+    for subelement in implementation_set:
+        if id_num[0] == 1 and subelement.tag == ('{https://uwlib-cams.github.io/sinopia_maps/xsd/}institution'):
             if subelement.text == id[0]:
-                implementation_set.remove(subelement)
-                print("institution element removed")
-        if subelement.tag == ('{https://uwlib-cams.github.io/sinopia_maps/xsd/}resource') and idNum[1] > 1:
+                check_id.append(True)
+            else: 
+                check_id.append(False)
+        if id_num[1] == 1 and subelement.tag == ('{https://uwlib-cams.github.io/sinopia_maps/xsd/}resource'):
             if subelement.text == id[1]:
-                implementation_set.remove(subelement)
-                print("resource element removed")
-        if subelement.tag == ('{https://uwlib-cams.github.io/sinopia_maps/xsd/}format') and idNum[2] > 1:
+                check_id.append(True)
+            else:
+                check_id.append(False)
+        if id_num[2] == 1 and subelement.tag == ('{https://uwlib-cams.github.io/sinopia_maps/xsd/}format'):
             if subelement.text == id[2]:
-                implementation_set.remove(subelement)
-                print("format element removed")
-        if subelement.tag == ('{https://uwlib-cams.github.io/sinopia_maps/xsd/}user') and idNum[3] > 1:
+                check_id.append(True)
+            else:
+                check_id.append(False)
+        if id_num[3] == 1 and subelement.tag == ('{https://uwlib-cams.github.io/sinopia_maps/xsd/}user'):
             if subelement.text == id[3]:
-                implementation_set.remove(subelement)
-                print("user element removed")
+                check_id.append(True)
+            else:
+                check_id.append(False)
+    
+    if len(check_id) == 0:
+        final_check = False
+    else:
+        for i in check_id:
+            print(i)
+            final_check = final_check and i 
+    print(final_check)
+        
+   # for each id element, if there is more than one, only remove the id element that matches the given RT id
+   # if the id element matches the RT id but there is only one id element of that type, this is NOT deleted
+    def remove_elements():
+        for subelement in implementation_set:
+            if subelement.tag == ('{https://uwlib-cams.github.io/sinopia_maps/xsd/}institution') and id_num[0] > 1:
+                if subelement.text == id[0]:
+                    implementation_set.remove(subelement)
+                    print("institution element removed")
+            if subelement.tag == ('{https://uwlib-cams.github.io/sinopia_maps/xsd/}resource') and id_num[1] > 1:
+                if subelement.text == id[1]:
+                    implementation_set.remove(subelement)
+                    print("resource element removed")
+            if subelement.tag == ('{https://uwlib-cams.github.io/sinopia_maps/xsd/}format') and id_num[2] > 1:
+                if subelement.text == id[2]:
+                    implementation_set.remove(subelement)
+                    print("format element removed")
+            if subelement.tag == ('{https://uwlib-cams.github.io/sinopia_maps/xsd/}user') and id_num[3] > 1:
+                if subelement.text == id[3]:
+                    implementation_set.remove(subelement)
+                    print("user element removed")
 
-def checkSinopia(prop, sinopiaElement, id):
+    if final_check == True:
+        remove_elements()
+        
+def check_sinopia(prop, sinopiaElement, id):
     # count all implementation_set elements within a sinopia element
-    setCount = len(sinopiaElement.findall('{https://uwlib-cams.github.io/sinopia_maps/xsd/}implementation_set'))
-
+    set_count = len(sinopiaElement.findall('{https://uwlib-cams.github.io/sinopia_maps/xsd/}implementation_set'))
     # count all id elements within an implementation_set 
     for implementation_set in sinopiaElement:
-        hasInstitution = implementation_set.findall('{https://uwlib-cams.github.io/sinopia_maps/xsd/}institution')
-        hasResource = implementation_set.findall('{https://uwlib-cams.github.io/sinopia_maps/xsd/}resource')
-        hasFormat = implementation_set.findall('{https://uwlib-cams.github.io/sinopia_maps/xsd/}format')
-        hasUser = implementation_set.findall('{https://uwlib-cams.github.io/sinopia_maps/xsd/}user')
+        print(implementation_set.attrib)
+        has_institution = implementation_set.findall('{https://uwlib-cams.github.io/sinopia_maps/xsd/}institution')
+        has_resource = implementation_set.findall('{https://uwlib-cams.github.io/sinopia_maps/xsd/}resource')
+        has_format = implementation_set.findall('{https://uwlib-cams.github.io/sinopia_maps/xsd/}format')
+        has_user = implementation_set.findall('{https://uwlib-cams.github.io/sinopia_maps/xsd/}user')
 
-        idNum = [len(hasInstitution), len(hasResource), len(hasFormat), len(hasUser)]
+        id_num = [len(has_institution), len(has_resource), len(has_format), len(has_user)]
         # if there is only one instance of each id element, call removeSingleID
-        if idNum == [1, 1, 1, 1]:
-            removeSingleID(prop, sinopiaElement, implementation_set, id, setCount)
+        if id_num == [1, 1, 1, 1]:
+            remove_single_id(prop, sinopiaElement, implementation_set, id, set_count)
         # else call removeMultiID
         else:
-            removeMultiID(implementation_set, id, idNum)
+            remove_multi_id(implementation_set, id, id_num)
             
 # get xml files from path
 path = './'
 file_list = os.listdir(path)
-file_list = [ elem for elem in file_list if (elem.endswith('.xml') 
-   and (elem.startswith('prop_set')))]
+file_list = [ elem for elem in file_list if (elem == "prop_set_test.xml")]
 
 # parse tree from file
 for file in file_list:
@@ -125,7 +162,7 @@ for file in file_list:
         if len(hasSinopia_list) == 1:
             for subelement in prop:
                 if subelement.tag == '{https://uwlib-cams.github.io/map_storage/xsd/}sinopia':
-                    checkSinopia(prop, subelement, id)
+                    check_sinopia(prop, subelement, id)
 
     # write updated tree to file 
     tree.write(file, xml_declaration=True, encoding="UTF-8", pretty_print = True)
