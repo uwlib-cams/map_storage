@@ -100,9 +100,7 @@ def remove_multi_id(implementation_set, id, id_num):
         final_check = False
     else:
         for i in check_id:
-            print(i)
             final_check = final_check and i 
-    print(final_check)
         
    # for each id element, if there is more than one, only remove the id element that matches the given RT id
    # if the id element matches the RT id but there is only one id element of that type, this is NOT deleted
