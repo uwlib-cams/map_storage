@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
+   xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdax_p00k</prop_set_label>
    <source_version>v5.0.10</source_version>
    <prop localid_prop="uwmaps_rdax_p00k_xP00016">
@@ -14,6 +14,58 @@
       <prop_iri iri="http://rdaregistry.info/Elements/x/P00017"/>
       <prop_label xml:lang="en">has appellation of RDA entity</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+      <sinopia>
+         <uwsinopia:toolkit
+            url="https://access.rdatoolkit.org/en-US_ala-6ae0a600-b5f5-3391-8827-ef77a66a4a0e"/>
+         <uwsinopia:guidance_set>
+            <uwsinopia:general rt_id="default">
+               <uwsinopia:p>This is the <uwsinopia:strong>default</uwsinopia:strong> guidance for
+                  'has appellation of RDA entity.' But the thing is, if you are looking at the RT
+                  'UWSINOPIA:WAU:rdaEntity:standalone:ries07, you
+                     <uwsinopia:strong>shouldn't</uwsinopia:strong> be seeing this.</uwsinopia:p>
+            </uwsinopia:general>
+            <uwsinopia:general rt_id="UWSINOPIA:WAU:rdaEntity:standalone:ries07">
+               <uwsinopia:p>Here's the <uwsinopia:strong>special</uwsinopia:strong> guidance for the
+                  'standalone' RDA Entity template. This isn't the default guidance. This shouldn't
+                  appear in any template that uses the default guidance.</uwsinopia:p>
+            </uwsinopia:general>
+            <uwsinopia:entity_boundary>true</uwsinopia:entity_boundary>
+            <uwsinopia:recording_method rt_id="default">
+               <uwsinopia:recording_method_option>structured description</uwsinopia:recording_method_option>
+            </uwsinopia:recording_method>
+            <uwsinopia:ses rt_id="default">
+               <uwsinopia:p>Oh just use any old syntax encoding scheme. This is default guidance for
+                  SESs for this property.</uwsinopia:p>
+            </uwsinopia:ses>
+            <uwsinopia:ses rt_id="UWSINOPIA:WAU:rdaEntity:standalone:ries07">
+               <uwsinopia:p>Be sure and use the 'special imaginary standalone RDA Entity template
+                  syntax encoding scheme.'</uwsinopia:p>
+            </uwsinopia:ses>
+            <uwsinopia:transcription_standard rt_id="default">basic</uwsinopia:transcription_standard>
+         </uwsinopia:guidance_set>
+         <uwsinopia:implementation_set
+            localid_implementation_set="uwmaps_rdax_p00k_xP00017_is_d2e28">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaEntity</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>ries07</uwsinopia:user>
+            <uwsinopia:form_order>0.01</uwsinopia:form_order>
+            <uwsinopia:alt_pt_label xml:lang="en">APPELLATION ELEMENTS</uwsinopia:alt_pt_label>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:all_all_subprops>true</uwsinopia:all_all_subprops>
+            </uwsinopia:multiple_prop>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+         <uwsinopia:implementation_set
+            localid_implementation_set="uwmaps_rdax_p00k_xP00017_is_d2e41">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaEntity</uwsinopia:resource>
+            <uwsinopia:format>standalone</uwsinopia:format>
+            <uwsinopia:user>ries07</uwsinopia:user>
+            <uwsinopia:form_order>0.01</uwsinopia:form_order>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdax_p00k_xP00020">
       <prop_iri iri="http://rdaregistry.info/Elements/x/P00020"/>
