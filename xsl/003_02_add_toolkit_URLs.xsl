@@ -8,16 +8,16 @@
     <xsl:output method="xml" indent="1"/>
     <xsl:mode on-no-match="shallow-copy"/>
 
-    <xsl:template match="//uwsinopia:guidance_set[@toolkit_url = '']">
+    <xsl:template match="//uwsinopia:toolkit[@url = '']">
         <xsl:variable name="rdaPropertyNumber" select="
                 concat('rda',
                 substring-after(../../uwmaps:prop_iri/@iri, 'http://rdaregistry.info/Elements/')
                 => replace('/', ':'))"/>
-        <uwsinopia:guidance_set
-            toolkit_url="{document('../xml/RDA_alignments.xml')/alignmentPairs/alignmentPair
+        <uwsinopia:toolkit
+            url="{document('../xml/RDA_alignments.xml')/alignmentPairs/alignmentPair
             [rdaPropertyNumber = $rdaPropertyNumber]/rdaToolkitURL/@uri}">
             <xsl:copy-of select="node()"/>
-        </uwsinopia:guidance_set>
+        </uwsinopia:toolkit>
     </xsl:template>
 
 </xsl:stylesheet>
