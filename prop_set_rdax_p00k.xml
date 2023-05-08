@@ -63,6 +63,11 @@
             <uwsinopia:format>standalone</uwsinopia:format>
             <uwsinopia:user>ries07</uwsinopia:user>
             <uwsinopia:form_order>0.01</uwsinopia:form_order>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:property_selection 
+                  property_iri="http://rdaregistry.info/Elements/i/P40081" 
+                  xml:lang="en">has appellation of item</uwsinopia:property_selection>
+            </uwsinopia:multiple_prop>
             <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
       </sinopia>
