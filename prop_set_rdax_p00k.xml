@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-   xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
+          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdax_p00k</prop_set_label>
    <source_version>v5.0.10</source_version>
    <prop localid_prop="uwmaps_rdax_p00k_xP00016">
@@ -15,8 +15,7 @@
       <prop_label xml:lang="en">has appellation of RDA entity</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-6ae0a600-b5f5-3391-8827-ef77a66a4a0e"/>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-6ae0a600-b5f5-3391-8827-ef77a66a4a0e"/>
          <uwsinopia:guidance_set>
             <uwsinopia:general rt_id="default">
                <uwsinopia:p>This is the <uwsinopia:strong>default</uwsinopia:strong> guidance for
@@ -33,9 +32,16 @@
             <uwsinopia:recording_method rt_id="default">
                <uwsinopia:recording_method_option>structured description</uwsinopia:recording_method_option>
             </uwsinopia:recording_method>
+            <uwsinopia:recording_method rt_id="UWSINOPIA:WAU:rdaEntity:standalone:ries07">
+               <uwsinopia:recording_method_option>identifier</uwsinopia:recording_method_option>
+            </uwsinopia:recording_method>
             <uwsinopia:ses rt_id="default">
                <uwsinopia:p>Oh just use any old syntax encoding scheme. This is default guidance for
                   SESs for this property.</uwsinopia:p>
+               <uwsinopia:ul>
+                  <uwsinopia:li>I might need a list of SESs!</uwsinopia:li>
+                  <uwsinopia:li>with multiple items in the list!!</uwsinopia:li>
+               </uwsinopia:ul>
             </uwsinopia:ses>
             <uwsinopia:ses rt_id="UWSINOPIA:WAU:rdaEntity:standalone:ries07">
                <uwsinopia:p>Be sure and use the 'special imaginary standalone RDA Entity template
@@ -43,30 +49,26 @@
             </uwsinopia:ses>
             <uwsinopia:transcription_standard rt_id="default">basic</uwsinopia:transcription_standard>
          </uwsinopia:guidance_set>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdax_p00k_xP00017_is_d2e28">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdax_p00k_xP00017_is_d2e28">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaEntity</uwsinopia:resource>
             <uwsinopia:format>test</uwsinopia:format>
             <uwsinopia:user>ries07</uwsinopia:user>
             <uwsinopia:form_order>0.01</uwsinopia:form_order>
-            <uwsinopia:alt_pt_label xml:lang="en">APPELLATION ELEMENTS</uwsinopia:alt_pt_label>
+            <uwsinopia:alt_pt_label xml:lang="en">FOR RDA ENTITY TEST RT</uwsinopia:alt_pt_label>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_all_subprops>true</uwsinopia:all_all_subprops>
             </uwsinopia:multiple_prop>
             <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdax_p00k_xP00017_is_d2e41">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdax_p00k_xP00017_is_d2e41">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaEntity</uwsinopia:resource>
             <uwsinopia:format>standalone</uwsinopia:format>
             <uwsinopia:user>ries07</uwsinopia:user>
             <uwsinopia:form_order>0.01</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
-               <uwsinopia:property_selection 
-                  property_iri="http://rdaregistry.info/Elements/i/P40081" 
-                  xml:lang="en">has appellation of item</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40081" xml:lang="en">has appellation of item</uwsinopia:property_selection>
             </uwsinopia:multiple_prop>
             <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
@@ -76,6 +78,45 @@
       <prop_iri iri="http://rdaregistry.info/Elements/x/P00020"/>
       <prop_label xml:lang="en">has authorized access point for RDA entity</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10013"/>
+      <sinopia>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-9badaad7-0d00-3f72-9ae9-d414344e21a5"/>
+         <uwsinopia:guidance_set>
+            <uwsinopia:general rt_id="default">
+               <uwsinopia:p>This is a <uwsinopia:strong>default</uwsinopia:strong> p element.</uwsinopia:p>
+               <uwsinopia:p>Below is a <uwsinopia:strong>default</uwsinopia:strong> list:</uwsinopia:p>
+               <uwsinopia:ul>
+                  <uwsinopia:li>thing one</uwsinopia:li>
+                  <uwsinopia:li>thing two - a <uwsinopia:a href="https://www.lib.washington.edu/cams">link to CAMS
+                  </uwsinopia:a>.</uwsinopia:li>
+               </uwsinopia:ul>
+            </uwsinopia:general>
+            <uwsinopia:ses rt_id="default">
+               <uwsinopia:p>Here's some default SES information for you.</uwsinopia:p>
+               <uwsinopia:p>Here's <uwsinopia:strong>some more</uwsinopia:strong> default SES information for you.</uwsinopia:p>
+            </uwsinopia:ses>
+            <uwsinopia:ses rt_id="UWSINOPIA:WAU:rdaEntity:standalone:ries07">
+               <uwsinopia:p>Here's some CUSTOM SES information for you.</uwsinopia:p>
+               <uwsinopia:p>Here's <uwsinopia:strong>some more</uwsinopia:strong> CUSTOM 
+                  SES information for you.</uwsinopia:p>
+            </uwsinopia:ses>
+         </uwsinopia:guidance_set>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdax_p00k_xP00020_is_d2e133">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaEntity</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:format>standalone</uwsinopia:format>
+            <uwsinopia:user>ries07</uwsinopia:user>
+            <uwsinopia:form_order>0.01</uwsinopia:form_order>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:all_all_subprops>true</uwsinopia:all_all_subprops>
+            </uwsinopia:multiple_prop>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Discogs Masters</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdax_p00k_xP00029">
       <prop_iri iri="http://rdaregistry.info/Elements/x/P00029"/>
