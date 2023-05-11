@@ -9,7 +9,8 @@
     <xsl:output method="xml" indent="1"/>
     <xsl:mode on-no-match="shallow-copy"/>
 
-    <!-- a 'one-off' template for updating prop @localid_prop values to align with 
+    <!-- TO DO : double-check 001_02 and then delete this 
+        a 'one-off' template for updating prop @localid_prop values to align with 
     changes in prop localid generation in 001_02_source_templates.xsl -->
     
     <xsl:template match="uwmaps:prop_set/uwmaps:prop">
