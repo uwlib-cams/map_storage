@@ -16,11 +16,13 @@
         003_02_add_toolkit_URLs.xsl
         005_RDA_hierarchy.xsl 
         But I cannot get this stylesheet to function -->
+    <xsl:output indent="yes"/>
+    <xsl:param name="csv" select="unparsed-text('https://www.rdaregistry.info/csv/Aligns/alignRDA2TK.csv')"/>
     
-    <xsl:template name="convert_csv_to_xml">
+    <xsl:template match="/" name="convert_csv_to_xml">
         <xsl:result-document href="../xml/RDA_alignments.xml">
             <alignmentPairs>
-                <xsl:for-each select="tokenize(unparsed-text('https://www.rdaregistry.info/csv/Aligns/alignRDA2TK.csv'), '\n')">
+                <xsl:for-each select="tokenize($csv, '\n')">
                     <!-- skip header row -->
                     <xsl:if test="not(position()=1)">
                         <alignmentPair>

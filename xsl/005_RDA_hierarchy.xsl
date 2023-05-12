@@ -20,6 +20,7 @@
                         type="image/png"/>
                 </head>
                 <body>
+                    <h1 id="profile" class="h1">Overview of Canonical RDA/RDF Properties</h1>
                     <div>
                         <ul id="BT">
                             <li>
@@ -76,6 +77,9 @@
                         <script src="https://uwlib-cams.github.io/webviews/js/RDA_hierarchy.js"/>
                     </div>
                 </body>
+                <footer>
+                    <p xmlns:dct="http://purl.org/dc/terms/">RDA Vocabularies and RDA Registryare licensed under a <a rel="dct:rights" href="https://creativecommons.org/licenses/by/4.0/deed.en_US"><span property="dct:title">Creative Commons Attribution 4.0 International License.</span></a><br/>Based on a work at <a rel="dct:source" href="http://www.rdaregistry.info/"><span property="dct:title"> http://rdaregistry.info</span></a>.</p>
+                </footer>
             </html>
         </xsl:result-document>
     </xsl:template>
@@ -110,6 +114,10 @@
                                         select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
                                     <xsl:variable name="prop_id"
                                         select="concat('rda', replace($last_8_characters, '/', ':'))"/>
+                                    <xsl:variable name="element_type"
+                                        select="substring($last_8_characters, 1, 1)"/>
+                                    <xsl:variable name="prop_id_end"
+                                        select="substring-after($prop_id, ':')"/>     
                                     <xsl:choose>
                                         <xsl:when test="
                                                 $work_props/rdf:RDF/rdf:Description
@@ -121,8 +129,12 @@
                                                 <xsl:text> (</xsl:text>
                                                 <a
                                                   href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}">
-                                                  <xsl:value-of select="$prop_id"/>
-                                                </a>
+                                                  <xsl:value-of select="$prop_id"/> RDA Toolkit</a>
+                                                <xsl:text>)</xsl:text>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                    href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                    <xsl:value-of select="$prop_id"/> RDA Registry</a>
                                                 <xsl:text>)</xsl:text>
                                             </span>
                                             <xsl:call-template name="find_subprops">
@@ -134,7 +146,10 @@
                                             <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
                                                 (<a
                                                 href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                  ><xsl:value-of select="$prop_id"/></a>)
+                                                  ><xsl:value-of select="$prop_id"/> RDA Toolkit</a>)
+                                                (<a
+                                                href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                <xsl:value-of select="$prop_id"/> RDA Registry</a>)
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </li>
@@ -148,9 +163,17 @@
                                 select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
                             <xsl:variable name="prop_id"
                                 select="concat('rda', replace($last_8_characters, '/', ':'))"/>
-                            <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/> (<a
+                            <xsl:variable name="element_type"
+                                select="substring($last_8_characters, 1, 1)"/>
+                            <xsl:variable name="prop_id_end"
+                                select="substring-after($prop_id, ':')"/>
+                            <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/> 
+                            (<a
                                 href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                    ><xsl:value-of select="$prop_id"/></a>) <xsl:call-template
+                                ><xsl:value-of select="$prop_id"/> RDA Toolkit</a>)
+                            (<a
+                                href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                <xsl:value-of select="$prop_id"/> RDA Registry</a>) <xsl:call-template
                                 name="find_subprops">
                                 <xsl:with-param name="prop_uri" select="$prop_uri"/>
                                 <xsl:with-param name="entity" select="'w'"/>
@@ -185,13 +208,26 @@
                                         select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
                                     <xsl:variable name="prop_id"
                                         select="concat('rda', replace($last_8_characters, '/', ':'))"/>
+                                    <xsl:variable name="element_type"
+                                        select="substring($last_8_characters, 1, 1)"/>
+                                    <xsl:variable name="prop_id_end"
+                                        select="substring-after($prop_id, ':')"/>
                                     <xsl:choose>
                                         <xsl:when
                                             test="$expression_props/rdf:RDF/rdf:Description[rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']][not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])][rdfs:subPropertyOf[@rdf:resource = $prop_uri]]">
-                                            <span class="caret"><xsl:value-of
-                                                  select="rdfs:label[@xml:lang = 'en']"/> (<a
-                                                  href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                  ><xsl:value-of select="$prop_id"/></a>)</span>
+                                            <span class="caret">
+                                                <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                    href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}">
+                                                    <xsl:value-of select="$prop_id"/> RDA Toolkit</a>
+                                                <xsl:text>)</xsl:text>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                    href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                    <xsl:value-of select="$prop_id"/> RDA Registry</a>
+                                                <xsl:text>)</xsl:text>
+                                            </span>
                                             <xsl:call-template name="find_subprops">
                                                 <xsl:with-param name="prop_uri" select="$prop_uri"/>
                                                 <xsl:with-param name="entity" select="'e'"/>
@@ -199,9 +235,12 @@
                                         </xsl:when>
                                         <xsl:otherwise>
                                             <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
-                                                (<a
+                                            (<a
                                                 href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                  ><xsl:value-of select="$prop_id"/></a>)
+                                                ><xsl:value-of select="$prop_id"/> RDA Toolkit</a>)
+                                            (<a
+                                                href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                <xsl:value-of select="$prop_id"/> RDA Registry</a>)
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </li>
@@ -215,9 +254,17 @@
                                 select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
                             <xsl:variable name="prop_id"
                                 select="concat('rda', replace($last_8_characters, '/', ':'))"/>
-                            <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/> (<a
+                            <xsl:variable name="element_type"
+                                select="substring($last_8_characters, 1, 1)"/>
+                            <xsl:variable name="prop_id_end"
+                                select="substring-after($prop_id, ':')"/>
+                            <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/> 
+                            (<a
                                 href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                    ><xsl:value-of select="$prop_id"/></a>) <xsl:call-template
+                                ><xsl:value-of select="$prop_id"/> RDA Toolkit</a>)
+                            (<a
+                                href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                <xsl:value-of select="$prop_id"/> RDA Registry</a>) <xsl:call-template
                                 name="find_subprops">
                                 <xsl:with-param name="prop_uri" select="$prop_uri"/>
                                 <xsl:with-param name="entity" select="'e'"/>
@@ -252,13 +299,26 @@
                                         select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
                                     <xsl:variable name="prop_id"
                                         select="concat('rda', replace($last_8_characters, '/', ':'))"/>
+                                    <xsl:variable name="element_type"
+                                        select="substring($last_8_characters, 1, 1)"/>
+                                    <xsl:variable name="prop_id_end"
+                                        select="substring-after($prop_id, ':')"/>
                                     <xsl:choose>
                                         <xsl:when
                                             test="$manifestation_props/rdf:RDF/rdf:Description[rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']][not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])][rdfs:subPropertyOf[@rdf:resource = $prop_uri]]">
-                                            <span class="caret"><xsl:value-of
-                                                  select="rdfs:label[@xml:lang = 'en']"/> (<a
-                                                  href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                  ><xsl:value-of select="$prop_id"/></a>)</span>
+                                            <span class="caret">
+                                                <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                    href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}">
+                                                    <xsl:value-of select="$prop_id"/> RDA Toolkit</a>
+                                                <xsl:text>)</xsl:text>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                    href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                    <xsl:value-of select="$prop_id"/> RDA Registry</a>
+                                                <xsl:text>)</xsl:text>
+                                            </span>
                                             <xsl:call-template name="find_subprops">
                                                 <xsl:with-param name="prop_uri" select="$prop_uri"/>
                                                 <xsl:with-param name="entity" select="'m'"/>
@@ -266,9 +326,12 @@
                                         </xsl:when>
                                         <xsl:otherwise>
                                             <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
-                                                (<a
+                                            (<a
                                                 href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                  ><xsl:value-of select="$prop_id"/></a>)
+                                                ><xsl:value-of select="$prop_id"/> RDA Toolkit</a>)
+                                            (<a
+                                                href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                <xsl:value-of select="$prop_id"/> RDA Registry</a>)
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </li>
@@ -282,9 +345,17 @@
                                 select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
                             <xsl:variable name="prop_id"
                                 select="concat('rda', replace($last_8_characters, '/', ':'))"/>
-                            <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/> (<a
+                            <xsl:variable name="element_type"
+                                select="substring($last_8_characters, 1, 1)"/>
+                            <xsl:variable name="prop_id_end"
+                                select="substring-after($prop_id, ':')"/>
+                            <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/> 
+                            (<a
                                 href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                    ><xsl:value-of select="$prop_id"/></a>) <xsl:call-template
+                                ><xsl:value-of select="$prop_id"/> RDA Toolkit</a>)
+                            (<a
+                                href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                <xsl:value-of select="$prop_id"/> RDA Registry</a>) <xsl:call-template
                                 name="find_subprops">
                                 <xsl:with-param name="prop_uri" select="$prop_uri"/>
                                 <xsl:with-param name="entity" select="'m'"/>
@@ -319,13 +390,26 @@
                                         select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
                                     <xsl:variable name="prop_id"
                                         select="concat('rda', replace($last_8_characters, '/', ':'))"/>
+                                    <xsl:variable name="element_type"
+                                        select="substring($last_8_characters, 1, 1)"/>
+                                    <xsl:variable name="prop_id_end"
+                                        select="substring-after($prop_id, ':')"/>
                                     <xsl:choose>
                                         <xsl:when
                                             test="$item_props/rdf:RDF/rdf:Description[rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']][not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])][rdfs:subPropertyOf[@rdf:resource = $prop_uri]]">
-                                            <span class="caret"><xsl:value-of
-                                                  select="rdfs:label[@xml:lang = 'en']"/> (<a
-                                                  href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                  ><xsl:value-of select="$prop_id"/></a>)</span>
+                                            <span class="caret">
+                                                <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                    href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}">
+                                                    <xsl:value-of select="$prop_id"/> RDA Toolkit</a>
+                                                <xsl:text>)</xsl:text>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                    href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                    <xsl:value-of select="$prop_id"/> RDA Registry</a>
+                                                <xsl:text>)</xsl:text>
+                                            </span>
                                             <xsl:call-template name="find_subprops">
                                                 <xsl:with-param name="prop_uri" select="$prop_uri"/>
                                                 <xsl:with-param name="entity" select="'i'"/>
@@ -333,9 +417,12 @@
                                         </xsl:when>
                                         <xsl:otherwise>
                                             <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
-                                                (<a
+                                            (<a
                                                 href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                  ><xsl:value-of select="$prop_id"/></a>)
+                                                ><xsl:value-of select="$prop_id"/> RDA Toolkit</a>)
+                                            (<a
+                                                href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                <xsl:value-of select="$prop_id"/> RDA Registry</a>)
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </li>
@@ -349,9 +436,17 @@
                                 select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
                             <xsl:variable name="prop_id"
                                 select="concat('rda', replace($last_8_characters, '/', ':'))"/>
-                            <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/> (<a
+                            <xsl:variable name="element_type"
+                                select="substring($last_8_characters, 1, 1)"/>
+                            <xsl:variable name="prop_id_end"
+                                select="substring-after($prop_id, ':')"/>
+                            <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/> 
+                            (<a
                                 href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                    ><xsl:value-of select="$prop_id"/></a>) <xsl:call-template
+                                ><xsl:value-of select="$prop_id"/> RDA Toolkit</a>)
+                            (<a
+                                href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                <xsl:value-of select="$prop_id"/> RDA Registry</a>)<xsl:call-template
                                 name="find_subprops">
                                 <xsl:with-param name="prop_uri" select="$prop_uri"/>
                                 <xsl:with-param name="entity" select="'i'"/>
@@ -386,13 +481,26 @@
                                         select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
                                     <xsl:variable name="prop_id"
                                         select="concat('rda', replace($last_8_characters, '/', ':'))"/>
+                                    <xsl:variable name="element_type"
+                                        select="substring($last_8_characters, 1, 1)"/>
+                                    <xsl:variable name="prop_id_end"
+                                        select="substring-after($prop_id, ':')"/>
                                     <xsl:choose>
                                         <xsl:when
                                             test="$agent_props/rdf:RDF/rdf:Description[rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']][not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])][rdfs:subPropertyOf[@rdf:resource = $prop_uri]]">
-                                            <span class="caret"><xsl:value-of
-                                                  select="rdfs:label[@xml:lang = 'en']"/> (<a
-                                                  href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                  ><xsl:value-of select="$prop_id"/></a>)</span>
+                                            <span class="caret">
+                                                <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                    href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}">
+                                                    <xsl:value-of select="$prop_id"/> RDA Toolkit</a>
+                                                <xsl:text>)</xsl:text>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                    href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                    <xsl:value-of select="$prop_id"/> RDA Registry</a>
+                                                <xsl:text>)</xsl:text>
+                                            </span>
                                             <xsl:call-template name="find_subprops">
                                                 <xsl:with-param name="prop_uri" select="$prop_uri"/>
                                                 <xsl:with-param name="entity" select="'a'"/>
@@ -400,9 +508,12 @@
                                         </xsl:when>
                                         <xsl:otherwise>
                                             <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
-                                                (<a
+                                            (<a
                                                 href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                  ><xsl:value-of select="$prop_id"/></a>)
+                                                ><xsl:value-of select="$prop_id"/> RDA Toolkit</a>)
+                                            (<a
+                                                href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                <xsl:value-of select="$prop_id"/> RDA Registry</a>)
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </li>
@@ -416,9 +527,17 @@
                                 select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
                             <xsl:variable name="prop_id"
                                 select="concat('rda', replace($last_8_characters, '/', ':'))"/>
-                            <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/> (<a
+                            <xsl:variable name="element_type"
+                                select="substring($last_8_characters, 1, 1)"/>
+                            <xsl:variable name="prop_id_end"
+                                select="substring-after($prop_id, ':')"/>
+                            <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/> 
+                            (<a
                                 href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                    ><xsl:value-of select="$prop_id"/></a>) <xsl:call-template
+                                ><xsl:value-of select="$prop_id"/> RDA Toolkit</a>)
+                            (<a
+                                href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                <xsl:value-of select="$prop_id"/> RDA Registry</a>) <xsl:call-template
                                 name="find_subprops">
                                 <xsl:with-param name="prop_uri" select="$prop_uri"/>
                                 <xsl:with-param name="entity" select="'a'"/>
@@ -453,13 +572,26 @@
                                         select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
                                     <xsl:variable name="prop_id"
                                         select="concat('rda', replace($last_8_characters, '/', ':'))"/>
+                                    <xsl:variable name="element_type"
+                                        select="substring($last_8_characters, 1, 1)"/>
+                                    <xsl:variable name="prop_id_end"
+                                        select="substring-after($prop_id, ':')"/>
                                     <xsl:choose>
                                         <xsl:when
                                             test="$person_props/rdf:RDF/rdf:Description[rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']][not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])][rdfs:subPropertyOf[@rdf:resource = $prop_uri]][rdfs:domain/@rdf:resource = 'http://rdaregistry.info/Elements/c/C10004']">
-                                            <span class="caret"><xsl:value-of
-                                                  select="rdfs:label[@xml:lang = 'en']"/> (<a
-                                                  href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                  ><xsl:value-of select="$prop_id"/></a>)</span>
+                                            <span class="caret">
+                                                <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                    href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}">
+                                                    <xsl:value-of select="$prop_id"/> RDA Toolkit</a>
+                                                <xsl:text>)</xsl:text>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                    href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                    <xsl:value-of select="$prop_id"/> RDA Registry</a>
+                                                <xsl:text>)</xsl:text>
+                                            </span>
                                             <xsl:call-template name="find_subprops">
                                                 <xsl:with-param name="prop_uri" select="$prop_uri"/>
                                                 <xsl:with-param name="entity" select="'a'"/>
@@ -467,9 +599,12 @@
                                         </xsl:when>
                                         <xsl:otherwise>
                                             <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
-                                                (<a
+                                            (<a
                                                 href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                  ><xsl:value-of select="$prop_id"/></a>)
+                                                ><xsl:value-of select="$prop_id"/> RDA Toolkit</a>)
+                                            (<a
+                                                href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                <xsl:value-of select="$prop_id"/> RDA Registry</a>)
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </li>
@@ -483,9 +618,17 @@
                                 select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
                             <xsl:variable name="prop_id"
                                 select="concat('rda', replace($last_8_characters, '/', ':'))"/>
-                            <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/> (<a
+                            <xsl:variable name="element_type"
+                                select="substring($last_8_characters, 1, 1)"/>
+                            <xsl:variable name="prop_id_end"
+                                select="substring-after($prop_id, ':')"/>
+                            <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/> 
+                            (<a
                                 href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                    ><xsl:value-of select="$prop_id"/></a>) <xsl:call-template
+                                ><xsl:value-of select="$prop_id"/> RDA Toolkit</a>)
+                            (<a
+                                href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                <xsl:value-of select="$prop_id"/> RDA Registry</a>) <xsl:call-template
                                 name="find_subprops">
                                 <xsl:with-param name="prop_uri" select="$prop_uri"/>
                                 <xsl:with-param name="entity" select="'a'"/>
@@ -520,13 +663,26 @@
                                         select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
                                     <xsl:variable name="prop_id"
                                         select="concat('rda', replace($last_8_characters, '/', ':'))"/>
+                                    <xsl:variable name="element_type"
+                                        select="substring($last_8_characters, 1, 1)"/>
+                                    <xsl:variable name="prop_id_end"
+                                        select="substring-after($prop_id, ':')"/>
                                     <xsl:choose>
                                         <xsl:when
                                             test="$collective_agent_props/rdf:RDF/rdf:Description[rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']][not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])][rdfs:subPropertyOf[@rdf:resource = $prop_uri]][rdfs:domain/@rdf:resource = 'http://rdaregistry.info/Elements/c/C10011']">
-                                            <span class="caret"><xsl:value-of
-                                                  select="rdfs:label[@xml:lang = 'en']"/> (<a
-                                                  href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                  ><xsl:value-of select="$prop_id"/></a>)</span>
+                                            <span class="caret">
+                                                <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                    href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}">
+                                                    <xsl:value-of select="$prop_id"/> RDA Toolkit</a>
+                                                <xsl:text>)</xsl:text>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                    href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                    <xsl:value-of select="$prop_id"/> RDA Registry</a>
+                                                <xsl:text>)</xsl:text>
+                                            </span>
                                             <xsl:call-template name="find_subprops">
                                                 <xsl:with-param name="prop_uri" select="$prop_uri"/>
                                                 <xsl:with-param name="entity" select="'a'"/>
@@ -534,9 +690,12 @@
                                         </xsl:when>
                                         <xsl:otherwise>
                                             <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
-                                                (<a
+                                            (<a
                                                 href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                  ><xsl:value-of select="$prop_id"/></a>)
+                                                ><xsl:value-of select="$prop_id"/> RDA Toolkit</a>)
+                                            (<a
+                                                href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                <xsl:value-of select="$prop_id"/> RDA Registry</a>)
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </li>
@@ -550,9 +709,17 @@
                                 select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
                             <xsl:variable name="prop_id"
                                 select="concat('rda', replace($last_8_characters, '/', ':'))"/>
-                            <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/> (<a
+                            <xsl:variable name="element_type"
+                                select="substring($last_8_characters, 1, 1)"/>
+                            <xsl:variable name="prop_id_end"
+                                select="substring-after($prop_id, ':')"/>
+                            <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/> 
+                            (<a
                                 href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                    ><xsl:value-of select="$prop_id"/></a>) <xsl:call-template
+                                ><xsl:value-of select="$prop_id"/> RDA Toolkit</a>)
+                            (<a
+                                href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                <xsl:value-of select="$prop_id"/> RDA Registry</a>)<xsl:call-template
                                 name="find_subprops">
                                 <xsl:with-param name="prop_uri" select="$prop_uri"/>
                                 <xsl:with-param name="entity" select="'a'"/>
@@ -587,13 +754,26 @@
                                         select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
                                     <xsl:variable name="prop_id"
                                         select="concat('rda', replace($last_8_characters, '/', ':'))"/>
+                                    <xsl:variable name="element_type"
+                                        select="substring($last_8_characters, 1, 1)"/>
+                                    <xsl:variable name="prop_id_end"
+                                        select="substring-after($prop_id, ':')"/>
                                     <xsl:choose>
                                         <xsl:when
                                             test="$corporate_body_props/rdf:RDF/rdf:Description[rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']][not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])][rdfs:subPropertyOf[@rdf:resource = $prop_uri]][rdfs:domain/@rdf:resource = 'http://rdaregistry.info/Elements/c/C10005']">
-                                            <span class="caret"><xsl:value-of
-                                                  select="rdfs:label[@xml:lang = 'en']"/> (<a
-                                                  href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                  ><xsl:value-of select="$prop_id"/></a>)</span>
+                                            <span class="caret">
+                                                <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                    href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}">
+                                                    <xsl:value-of select="$prop_id"/> RDA Toolkit</a>
+                                                <xsl:text>)</xsl:text>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                    href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                    <xsl:value-of select="$prop_id"/> RDA Registry</a>
+                                                <xsl:text>)</xsl:text>
+                                            </span>
                                             <xsl:call-template name="find_subprops">
                                                 <xsl:with-param name="prop_uri" select="$prop_uri"/>
                                                 <xsl:with-param name="entity" select="'a'"/>
@@ -601,9 +781,12 @@
                                         </xsl:when>
                                         <xsl:otherwise>
                                             <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
-                                                (<a
+                                            (<a
                                                 href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                  ><xsl:value-of select="$prop_id"/></a>)
+                                                ><xsl:value-of select="$prop_id"/> RDA Toolkit</a>)
+                                            (<a
+                                                href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                <xsl:value-of select="$prop_id"/> RDA Registry</a>)
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </li>
@@ -617,9 +800,17 @@
                                 select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
                             <xsl:variable name="prop_id"
                                 select="concat('rda', replace($last_8_characters, '/', ':'))"/>
-                            <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/> (<a
+                            <xsl:variable name="element_type"
+                                select="substring($last_8_characters, 1, 1)"/>
+                            <xsl:variable name="prop_id_end"
+                                select="substring-after($prop_id, ':')"/>
+                            <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/> 
+                            (<a
                                 href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                    ><xsl:value-of select="$prop_id"/></a>) <xsl:call-template
+                                ><xsl:value-of select="$prop_id"/> RDA Toolkit</a>)
+                            (<a
+                                href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                <xsl:value-of select="$prop_id"/> RDA Registry</a>) <xsl:call-template
                                 name="find_subprops">
                                 <xsl:with-param name="prop_uri" select="$prop_uri"/>
                                 <xsl:with-param name="entity" select="'a'"/>
@@ -654,13 +845,26 @@
                                         select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
                                     <xsl:variable name="prop_id"
                                         select="concat('rda', replace($last_8_characters, '/', ':'))"/>
+                                    <xsl:variable name="element_type"
+                                        select="substring($last_8_characters, 1, 1)"/>
+                                    <xsl:variable name="prop_id_end"
+                                        select="substring-after($prop_id, ':')"/>
                                     <xsl:choose>
                                         <xsl:when
                                             test="$family_props/rdf:RDF/rdf:Description[rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']][not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])][rdfs:subPropertyOf[@rdf:resource = $prop_uri]][rdfs:domain/@rdf:resource = 'http://rdaregistry.info/Elements/c/C10008']">
-                                            <span class="caret"><xsl:value-of
-                                                  select="rdfs:label[@xml:lang = 'en']"/> (<a
-                                                  href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                  ><xsl:value-of select="$prop_id"/></a>)</span>
+                                            <span class="caret">
+                                                <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                    href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}">
+                                                    <xsl:value-of select="$prop_id"/> RDA Toolkit</a>
+                                                <xsl:text>)</xsl:text>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                    href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                    <xsl:value-of select="$prop_id"/> RDA Registry</a>
+                                                <xsl:text>)</xsl:text>
+                                            </span>
                                             <xsl:call-template name="find_subprops">
                                                 <xsl:with-param name="prop_uri" select="$prop_uri"/>
                                                 <xsl:with-param name="entity" select="'a'"/>
@@ -668,9 +872,12 @@
                                         </xsl:when>
                                         <xsl:otherwise>
                                             <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
-                                                (<a
+                                            (<a
                                                 href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                  ><xsl:value-of select="$prop_id"/></a>)
+                                                ><xsl:value-of select="$prop_id"/> RDA Toolkit</a>)
+                                            (<a
+                                                href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                <xsl:value-of select="$prop_id"/> RDA Registry</a>)
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </li>
@@ -684,13 +891,21 @@
                                 select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
                             <xsl:variable name="prop_id"
                                 select="concat('rda', replace($last_8_characters, '/', ':'))"/>
-                            <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/> (<a
+                            <xsl:variable name="element_type"
+                                select="substring($last_8_characters, 1, 1)"/>
+                            <xsl:variable name="prop_id_end"
+                                select="substring-after($prop_id, ':')"/>
+                            <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/> 
+                            (<a
                                 href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                    ><xsl:value-of select="$prop_id"/></a>) <xsl:call-template
-                                name="find_subprops">
-                                <xsl:with-param name="prop_uri" select="$prop_uri"/>
-                                <xsl:with-param name="entity" select="'a'"/>
-                            </xsl:call-template>
+                                ><xsl:value-of select="$prop_id"/> RDA Toolkit</a>)
+                            (<a
+                                href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                <xsl:value-of select="$prop_id"/> RDA Registry</a>) <xsl:call-template
+                                    name="find_subprops">
+                                    <xsl:with-param name="prop_uri" select="$prop_uri"/>
+                                    <xsl:with-param name="entity" select="'a'"/>
+                                </xsl:call-template>
                         </li>
                     </xsl:otherwise>
                 </xsl:choose>
@@ -721,13 +936,34 @@
                                         select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
                                     <xsl:variable name="prop_id"
                                         select="concat('rda', replace($last_8_characters, '/', ':'))"/>
+                                    <xsl:variable name="element_type"
+                                        select="substring($last_8_characters, 1, 1)"/>
+                                    <xsl:variable name="prop_id_end"
+                                        select="substring-after($prop_id, ':')"/>
                                     <xsl:choose>
                                         <xsl:when
                                             test="$nomen_props/rdf:RDF/rdf:Description[rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']][not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])][rdfs:subPropertyOf[@rdf:resource = $prop_uri]]">
-                                            <span class="caret"><xsl:value-of
-                                                  select="rdfs:label[@xml:lang = 'en']"/> (<a
-                                                  href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                  ><xsl:value-of select="$prop_id"/></a>)</span>
+                                            <span class="caret">
+                                                <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
+                                                                                         <span class="caret">
+                                                <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                    href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}">
+                                                    <xsl:value-of select="$prop_id"/> RDA Toolkit</a>
+                                                <xsl:text>)</xsl:text>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                    href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                    <xsl:value-of select="$prop_id"/> RDA Registry</a>
+                                                <xsl:text>)</xsl:text>
+                                            </span>             <xsl:text>)</xsl:text>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                    href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                    <xsl:value-of select="$prop_id"/> RDA Registry</a>
+                                                <xsl:text>)</xsl:text>
+                                            </span>
                                             <xsl:call-template name="find_subprops">
                                                 <xsl:with-param name="prop_uri" select="$prop_uri"/>
                                                 <xsl:with-param name="entity" select="'n'"/>
@@ -735,9 +971,12 @@
                                         </xsl:when>
                                         <xsl:otherwise>
                                             <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
-                                                (<a
+                                            (<a
                                                 href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                  ><xsl:value-of select="$prop_id"/></a>)
+                                                ><xsl:value-of select="$prop_id"/> RDA Toolkit</a>)
+                                            (<a
+                                                href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                <xsl:value-of select="$prop_id"/> RDA Registry</a>)
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </li>
@@ -751,9 +990,16 @@
                                 select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
                             <xsl:variable name="prop_id"
                                 select="concat('rda', replace($last_8_characters, '/', ':'))"/>
-                            <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/> (<a
+                            <xsl:variable name="element_type"
+                                select="substring($last_8_characters, 1, 1)"/>
+                            <xsl:variable name="prop_id_end"
+                                select="substring-after($prop_id, ':')"/>
+                            (<a
                                 href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                    ><xsl:value-of select="$prop_id"/></a>) <xsl:call-template
+                                ><xsl:value-of select="$prop_id"/> RDA Toolkit</a>)
+                            (<a
+                                href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                <xsl:value-of select="$prop_id"/> RDA Registry</a>)<xsl:call-template
                                 name="find_subprops">
                                 <xsl:with-param name="prop_uri" select="$prop_uri"/>
                                 <xsl:with-param name="entity" select="'n'"/>
@@ -788,13 +1034,26 @@
                                         select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
                                     <xsl:variable name="prop_id"
                                         select="concat('rda', replace($last_8_characters, '/', ':'))"/>
+                                    <xsl:variable name="element_type"
+                                        select="substring($last_8_characters, 1, 1)"/>
+                                    <xsl:variable name="prop_id_end"
+                                        select="substring-after($prop_id, ':')"/>
                                     <xsl:choose>
                                         <xsl:when
                                             test="$place_props/rdf:RDF/rdf:Description[rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']][not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])][rdfs:subPropertyOf[@rdf:resource = $prop_uri]]">
-                                            <span class="caret"><xsl:value-of
-                                                  select="rdfs:label[@xml:lang = 'en']"/> (<a
-                                                  href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                  ><xsl:value-of select="$prop_id"/></a>)</span>
+                                            <span class="caret">
+                                                <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                    href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}">
+                                                    <xsl:value-of select="$prop_id"/> RDA Toolkit</a>
+                                                <xsl:text>)</xsl:text>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                    href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                    <xsl:value-of select="$prop_id"/> RDA Registry</a>
+                                                <xsl:text>)</xsl:text>
+                                            </span>
                                             <xsl:call-template name="find_subprops">
                                                 <xsl:with-param name="prop_uri" select="$prop_uri"/>
                                                 <xsl:with-param name="entity" select="'p'"/>
@@ -802,9 +1061,12 @@
                                         </xsl:when>
                                         <xsl:otherwise>
                                             <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
-                                                (<a
+                                            (<a
                                                 href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                  ><xsl:value-of select="$prop_id"/></a>)
+                                                ><xsl:value-of select="$prop_id"/> RDA Toolkit</a>)
+                                            (<a
+                                                href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                <xsl:value-of select="$prop_id"/> RDA Registry</a>)
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </li>
@@ -818,9 +1080,16 @@
                                 select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
                             <xsl:variable name="prop_id"
                                 select="concat('rda', replace($last_8_characters, '/', ':'))"/>
+                            <xsl:variable name="element_type"
+                                select="substring($last_8_characters, 1, 1)"/>
+                            <xsl:variable name="prop_id_end"
+                                select="substring-after($prop_id, ':')"/>
                             <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/> (<a
                                 href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                    ><xsl:value-of select="$prop_id"/></a>) <xsl:call-template
+                                ><xsl:value-of select="$prop_id"/> RDA Toolkit</a>)
+                            (<a
+                                href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                <xsl:value-of select="$prop_id"/> RDA Registry</a>) <xsl:call-template
                                 name="find_subprops">
                                 <xsl:with-param name="prop_uri" select="$prop_uri"/>
                                 <xsl:with-param name="entity" select="'p'"/>
@@ -855,13 +1124,26 @@
                                         select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
                                     <xsl:variable name="prop_id"
                                         select="concat('rda', replace($last_8_characters, '/', ':'))"/>
+                                    <xsl:variable name="element_type"
+                                        select="substring($last_8_characters, 1, 1)"/>
+                                    <xsl:variable name="prop_id_end"
+                                        select="substring-after($prop_id, ':')"/>
                                     <xsl:choose>
                                         <xsl:when
                                             test="$timespan_props/rdf:RDF/rdf:Description[rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']][not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])][rdfs:subPropertyOf[@rdf:resource = $prop_uri]]">
-                                            <span class="caret"><xsl:value-of
-                                                  select="rdfs:label[@xml:lang = 'en']"/> (<a
-                                                  href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                  ><xsl:value-of select="$prop_id"/></a>)</span>
+                                            <span class="caret">
+                                                <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                    href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}">
+                                                    <xsl:value-of select="$prop_id"/> RDA Toolkit</a>
+                                                <xsl:text>)</xsl:text>
+                                                <xsl:text> (</xsl:text>
+                                                <a
+                                                    href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                    <xsl:value-of select="$prop_id"/> RDA Registry</a>
+                                                <xsl:text>)</xsl:text>
+                                            </span>
                                             <xsl:call-template name="find_subprops">
                                                 <xsl:with-param name="prop_uri" select="$prop_uri"/>
                                                 <xsl:with-param name="entity" select="'t'"/>
@@ -869,9 +1151,12 @@
                                         </xsl:when>
                                         <xsl:otherwise>
                                             <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
-                                                (<a
+                                            (<a
                                                 href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                                  ><xsl:value-of select="$prop_id"/></a>)
+                                                ><xsl:value-of select="$prop_id"/> RDA Toolkit</a>)
+                                            (<a
+                                                href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                                <xsl:value-of select="$prop_id"/> RDA Registry</a>)
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </li>
@@ -885,9 +1170,17 @@
                                 select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
                             <xsl:variable name="prop_id"
                                 select="concat('rda', replace($last_8_characters, '/', ':'))"/>
-                            <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/> (<a
+                            <xsl:variable name="element_type"
+                                select="substring($last_8_characters, 1, 1)"/>
+                            <xsl:variable name="prop_id_end"
+                                select="substring-after($prop_id, ':')"/>
+                            <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/> 
+                            (<a
                                 href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}"
-                                    ><xsl:value-of select="$prop_id"/></a>) <xsl:call-template
+                                ><xsl:value-of select="$prop_id"/> RDA Toolkit</a>)
+                            (<a
+                                href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                <xsl:value-of select="$prop_id"/> RDA Registry</a>) <xsl:call-template
                                 name="find_subprops">
                                 <xsl:with-param name="prop_uri" select="$prop_uri"/>
                                 <xsl:with-param name="entity" select="'t'"/>
@@ -903,17 +1196,17 @@
         <xsl:param name="entity"/>
         <xsl:variable name="toolkit_URLs" select="doc('../xml/RDA_alignments.xml')"/>
         <xsl:if test="
-                doc(concat('https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/', $entity, '.xml'))/
-                rdf:RDF/rdf:Description
-                [rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]
-                [not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]/
-                rdfs:subPropertyOf[@rdf:resource = $prop_uri]">
+            doc(concat('https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/', $entity, '.xml'))/
+            rdf:RDF/rdf:Description
+            [rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]
+            [not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]/
+            rdfs:subPropertyOf[@rdf:resource = $prop_uri]">
             <ul class="nested">
                 <xsl:for-each select="
-                        doc(concat('https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/', $entity, '.xml'))/
-                        rdf:RDF/rdf:Description
-                        [rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]
-                        [not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]">
+                    doc(concat('https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/', $entity, '.xml'))/
+                    rdf:RDF/rdf:Description
+                    [rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]
+                    [not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]">
                     <xsl:sort select="rdfs:label[@xml:lang = 'en']"/>
                     <xsl:variable name="subprop_uri" select="@rdf:about"/>
                     <xsl:if test="rdfs:subPropertyOf[@rdf:resource = $prop_uri]">
@@ -922,19 +1215,29 @@
                                 select="substring-after($subprop_uri, 'http://rdaregistry.info/Elements/')"/>
                             <xsl:variable name="prop_id"
                                 select="concat('rda', replace($last_8_characters, '/', ':'))"/>
+                            <xsl:variable name="element_type"
+                                select="substring($last_8_characters, 1, 1)"/>
+                            <xsl:variable name="prop_id_end"
+                                select="substring-after($prop_id, ':')"/>
                             <xsl:choose>
                                 <xsl:when test="
-                                        doc(concat('https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/', $entity, '.xml'))/
-                                        rdf:RDF/rdf:Description
-                                        [rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]
-                                        [not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]
-                                        [rdfs:subPropertyOf[@rdf:resource = $subprop_uri]]">
+                                    doc(concat('https://github.com/RDARegistry/RDA-Vocabularies/raw/master/xml/Elements/', $entity, '.xml'))/
+                                    rdf:RDF/rdf:Description
+                                    [rdf:type[@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']]
+                                    [not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]
+                                    [rdfs:subPropertyOf[@rdf:resource = $subprop_uri]]">
                                     <span class="caret">
                                         <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
                                         <xsl:text> (</xsl:text>
                                         <a
                                             href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}">
-                                            <xsl:value-of select="$prop_id"/>
+                                            <xsl:value-of select="$prop_id"/> RDA Toolkit
+                                        </a>
+                                        <xsl:text>)</xsl:text>
+                                        <xsl:text> (</xsl:text>
+                                        <a
+                                            href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                            <xsl:value-of select="$prop_id"/> RDA Registry
                                         </a>
                                         <xsl:text>)</xsl:text>
                                     </span>
@@ -946,9 +1249,14 @@
                                 <xsl:otherwise>
                                     <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
                                     <xsl:text> (</xsl:text>
-                                    <a href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}">
-                                        <xsl:value-of select="$prop_id"/>
-                                    </a>
+                                    <a
+                                        href="{$toolkit_URLs/alignmentPairs/alignmentPair[rdaPropertyNumber=$prop_id]/rdaToolkitURL/@uri}">
+                                        <xsl:value-of select="$prop_id"/> RDA Toolkit</a>
+                                    <xsl:text>)</xsl:text>
+                                    <xsl:text> (</xsl:text>
+                                    <a
+                                        href="http://www.rdaregistry.info/Elements/{$element_type}/#{$prop_id_end}">
+                                        <xsl:value-of select="$prop_id"/> RDA Registry</a>
                                     <xsl:text>)</xsl:text>
                                 </xsl:otherwise>
                             </xsl:choose>
