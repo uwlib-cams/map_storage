@@ -21,7 +21,7 @@
                 </head>
                 <body>
                     <h1 id="profile" class="h1">Overview of Canonical RDA/RDF Properties</h1>
-                    <div>
+                    <div class="list-container">
                         <ul id="BT">
                             <li>
                                 <span class="caret">RDA Work Properties</span>
