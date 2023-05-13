@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<alignmentPairs xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<alignmentPairs xmlns:dcam="http://purl.org/dc/dcam/"
+                xmlns:owl="http://www.w3.org/2002/07/owl#"
+                xmlns:prov="http://www.w3.org/ns/prov#"
                 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
                 xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
                 xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
                 xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-                xmlns:dcam="http://purl.org/dc/dcam/"
-                xmlns:prov="http://www.w3.org/ns/prov#"
-                xmlns:owl="http://www.w3.org/2002/07/owl#">
+                xmlns:xs="http://www.w3.org/2001/XMLSchema">
    <alignmentPair>
       <rdaPropertyNumber>rdaa:P50001</rdaPropertyNumber>
       <rdaToolkitURL uri="https://access.rdatoolkit.org/en-US_ala-df0a3c28-c6f4-3ac6-8154-d3b57fff6c11"/>
