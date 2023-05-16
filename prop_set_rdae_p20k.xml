@@ -3696,13 +3696,8 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.06</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-a9d30566-a1ef-3878-be3a-082a872ea553"/>
-            <uwsinopia:remark xml:lang="en">Do not record an IRI for an authority record</uwsinopia:remark>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia RDA nomen</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
+            <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
