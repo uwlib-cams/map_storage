@@ -21,6 +21,7 @@
                 </head>
                 <body>
                     <h1 id="profile" class="h1">Overview of Canonical RDA/RDF Properties</h1>
+                    <p><i>Note: RDA Toolkit links require an RDA Toolkit account to access</i></p>
                     <div class="list-container">
                         <ul id="BT">
                             <li>
@@ -78,7 +79,7 @@
                     </div>
                 </body>
                 <footer>
-                    <p xmlns:dct="http://purl.org/dc/terms/">RDA Vocabularies and RDA Registry are licensed under a <a rel="dct:rights" href="https://creativecommons.org/licenses/by/4.0/deed.en_US"><span property="dct:title">Creative Commons Attribution 4.0 International License.</span></a><br/>Based on a work at <a rel="dct:source" href="http://www.rdaregistry.info/"><span property="dct:title"> http://rdaregistry.info</span></a>.</p>
+                    <p xmlns:dct="http://purl.org/dc/terms/">RDA Vocabularies and RDA Registry are licensed under a <a rel="dct:rights" href="https://creativecommons.org/licenses/by/4.0/deed.en_US"><span property="dct:title">Creative Commons Attribution 4.0 International License.</span></a><br/>This page is based on a work at <a rel="dct:source" href="http://www.rdaregistry.info/"><span property="dct:title"> http://rdaregistry.info</span></a>.</p>
                 </footer>
             </html>
         </xsl:result-document>
