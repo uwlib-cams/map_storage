@@ -263,12 +263,12 @@
             <uwsinopia:format>accessPoint</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.02</uwsinopia:form_order>
-            <uwsinopia:alt_pt_label xml:lang="en">is authorized/variant access point for work/expression of</uwsinopia:alt_pt_label>
+            <uwsinopia:alt_pt_label xml:lang="en">is authorized access point for work/expression of</uwsinopia:alt_pt_label>
             <uwsinopia:multiple_prop>
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/n/P80173" xml:lang="en">is authorized access point for work group of</uwsinopia:property_selection>
-               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/n/P80080" xml:lang="en">is variant access point for work of</uwsinopia:property_selection>
+               <!--               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/n/P80080" xml:lang="en">is variant access point for work of</uwsinopia:property_selection>-->
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/n/P80095" xml:lang="en">is authorized access point for expression of</uwsinopia:property_selection>
-               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/n/P80096" xml:lang="en">is variant access point for expression of</uwsinopia:property_selection>
+               <!--               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/n/P80096" xml:lang="en">is variant access point for expression of</uwsinopia:property_selection>-->
             </uwsinopia:multiple_prop>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-bc9a81fc-1f14-30d2-87b0-4ef2a2052acd"/>
             <uwsinopia:required>true</uwsinopia:required>
@@ -294,7 +294,7 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.03</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-dc32c4f9-c977-3aaf-b330-3cf873dbbfbb"/>
-            <uwsinopia:remark xml:lang="en">Prefer one of the following terms: "access point"(rdaterm:1001), "authorized access point"(rdaterm:1012), "variant access point"(rdaterm:1102)</uwsinopia:remark>
+            <uwsinopia:remark xml:lang="en">Prefer one of the following terms: "access point"(rdaterm:1001), "authorized access point"(rdaterm:1012)</uwsinopia:remark>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -343,6 +343,19 @@
       <prop_iri iri="http://rdaregistry.info/Elements/n/P80113"/>
       <prop_label xml:lang="en">is equivalent to</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10012"/>
+      <sinopia>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-d1f2d3c5-4611-34f8-9283-df64be38a3c0"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdan_p80k_nP80113_is_d2e688">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaNomen</uwsinopia:resource>
+            <uwsinopia:format>accessPoint</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.11</uwsinopia:form_order>
+            <uwsinopia:remark xml:lang="en">Record a variant access point as a literal for the entity for which the nomen being described is an authorized access point</uwsinopia:remark>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdan_p80k_nP80138">
       <prop_iri iri="http://rdaregistry.info/Elements/n/P80138"/>
@@ -788,7 +801,7 @@
             <uwsinopia:format>accessPoint</uwsinopia:format>
             <uwsinopia:format>identifier</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.11</uwsinopia:form_order>
+            <uwsinopia:form_order>0.12</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_all_subprops>true</uwsinopia:all_all_subprops>
             </uwsinopia:multiple_prop>

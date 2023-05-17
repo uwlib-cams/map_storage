@@ -99,6 +99,18 @@
                <uwsinopia:p>Here's <uwsinopia:strong>some more</uwsinopia:strong> CUSTOM 
                   SES information for you.</uwsinopia:p>
             </uwsinopia:ses>
+            <uwsinopia:options rt_id="default">
+               <uwsinopia:a href="https://access.rdatoolkit.org/en-US_ala-9badaad7-0d00-3f72-9ae9-d414344e21a5/div_shx_lsx_43b"
+                  >Record a value that is selected within a vocabulary encoding scheme as an authorized form of RDA Entity: 
+                  access point for RDA entity.</uwsinopia:a>
+               <uwsinopia:a href="https://access.rdatoolkit.org/en-US_ala-9badaad7-0d00-3f72-9ae9-d414344e21a5/div_utf_k1w_qhb"
+                  >Construct an access point by applying a string encoding scheme to the values of one or more other 
+                  elements.</uwsinopia:a>
+            </uwsinopia:options>
+            <uwsinopia:examples rt_id="default">
+               <uwsinopia:p>The RDA entity with this AAP</uwsinopia:p>
+               <uwsinopia:p>The other RDA Entity with this AAP</uwsinopia:p>
+            </uwsinopia:examples>
          </uwsinopia:guidance_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdax_p00k_xP00020_is_d2e133">
             <uwsinopia:institution>WAU</uwsinopia:institution>
