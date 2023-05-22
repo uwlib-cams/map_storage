@@ -1316,27 +1316,23 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-8ba8340e-1266-322c-ac0b-24f2ec260084"/>
+         <uwsinopia:guidance_set>
+            <uwsinopia:general rt_id="UWSINOPIA:WAU:rdaWork:aggregating_printMonograph:CAMS">
+               <uwsinopia:p>For single unit monographs and multipart monographs issued simultaneously, record value "static plan"(rdaep:1001).</uwsinopia:p>
+               <uwsinopia:p>For multipart monographs issued over time, record value "successive determinate plan"(rdaep:1004).</uwsinopia:p>
+            </uwsinopia:general>
+         </uwsinopia:guidance_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10365_is_d2e2564">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.10</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-8ba8340e-1266-322c-ac0b-24f2ec260084"/>
             <uwsinopia:uri_pt>
                <uwsinopia:default_uri iri="http://rdaregistry.info/termList/RDAExtensionPlan/1001"/>
                <uwsinopia:default_uri_label xml:lang="en">static plan</uwsinopia:default_uri_label>
-            </uwsinopia:uri_pt>
-         </uwsinopia:implementation_set>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10365_is_d2e2588">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.10</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-8ba8340e-1266-322c-ac0b-24f2ec260084"/>
-            <uwsinopia:remark xml:lang="en">For single unit monographs and multipart monographs issued simultaneously, record value "static plan"(rdaep:1001). For multipart monographs issued over time, record value "successive determinate plan"(rdaep:1004).</uwsinopia:remark>
-            <uwsinopia:uri_pt>
             </uwsinopia:uri_pt>
          </uwsinopia:implementation_set>
       </sinopia>

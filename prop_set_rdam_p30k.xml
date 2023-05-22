@@ -1419,9 +1419,15 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.27</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-d9676281-26fe-3751-ae5a-d45689d80171"/>
-            <uwsinopia:remark xml:lang="en">Record a parallel place of manufacture as a separate value of this element</uwsinopia:remark>
+            <uwsinopia:remark xml:lang="en">Prefer recording an IRI for a place. Record an unstructured description within a value of Manifestation: manufacture statement</uwsinopia:remark>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:literal_pt/>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>GEONAMES all (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_TGN (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </uwmaps:prop>
@@ -1440,8 +1446,13 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.29</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-f6396d3f-6883-3ad2-84f1-d0714cfd42a0"/>
+            <uwsinopia:remark xml:lang="en">Prefer recording an IRI for a timespan. Record an unstructured description within a value of Manifestation: manufacture statement</uwsinopia:remark>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:literal_pt/>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </uwmaps:prop>
@@ -1798,9 +1809,15 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.14</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-6bd2f401-d85e-3cdc-9151-b0ff84c51806"/>
-            <uwsinopia:remark xml:lang="en">Record a parallel place of production as a separate value of this element</uwsinopia:remark>
+            <uwsinopia:remark xml:lang="en">Prefer recording an IRI for a place. Record an unstructured description within a value of Manifestation: production statement</uwsinopia:remark>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:literal_pt/>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>GEONAMES all (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_TGN (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </uwmaps:prop>
@@ -1819,8 +1836,13 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.16</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-34b5a5fd-dede-3020-97f6-6b4e1111568c"/>
+            <uwsinopia:remark xml:lang="en">Prefer recording an IRI for a timespan. Record an unstructured description within a value of Manifestation: production statement</uwsinopia:remark>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:literal_pt/>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </uwmaps:prop>
@@ -1839,9 +1861,15 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.18</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-b569c353-c792-3617-8c83-d974466ccc02"/>
-            <uwsinopia:remark xml:lang="en">Record a parallel place of publication as a separate value of this element</uwsinopia:remark>
+            <uwsinopia:remark xml:lang="en">Prefer recording an IRI for a place. Record an unstructured description within a value of Manifestation: publication statement</uwsinopia:remark>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:literal_pt/>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>GEONAMES all (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_TGN (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </uwmaps:prop>
@@ -1860,8 +1888,13 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.20</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-26b84eaa-054e-3c8c-8933-8760b9b2046f"/>
+            <uwsinopia:remark xml:lang="en">Prefer recording an IRI for a timespan. Record an unstructured description within a value of Manifestation: publication statement</uwsinopia:remark>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:literal_pt/>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </uwmaps:prop>
@@ -2631,6 +2664,11 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
          <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-2e047c4a-393b-35d0-bf77-4ddf00900f31"/>
+         <uwsinopia:guidance_set>
+            <uwsinopia:general rt_id="default">
+               <uwsinopia:p>Appropriate vocabulary encoding schemes include <uwsinopia:a href="https://creativecommons.org/licenses/">Creative Commons</uwsinopia:a>, <uwsinopia:a href="https://rightsstatements.org/en/statements/">Rights Statements</uwsinopia:a>, <uwsinopia:a href="https://www.oclc.org/content/dam/oclc/digitalregistry/506F_vocabulary.pdf">Standardized terminology for access restriction</uwsinopia:a></uwsinopia:p>
+            </uwsinopia:general>
+         </uwsinopia:guidance_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30k_mP30146_is_d2e4064">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
@@ -2638,6 +2676,7 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.53</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-2e047c4a-393b-35d0-bf77-4ddf00900f31"/>
+            <uwsinopia:remark xml:lang="en">Appropriate vocabulary encoding schemes include Creative Commons, Rights Statements, Standardized terminology for access restriction</uwsinopia:remark>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
@@ -2651,6 +2690,11 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
          <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-83c70834-07c2-38f5-823d-579c4d77008d"/>
+         <uwsinopia:guidance_set>
+            <uwsinopia:general rt_id="default">
+               <uwsinopia:p>Appropriate vocabulary encoding schemes include <uwsinopia:a href="https://creativecommons.org/licenses/">Creative Commons</uwsinopia:a>, <uwsinopia:a href="https://rightsstatements.org/en/statements/">Rights Statements</uwsinopia:a></uwsinopia:p>
+               </uwsinopia:general>
+         </uwsinopia:guidance_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30k_mP30145_is_d2e4098">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
@@ -2658,8 +2702,13 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.52</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-83c70834-07c2-38f5-823d-579c4d77008d"/>
+            <uwsinopia:remark xml:lang="en">Appropriate vocabulary encoding schemes include Creative Commons, Rights Statements</uwsinopia:remark>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:literal_pt/>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </uwmaps:prop>
@@ -3856,9 +3905,15 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.23</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-5e4b0696-b177-34a4-9671-7cb0cdec37bd"/>
-            <uwsinopia:remark xml:lang="en">Record a parallel place of distribution as a separate value of this element</uwsinopia:remark>
+            <uwsinopia:remark xml:lang="en">Prefer recording an IRI for a place. Record an unstructured description within a value of Manifestation: distribution statement</uwsinopia:remark>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:literal_pt/>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>GEONAMES all (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_TGN (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </uwmaps:prop>
@@ -3877,8 +3932,13 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.25</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-65ea44c3-a78e-3883-9d14-6ef34c77067a"/>
+            <uwsinopia:remark xml:lang="en">Prefer recording an IRI for a timespan. Record an unstructured description within a value of Manifestation: distribution statement</uwsinopia:remark>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:literal_pt/>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </uwmaps:prop>
@@ -4123,6 +4183,11 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
          <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-8bf95674-3203-3ba8-a55d-50a44343cb2d"/>
+         <uwsinopia:guidance_set>
+            <uwsinopia:general rt_id="default">
+               <uwsinopia:p>Alternative vocabulary encoding schemes include <uwsinopia:a href="https://www.w3.org/community/reports/a11y-discov-vocab/CG-FINAL-vocabulary-20230330/">Schema.org Accessibility Properties for Discoverability Vocabulary</uwsinopia:a></uwsinopia:p>
+            </uwsinopia:general>
+         </uwsinopia:guidance_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30k_mP30452_is_d2e6413">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
@@ -4130,6 +4195,7 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.45</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-8bf95674-3203-3ba8-a55d-50a44343cb2d"/>
+            <uwsinopia:remark xml:lang="en">Alternative vocabulary encoding schemes include Schema.org Accessibility Properties for Discoverability Vocabulary</uwsinopia:remark>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
