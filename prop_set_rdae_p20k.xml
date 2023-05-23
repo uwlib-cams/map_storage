@@ -120,6 +120,7 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.37</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-39f1cb9a-19bc-3189-bbc6-24f2b48871f7"/>
+            <uwsinopia:required>true</uwsinopia:required>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -1028,7 +1029,7 @@
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20321"/>
       <prop_label xml:lang="en">has extent of expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
-      <sinopia>
+<!--      <sinopia>
          <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-effe3ac0-cb54-3ec0-be6b-80a20dcf38e1"/>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20k_eP20321_is_d2e2004">
             <uwsinopia:institution>WAU</uwsinopia:institution>
@@ -1041,7 +1042,7 @@
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
-      </sinopia>
+      </sinopia>-->
    </prop>
    <prop localid_prop="uwmaps_rdae_p20k_eP20200">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20200"/>
