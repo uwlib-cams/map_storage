@@ -816,6 +816,29 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30007"/>
       <prop_label xml:lang="en">has copyright date</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-7d88fb17-4269-35ae-9534-e7d3c658f1ce"/>
+         <uwsinopia:guidance_set>
+            <uwsinopia:recording_method rt_id="default">
+               <uwsinopia:recording_method_option>IRI</uwsinopia:recording_method_option>
+               <uwsinopia:recording_method_option>unstructured description</uwsinopia:recording_method_option>
+            </uwsinopia:recording_method>
+         </uwsinopia:guidance_set>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30k_mP30280_is_d2e3408">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.21</uwsinopia:form_order>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-7d88fb17-4269-35ae-9534-e7d3c658f1ce"/>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </uwmaps:prop>
    <uwmaps:prop xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
                 xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
@@ -2235,19 +2258,6 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30280"/>
       <prop_label xml:lang="en">has manifestation copyright statement</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
-      <sinopia>
-         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-7d88fb17-4269-35ae-9534-e7d3c658f1ce"/>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30k_mP30280_is_d2e3408">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.21</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-7d88fb17-4269-35ae-9534-e7d3c658f1ce"/>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:literal_pt/>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </uwmaps:prop>
    <uwmaps:prop xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
                 xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
