@@ -817,20 +817,20 @@
       <prop_label xml:lang="en">has copyright date</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
       <sinopia>
-         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-7d88fb17-4269-35ae-9534-e7d3c658f1ce"/>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-452cb3af-3c8e-3c20-8d59-2362ad325a09"/>
          <uwsinopia:guidance_set>
             <uwsinopia:recording_method rt_id="default">
                <uwsinopia:recording_method_option>IRI</uwsinopia:recording_method_option>
                <uwsinopia:recording_method_option>unstructured description</uwsinopia:recording_method_option>
             </uwsinopia:recording_method>
          </uwsinopia:guidance_set>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30k_mP30280_is_d2e3408">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30k_mP30007_is_d2e1257">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.21</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-7d88fb17-4269-35ae-9534-e7d3c658f1ce"/>
+            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-452cb3af-3c8e-3c20-8d59-2362ad325a09"/>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -2676,7 +2676,8 @@
          <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-2e047c4a-393b-35d0-bf77-4ddf00900f31"/>
          <uwsinopia:guidance_set>
             <uwsinopia:general rt_id="default">
-               <uwsinopia:p>Appropriate vocabulary encoding schemes include <uwsinopia:a href="https://creativecommons.org/licenses/">Creative Commons</uwsinopia:a>, <uwsinopia:a href="https://rightsstatements.org/en/statements/">Rights Statements</uwsinopia:a></uwsinopia:p>
+               <uwsinopia:p>Appropriate vocabulary encoding schemes include <uwsinopia:a href="https://creativecommons.org/licenses/">Creative Commons</uwsinopia:a>, <uwsinopia:a href="https://rightsstatements.org/en/statements/">Rights Statements</uwsinopia:a>
+               </uwsinopia:p>
             </uwsinopia:general>
          </uwsinopia:guidance_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30k_mP30146_is_d2e4064">
@@ -2706,8 +2707,9 @@
          <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-83c70834-07c2-38f5-823d-579c4d77008d"/>
          <uwsinopia:guidance_set>
             <uwsinopia:general rt_id="default">
-               <uwsinopia:p>Appropriate vocabulary encoding schemes include <uwsinopia:a href="https://creativecommons.org/licenses/">Creative Commons</uwsinopia:a>, <uwsinopia:a href="https://rightsstatements.org/en/statements/">Rights Statements</uwsinopia:a>, <uwsinopia:a href="https://www.oclc.org/content/dam/oclc/digitalregistry/506F_vocabulary.pdf">Standardized terminology for access restriction</uwsinopia:a></uwsinopia:p>
-               </uwsinopia:general>
+               <uwsinopia:p>Appropriate vocabulary encoding schemes include <uwsinopia:a href="https://creativecommons.org/licenses/">Creative Commons</uwsinopia:a>, <uwsinopia:a href="https://rightsstatements.org/en/statements/">Rights Statements</uwsinopia:a>, <uwsinopia:a href="https://www.oclc.org/content/dam/oclc/digitalregistry/506F_vocabulary.pdf">Standardized terminology for access restriction</uwsinopia:a>
+               </uwsinopia:p>
+            </uwsinopia:general>
          </uwsinopia:guidance_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30k_mP30145_is_d2e4098">
             <uwsinopia:institution>WAU</uwsinopia:institution>
@@ -4200,7 +4202,8 @@
          <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-8bf95674-3203-3ba8-a55d-50a44343cb2d"/>
          <uwsinopia:guidance_set>
             <uwsinopia:general rt_id="default">
-               <uwsinopia:p>Alternative vocabulary encoding schemes include <uwsinopia:a href="https://www.w3.org/community/reports/a11y-discov-vocab/CG-FINAL-vocabulary-20230330/">Schema.org Accessibility Properties for Discoverability Vocabulary</uwsinopia:a></uwsinopia:p>
+               <uwsinopia:p>Alternative vocabulary encoding schemes include <uwsinopia:a href="https://www.w3.org/community/reports/a11y-discov-vocab/CG-FINAL-vocabulary-20230330/">Schema.org Accessibility Properties for Discoverability Vocabulary</uwsinopia:a>
+               </uwsinopia:p>
             </uwsinopia:general>
          </uwsinopia:guidance_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30k_mP30452_is_d2e6413">
