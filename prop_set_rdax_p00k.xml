@@ -107,6 +107,11 @@
                   >Construct an access point by applying a string encoding scheme to the values of one or more other 
                   elements.</uwsinopia:a>
             </uwsinopia:options>
+            <uwsinopia:mgds>
+               <uwsinopia:mgd>MG: Corporate Bodies</uwsinopia:mgd>
+               <uwsinopia:mgd>MG: Corporate Body: Additional elements and designations in authorized access point for corporate body</uwsinopia:mgd>
+               <uwsinopia:mgd>MG: Expression: Script</uwsinopia:mgd>
+            </uwsinopia:mgds>
             <uwsinopia:examples rt_id="default">
                <uwsinopia:p>The RDA entity with this AAP</uwsinopia:p>
                <uwsinopia:p>The other RDA Entity with this AAP</uwsinopia:p>
