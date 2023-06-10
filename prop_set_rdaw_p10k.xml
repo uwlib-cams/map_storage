@@ -4191,7 +4191,7 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.17</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-5ee35816-8c52-31fa-8d71-3d7748494082"/>
-            <uwsinopia:repeatable ordered="true">true</uwsinopia:repeatable>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
                   <uwsinopia:authority_urn>LOC all subjects (QA)</uwsinopia:authority_urn>
