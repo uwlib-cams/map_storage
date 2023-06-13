@@ -131,7 +131,6 @@ def check_sinopia(prop, sinopiaElement, id):
     set_count = len(sinopiaElement.findall('{https://uwlib-cams.github.io/sinopia_maps/xsd/}implementation_set'))
     # count all id elements within an implementation_set 
     for implementation_set in sinopiaElement:
-        print(implementation_set.attrib)
         has_institution = implementation_set.findall('{https://uwlib-cams.github.io/sinopia_maps/xsd/}institution')
         has_resource = implementation_set.findall('{https://uwlib-cams.github.io/sinopia_maps/xsd/}resource')
         has_format = implementation_set.findall('{https://uwlib-cams.github.io/sinopia_maps/xsd/}format')
@@ -148,7 +147,8 @@ def check_sinopia(prop, sinopiaElement, id):
 # get xml files from path
 path = './'
 file_list = os.listdir(path)
-file_list = [ elem for elem in file_list if (elem == "prop_set_test.xml")]
+file_list = [ elem for elem in file_list if (elem.endswith('.xml') 
+    and (elem.startswith('prop_set_rd') or elem.startswith('prop_set_uw')))]
 
 # parse tree from file
 for file in file_list:
