@@ -451,15 +451,6 @@
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-647848a8-d63a-3c80-8493-cb238788cc3e"/>
             <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10428_is_d2e878">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>test</uwsinopia:format>
-            <uwsinopia:user>cspayne</uwsinopia:user>
-            <uwsinopia:form_order>0.0000001</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-647848a8-d63a-3c80-8493-cb238788cc3e"/>
-            <uwsinopia:uri_pt/>
-         </uwsinopia:implementation_set>
       </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaw_p10k_wP10253">
@@ -3636,7 +3627,6 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>test</uwsinopia:format>
             <uwsinopia:user>ries07</uwsinopia:user>
-            <uwsinopia:user>cspayne</uwsinopia:user>
             <uwsinopia:form_order>0.01</uwsinopia:form_order>
             <uwsinopia:alt_pt_label xml:lang="en">ALTERNATE PT LABEL HERE</uwsinopia:alt_pt_label>
             <uwsinopia:multiple_prop>
