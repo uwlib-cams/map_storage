@@ -9,6 +9,26 @@
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50157"/>
       <prop_label xml:lang="en">is abridger agent of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10002"/>
+      <sinopia>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-16970499-9540-3aa3-9255-b58d164924c1"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50k_aP50157_is_d2e20">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaAgent</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>cspayne</uwsinopia:user>
+            <uwsinopia:form_order>0.1</uwsinopia:form_order>
+            <uwsinopia:alt_pt_label xml:lang="eng">ALT SINGLE PROP ABRIDGER AGENT OF</uwsinopia:alt_pt_label>
+            <uwsinopia:remark_url/>
+            <uwsinopia:remark xml:lang="eng"> This is a test of an alt label with a single prop</uwsinopia:remark>
+            <uwsinopia:language_suppressed>true</uwsinopia:language_suppressed>
+            <uwsinopia:required>true</uwsinopia:required>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:literal_pt>
+               <uwsinopia:default_literal xml:lang="eng">test default literal</uwsinopia:default_literal>
+               <uwsinopia:validation_datatype>Date and time with or without timezone</uwsinopia:validation_datatype>
+            </uwsinopia:literal_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaa_p50k_aP50766">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50766"/>
@@ -19,31 +39,150 @@
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50917"/>
       <prop_label xml:lang="en">is abridger corporate body of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10005"/>
+      <sinopia>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-29481169-585b-3ef2-bdbe-b41276707a8d"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50k_aP50917_is_d2e128">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaAgent</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>cspayne</uwsinopia:user>
+            <uwsinopia:form_order>0.001</uwsinopia:form_order>
+            <uwsinopia:remark_url/>
+            <uwsinopia:literal_pt>
+               <uwsinopia:date_default>true</uwsinopia:date_default>
+            </uwsinopia:literal_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaa_p50k_aP51068">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P51068"/>
       <prop_label xml:lang="en">is abridger family of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10008"/>
+      <sinopia>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-6bc5ca8a-f35d-3f7d-86a2-fb4dc5ea034a"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50k_aP51068_is_d2e165">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaAgent</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>cspayne</uwsinopia:user>
+            <uwsinopia:form_order>0.0001</uwsinopia:form_order>
+            <uwsinopia:remark_url/>
+            <uwsinopia:literal_pt>
+               <uwsinopia:userId_default>true</uwsinopia:userId_default>
+            </uwsinopia:literal_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaa_p50k_aP50615">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50615"/>
       <prop_label xml:lang="en">is abridger person of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10004"/>
+      <sinopia>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-84d1053e-41d3-3a75-8861-b04a13394d79"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50k_aP50615_is_d2e201">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaAgent</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>cspayne</uwsinopia:user>
+            <uwsinopia:form_order>0.00001</uwsinopia:form_order>
+            <uwsinopia:remark_url/>
+            <uwsinopia:literal_pt>
+               <uwsinopia:validation_regex>test regex yay</uwsinopia:validation_regex>
+            </uwsinopia:literal_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaa_p50k_aP50458">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50458"/>
       <prop_label xml:lang="en">is academic supervisor of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10004"/>
+      <sinopia>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-82cd135a-9893-3f39-8827-7be9ac1b8301"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50k_aP50458_is_d2e237">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaAgent</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>cspayne</uwsinopia:user>
+            <uwsinopia:form_order>0.000001</uwsinopia:form_order>
+            <uwsinopia:remark_url/>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>AGROVOC (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+               <uwsinopia:lookup_default_iri iri="http://id.loc.gov/vocabulary/mscript/a"/>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaa_p50k_aP50373">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50373"/>
       <prop_label xml:lang="en">has access point for agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10002"/>
+      <sinopia>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-64be4105-f1ad-3fc6-8e6a-cc0bf74fbf7e"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50k_aP50373_is_d2e278">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaAgent</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>cspayne</uwsinopia:user>
+            <uwsinopia:form_order>0.0000001</uwsinopia:form_order>
+            <uwsinopia:remark_url/>
+            <uwsinopia:uri_pt>
+               <uwsinopia:default_uri iri="http://id.loc.gov/vocabulary/mscript/a"/>
+               <uwsinopia:default_uri_label xml:lang="eng">default uri label</uwsinopia:default_uri_label>
+            </uwsinopia:uri_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaa_p50k_aP50374">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50374"/>
       <prop_label xml:lang="en">has access point for collective agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10011"/>
+      <sinopia>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-1cc16b9a-64ec-3def-841c-f66bb61ccc03"/>
+         <uwsinopia:guidance_set>
+            <uwsinopia:general rt_id="default">
+               <uwsinopia:p>This is default guidance</uwsinopia:p>
+            </uwsinopia:general>
+            <uwsinopia:entity_boundary>true</uwsinopia:entity_boundary>
+            <uwsinopia:recording_method rt_id="default">
+               <uwsinopia:recording_method_option>unstructured description</uwsinopia:recording_method_option>
+               <uwsinopia:recording_method_option>IRI</uwsinopia:recording_method_option>
+            </uwsinopia:recording_method>
+            <uwsinopia:ses rt_id="default">
+               <uwsinopia:p>Test ses</uwsinopia:p>
+               <uwsinopia:ol>
+                  <uwsinopia:li>1. one</uwsinopia:li>
+                  <uwsinopia:li>2. two</uwsinopia:li>
+               </uwsinopia:ol>
+            </uwsinopia:ses>
+            <uwsinopia:transcription_standard rt_id="default">normalized</uwsinopia:transcription_standard>
+            <uwsinopia:options rt_id="default">
+               <uwsinopia:a href="https://access.rdatoolkit.org/en-US_ala-9badaad7-0d00-3f72-9ae9-d414344e21a5/div_shx_lsx_43b">Record a value that is selected within a vocabulary encoding scheme as an authorized form of RDA Entity: 
+                  access point for RDA entity.</uwsinopia:a>
+               <uwsinopia:a href="https://access.rdatoolkit.org/en-US_ala-9badaad7-0d00-3f72-9ae9-d414344e21a5/div_utf_k1w_qhb">Construct an access point by applying a string encoding scheme to the values of one or more other 
+                  elements.</uwsinopia:a>
+            </uwsinopia:options>
+            <uwsinopia:mgds>
+               <uwsinopia:mgd>MG: Attributes: Agent</uwsinopia:mgd>
+               <uwsinopia:mgd>MG: Access Point Syntax</uwsinopia:mgd>
+            </uwsinopia:mgds>
+            <uwsinopia:examples rt_id="default">
+               <uwsinopia:p>this is a default example.</uwsinopia:p>
+            </uwsinopia:examples>
+         </uwsinopia:guidance_set>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50k_aP50374_is_d2e361">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaAgent</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>cspayne</uwsinopia:user>
+            <uwsinopia:form_order>0.00000001</uwsinopia:form_order>
+            <uwsinopia:remark_url/>
+            <uwsinopia:uri_pt>
+               <uwsinopia:default_uri iri="http://id.loc.gov/vocabulary/mscript/a"/>
+            </uwsinopia:uri_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaa_p50k_aP50375">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50375"/>
@@ -229,6 +368,50 @@
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50378"/>
       <prop_label xml:lang="en">has appellation of agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10002"/>
+      <sinopia>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-c210adcc-037f-3058-b00b-023cd0eb20c2"/>
+         <uwsinopia:guidance_set>
+            <uwsinopia:general rt_id="UWSINOPIA:WAU:rdaAgent:test:cspayne">
+               this is general guidance with <uwsinopia:b>bold text</uwsinopia:b> and
+               <uwsinopia:p>new paragraphs</uwsinopia:p>
+            </uwsinopia:general>
+            <uwsinopia:recording_method rt_id="UWSINOPIA:WAU:rdaAgent:test:cspayne">
+               <uwsinopia:recording_method_option>IRI</uwsinopia:recording_method_option>
+            </uwsinopia:recording_method>
+            <uwsinopia:ses rt_id="UWSINOPIA:WAU:rdaAgent:test:cspayne">
+               <uwsinopia:p>test ses</uwsinopia:p>
+            </uwsinopia:ses>
+            <uwsinopia:transcription_standard rt_id="UWSINOPIA:WAU:rdaAgent:test:cspayne">normalized</uwsinopia:transcription_standard>
+            <uwsinopia:options rt_id="UWSINOPIA:WAU:rdaAgent:test:cspayne">
+               <uwsinopia:a href="https://access.rdatoolkit.org/en-US_ala-9badaad7-0d00-3f72-9ae9-d414344e21a5/div_shx_lsx_43b">Record a value that is selected within a vocabulary encoding scheme as an authorized form of RDA Entity: 
+                  access point for RDA entity.</uwsinopia:a>
+            </uwsinopia:options>
+            <uwsinopia:examples rt_id="UWSINOPIA:WAU:rdaAgent:test:cspayne">
+               <uwsinopia:p>this is an example</uwsinopia:p>
+            </uwsinopia:examples>
+         </uwsinopia:guidance_set>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaa_p50k_aP50378_is_d2e717">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaAgent</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>cspayne</uwsinopia:user>
+            <uwsinopia:form_order>0.01</uwsinopia:form_order>
+            <uwsinopia:alt_pt_label xml:lang="eng">ALT MULTI PROP APPELLATION</uwsinopia:alt_pt_label>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
+            </uwsinopia:multiple_prop>
+            <uwsinopia:remark_url/>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Bibbi authorities Form</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GEONAMES all (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>CERL person (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+               <uwsinopia:lookup_default_iri iri="http://id.loc.gov/vocabulary/mscript/a"/>
+               <uwsinopia:lookup_default_iri_label xml:lang="eng">default iri label</uwsinopia:lookup_default_iri_label>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaa_p50k_aP50379">
       <prop_iri iri="http://rdaregistry.info/Elements/a/P50379"/>
