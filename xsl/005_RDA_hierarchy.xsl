@@ -7,6 +7,7 @@
     version="2.0">
 
     <xsl:output method="html"/>
+    <xsl:include href="https://uwlib-cams.github.io/webviews/xsl/CC0-footer.xsl"/>
 
     <xsl:template match="/">
         <xsl:result-document href="../html/RDA_hierarchy.html">
@@ -78,11 +79,11 @@
                         <script src="https://uwlib-cams.github.io/webviews/js/RDA_hierarchy.js"/>
                     </div>
                 </body>
-                <footer>
-                    <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
-                    <br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0">
-                    Creative Commons Attribution 4.0 International License</a> and is based on data published at the <a property="http://purl.org/dc/terms/source" href="http://www.rdaregistry.info"> RDA Registry</a>.</p>   
-                </footer>
+                <xsl:call-template name="CC0-footer-rda-pages">
+                    <xsl:with-param name="resource_title"
+                        select="'Overview of Canonical RDA/RDF Properties'"/>
+                    <xsl:with-param name="org" select="'cams'"/>
+                </xsl:call-template>
             </html>
         </xsl:result-document>
     </xsl:template>
