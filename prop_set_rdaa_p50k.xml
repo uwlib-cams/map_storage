@@ -372,7 +372,7 @@
          <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-c210adcc-037f-3058-b00b-023cd0eb20c2"/>
          <uwsinopia:guidance_set>
             <uwsinopia:general rt_id="UWSINOPIA:WAU:rdaAgent:test:cspayne">
-               this is general guidance with <uwsinopia:b>bold text</uwsinopia:b> and
+               <uwsinopia:p> is general guidance with </uwsinopia:p>
                <uwsinopia:p>new paragraphs</uwsinopia:p>
             </uwsinopia:general>
             <uwsinopia:recording_method rt_id="UWSINOPIA:WAU:rdaAgent:test:cspayne">

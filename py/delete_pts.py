@@ -7,6 +7,8 @@ import lxml.etree as ET
 import os
 import re
 
+## PROMPT FUNCTION
+
 # prompt user for resource template id 
 def prompt(): 
     id_prompt = dedent("""Enter resource template name
@@ -15,8 +17,11 @@ For example: UWSINOPIA_WAU_rdaManifestation_printMonograph_CAMS > """)
 
     # divide input string into sections (should be 5 sections with current id format)
     split = id.split("_")
+    id_name = id.replace("_", ":")
+    # add full id as last in array
+    split.append(id_name)
 
-    if len(split) == 5:
+    if len(split) == 6:
         return split
     
     # if id is not a valid format, re-prompt user input 
@@ -28,13 +33,21 @@ For example: UWSINOPIA_WAU_rdaManifestation_printMonograph_CAMS > """)
         else:
             exit(0)
 
-# prompt() returns array of sections of id [UWSINOPIA, instution, resource, format, user]
-id = prompt()
-
-# remove UWSINOPIA from id array 
-id.pop(0)
-
 ## REMOVAL FUNCTIONS 
+
+# if there are multiple implementation_sets, or an implementation_seT with multiple ids
+# guidance elements that match the rt_id must be removed 
+def check_guidance(sinopia_element, guidance_element, id_name):
+    
+    for subprop in guidance_element:
+        if "rt_id" in subprop.attrib:
+            if subprop.attrib["rt_id"] == id_name:
+                guidance_element.remove(subprop)
+                print("guidance removed")
+
+    if len(list(guidance_element)) == 0:
+        sinopia_element.remove(guidance_element)
+        print("guidance set removed")
 
 # removeSingleID is called only if there is one case of each id element in the implementation_set 
 def remove_single_id(prop, sinopia_element, implementation_set, id, set_count):
@@ -64,7 +77,6 @@ def remove_single_id(prop, sinopia_element, implementation_set, id, set_count):
         prop.remove(sinopia_element)
         print("sinopia element removed")
         edited = True
-        print(edited)
     
     # else if the id matches AND there are multiple implementation_sets in the sinopia element
     # remove the matching implementation set ONLY 
@@ -72,13 +84,17 @@ def remove_single_id(prop, sinopia_element, implementation_set, id, set_count):
         sinopia_element.remove(implementation_set)
         print("implementation_set element removed")
         edited = True
-        print(edited)
+
+        # remove guidance only if it matches the rt id
+        for subelement in sinopia_element:
+            if subelement.tag == '{https://uwlib-cams.github.io/sinopia_maps/xsd/}guidance_set':
+                check_guidance(sinopia_element, subelement, id[4])
         
     return edited
 
 
 # removeMultID is called if there is more than one case of an id element in the implementation_set 
-def remove_multi_id(implementation_set, id, id_num):
+def remove_multi_id(sinopia_element, implementation_set, id, id_num):
     check_id = []
     final_check = True 
     edited = False
@@ -139,16 +155,23 @@ def remove_multi_id(implementation_set, id, id_num):
                     edited = True 
         return edited 
 
+    # rt_id found in implementation_set, remove those elements and check if guidance matches rt_id
     if final_check == True:
         edited = remove_elements()
+
+        # remove guidance only if it matches the rt id
+        for subelement in sinopia_element:
+            if subelement.tag == '{https://uwlib-cams.github.io/sinopia_maps/xsd/}guidance_set':
+                check_guidance(sinopia_element, subelement, id[4])
     
     return edited 
-        
-def check_sinopia(prop, sinopiaElement, id):
+
+def check_sinopia(prop, sinopia_element, id):
+
     # count all implementation_set elements within a sinopia element
-    set_count = len(sinopiaElement.findall('{https://uwlib-cams.github.io/sinopia_maps/xsd/}implementation_set'))
+    set_count = len(sinopia_element.findall('{https://uwlib-cams.github.io/sinopia_maps/xsd/}implementation_set'))
     # count all id elements within an implementation_set 
-    for implementation_set in sinopiaElement:
+    for implementation_set in sinopia_element:
         has_institution = implementation_set.findall('{https://uwlib-cams.github.io/sinopia_maps/xsd/}institution')
         has_resource = implementation_set.findall('{https://uwlib-cams.github.io/sinopia_maps/xsd/}resource')
         has_format = implementation_set.findall('{https://uwlib-cams.github.io/sinopia_maps/xsd/}format')
@@ -157,11 +180,13 @@ def check_sinopia(prop, sinopiaElement, id):
         id_num = [len(has_institution), len(has_resource), len(has_format), len(has_user)]
         # if there is only one instance of each id element, call removeSingleID
         if id_num == [1, 1, 1, 1]:
-            edited = remove_single_id(prop, sinopiaElement, implementation_set, id, set_count)
+            edited = remove_single_id(prop, sinopia_element, implementation_set, id, set_count)
         # else call removeMultiID
         else:
-            edited = remove_multi_id(implementation_set, id, id_num)
+            edited = remove_multi_id(sinopia_element, implementation_set, id, id_num)
     return edited
+
+## FORMAT FUNCTION
 
 # format XML file
 def format_file(file):
@@ -181,6 +206,15 @@ def format_file(file):
     with open(file, "w") as wfile:
         wfile.write(new_xml)
             
+
+## MAIN
+
+# prompt() returns array of sections of id [UWSINOPIA, instution, resource, format, user]
+id = prompt()
+
+# remove UWSINOPIA from id array 
+id.pop(0)
+
 # get xml files from path
 path = './'
 file_list = os.listdir(path)
@@ -201,7 +235,7 @@ for file in file_list:
                     edited = check_sinopia(prop, subelement, id)
                     file_edited = edited or file_edited
 
-    # write updated tree to file
+    # write updated tree to file (only if file was changed)
     if file_edited == True:
         tree.write(file, xml_declaration=True, encoding="UTF-8")
         format_file(file)
