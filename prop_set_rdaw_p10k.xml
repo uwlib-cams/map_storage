@@ -331,22 +331,9 @@
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.04</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-086aad00-3bd2-3cc1-8dd0-52a5353b227b"/>
-            <uwsinopia:remark xml:lang="en">Do not record an IRI for an authority record</uwsinopia:remark>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia RDA nomen</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10331_is_d2e667">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.06</uwsinopia:form_order>
+            <uwsinopia:form_order>0.04</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-086aad00-3bd2-3cc1-8dd0-52a5353b227b"/>
             <uwsinopia:remark xml:lang="en">Do not record an IRI for an authority record</uwsinopia:remark>
             <uwsinopia:lookup_pt>
@@ -367,22 +354,9 @@
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.06</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-02cb1078-a733-3a1a-b20b-8be2ff0dc834"/>
-            <uwsinopia:remark xml:lang="en">Do not record an IRI for an authority record</uwsinopia:remark>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia RDA nomen</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10401_is_d2e734">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.04</uwsinopia:form_order>
+            <uwsinopia:form_order>0.06</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-02cb1078-a733-3a1a-b20b-8be2ff0dc834"/>
             <uwsinopia:remark xml:lang="en">Do not record an IRI for an authority record</uwsinopia:remark>
             <uwsinopia:lookup_pt>
@@ -1564,22 +1538,9 @@
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.08</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-5d7d0e35-b230-3fab-bd2c-8f34880ecfdc"/>
-            <uwsinopia:remark xml:lang="en">Do not record an IRI for the work being described</uwsinopia:remark>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia RDA nomen</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10400_is_d2e3103">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.07</uwsinopia:form_order>
+            <uwsinopia:form_order>0.08</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-5d7d0e35-b230-3fab-bd2c-8f34880ecfdc"/>
             <uwsinopia:remark xml:lang="en">Do not record an IRI for the work being described</uwsinopia:remark>
             <uwsinopia:lookup_pt>
@@ -2520,23 +2481,9 @@
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.07</uwsinopia:form_order>
-            <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-90d71d36-67b7-3d32-a16c-f6996a162432"/>
-            <uwsinopia:remark xml:lang="en">Do not record an IRI for the work being described</uwsinopia:remark>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia RDA nomen</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10002_is_d2e4925">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.08</uwsinopia:form_order>
+            <uwsinopia:form_order>0.07</uwsinopia:form_order>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-90d71d36-67b7-3d32-a16c-f6996a162432"/>
             <uwsinopia:remark xml:lang="en">Do not record an IRI for the work being described</uwsinopia:remark>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
