@@ -444,10 +444,12 @@
             <uwsinopia:format>identifier</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.02</uwsinopia:form_order>
-            <uwsinopia:alt_pt_label xml:lang="en">is identifier for work/expression of</uwsinopia:alt_pt_label>
+            <uwsinopia:alt_pt_label xml:lang="en">is identifier for work/expression/manifestation/item of</uwsinopia:alt_pt_label>
             <uwsinopia:multiple_prop>
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/n/P80172" xml:lang="en">is identifier for work group of</uwsinopia:property_selection>
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/n/P80046" xml:lang="en">is identifier for expression of</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/n/P80048" xml:lang="en">is identifier for manifestation of</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/n/P80047" xml:lang="en">is identifier for item of</uwsinopia:property_selection>
             </uwsinopia:multiple_prop>
             <uwsinopia:remark_url iri="https://access.rdatoolkit.org/en-US_ala-a0732819-a43a-3a57-a999-359d8f4b8438"/>
             <uwsinopia:required>true</uwsinopia:required>
@@ -455,6 +457,8 @@
                <uwsinopia:authorities>
                   <uwsinopia:authority_urn>Sinopia RDA work</uwsinopia:authority_urn>
                   <uwsinopia:authority_urn>Sinopia RDA expression</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Sinopia RDA manifestation</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Sinopia RDA item</uwsinopia:authority_urn>
                </uwsinopia:authorities>
             </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
