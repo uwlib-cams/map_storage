@@ -1,6 +1,6 @@
 # This program is designed to remove RT id information from prop_set files
 # when provided a valid RT id
-# last updated: 4/28/2023
+# last updated: 6/20/2023
 
 from textwrap import dedent
 import lxml.etree as ET
