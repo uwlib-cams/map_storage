@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-   xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
+          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdai_p40k</prop_set_label>
-   <source_version>v5.0.10</source_version>
+   <source_version>v5.0.12</source_version>
    <prop localid_prop="uwmaps_rdai_p40k_iP40080">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40080"/>
       <prop_label xml:lang="en">has access point for item</prop_label>
@@ -15,10 +15,8 @@
       <prop_label xml:lang="en">is held with</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-660e72e5-d08c-3077-a1f1-cdd1f561537b"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40029_is_d2e28">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-660e72e5-d08c-3077-a1f1-cdd1f561537b"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40029_is_d2e28">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -58,10 +56,8 @@
       <prop_label xml:lang="en">has binder agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-59589bd6-470f-3ae2-b04f-924844a2712a"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40013_is_d2e106">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-59589bd6-470f-3ae2-b04f-924844a2712a"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40013_is_d2e106">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -109,10 +105,8 @@
       <prop_label xml:lang="en">has binding of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-32cc7db7-41e5-3ab4-a7fc-3f129cb8de36"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40094_is_d2e200">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-32cc7db7-41e5-3ab4-a7fc-3f129cb8de36"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40094_is_d2e200">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -132,10 +126,8 @@
       <prop_label xml:lang="en">is bound with</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-8d40285a-4a24-3b4f-9792-681d99d9a8bc"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40032_is_d2e237">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-8d40285a-4a24-3b4f-9792-681d99d9a8bc"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40032_is_d2e237">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -160,10 +152,8 @@
       <prop_label xml:lang="en">is contained in item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-4829edd6-3292-3a0d-926f-505fc3a8228f"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40009_is_d2e284">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-4829edd6-3292-3a0d-926f-505fc3a8228f"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40009_is_d2e284">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -183,10 +173,8 @@
       <prop_label xml:lang="en">is container of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-486ff038-d76b-3389-9ac5-3cd353aa4343"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40034_is_d2e322">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-486ff038-d76b-3389-9ac5-3cd353aa4343"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40034_is_d2e322">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -206,10 +194,8 @@
       <prop_label xml:lang="en">has current owner agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-bdc8013b-0a25-3a35-8c2a-3dbce7f15cd7"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40018_is_d2e359">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-bdc8013b-0a25-3a35-8c2a-3dbce7f15cd7"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40018_is_d2e359">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -257,10 +243,8 @@
       <prop_label xml:lang="en">has custodial history of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-bacfb41d-9379-3b1c-bf1a-c0cb428b63f4"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40026_is_d2e453">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-bacfb41d-9379-3b1c-bf1a-c0cb428b63f4"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40026_is_d2e453">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -276,10 +260,8 @@
       <prop_label xml:lang="en">has custodian agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-12016b67-7727-3461-bb4f-b3ddd5495c34"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40020_is_d2e484">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-12016b67-7727-3461-bb4f-b3ddd5495c34"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40020_is_d2e484">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -327,10 +309,8 @@
       <prop_label xml:lang="en">has dedicatee agent of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-1052ecdf-b180-31ad-8b56-fd245f445fc3"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40025_is_d2e578">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-1052ecdf-b180-31ad-8b56-fd245f445fc3"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40025_is_d2e578">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -378,10 +358,8 @@
       <prop_label xml:lang="en">has depositor agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-3399dfc6-3d95-34e0-a00f-89acd4aec404"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40006_is_d2e671">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-3399dfc6-3d95-34e0-a00f-89acd4aec404"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40006_is_d2e671">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -434,10 +412,8 @@
       <prop_label xml:lang="en">has donor agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-fe1378d6-96db-320c-b8bf-72cf8faa3eb4"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40007_is_d2e775">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-fe1378d6-96db-320c-b8bf-72cf8faa3eb4"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40007_is_d2e775">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -490,10 +466,8 @@
       <prop_label xml:lang="en">has equivalent item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-2d57c85f-20f3-3335-9d0f-1672adb8ff9d"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40031_is_d2e879">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-2d57c85f-20f3-3335-9d0f-1672adb8ff9d"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40031_is_d2e879">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -523,10 +497,8 @@
       <prop_label xml:lang="en">has former owner agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-6907bf5e-2a12-357e-8edf-fa64a3254606"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40019_is_d2e937">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-6907bf5e-2a12-357e-8edf-fa64a3254606"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40019_is_d2e937">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -574,10 +546,8 @@
       <prop_label xml:lang="en">has honouree agent of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-6e75ca16-88b7-39d2-a93e-0e815936ac9d"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40022_is_d2e1031">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-6e75ca16-88b7-39d2-a93e-0e815936ac9d"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40022_is_d2e1031">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -625,10 +595,8 @@
       <prop_label xml:lang="en">has identifier for item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-d0654b23-e79b-3863-8016-d7d5882c58c8"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40001_is_d2e1125">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-d0654b23-e79b-3863-8016-d7d5882c58c8"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40001_is_d2e1125">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -648,10 +616,8 @@
       <prop_label xml:lang="en">has illuminator agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-a07347f9-b2f7-32fe-a58f-a5fbda2b59cc"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40012_is_d2e1162">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-a07347f9-b2f7-32fe-a58f-a5fbda2b59cc"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40012_is_d2e1162">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -699,10 +665,8 @@
       <prop_label xml:lang="en">has immediate source of acquisition of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-ef984a87-0876-3e6b-9d71-3d0dfe068767"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40050_is_d2e1256">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-ef984a87-0876-3e6b-9d71-3d0dfe068767"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40050_is_d2e1256">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -738,10 +702,8 @@
       <prop_label xml:lang="en">has manifestation exemplified</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-6470ed6b-5ddd-3750-9dd0-199b4cf86ad2"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40049_is_d2e1327">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-6470ed6b-5ddd-3750-9dd0-199b4cf86ad2"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40049_is_d2e1327">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -766,10 +728,8 @@
       <prop_label xml:lang="en">has modifier agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-018d5613-d94c-30d3-be60-727e29a0e991"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40093_is_d2e1375">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-018d5613-d94c-30d3-be60-727e29a0e991"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40093_is_d2e1375">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -827,10 +787,8 @@
       <prop_label xml:lang="en">has note on item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-d135d10a-4888-3955-bdb7-30a23c1add97"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40028_is_d2e1489">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-d135d10a-4888-3955-bdb7-30a23c1add97"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40028_is_d2e1489">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -851,10 +809,8 @@
       <prop_label xml:lang="en">has owner agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-2fc01ae9-da55-34d3-a5c3-09151396f2cd"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40021_is_d2e1530">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-2fc01ae9-da55-34d3-a5c3-09151396f2cd"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40021_is_d2e1530">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -902,10 +858,8 @@
       <prop_label xml:lang="en">has preferred title of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-e3fefbc5-d08b-3172-8373-ddb2c4a7156c"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40085_is_d2e1624">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-e3fefbc5-d08b-3172-8373-ddb2c4a7156c"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40085_is_d2e1624">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -926,10 +880,8 @@
       <prop_label xml:lang="en">has related agent of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-a20db267-92c8-32d1-b510-91dac168077e"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40072_is_d2e1665">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-a20db267-92c8-32d1-b510-91dac168077e"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40072_is_d2e1665">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -972,10 +924,8 @@
       <prop_label xml:lang="en">has related expression of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-b2066850-a51c-3a41-a532-0a7a72bef74d"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40070_is_d2e1749">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-b2066850-a51c-3a41-a532-0a7a72bef74d"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40070_is_d2e1749">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -1000,10 +950,8 @@
       <prop_label xml:lang="en">has related item of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-ec08b663-9a30-3931-a554-15cb0abb7246"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40046_is_d2e1796">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-ec08b663-9a30-3931-a554-15cb0abb7246"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40046_is_d2e1796">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -1023,10 +971,8 @@
       <prop_label xml:lang="en">has related manifestation of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-28d1c044-5d34-31fa-8be1-b9c9f1577425"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40071_is_d2e1834">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-28d1c044-5d34-31fa-8be1-b9c9f1577425"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40071_is_d2e1834">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -1046,10 +992,8 @@
       <prop_label xml:lang="en">has related nomen of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-1a1099f0-071f-3293-bbca-3989fef764dd"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40079_is_d2e1871">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-1a1099f0-071f-3293-bbca-3989fef764dd"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40079_is_d2e1871">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -1074,10 +1018,8 @@
       <prop_label xml:lang="en">has related place of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-c45fbc08-ba86-3cc9-9c3c-676ebc751769"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40077_is_d2e1918">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-c45fbc08-ba86-3cc9-9c3c-676ebc751769"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40077_is_d2e1918">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -1104,10 +1046,8 @@
       <prop_label xml:lang="en">has related timespan of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-79754b4e-c410-3b1f-b918-3c394a5dea60"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40078_is_d2e1969">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-79754b4e-c410-3b1f-b918-3c394a5dea60"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40078_is_d2e1969">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -1127,10 +1067,8 @@
       <prop_label xml:lang="en">has related work of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-9775ebb5-7077-371e-916d-27f421608024"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40069_is_d2e2007">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-9775ebb5-7077-371e-916d-27f421608024"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40069_is_d2e2007">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -1155,10 +1093,8 @@
       <prop_label xml:lang="en">is reproduced as item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-55308b7f-24f1-386e-886a-5cdc21cedc02"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40092_is_d2e2054">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-55308b7f-24f1-386e-886a-5cdc21cedc02"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40092_is_d2e2054">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -1181,10 +1117,8 @@
       <prop_label xml:lang="en">has restorationist agent of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-d6bde4fd-530c-314d-a79c-6a449a5f6ff1"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40024_is_d2e2096">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-d6bde4fd-530c-314d-a79c-6a449a5f6ff1"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40024_is_d2e2096">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -1232,10 +1166,8 @@
       <prop_label xml:lang="en">has restriction on access to item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-f8b543e9-ad2c-35a6-82fb-ec748181fb6a"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40047_is_d2e2190">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-f8b543e9-ad2c-35a6-82fb-ec748181fb6a"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40047_is_d2e2190">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -1251,10 +1183,8 @@
       <prop_label xml:lang="en">has restriction on use of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-476bd24c-fc68-347b-b14f-4c1562a76a53"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40048_is_d2e2221">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-476bd24c-fc68-347b-b14f-4c1562a76a53"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40048_is_d2e2221">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -1270,10 +1200,8 @@
       <prop_label xml:lang="en">has seller agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-19dad708-ba64-3d2a-9b42-59ab28e5dd17"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40008_is_d2e2252">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-19dad708-ba64-3d2a-9b42-59ab28e5dd17"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40008_is_d2e2252">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -1321,10 +1249,8 @@
       <prop_label xml:lang="en">is subject item of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-1c37a805-62bd-3279-a1a5-df6c7fecb142"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40061_is_d2e2346">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-1c37a805-62bd-3279-a1a5-df6c7fecb142"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40061_is_d2e2346">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -1357,10 +1283,8 @@
       <prop_label xml:lang="en">has variant title of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-dbcab8ad-f7a1-3429-ab19-f6e335127188"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40086_is_d2e2409">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-dbcab8ad-f7a1-3429-ab19-f6e335127188"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40086_is_d2e2409">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -1376,10 +1300,8 @@
       <prop_label xml:lang="en">is holding of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-783dc6c6-278e-327a-be3e-a7f59b45dc42"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40161_is_d2e2440">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-783dc6c6-278e-327a-be3e-a7f59b45dc42"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40161_is_d2e2440">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
@@ -1399,10 +1321,8 @@
       <prop_label xml:lang="en">has location of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
-         <uwsinopia:toolkit
-            url="https://access.rdatoolkit.org/en-US_ala-20722a68-99c1-3a7b-bbf2-131414c7965f"/>
-         <uwsinopia:implementation_set
-            localid_implementation_set="uwmaps_rdai_p40k_iP40162_is_d2e2477">
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-20722a68-99c1-3a7b-bbf2-131414c7965f"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40162_is_d2e2477">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
