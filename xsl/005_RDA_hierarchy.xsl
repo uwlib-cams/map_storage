@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" exclude-result-prefixes="xs rdf reg rdfs"
@@ -134,9 +135,15 @@
                                 <xsl:variable name="prop_id"
                                     select="concat('rda', replace($last_8_characters, '/', ':'))"/>
                                 <xsl:variable name="prop_id_end"
-                                    select="substring-after($prop_id, ':')"/>     
+                                    select="substring-after($prop_id, ':')"/>
+                                <xsl:variable name="subprops" select="reg:hasSubproperty[matches(@rdf:resource, concat('http:..rdaregistry.info.Elements.', $entity, '.P\d\d\d\d\d'))]"/>
+                                <!-- check_deprecated returns true if property has non-deprecated subprops -->
+                                <xsl:variable name="check_deprecated" select="
+                                    if (every $subprop in $subprops
+                                    satisfies $props/rdf:RDF/rdf:Description[@rdf:about = $subprop/@rdf:resource]
+                                    [not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]) then 'true' else 'false'"/>
                                 <xsl:choose>
-                                    <xsl:when test="reg:hasSubproperty[matches(@rdf:resource, concat('http:..rdaregistry.info.Elements.', $entity, '.P\d\d\d\d\d'))]">
+                                    <xsl:when test="(boolean($subprops) and boolean($check_deprecated = 'true')) = true()">
                                         <span class="caret">
                                             <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
                                             <xsl:text> (</xsl:text>
@@ -177,8 +184,16 @@
                                 select="concat('rda', replace($last_8_characters, '/', ':'))"/>
                             <xsl:variable name="prop_id_end"
                                 select="substring-after($prop_id, ':')"/>
+                            
+                            <!-- subprops -->
+                            <xsl:variable name="subprops" select="reg:hasSubproperty[matches(@rdf:resource, concat('http:..rdaregistry.info.Elements.', $entity, '.P\d\d\d\d\d'))]"/>
+                            <!-- check_deprecated returns true if property has non-deprecated subprops -->
+                            <xsl:variable name="check_deprecated" select="
+                                if (every $subprop in $subprops
+                                satisfies $props/rdf:RDF/rdf:Description[@rdf:about = $subprop/@rdf:resource]
+                                [not(reg:status[@rdf:resource = 'http://metadataregistry.org/uri/RegStatus/1008'])]) then 'true' else 'false'"/>
                             <xsl:choose>
-                                <xsl:when test="reg:hasSubproperty[matches(@rdf:resource, concat('http:..rdaregistry.info.Elements.', $entity, '.P\d\d\d\d\d'))]">
+                                <xsl:when test="(boolean($subprops) and boolean($check_deprecated = 'true')) = true()">
                                     <span class="caret">
                                         <xsl:value-of select="rdfs:label[@xml:lang = 'en']"/>
                                         <xsl:text> (</xsl:text>
@@ -228,8 +243,8 @@
                 <xsl:choose>
                     <!-- if not a subprop of an element w/this domain, top level -->
                     <xsl:when test="rdfs:subPropertyOf">
-                       <xsl:variable name="resource" select="rdfs:subPropertyOf/@rdf:resource"/>
-                        <xsl:if test="$props/rdf:RDF/rdf:Description[@rdf:about = $resource][not(rdfs:domain[@rdf:resource = concat('http://rdaregistry.info/Elements/c/', $domain)])]"> 
+                        <xsl:variable name="check_domain" select="if (every $resource in rdfs:subPropertyOf satisfies $props/rdf:RDF/rdf:Description[@rdf:about = $resource/@rdf:resource][not(rdfs:domain[@rdf:resource = concat('http://rdaregistry.info/Elements/c/', $domain)])]) then 'true' else 'false'"/>
+                        <xsl:if test="$check_domain = 'true'"> 
                             <li>
                                 <xsl:variable name="last_8_characters"
                                     select="substring-after($prop_uri, 'http://rdaregistry.info/Elements/')"/>
@@ -387,3 +402,4 @@
             </ul>
     </xsl:template>
 </xsl:stylesheet>
+
