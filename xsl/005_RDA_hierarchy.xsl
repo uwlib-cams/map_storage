@@ -24,6 +24,7 @@
                 <body>
                     <h1 id="profile" class="h1">Overview of Canonical RDA/RDF Properties</h1>
                     <p><i>Note: RDA Toolkit links require an RDA Toolkit account to access</i></p>
+                    <button id="expand">expand all</button><button id="collapse">collapse all</button>
                     <div class="list-container">
                         <!-- call associated templates for each property type -->
                         <ul id="BT">
@@ -107,15 +108,15 @@
                             </li>
                         </ul>
                     </div>
+                    <xsl:call-template name="CC0-footer-rda-pages">
+                        <xsl:with-param name="resource_title"
+                            select="'Overview of Canonical RDA/RDF Properties'"/>
+                        <xsl:with-param name="org" select="'cams'"/>
+                    </xsl:call-template>
                     <div>
                         <script src="https://uwlib-cams.github.io/webviews/js/RDA_hierarchy.js"/>
                     </div>
                 </body>
-                <xsl:call-template name="CC0-footer-rda-pages">
-                    <xsl:with-param name="resource_title"
-                        select="'Overview of Canonical RDA/RDF Properties'"/>
-                    <xsl:with-param name="org" select="'cams'"/>
-                </xsl:call-template>
             </html>
         </xsl:result-document>
     </xsl:template>
