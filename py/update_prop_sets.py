@@ -2,17 +2,15 @@
 # RDA updates by storing the current data, updating the xml documents
 # using xslt, and then comparing them to save deprecated properties
 # that contain implementation sets
-# last updated: 4/10/2023
+# last updated: 6/28/2023
 
-import xml.etree.ElementTree as ET 
 import os
 from textwrap import dedent
 import re
 
 # class to store properties 
-from prop_storage import Prop
 from store_props import store_props 
-from add_props import add_prop, add_implementation_set
+from add_props import add_prop, add_sinopia_element
 
 
 # function to compare two sets of properties and return ones in 1 not in 2
@@ -20,7 +18,7 @@ def compare_props(array1, array2):
     deprecated_props = []
 
     for index1, i in enumerate(array1):
-        if(i.implementation_set != ""):
+        if(i.sinopia_element != ""):
             length = len(array2)
             for index2, j in enumerate(array2):
                 if(i.prop_iri != j.prop_iri):
@@ -35,10 +33,10 @@ def compare_props(array1, array2):
 def match_props(array1, array2, key):
 
     for i in array1:
-        if (i.implementation_set != ""):
+        if (i.sinopia_element != ""):
             for j in array2:
                 if(i.prop_iri == j.prop_iri):
-                    add_implementation_set(key, i)
+                    add_sinopia_element(key, i)
 
 # get current xml files from path
 path = './'
@@ -106,7 +104,7 @@ for key in file_dict.keys():
         if new_key == key:
             new_file_array = new_file_dict.get(new_key)
             
-            # add implementation_sets to updated props
+            # add sinopia_elements to updated props
             match_props(file_array, new_file_array, new_key)
            
             # compare props to find deprecated ones

@@ -1,5 +1,5 @@
 # Functions to add props to xml file
-# last updated: 4/10/2023
+# last updated: 6/28/2023
 
 import xml.etree.ElementTree as ET 
 
@@ -25,9 +25,9 @@ def add_prop(key, props):
     
     for prop in props:
         #if deprecated prop has an implementation set
-        if prop.implementation_set != "":
+        if prop.sinopia_element != "":
             #create element from prop 
-            prop_tree = ET.ElementTree(ET.fromstring(prop.get_prop_string()))
+            prop_tree = ET.ElementTree(ET.fromstring(prop.get_prop_string()),)
             prop_root = prop_tree.getroot()
 
             #mark as deprecated 
@@ -47,7 +47,7 @@ def add_prop(key, props):
 
 #function to add implementation set back to updated props
 ##pass file name and implementation set to array
-def add_implementation_set(key, prop):
+def add_sinopia_element(key, prop):
     #main file tree
     tree = ET.parse(key)
 
@@ -66,7 +66,7 @@ def add_implementation_set(key, prop):
     root = tree.getroot()
 
     #create element from implementation set 
-    prop_tree = ET.ElementTree(ET.fromstring(prop.get_implementation_set()))
+    prop_tree = ET.ElementTree(ET.fromstring(prop.get_sinopia_element()))
     prop_root = prop_tree.getroot()
 
     #match implementation set to prop

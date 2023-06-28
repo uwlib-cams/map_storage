@@ -1,6 +1,6 @@
 # This is a class created to store data related to properties 
 # retrieved from xml files before updating
-# last updated: 2/27/2023
+# last updated: 6/28/2023
 
 class Prop:
 
@@ -9,7 +9,7 @@ class Prop:
         self.id = id
         self.prop_string = ""
         self.prop_iri = ""
-        self.implementation_set = ""
+        self.sinopia_element = ""
         self.is_deprecated = ""
 
     #formatted for etree
@@ -19,8 +19,8 @@ class Prop:
     def set_prop_iri(self, prop_iri):
         self.prop_iri = prop_iri
     
-    def set_implementation_set(self, implementation_set):
-        self.implementation_set = implementation_set
+    def set_sinopia_element(self, sinopia_element):
+        self.sinopia_element = sinopia_element
 
     def set_is_deprecated(self, is_deprecated):
         self.is_deprecated = is_deprecated
@@ -32,8 +32,8 @@ class Prop:
         return prop_string
 
     #formatted for etree
-    def get_implementation_set(self):
-        implementation_string = self.implementation_set
+    def get_sinopia_element(self):
+        implementation_string = self.sinopia_element
         add_string = '<sinopia xmlns="https://uwlib-cams.github.io/map_storage/xsd/" xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/">'
         implementation_string = implementation_string.replace('<sinopia>', add_string)
         return implementation_string

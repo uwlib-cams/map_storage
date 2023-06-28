@@ -1,13 +1,11 @@
 # Functions to create Prop objects
-# last updated: 2/27/2023
+# last updated: 6/28/2023
 
 import xml.etree.ElementTree as ET 
 import re
 
 #class to store properties 
 from prop_storage import Prop
-# just for testing
-import sys
 
 ## function to remove unnecessary namespaces from etree text
 def remove_name_space(xml_string): 
@@ -48,7 +46,7 @@ def store_props(file_dict):
                 if child.tag == "{https://uwlib-cams.github.io/map_storage/xsd/}prop_iri":
                     new_prop.set_prop_iri(remove_name_space(ET.tostring(child, encoding='utf8').decode('utf8')))
                 if child.tag == "{https://uwlib-cams.github.io/map_storage/xsd/}sinopia":
-                    new_prop.set_implementation_set(remove_name_space(ET.tostring(child, encoding='utf8').decode('utf8')))
+                    new_prop.set_sinopia_element(remove_name_space(ET.tostring(child, encoding='utf8').decode('utf8')))
                 if child.tag =="{https://uwlib-cams.github.io/map_storage/xsd/}deprecated":
                     new_prop.set_is_deprecated(remove_name_space(ET.tostring(child, encoding='utf8').decode('utf8')))
             new_prop.set_prop_string(remove_name_space(ET.tostring(prop, encoding='utf8').decode('utf8')))
