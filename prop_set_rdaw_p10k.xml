@@ -887,6 +887,25 @@
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10437"/>
       <prop_label xml:lang="en">has creator person of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
+      <sinopia>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-8ac5f265-a8bc-34e3-9a6f-95b46e9989be"/>
+         <uwsinopia:guidance_set>
+            <uwsinopia:general rt_id="UWSINOPIA:WAU:rdaWork:metadataWork:CAMS">
+               <uwsinopia:p>Your Sinopia user ID will be entered as a default value. Use the default value.</uwsinopia:p>
+            </uwsinopia:general>
+         </uwsinopia:guidance_set>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10437_is_d2e1760">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>metadataWork</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.02</uwsinopia:form_order>
+            <uwsinopia:remark xml:lang="en">Literal value will default to your Sinopia user ID.</uwsinopia:remark>
+            <uwsinopia:literal_pt>
+               <uwsinopia:userId_default>true</uwsinopia:userId_default>
+            </uwsinopia:literal_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaw_p10k_wP10394">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10394"/>
@@ -2097,6 +2116,14 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-9dbad164-5722-3594-acc9-ed80b49c9e2b"/>
+         <uwsinopia:guidance_set>
+            <uwsinopia:general rt_id="UWSINOPIA:WAU:rdaWork:metadataWork:CAMS">
+               <uwsinopia:p>
+                  <uwsinopia:a href="http://id.loc.gov/vocabulary/languages/eng">English</uwsinopia:a> 
+                  will be entered as a default value. Use the default value unless the language of cataloging 
+                  is a different language than English.</uwsinopia:p>
+            </uwsinopia:general>
+         </uwsinopia:guidance_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10353_is_d2e4247">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
@@ -2109,6 +2136,20 @@
                <uwsinopia:authorities>
                   <uwsinopia:authority_urn>language</uwsinopia:authority_urn>
                </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10353_is_d2e4239">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>metadataWork</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.03</uwsinopia:form_order>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>language</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+               <uwsinopia:lookup_default_iri iri="http://id.loc.gov/vocabulary/languages/eng"/>
+               <uwsinopia:lookup_default_iri_label xml:lang="en">English</uwsinopia:lookup_default_iri_label>
             </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -2433,6 +2474,16 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-90d71d36-67b7-3d32-a16c-f6996a162432"/>
+         <uwsinopia:guidance_set>
+            <uwsinopia:general rt_id="UWSINOPIA:WAU:rdaWork:metadataWork:CAMS">
+               <uwsinopia:p>An appellation of work, such as <uwsinopia:a href="https://access.rdatoolkit.org/Content/Index?externalId=en-US_ala-90d71d36-67b7-3d32-a16c-f6996a162432">
+                  identifier for work</uwsinopia:a>, is required for <uwsinopia:a href="https://access.rdatoolkit.org/en-US_ala-f4fb013b-b64e-37b1-902c-561d27b1e832/section_q5f_nxb_ydb">
+                     minimum description of a work</uwsinopia:a>.</uwsinopia:p>
+               <uwsinopia:p>Use the IRI for the metadata work to construct a value. Record the IRI portion following 
+                  'https://api.sinopia.io/resource/' as a literal value. (For test cataloging in Sinopia - Stage, 
+                  use the portion following 'https://api.stage.sinopia.io/resource/'.)</uwsinopia:p>
+            </uwsinopia:general>
+         </uwsinopia:guidance_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10002_is_d2e4896">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
@@ -2447,6 +2498,14 @@
                   <uwsinopia:authority_urn>Sinopia RDA nomen</uwsinopia:authority_urn>
                </uwsinopia:authorities>
             </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10002_is_d2e4913">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>metadataWork</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.001</uwsinopia:form_order>
+            <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
