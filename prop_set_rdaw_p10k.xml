@@ -960,6 +960,11 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-a23c8e78-ebc8-34ea-9a63-23c35b9c36ba"/>
+         <uwsinopia:guidance_set>
+            <uwsinopia:general rt_id="UWSINOPIA:WAU:rdaWork:metadataWork:CAMS">
+               <uwsinopia:p>Today's date will be entered as a default value. Use the default value.</uwsinopia:p>
+            </uwsinopia:general>
+         </uwsinopia:guidance_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10219_is_d2e1928">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
@@ -972,6 +977,17 @@
                   <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
                </uwsinopia:authorities>
             </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10219_is_d2e1921">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>metadataWork</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.04</uwsinopia:form_order>
+            <uwsinopia:remark xml:lang="en">Literal value will default to today's date.</uwsinopia:remark>
+            <uwsinopia:literal_pt>
+               <uwsinopia:date_default>true</uwsinopia:date_default>
+            </uwsinopia:literal_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -2120,8 +2136,7 @@
             <uwsinopia:general rt_id="UWSINOPIA:WAU:rdaWork:metadataWork:CAMS">
                <uwsinopia:p>
                   <uwsinopia:a href="http://id.loc.gov/vocabulary/languages/eng">English</uwsinopia:a> 
-                  will be entered as a default value. Use the default value unless the language of cataloging 
-                  is a different language than English.</uwsinopia:p>
+                  will be entered as a default value.</uwsinopia:p>
             </uwsinopia:general>
          </uwsinopia:guidance_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10353_is_d2e4247">
@@ -3749,6 +3764,13 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-8d77ba56-e900-3a83-9e70-171bf65c8deb"/>
+         <uwsinopia:guidance_set>
+            <uwsinopia:general rt_id="UWSINOPIA:WAU:rdaWork:metadataWork:CAMS">
+               <uwsinopia:p>
+                  <uwsinopia:a href="http://www.wikidata.org/entity/Q8229">Latin script</uwsinopia:a> 
+                  (Wikidata item) will be entered as a default value.</uwsinopia:p>
+            </uwsinopia:general>
+         </uwsinopia:guidance_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10357_is_d2e7355">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
@@ -3762,6 +3784,20 @@
                   <uwsinopia:authority_urn>LOC script [vocabularies] (QA)</uwsinopia:authority_urn>
                   <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
                </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10357_is_d2e7468">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>metadataWork</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.05</uwsinopia:form_order>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+               <uwsinopia:lookup_default_iri iri="http://www.wikidata.org/entity/Q8229"/>
+               <uwsinopia:lookup_default_iri_label xml:lang="en">Latin script</uwsinopia:lookup_default_iri_label>
             </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
