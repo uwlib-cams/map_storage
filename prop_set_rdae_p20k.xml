@@ -290,6 +290,11 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
          <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-7af61468-85ab-3d86-ad8d-4a1158edb7c7"/>
+         <uwsinopia:guidance_set>
+            <uwsinopia:general rt_id="default">
+               <uwsinopia:p>Use separate resource template <uwsinopia:strong>UWSINOPIA WAU rdaNomen accessPoint CAMS</uwsinopia:strong> to create an RDA Nomen resource. Then return to this resource template and use the lookup property template to find and select that resource. The Nomen resource IRI or nomen string value may be used as the lookup search string.</uwsinopia:p>
+            </uwsinopia:general>
+         </uwsinopia:guidance_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20k_eP20313_is_d2e565">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
@@ -312,6 +317,11 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
          <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-fda05153-cd8b-3b9b-b68e-e2c1834b64df"/>
+         <uwsinopia:guidance_set>
+            <uwsinopia:general rt_id="default">
+               <uwsinopia:p>Use separate resource template <uwsinopia:strong>UWSINOPIA WAU rdaNomen identifier CAMS</uwsinopia:strong> to create an RDA Nomen resource. Then return to this resource template and use the lookup property template to find and select that resource. The Nomen resource IRI or nomen string value may be used as lookup search string.</uwsinopia:p>
+            </uwsinopia:general>
+         </uwsinopia:guidance_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20k_eP20002_is_d2e608">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
@@ -2222,6 +2232,11 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
          <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-7001134a-73fb-36cd-b8f0-78b9bb7125ec"/>
+         <uwsinopia:guidance_set>
+            <uwsinopia:general rt_id="default">
+               <uwsinopia:p>Use separate resource template <uwsinopia:strong>UWSINOPIA WAU rdaNomen identifier CAMS</uwsinopia:strong> or <uwsinopia:strong>UWSINOPIA WAU rdaNomen accessPoint CAMS</uwsinopia:strong>to create an RDA Nomen resource, then return to this resource template and use the lookup property template to find and select that resource. The Nomen resource IRI or nomen string value may be used as lookup search string.</uwsinopia:p>
+            </uwsinopia:general>
+         </uwsinopia:guidance_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20k_eP20308_is_d2e4395">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>

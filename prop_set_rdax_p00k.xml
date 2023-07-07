@@ -32,9 +32,6 @@
             <uwsinopia:recording_method rt_id="default">
                <uwsinopia:recording_method_option>structured description</uwsinopia:recording_method_option>
             </uwsinopia:recording_method>
-            <uwsinopia:recording_method rt_id="UWSINOPIA:WAU:rdaEntity:test:test">
-               <uwsinopia:recording_method_option>identifier</uwsinopia:recording_method_option>
-            </uwsinopia:recording_method>
             <uwsinopia:ses rt_id="default">
                <uwsinopia:p>Oh just use any old syntax encoding scheme. This is default guidance for
                   SESs for this property.</uwsinopia:p>
