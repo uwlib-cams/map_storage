@@ -1104,8 +1104,6 @@
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>LOC script [vocabularies] (QA)</uwsinopia:authority_urn>
-                  <uwsinopia:authority_urn>GETTY_AAT all terms (QA)</uwsinopia:authority_urn>
                   <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
                </uwsinopia:authorities>
             </uwsinopia:lookup_pt>
