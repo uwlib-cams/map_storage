@@ -956,11 +956,9 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.19</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
+            <uwsinopia:literal_pt>
+               <uwsinopia:validation_datatype>Extended Date/Time Format (EDTF)</uwsinopia:validation_datatype>
+            </uwsinopia:literal_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -982,11 +980,9 @@
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.11</uwsinopia:form_order>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
+            <uwsinopia:literal_pt>
+               <uwsinopia:validation_datatype>Extended Date/Time Format (EDTF)</uwsinopia:validation_datatype>
+            </uwsinopia:literal_pt>
          </uwsinopia:implementation_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10219_is_d2e1921">
             <uwsinopia:institution>WAU</uwsinopia:institution>

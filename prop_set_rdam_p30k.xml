@@ -640,11 +640,9 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.21</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
+            <uwsinopia:literal_pt>
+               <uwsinopia:validation_datatype>Extended Date/Time Format (EDTF)</uwsinopia:validation_datatype>
+            </uwsinopia:literal_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -1128,11 +1126,9 @@
             <uwsinopia:form_order>0.29</uwsinopia:form_order>
             <uwsinopia:remark xml:lang="en">Prefer recording an IRI for a timespan. Record an unstructured description within a value of Manifestation: manufacture statement</uwsinopia:remark>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
+            <uwsinopia:literal_pt>
+               <uwsinopia:validation_datatype>Extended Date/Time Format (EDTF)</uwsinopia:validation_datatype>
+            </uwsinopia:literal_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -1329,11 +1325,9 @@
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30278" xml:lang="en">has date of manifestation</uwsinopia:property_selection>
             </uwsinopia:multiple_prop>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
+            <uwsinopia:literal_pt>
+               <uwsinopia:validation_datatype>Extended Date/Time Format (EDTF)</uwsinopia:validation_datatype>
+            </uwsinopia:literal_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -1463,11 +1457,9 @@
             <uwsinopia:form_order>0.16</uwsinopia:form_order>
             <uwsinopia:remark xml:lang="en">Prefer recording an IRI for a timespan. Record an unstructured description within a value of Manifestation: production statement</uwsinopia:remark>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
+            <uwsinopia:literal_pt>
+               <uwsinopia:validation_datatype>Extended Date/Time Format (EDTF)</uwsinopia:validation_datatype>
+            </uwsinopia:literal_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -1509,11 +1501,9 @@
             <uwsinopia:form_order>0.20</uwsinopia:form_order>
             <uwsinopia:remark xml:lang="en">Prefer recording an IRI for a timespan. Record an unstructured description within a value of Manifestation: publication statement</uwsinopia:remark>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
+            <uwsinopia:literal_pt>
+               <uwsinopia:validation_datatype>Extended Date/Time Format (EDTF)</uwsinopia:validation_datatype>
+            </uwsinopia:literal_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
@@ -3231,11 +3221,9 @@
             <uwsinopia:form_order>0.25</uwsinopia:form_order>
             <uwsinopia:remark xml:lang="en">Prefer recording an IRI for a timespan. Record an unstructured description within a value of Manifestation: distribution statement</uwsinopia:remark>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
+            <uwsinopia:literal_pt>
+               <uwsinopia:validation_datatype>Extended Date/Time Format (EDTF)</uwsinopia:validation_datatype>
+            </uwsinopia:literal_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>

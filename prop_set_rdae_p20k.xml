@@ -1628,11 +1628,9 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.10</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
+            <uwsinopia:literal_pt>
+               <uwsinopia:validation_datatype>Extended Date/Time Format (EDTF)</uwsinopia:validation_datatype>
+            </uwsinopia:literal_pt>
          </uwsinopia:implementation_set>
       </sinopia>
    </prop>
