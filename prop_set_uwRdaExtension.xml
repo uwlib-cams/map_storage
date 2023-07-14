@@ -9,6 +9,22 @@
       <prop_iri iri="https://doi.org/10.6069/uwlib.55.d.4#hasCreatorCharacteristic"/>
       <prop_label xml:lang="en">Has Creator Characteristic</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
+      <sinopia>
+         <uwsinopia:toolkit url=""/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasCreatorCharacteristic_is_d2e20">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.44</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>LOC demographics (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_uwRdaExtension_hasContributorAgent">
       <prop_iri iri="https://doi.org/10.6069/uwlib.55.d.4#hasContributorAgent"/>
