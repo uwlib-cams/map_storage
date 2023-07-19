@@ -1882,6 +1882,25 @@
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10313"/>
       <prop_label xml:lang="en">has related family of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
+      <sinopia>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-8071890d-325b-3a29-a774-2a0c8ac5cd2d"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10313_is_d2e3732">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>cspayne</uwsinopia:user>
+            <uwsinopia:form_order>0.2</uwsinopia:form_order>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:all_all_subprops>true</uwsinopia:all_all_subprops>
+            </uwsinopia:multiple_prop>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>LOC family [names (rwo)] (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaw_p10k_wP10316">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10316"/>
@@ -2031,11 +2050,52 @@
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10312"/>
       <prop_label xml:lang="en">has related person of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
+      <sinopia>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-24dc7885-581b-34da-868c-6a0a665ce90c"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10312_is_d2e4016">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>cspayne</uwsinopia:user>
+            <uwsinopia:form_order>0.1</uwsinopia:form_order>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:all_all_subprops>true</uwsinopia:all_all_subprops>
+            </uwsinopia:multiple_prop>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>LOC person [names (rwo)] (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_ULAN (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>ISNI (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaw_p10k_wP10314">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10314"/>
       <prop_label xml:lang="en">has related corporate body of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
+      <sinopia>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-3ea5f727-db0f-381d-b2cc-cccd165ae0f4"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10314_is_d2e4101">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>cspayne</uwsinopia:user>
+            <uwsinopia:form_order>0.3</uwsinopia:form_order>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:all_all_subprops>true</uwsinopia:all_all_subprops>
+            </uwsinopia:multiple_prop>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>LOC organization [names (rwo)] (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaw_p10k_wP10251">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10251"/>
@@ -2725,6 +2785,22 @@
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.70</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Sinopia RDA work</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10198_is_d2e5494">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>cspayne</uwsinopia:user>
+            <uwsinopia:form_order>0.4</uwsinopia:form_order>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:all_all_subprops>true</uwsinopia:all_all_subprops>
+            </uwsinopia:multiple_prop>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
