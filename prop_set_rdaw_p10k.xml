@@ -1465,7 +1465,6 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10290_is_d2e3153">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.50</uwsinopia:form_order>
@@ -1577,7 +1576,6 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10102_is_d2e3467">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.49</uwsinopia:form_order>
@@ -2309,7 +2307,6 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10294_is_d2e4471">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.46</uwsinopia:form_order>
@@ -2331,7 +2328,6 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10295_is_d2e4513">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.47</uwsinopia:form_order>
@@ -2388,7 +2384,6 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10142_is_d2e4625">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.58</uwsinopia:form_order>
@@ -2413,7 +2408,6 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10108_is_d2e4671">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.45</uwsinopia:form_order>
@@ -2438,7 +2432,6 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10170_is_d2e4717">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.62</uwsinopia:form_order>
@@ -2468,7 +2461,6 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10103_is_d2e4774">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.48</uwsinopia:form_order>
@@ -2498,7 +2490,6 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10156_is_d2e4830">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.61</uwsinopia:form_order>
@@ -2743,10 +2734,200 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-6d59d341-e10b-3a49-a076-807d014be546"/>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10198_is_d2e5312">
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10198_is_d2e5502">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.44</uwsinopia:form_order>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10192" xml:lang="en">is augmentation of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10177" xml:lang="en">is addenda to work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10151" xml:lang="en">is appendix to work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10029" xml:lang="en">is cadenza composed for work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10149" xml:lang="en">is errata to work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10150" xml:lang="en">is guide to work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10152" xml:lang="en">is illustrations for work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10154" xml:lang="en">is supplement to work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10112" xml:lang="en">has addenda work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10123" xml:lang="en">has appendix work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10026" xml:lang="en">has cadenza work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10092" xml:lang="en">has errata work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10124" xml:lang="en">has guide work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10093" xml:lang="en">has illustrations work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10172" xml:lang="en">has supplement work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10108" xml:lang="en">is augmented by work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10294" xml:lang="en">has commemoration</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10295" xml:lang="en">is commemoration of</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10247" xml:lang="en">has choreography work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10031" xml:lang="en">has incidental music work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10165" xml:lang="en">has libretto work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10370" xml:lang="en">has lyrics work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10246" xml:lang="en">has motion picture music work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10160" xml:lang="en">has motion picture screenplay work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10237" xml:lang="en">has music work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10243" xml:lang="en">has radio program music work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10162" xml:lang="en">has radio script work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10159" xml:lang="en">has screenplay work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10374" xml:lang="en">has sounds work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10373" xml:lang="en">has spoken word work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10241" xml:lang="en">has television program music work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10163" xml:lang="en">has television screenplay work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10371" xml:lang="en">has text work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10239" xml:lang="en">has video music work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10164" xml:lang="en">has video screenplay work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10248" xml:lang="en">is choreography for work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10103" xml:lang="en">is complemented by work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10106" xml:lang="en">is incidental music for work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10030" xml:lang="en">is libretto for work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10369" xml:lang="en">is lyrics for work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10245" xml:lang="en">is music for motion picture work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10244" xml:lang="en">is music for radio program work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10242" xml:lang="en">is music for television program work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10240" xml:lang="en">is music for video work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10238" xml:lang="en">is music for work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10173" xml:lang="en">is screenplay for motion picture work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10174" xml:lang="en">is screenplay for television program work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10175" xml:lang="en">is screenplay for video work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10105" xml:lang="en">is screenplay for work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10176" xml:lang="en">is script for radio program work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10376" xml:lang="en">is sounds for work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10375" xml:lang="en">is spoken word for work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10372" xml:lang="en">is text for work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10102" xml:lang="en">is issue of</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10411" xml:lang="en">is special issue of</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10290" xml:lang="en">is inspired by</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10147" xml:lang="en">has part work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10019" xml:lang="en">is part of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10122" xml:lang="en">has prequel work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10020" xml:lang="en">has sequel work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10387" xml:lang="en">has carrier version</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10385" xml:lang="en">has language version</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10386" xml:lang="en">has regional version</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10383" xml:lang="en">has transformation by audience</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10390" xml:lang="en">is carrier version of</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10388" xml:lang="en">is language version of</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10389" xml:lang="en">is regional version of</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10384" xml:lang="en">is transformation by audience of</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10091" xml:lang="en">is adapted as choreography work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10251" xml:lang="en">is adapted as graphic novel work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10113" xml:lang="en">is adapted as libretto work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10094" xml:lang="en">is adapted as motion picture screenplay work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10025" xml:lang="en">is adapted as motion picture work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10235" xml:lang="en">is adapted as musical theatre work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10034" xml:lang="en">is adapted as novel work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10236" xml:lang="en">is adapted as opera work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10289" xml:lang="en">is adapted as oratorio work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10076" xml:lang="en">is adapted as radio program work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10098" xml:lang="en">is adapted as radio script work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10095" xml:lang="en">is adapted as screenplay work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10085" xml:lang="en">is adapted as television program work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10096" xml:lang="en">is adapted as television screenplay work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10249" xml:lang="en">is adapted as video game work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10097" xml:lang="en">is adapted as video screenplay work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10087" xml:lang="en">is adapted as video work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10155" xml:lang="en">is adapted as work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10023" xml:lang="en">is adapted in verse as work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10016" xml:lang="en">is dramatized as work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10142" xml:lang="en">is adaptation of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10183" xml:lang="en">is choreographic adaptation of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10127" xml:lang="en">is dramatization of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10252" xml:lang="en">is graphic novelization of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10189" xml:lang="en">is libretto based on work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10129" xml:lang="en">is motion picture adaptation of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10134" xml:lang="en">is motion picture screenplay based on wor</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10233" xml:lang="en">is musical theatre adaptation of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10130" xml:lang="en">is novelization of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10234" xml:lang="en">is opera adaptation of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10288" xml:lang="en">is oratorio adaptation of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10131" xml:lang="en">is radio adaptation of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10137" xml:lang="en">is radio script based on work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10133" xml:lang="en">is screenplay based on work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10132" xml:lang="en">is television adaptation of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10135" xml:lang="en">is television screenplay based on work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10128" xml:lang="en">is verse adaptation of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10138" xml:lang="en">is video adaptation of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10250" xml:lang="en">is video game adaptation of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10136" xml:lang="en">is video screenplay based on work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10148" xml:lang="en">has derivative work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10342" xml:lang="en">has transformation by genre</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10167" xml:lang="en">is abridged as work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10089" xml:lang="en">is abstracted in work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10171" xml:lang="en">is digested as work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10119" xml:lang="en">is expanded as work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10028" xml:lang="en">is modified by variation as work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10033" xml:lang="en">is set to music as work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10190" xml:lang="en">has source work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10125" xml:lang="en">is abridgement of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10193" xml:lang="en">is abstracts for work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10139" xml:lang="en">is digest of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10184" xml:lang="en">is expanded version of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10161" xml:lang="en">is musical setting of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10343" xml:lang="en">is transformation by genre of</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10027" xml:lang="en">is variations based on work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10225" xml:lang="en">is absorption in part of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10224" xml:lang="en">is absorption of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10226" xml:lang="en">is continuation of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10213" xml:lang="en">is merger of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10156" xml:lang="en">is preceded by work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10206" xml:lang="en">is replacement in part of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10207" xml:lang="en">is replacement of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10169" xml:lang="en">is separated from wor</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10168" xml:lang="en">is split from work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10145" xml:lang="en">is absorbed by work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10146" xml:lang="en">is absorbed in part by work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10191" xml:lang="en">is continued by work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10212" xml:lang="en">is merged to form work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10022" xml:lang="en">is replaced by work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10021" xml:lang="en">is replaced in part by work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10104" xml:lang="en">is separated into work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10211" xml:lang="en">is split into work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10170" xml:lang="en">is succeeded by work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10381" xml:lang="en">has serialized version</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10377" xml:lang="en">has transformation by extension plan</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10344" xml:lang="en">has transformation by policy</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10392" xml:lang="en">is static version of</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10378" xml:lang="en">is transformation by extension plan of</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10345" xml:lang="en">is transformation by policy of</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10340" xml:lang="en">has transformation by style</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10099" xml:lang="en">is freely translated as work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10117" xml:lang="en">is imitated as work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10166" xml:lang="en">is paraphrased as work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10144" xml:lang="en">is parodied as work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10032" xml:lang="en">is remade as work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10143" xml:lang="en">is free translation of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10196" xml:lang="en">is imitation of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10186" xml:lang="en">is paraphrase of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10197" xml:lang="en">is parody of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10185" xml:lang="en">is remake of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10341" xml:lang="en">is transformation by style of</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10336" xml:lang="en">has transformation</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10257" xml:lang="en">has subject work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10126" xml:lang="en">is abstract of</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10140" xml:lang="en">is analysis of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10187" xml:lang="en">is commentary on work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10100" xml:lang="en">is description of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10153" xml:lang="en">is evaluation of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10179" xml:lang="en">is summary of</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10107" xml:lang="en">has abstract</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10109" xml:lang="en">has summary</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10264" xml:lang="en">is subject work of</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10121" xml:lang="en">is work analysed in</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10116" xml:lang="en">is work commentary in</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10118" xml:lang="en">is work described by</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10120" xml:lang="en">is work evaluated by</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10198" xml:lang="en">has related work of work</uwsinopia:property_selection>
+            </uwsinopia:multiple_prop>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Sinopia RDA work</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10198_is_d2e5312">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.70</uwsinopia:form_order>
@@ -2784,7 +2965,6 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10155_is_d2e5353">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.57</uwsinopia:form_order>
@@ -2879,7 +3059,6 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10192_is_d2e5542">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.44</uwsinopia:form_order>
@@ -3112,7 +3291,6 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10264_is_d2e5933">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.69</uwsinopia:form_order>
@@ -3318,43 +3496,11 @@
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10019"/>
       <prop_label xml:lang="en">is part of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
-      <sinopia>
-         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-3462b350-01b0-33c6-b448-9d1b7d8dc1e9"/>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10019_is_d2e6361">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.52</uwsinopia:form_order>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia RDA work</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaw_p10k_wP10147">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10147"/>
       <prop_label xml:lang="en">has part work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
-      <sinopia>
-         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-6bc578be-fa3d-3499-a37a-f690b085d23e"/>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10147_is_d2e6400">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.51</uwsinopia:form_order>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia RDA work</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaw_p10k_wP10266">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10266"/>
@@ -3410,7 +3556,6 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10122_is_d2e6576">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.53</uwsinopia:form_order>
@@ -3849,7 +3994,6 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10020_is_d2e7459">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.54</uwsinopia:form_order>
@@ -4240,7 +4384,6 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10257_is_d2e8237">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.68</uwsinopia:form_order>
@@ -4466,7 +4609,6 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10336_is_d2e8689">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.67</uwsinopia:form_order>
@@ -4488,7 +4630,6 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10383_is_d2e8730">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.55</uwsinopia:form_order>
@@ -4513,7 +4654,6 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10384_is_d2e8777">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.56</uwsinopia:form_order>
@@ -4548,7 +4688,6 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10342_is_d2e8843">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.59</uwsinopia:form_order>
@@ -4573,7 +4712,6 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10343_is_d2e8889">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.60</uwsinopia:form_order>
@@ -4598,7 +4736,6 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10344_is_d2e8935">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.63</uwsinopia:form_order>
@@ -4624,7 +4761,6 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10345_is_d2e8986">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.64</uwsinopia:form_order>
@@ -4650,7 +4786,6 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10340_is_d2e9036">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.65</uwsinopia:form_order>
@@ -4675,7 +4810,6 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10341_is_d2e9082">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.66</uwsinopia:form_order>
