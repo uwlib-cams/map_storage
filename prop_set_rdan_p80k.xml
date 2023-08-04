@@ -845,16 +845,29 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10012"/>
       <sinopia>
          <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-da6ba21b-69b7-3848-b438-fb0dbb9c859a"/>
+         <uwsinopia:guidance_set>
+            <uwsinopia:general rt_id="UWSINOPIA:WAU:rdaNomen:identifier:CAMS">
+               <uwsinopia:p>Select an IRI from <uwsinopia:a href="https://id.loc.gov/vocabulary/identifiers">LC Standard Identifiers</uwsinopia:a></uwsinopia:p>
+            </uwsinopia:general>
+            <uwsinopia:examples rt_id="UWSINOPIA:WAU:rdaNomen:identifier:CAMS">
+               <uwsinopia:p>URI: http://id.loc.gov/vocabulary/identifiers/geonames</uwsinopia:p>
+               <uwsinopia:p>Label: GeoNames</uwsinopia:p>
+               <uwsinopia:p></uwsinopia:p>
+               <uwsinopia:p>URI: http://id.loc.gov/vocabulary/identifiers/wikidata</uwsinopia:p>
+               <uwsinopia:p>Label: Wikidata</uwsinopia:p>
+            </uwsinopia:examples>
+         </uwsinopia:guidance_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdan_p80k_nP80069_is_d2e1644">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaNomen</uwsinopia:resource>
             <uwsinopia:format>accessPoint</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.04</uwsinopia:form_order>
-            <uwsinopia:uri_pt>
-               <uwsinopia:default_uri iri="http://id.loc.gov/authorities/names"/>
-               <uwsinopia:default_uri_label xml:lang="en">Library of Congress Names</uwsinopia:default_uri_label>
-            </uwsinopia:uri_pt>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>LOC description conventions [vocabularies] (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdan_p80k_nP80069_is_d2e1668">
             <uwsinopia:institution>WAU</uwsinopia:institution>
@@ -862,6 +875,7 @@
             <uwsinopia:format>identifier</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.04</uwsinopia:form_order>
+            <uwsinopia:remark xml:lang="en">Select an IRI from LC Standard Identifiers (link in guidance)</uwsinopia:remark>
             <uwsinopia:uri_pt/>
          </uwsinopia:implementation_set>
       </sinopia>
