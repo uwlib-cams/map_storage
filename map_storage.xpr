@@ -2550,6 +2550,5 @@
     </meta>
     <projectTree name="map_storage.xpr">
         <folder path="."/>
-        <folder path="../sinopia_maps/"/>
     </projectTree>
 </project>
