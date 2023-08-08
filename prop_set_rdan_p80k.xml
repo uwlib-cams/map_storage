@@ -850,11 +850,8 @@
                <uwsinopia:p>Select an IRI from <uwsinopia:a href="https://id.loc.gov/vocabulary/identifiers">LC Standard Identifiers</uwsinopia:a></uwsinopia:p>
             </uwsinopia:general>
             <uwsinopia:examples rt_id="UWSINOPIA:WAU:rdaNomen:identifier:CAMS">
-               <uwsinopia:p>URI: http://id.loc.gov/vocabulary/identifiers/geonames</uwsinopia:p>
-               <uwsinopia:p>Label: GeoNames</uwsinopia:p>
-               <uwsinopia:p></uwsinopia:p>
-               <uwsinopia:p>URI: http://id.loc.gov/vocabulary/identifiers/wikidata</uwsinopia:p>
-               <uwsinopia:p>Label: Wikidata</uwsinopia:p>
+               <uwsinopia:p>URI: http://id.loc.gov/vocabulary/identifiers/isbn</uwsinopia:p>
+               <uwsinopia:p>Label: International standard book number</uwsinopia:p>
             </uwsinopia:examples>
          </uwsinopia:guidance_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdan_p80k_nP80069_is_d2e1644">
