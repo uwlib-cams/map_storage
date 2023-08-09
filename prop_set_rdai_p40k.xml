@@ -1332,17 +1332,29 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <sinopia>
          <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-20722a68-99c1-3a7b-bbf2-131414c7965f"/>
+         <uwsinopia:guidance_set>
+            <uwsinopia:general rt_id="default">
+               <uwsinopia:p>Use the Wikidata lookup to retrieve item IRIs for University of Washington shelving locations where available. Enter a location code as search string. For common location codes, see <uwsinopia:a href="https://staff.lib.uw.edu/operations/cas/for-all-staff/management/location-codes">Location Codes for Ordering &amp; Selecting Materials: Most Used</uwsinopia:a>*. (Page also includes a link to download a comprehensive list.)</uwsinopia:p>
+               <uwsinopia:p>Where no Wikidata item has been created for a needed shelving location, <uwsinopia:a href="https://github.com/uwlib-cams/sinopia_maps/issues/new">https://github.com/uwlib-cams/sinopia_maps/issues/new</uwsinopia:a> to request the needed Wikidata item.</uwsinopia:p>
+               <uwsinopia:p>*UW NetID access only</uwsinopia:p>
+            </uwsinopia:general>
+            <uwsinopia:examples rt_id="default">
+               <uwsinopia:p>IRI: http://www.wikidata.org/entity/Q120734816</uwsinopia:p>
+               <uwsinopia:p>Label: Suzzallo and Allen Libraries Stacks</uwsinopia:p>
+               <uwsinopia:p>IRI: http://www.wikidata.org/entity/Q121088067</uwsinopia:p>
+               <uwsinopia:p>Built Environments Library General Stacks</uwsinopia:p>
+            </uwsinopia:examples>
+         </uwsinopia:guidance_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40162_is_d2e2477">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.38</uwsinopia:form_order>
+            <uwsinopia:remark xml:lang="en">Use location code to lookup Wikidata item for shelving location, enter code as literal if not available.</uwsinopia:remark>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>GEONAMES all (QA)</uwsinopia:authority_urn>
-                  <uwsinopia:authority_urn>GETTY_TGN (QA)</uwsinopia:authority_urn>
                   <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
                </uwsinopia:authorities>
             </uwsinopia:lookup_pt>
