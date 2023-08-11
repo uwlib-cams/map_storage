@@ -3809,7 +3809,7 @@
       <prop_label xml:lang="en">has derivative expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_"/>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-adc49fa3-2615-35fa-a8c1-f74b8ed69a26"/>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20k_eP20575_is_d2e7547">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
@@ -3830,7 +3830,7 @@
       <prop_label xml:lang="en">has source expression</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10006"/>
       <sinopia>
-         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_"/>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-ec731a2c-79cb-30ea-867a-d5008cb16f64"/>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdae_p20k_eP20574_is_d2e7587">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaExpression</uwsinopia:resource>
