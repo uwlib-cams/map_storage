@@ -21,6 +21,12 @@
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
                   <uwsinopia:authority_urn>LOC demographics (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>LOC all subjects (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_AAT all terms (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>OCLCFAST (QA) - cache</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Homosaurus</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>MESH subjects (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
                </uwsinopia:authorities>
             </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
