@@ -714,11 +714,14 @@
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.01</uwsinopia:form_order>
+            <uwsinopia:remark xml:lang="en">This placeholder IRI and label must be replaced once the appropriate IRI has been minted.</uwsinopia:remark>
             <uwsinopia:required>true</uwsinopia:required>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
                   <uwsinopia:authority_urn>Sinopia RDA manifestation</uwsinopia:authority_urn>
                </uwsinopia:authorities>
+               <uwsinopia:lookup_default_iri iri="https://replace_this_iri"/>
+               <uwsinopia:lookup_default_iri_label xml:lang="en">REPLACE THIS IRI</uwsinopia:lookup_default_iri_label>
             </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
