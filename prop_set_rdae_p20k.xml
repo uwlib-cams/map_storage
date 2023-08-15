@@ -1777,7 +1777,7 @@
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.02</uwsinopia:form_order>
-            <uwsinopia:remark xml:lang="en">This placeholder IRI and label must be replaced once the appropriate IRI has been minted.</uwsinopia:remark>
+            <uwsinopia:remark xml:lang="en">Use lookup to replace this IRI once the appropriate IRI has been minted.</uwsinopia:remark>
             <uwsinopia:required>true</uwsinopia:required>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
@@ -1999,7 +1999,7 @@
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.01</uwsinopia:form_order>
-            <uwsinopia:remark xml:lang="en">This placeholder IRI and label must be replaced once the appropriate IRI has been minted.</uwsinopia:remark>
+            <uwsinopia:remark xml:lang="en">Use lookup to replace this IRI once the appropriate IRI has been minted.</uwsinopia:remark>
             <uwsinopia:required>true</uwsinopia:required>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
