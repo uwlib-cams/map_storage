@@ -125,7 +125,7 @@
          <uwsinopia:toolkit url=""/>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasCallNumber_is_d2e240">
             <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:resource>rdaItem</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.3</uwsinopia:form_order>
