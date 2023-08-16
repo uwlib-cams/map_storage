@@ -1744,6 +1744,7 @@
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10313" xml:lang="en">has related family of work</uwsinopia:property_selection>
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10585" xml:lang="en">has compiler family</uwsinopia:property_selection>
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10598" xml:lang="en">has organizer family</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10558" xml:lang="en">has editorial director family</uwsinopia:property_selection>
             </uwsinopia:multiple_prop>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
@@ -2078,6 +2079,7 @@
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10457" xml:lang="en">has organizer person</uwsinopia:property_selection>
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10045" xml:lang="en">has praeses</uwsinopia:property_selection>
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10001" xml:lang="en">has respondent</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10417" xml:lang="en">has editorial director person</uwsinopia:property_selection>
             </uwsinopia:multiple_prop>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
@@ -2155,7 +2157,7 @@
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10005" xml:lang="en">has appellee corporate body</uwsinopia:property_selection>
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10285" xml:lang="en">has defendant corporate body</uwsinopia:property_selection>
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10551" xml:lang="en">has organizer corporate body</uwsinopia:property_selection>
-               
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10511" xml:lang="en">has editorial director corporate body</uwsinopia:property_selection>
             </uwsinopia:multiple_prop>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
