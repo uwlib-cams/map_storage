@@ -49,6 +49,29 @@
       <prop_iri iri="https://doi.org/10.6069/uwlib.55.d.4#hasLcClassificationPartA"/>
       <prop_label xml:lang="en">Has LC Classification Part A</prop_label>
       <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+      <sinopia>
+         <uwsinopia:toolkit url=""/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasLcClassificationPartA_is_d2e99">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.15</uwsinopia:form_order>
+            <uwsinopia:alt_pt_label xml:lang="en">has classification</uwsinopia:alt_pt_label>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:property_selection property_iri="https://doi.org/10.6069/uwlib.55.d.4#hasLcClassificationPartB"
+                                             xml:lang="en">Has LC Classification Part B</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="https://doi.org/10.6069/uwlib.55.d.4#hasNlmClassificationPartA"
+                                             xml:lang="en">Has NLM Classification Part A</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="https://doi.org/10.6069/uwlib.55.d.4#hasNlmClassificationPartB"
+                                             xml:lang="en">Has NLM Classification Part B</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="https://doi.org/10.6069/uwlib.55.d.4#hasSuDocClassificationNumber"
+                                             xml:lang="en">Has SuDoc Classification Number</uwsinopia:property_selection>
+            </uwsinopia:multiple_prop>
+            <uwsinopia:remark xml:lang="en">Use this property to enter LC, NLM, and SuDoc classification numbers as literal values.</uwsinopia:remark>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_uwRdaExtension_hasLcClassificationPartB">
       <prop_iri iri="https://doi.org/10.6069/uwlib.55.d.4#hasLcClassificationPartB"/>
@@ -98,5 +121,16 @@
       <prop_label xml:lang="en">Has Call Number</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
       <prop_range iri="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+      <sinopia>
+         <uwsinopia:toolkit url=""/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasCallNumber_is_d2e240">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.3</uwsinopia:form_order>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
 </prop_set>
