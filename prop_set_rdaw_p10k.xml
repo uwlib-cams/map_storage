@@ -2158,6 +2158,7 @@
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10285" xml:lang="en">has defendant corporate body</uwsinopia:property_selection>
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10551" xml:lang="en">has organizer corporate body</uwsinopia:property_selection>
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10511" xml:lang="en">has editorial director corporate body</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10017" xml:lang="en">has enacting government</uwsinopia:property_selection>
             </uwsinopia:multiple_prop>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
