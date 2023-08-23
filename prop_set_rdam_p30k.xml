@@ -2350,6 +2350,7 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.1</uwsinopia:form_order>
             <uwsinopia:remark xml:lang="en">Use lookup to replace this IRI once the appropriate IRI has been minted.</uwsinopia:remark>
+            <uwsinopia:required>true</uwsinopia:required>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
                   <uwsinopia:authority_urn>Sinopia RDA work</uwsinopia:authority_urn>
