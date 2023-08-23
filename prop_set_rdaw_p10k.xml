@@ -3347,7 +3347,6 @@
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
-            <uwsinopia:format>collection</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.01</uwsinopia:form_order>
             <uwsinopia:remark xml:lang="en">Use lookup to replace this IRI once the appropriate IRI has been minted.</uwsinopia:remark>
