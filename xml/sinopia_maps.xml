@@ -60,6 +60,21 @@
             <author>UW CAMS - panzhuo@uw.edu</author>
         </rt>
         
+        <rt output_load="true">
+            <institution>WAU</institution>
+            <resource>rdaWork</resource>
+            <format>collection</format>
+            <user>CAMS</user>
+            <author> UW CAMS - cspayne@uw.edu</author>
+        </rt>
+        <rt output_load="true">
+            <institution>WAU</institution>
+            <resource>rdaManifestation</resource>
+            <format>collection</format>
+            <user>CAMS</user>
+            <author> UW CAMS - cspayne@uw.edu</author>
+        </rt>
+        
         <!-- NOMEN TEMPLATES -->
         <rt output_load="true">
             <institution>WAU</institution>

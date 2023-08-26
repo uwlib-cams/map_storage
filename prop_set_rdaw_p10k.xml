@@ -493,6 +493,20 @@
                </uwsinopia:authorities>
             </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10004_is_d2e986">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>collection</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.2</uwsinopia:form_order>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>RDA Registry terms (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+               <uwsinopia:lookup_default_iri iri="http://rdaregistry.info/termList/RDATerms/1210"/>
+               <uwsinopia:lookup_default_iri_label xml:lang="en">collection work</uwsinopia:lookup_default_iri_label>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
       </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaw_p10k_wP10217">
@@ -3346,6 +3360,22 @@
                <uwsinopia:lookup_default_iri_label xml:lang="en">REPLACE THIS IRI</uwsinopia:lookup_default_iri_label>
             </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10072_is_d2e6961">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>collection</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.01</uwsinopia:form_order>
+            <uwsinopia:remark xml:lang="en">Use lookup to replace this IRI once the appropriate IRI has been minted.</uwsinopia:remark>
+            <uwsinopia:required>true</uwsinopia:required>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Sinopia RDA manifestation</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+               <uwsinopia:lookup_default_iri iri="https://replace_this_iri"/>
+               <uwsinopia:lookup_default_iri_label xml:lang="en">REPLACE THIS IRI</uwsinopia:lookup_default_iri_label>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
       </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaw_p10k_wP10129">
@@ -5049,11 +5079,48 @@
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10608"/>
       <prop_label xml:lang="en">has collection accrual method</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
+      <sinopia>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-684b6403-571c-3018-962c-9bf9604888c0"/>
+         <uwsinopia:guidance_set>
+            <uwsinopia:general rt_id="UWSINOPIA:WAU:rdaWork:collection:CAMS">
+               <uwsinopia:p>Select a collection accrual method from the <uwsinopia:a href="https://access.rdatoolkit.org/VES/VES?externalId=en-US_rdaves_RDA_Collection_Accrual_Method">RDA Collection Accrual Methods</uwsinopia:a>
+               </uwsinopia:p>
+            </uwsinopia:general>
+         </uwsinopia:guidance_set>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10608_is_d2e10357">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>collection</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.4</uwsinopia:form_order>
+            <uwsinopia:remark xml:lang="en">Select a collection accrual method from the RDA Collection Accrual Methods (link in guidance)</uwsinopia:remark>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:uri_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaw_p10k_wP10609">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10609"/>
       <prop_label xml:lang="en">has collection accrual policy</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
+      <sinopia>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-c1a43352-c978-3090-bbe1-50935df30782"/>
+         <uwsinopia:guidance_set>
+            <uwsinopia:general rt_id="UWSINOPIA:WAU:rdaWork:collection:CAMS">
+               <uwsinopia:p>Select a collection accrual policy from the <uwsinopia:a href="https://access.rdatoolkit.org/VES/VES?externalId=en-US_rdaves_RDA_Collection_Accrual_Policy">RDA Collection Accrual Policies</uwsinopia:a>
+               </uwsinopia:p>
+            </uwsinopia:general>
+         </uwsinopia:guidance_set>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10609_is_d2e10406">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>collection</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.4</uwsinopia:form_order>
+            <uwsinopia:remark xml:lang="en">Select a collection accrual policy from the RDA Collection Accrual Policies (link in guidance)</uwsinopia:remark>
+            <uwsinopia:uri_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaw_p10k_wP10610">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10610"/>
@@ -5196,6 +5263,22 @@
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10631"/>
       <prop_label xml:lang="en">has collector corporate body</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
+      <sinopia>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-44e9b40a-4aba-3d93-a56a-73c7e8650098"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10631_is_d2e10675">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>collection</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.3</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>LOC organization [names (rwo)] (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaw_p10k_wP10632">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10632"/>
