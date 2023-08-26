@@ -56,7 +56,7 @@
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.15</uwsinopia:form_order>
+            <uwsinopia:form_order>0.0301</uwsinopia:form_order>
             <uwsinopia:alt_pt_label xml:lang="en">has classification</uwsinopia:alt_pt_label>
             <uwsinopia:multiple_prop>
                <uwsinopia:property_selection property_iri="https://doi.org/10.6069/uwlib.55.d.4#hasLcClassificationPartB"
