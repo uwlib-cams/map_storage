@@ -9,6 +9,7 @@
     xmlns:dcam="http://purl.org/dc/dcam/"
     xmlns:prov="http://www.w3.org/ns/prov#"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
+    exclude-result-prefixes="uwmaps xs rdf reg rdfs dcam prov owl"
     version="3.0">
     
     <xsl:output method="xml" indent="yes"/>

@@ -6,13 +6,16 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:uwmaps="https://uwlib-cams.github.io/map_storage/xsd/"
     xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-    xmlns:dcam="http://purl.org/dc/dcam/" xmlns:prov="http://www.w3.org/ns/prov#"
-    xmlns:owl="http://www.w3.org/2002/07/owl#" version="3.0">
+    xmlns:dcam="http://purl.org/dc/dcam/" 
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#" 
+    exclude-result-prefixes="uwmaps xs rdf reg rdfs dcam prov owl"
+    version="3.0">
 
     <!-- get RDA Registry properties -->
     <xsl:template name="get_rda">
         <xsl:param name="get_set"/>
-        <source_version>
+        <source_version xmlns="https://uwlib-cams.github.io/map_storage/xsd/">
             <xsl:value-of
                 select="document($get_set/uwmaps:set_source)/rdf:RDF/owl:Ontology/owl:versionInfo"/>
         </source_version>
@@ -42,7 +45,7 @@
     <!-- get RDA Extension properties -->
     <xsl:template name="get_uwRdaExtension">
         <xsl:param name="get_set"/>
-        <source_version>
+        <source_version xmlns="https://uwlib-cams.github.io/map_storage/xsd/">
             <xsl:value-of
                 select="document($get_set/uwmaps:set_source)/rdf:RDF/rdf:Description/owl:versionInfo"
             />
