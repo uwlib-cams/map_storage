@@ -264,6 +264,17 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30134"/>
       <prop_label xml:lang="en">has title of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-6d73e093-3928-3314-ad35-cc4afb3e3e3b"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30k_mP30134_is_d2e525">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>collection</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.015</uwsinopia:form_order>
+            <uwsinopia:literal_pt/>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30k_mP30128">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30128"/>
@@ -3610,6 +3621,22 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30459"/>
       <prop_label xml:lang="en">is subcollection of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
+      <sinopia>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-632ff372-1fb8-338a-949b-377c3c260569"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30k_mP30459_is_d2e7136">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
+            <uwsinopia:format>collection</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.25</uwsinopia:form_order>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Sinopia RDA manifestation</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30k_mP30460">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30460"/>
