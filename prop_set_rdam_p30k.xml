@@ -271,7 +271,7 @@
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>collection</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.015</uwsinopia:form_order>
+            <uwsinopia:form_order>0.15</uwsinopia:form_order>
             <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
       </sinopia>
