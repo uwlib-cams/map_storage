@@ -1336,6 +1336,8 @@
                <uwsinopia:authorities>
                   <uwsinopia:authority_urn>Sinopia RDA manifestation</uwsinopia:authority_urn>
                </uwsinopia:authorities>
+               <uwsinopia:lookup_default_iri iri="https://api.stage.sinopia.io/resource/93e193ab-9320-4c95-b9ab-3f3af1194bb6"/>
+               <uwsinopia:lookup_default_iri_label xml:lang="en">University of Washington Libraries Collection</uwsinopia:lookup_default_iri_label>
             </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
