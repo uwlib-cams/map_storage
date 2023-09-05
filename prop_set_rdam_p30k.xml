@@ -1681,7 +1681,7 @@
             <uwsinopia:multiple_prop>
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30135" xml:lang="en">has work manifested</uwsinopia:property_selection>
             </uwsinopia:multiple_prop>
-            <uwsinopia:remark xml:lang="en">Use lookup to replace this IRI once the appropriate IRI has been minted.</uwsinopia:remark>
+            <uwsinopia:remark xml:lang="en">Use lookup to replace this IRI and label once the appropriate IRI has been minted.</uwsinopia:remark>
             <uwsinopia:required>1</uwsinopia:required>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
@@ -1689,8 +1689,8 @@
                   <uwsinopia:authority_urn>Sinopia RDA expression</uwsinopia:authority_urn>
                   <uwsinopia:authority_urn>Sinopia RDA work</uwsinopia:authority_urn>
                </uwsinopia:authorities>
-               <uwsinopia:lookup_default_iri iri="https://replace_this_iri"/>
-               <uwsinopia:lookup_default_iri_label xml:lang="en">REPLACE THIS IRI</uwsinopia:lookup_default_iri_label>
+               <uwsinopia:lookup_default_iri iri="https://REPLACE_THIS_IRI"/>
+               <uwsinopia:lookup_default_iri_label xml:lang="en">REPLACE THIS LABEL</uwsinopia:lookup_default_iri_label>
             </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -2286,15 +2286,15 @@
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.02</uwsinopia:form_order>
-            <uwsinopia:remark xml:lang="en">Use lookup to replace this IRI once the appropriate IRI has been minted.</uwsinopia:remark>
+            <uwsinopia:remark xml:lang="en">Use lookup to replace this IRI and label once the appropriate IRI has been minted.</uwsinopia:remark>
             <uwsinopia:required>true</uwsinopia:required>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
                   <uwsinopia:authority_urn>Sinopia RDA item</uwsinopia:authority_urn>
                </uwsinopia:authorities>
-               <uwsinopia:lookup_default_iri iri="https://replace_this_iri"/>
-               <uwsinopia:lookup_default_iri_label xml:lang="en">REPLACE THIS IRI</uwsinopia:lookup_default_iri_label>
+               <uwsinopia:lookup_default_iri iri="https://REPLACE_THIS_IRI"/>
+               <uwsinopia:lookup_default_iri_label xml:lang="en">REPLACE THIS LABEL</uwsinopia:lookup_default_iri_label>
             </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
@@ -2349,14 +2349,14 @@
             <uwsinopia:format>collection</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.1</uwsinopia:form_order>
-            <uwsinopia:remark xml:lang="en">Use lookup to replace this IRI once the appropriate IRI has been minted.</uwsinopia:remark>
+            <uwsinopia:remark xml:lang="en">Use lookup to replace this IRI and label once the appropriate IRI has been minted.</uwsinopia:remark>
             <uwsinopia:required>true</uwsinopia:required>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
                   <uwsinopia:authority_urn>Sinopia RDA work</uwsinopia:authority_urn>
                </uwsinopia:authorities>
-               <uwsinopia:lookup_default_iri iri="https://replace_this_iri"/>
-               <uwsinopia:lookup_default_iri_label xml:lang="en">REPLACE THIS IRI</uwsinopia:lookup_default_iri_label>
+               <uwsinopia:lookup_default_iri iri="https://REPLACE_THIS_IRI"/>
+               <uwsinopia:lookup_default_iri_label xml:lang="en">REPLACE THIS LABEL</uwsinopia:lookup_default_iri_label>
             </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
       </sinopia>
