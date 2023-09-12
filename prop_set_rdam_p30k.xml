@@ -3396,16 +3396,16 @@
       <sinopia>
          <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-4b9291c5-f525-37fd-b661-c469e763ce8a"/>
          <uwsinopia:guidance_set>
-            <uwsinopia:general rt_id="default">
+            <uwsinopia:general rt_id="UWSINOPIA:WAU:rdaManifestation:printMonograph:CAMS">
                <uwsinopia:p>Record a parallel title proper as a separate value of this
                   element.</uwsinopia:p>
                <uwsinopia:p>Record a transliterated value as a separate value of this
                   element.</uwsinopia:p>
             </uwsinopia:general>
-            <uwsinopia:recording_method rt_id="default">
+            <uwsinopia:recording_method rt_id="UWSINOPIA:WAU:rdaManifestation:printMonograph:CAMS">
                <uwsinopia:recording_method_option>unstructured description</uwsinopia:recording_method_option>
             </uwsinopia:recording_method>
-            <uwsinopia:transcription_standard rt_id="default">normalized</uwsinopia:transcription_standard>
+            <uwsinopia:transcription_standard rt_id="UWSINOPIA:WAU:rdaManifestation:printMonograph:CAMS">normalized</uwsinopia:transcription_standard>
             <uwsinopia:mgds>
                <uwsinopia:mgd>MG: Manifestation: Title proper</uwsinopia:mgd>
             </uwsinopia:mgds>
