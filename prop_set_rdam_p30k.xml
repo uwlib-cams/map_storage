@@ -695,22 +695,6 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30024"/>
       <prop_label xml:lang="en">has equivalent manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
-      <sinopia>
-         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-19152c97-642c-3cd0-82db-630329ad2940"/>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30k_mP30024_is_d2e1544">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.67</uwsinopia:form_order>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia RDA manifestation</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30k_mP30154">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30154"/>
@@ -2062,25 +2046,6 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30027"/>
       <prop_label xml:lang="en">is accompanied by manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
-      <sinopia>
-         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-c700044a-97ee-3f4b-8ac3-2139c2e827ca"/>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30k_mP30027_is_d2e3930">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.70</uwsinopia:form_order>
-            <uwsinopia:multiple_prop>
-               <uwsinopia:all_subprops>true</uwsinopia:all_subprops>
-            </uwsinopia:multiple_prop>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia RDA manifestation</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30k_mP30004">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30004"/>
@@ -2212,7 +2177,32 @@
             <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.71</uwsinopia:form_order>
+            <uwsinopia:form_order>0.57</uwsinopia:form_order>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30048" xml:lang="en">has related manifestation of manifestation</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30026" xml:lang="en">is also issued as</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30039" xml:lang="en">is reproduced as manifestation</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30029" xml:lang="en">has digital transfer of manifestation</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30016" xml:lang="en">has electronic reproduction of manifestation</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30031" xml:lang="en">has facsimile of manifestation</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30021" xml:lang="en">has preservation facsimile of manifestation</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30038" xml:lang="en">is reprinted as manifestation</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30043" xml:lang="en">is reproduction of manifestation of</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30047" xml:lang="en">is facsimile of manifestation of</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30045" xml:lang="en">is preservation facsimile of manifestation of</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30093" xml:lang="en">is reprint of manifestation of</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30024" xml:lang="en">has equivalent manifestation</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30033" xml:lang="en">has part manifestation</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30046" xml:lang="en">has facsimile part</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30022" xml:lang="en">has insert</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30458" xml:lang="en">has subcollection</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30020" xml:lang="en">is part of manifestation</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30019" xml:lang="en">is facsimile part of</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30025" xml:lang="en">is inserted in</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30459" xml:lang="en">is subcollection of</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30027" xml:lang="en">is accompanied by manifestation</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30035" xml:lang="en">is on carrier unit with</uwsinopia:property_selection>
+            </uwsinopia:multiple_prop>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
@@ -2226,25 +2216,6 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30039"/>
       <prop_label xml:lang="en">is reproduced as manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
-      <sinopia>
-         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-cd3d801c-f0d6-32a5-ae54-de169aa61a5e"/>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30k_mP30039_is_d2e4170">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.65</uwsinopia:form_order>
-            <uwsinopia:multiple_prop>
-               <uwsinopia:all_all_subprops>true</uwsinopia:all_all_subprops>
-            </uwsinopia:multiple_prop>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia RDA manifestation</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30k_mP30038">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30038"/>
@@ -2514,49 +2485,11 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30033"/>
       <prop_label xml:lang="en">has part manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
-      <sinopia>
-         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-ccf4bc18-3097-36d5-bed1-2fffd68bcee8"/>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30k_mP30033_is_d2e4740">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.68</uwsinopia:form_order>
-            <uwsinopia:multiple_prop>
-               <uwsinopia:all_all_subprops>true</uwsinopia:all_all_subprops>
-            </uwsinopia:multiple_prop>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia RDA manifestation</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30k_mP30020">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30020"/>
       <prop_label xml:lang="en">is part of manifestation</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
-      <sinopia>
-         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-9c0bb1f6-67aa-354a-af66-7c9325673c39"/>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30k_mP30020_is_d2e4784">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.69</uwsinopia:form_order>
-            <uwsinopia:multiple_prop>
-               <uwsinopia:all_all_subprops>true</uwsinopia:all_all_subprops>
-            </uwsinopia:multiple_prop>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia RDA manifestation</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30k_mP30279">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30279"/>
@@ -2793,27 +2726,6 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30043"/>
       <prop_label xml:lang="en">is reproduction of manifestation of</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
-      <sinopia>
-         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-f2183d7c-7677-3b6d-835f-615839185e15"/>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30k_mP30043_is_d2e5396">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.66</uwsinopia:form_order>
-            <uwsinopia:multiple_prop>
-               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30047" xml:lang="en">is facsimile of manifestation of</uwsinopia:property_selection>
-               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30045" xml:lang="en">is preservation facsimile of manifestation of</uwsinopia:property_selection>
-               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/m/P30093" xml:lang="en">is reprint of manifestation of</uwsinopia:property_selection>
-            </uwsinopia:multiple_prop>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia RDA manifestation</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30k_mP30206">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30206"/>
@@ -3093,22 +3005,6 @@
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30026"/>
       <prop_label xml:lang="en">is also issued as</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10007"/>
-      <sinopia>
-         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-b63395e4-bf33-38a4-bcb6-7f60c9698552"/>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdam_p30k_mP30026_is_d2e5907">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaManifestation</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.64</uwsinopia:form_order>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>Sinopia RDA manifestation</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdam_p30k_mP30233">
       <prop_iri iri="http://rdaregistry.info/Elements/m/P30233"/>
