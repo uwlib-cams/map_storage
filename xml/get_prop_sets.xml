@@ -53,7 +53,7 @@
     <get_set>
         <set_name>uwRdaExtension</set_name>
         <!-- [!] CAUTION: RDF/XML URL will change for updates to dataset -->
-        <set_source>https://www.lib.washington.edu/static/public/cams/data/localResources/rdaApplicationProfileExtension-1-0-1.rdf</set_source>
+        <set_source>https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rda_application_profile_extension/university_of_washington_libraries_rda_application_profile_extension.rdf</set_source>
     </get_set>
     
     
