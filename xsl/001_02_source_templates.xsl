@@ -9,6 +9,7 @@
     xmlns:dcam="http://purl.org/dc/dcam/" 
     xmlns:prov="http://www.w3.org/ns/prov#"
     xmlns:owl="http://www.w3.org/2002/07/owl#" 
+    xmlns:schema="https://schema.org/"
     exclude-result-prefixes="uwmaps xs rdf reg rdfs dcam prov owl"
     version="3.0">
 
@@ -47,34 +48,29 @@
         <xsl:param name="get_set"/>
         <source_version xmlns="https://uwlib-cams.github.io/map_storage/xsd/">
             <xsl:value-of
-                select="document($get_set/uwmaps:set_source)/rdf:RDF/rdf:Description/owl:versionInfo"
+                select="document($get_set/uwmaps:set_source)/rdf:RDF/rdf:Description/schema:version"
             />
         </source_version>
-        <xsl:for-each-group select="document($get_set/uwmaps:set_source)/rdf:RDF/rdf:Description"
-            group-by="@rdf:about">
-            <xsl:for-each select="
-                    current-group()
-                    [rdf:type/@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']">
+        <xsl:for-each select="document($get_set/uwmaps:set_source)/rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property']">
                 <prop xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
                     localid_prop="{concat('uwmaps_', $get_set/uwmaps:set_name, '_',
                     substring-after(@rdf:about, 'https://doi.org/10.6069/uwlib.55.d.4#'))}">
                     <prop_iri iri="{@rdf:about}"/>
                     <prop_label xml:lang="en">
-                        <xsl:value-of select="current-group()/rdfs:label[@xml:lang = 'en']"/>
+                        <xsl:value-of select="./rdfs:label[@xml:lang = 'en']"/>
                     </prop_label>
-                    <xsl:if test="current-group()/rdfs:domain">
-                        <xsl:for-each select="current-group()/rdfs:domain">
+                    <xsl:if test="./rdfs:domain">
+                        <xsl:for-each select="./rdfs:domain">
                             <prop_domain iri="{@rdf:resource}"/>
                         </xsl:for-each>
                     </xsl:if>
-                    <xsl:if test="current-group()/rdfs:range">
-                        <xsl:for-each select="current-group()/rdfs:range">
+                    <xsl:if test="./rdfs:range">
+                        <xsl:for-each select="./rdfs:range">
                             <prop_range iri="{@rdf:resource}"/>
                         </xsl:for-each>
                     </xsl:if>
                 </prop>
-            </xsl:for-each>
-        </xsl:for-each-group>
+        </xsl:for-each>
     </xsl:template>
 
 </xsl:stylesheet>
