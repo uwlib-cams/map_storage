@@ -69,6 +69,7 @@
                                              xml:lang="en">Has SuDoc Classification Number</uwsinopia:property_selection>
             </uwsinopia:multiple_prop>
             <uwsinopia:remark xml:lang="en">Use this property to enter LC, NLM, and SuDoc classification numbers as literal values.</uwsinopia:remark>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:literal_pt/>
          </uwsinopia:implementation_set>
       </sinopia>
