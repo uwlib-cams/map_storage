@@ -269,6 +269,7 @@
             <uwsinopia:form_order>0.10</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_all_subprops>true</uwsinopia:all_all_subprops>
+               <!-- Add the rest of related custodian props -->
             </uwsinopia:multiple_prop>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
@@ -613,9 +614,8 @@
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.04</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
-               <uwsinopia:property_selection 
-                  property_iri="https://doi.org/10.6069/uwlib.55.d.4#hasBarcode" 
-                  xml:lang="en">Has Barcode</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="https://doi.org/10.6069/uwlib.55.d.4#hasBarcode"
+                                             xml:lang="en">Has Barcode</uwsinopia:property_selection>
             </uwsinopia:multiple_prop>
             <uwsinopia:remark xml:lang="en">2023-08 RT TESTING: Use one of two options - see linked HTML guidance for details.</uwsinopia:remark>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
@@ -932,6 +932,31 @@
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40075"/>
       <prop_label xml:lang="en">has related corporate body of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
+      <sinopia>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-64ae4693-0294-3589-b8c8-893cf2297d8f"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40075_is_d2e1819">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaItem</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.10</uwsinopia:form_order>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40135" xml:lang="en">has custodian corporate body</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="" xml:lang=""></uwsinopia:property_selection>
+            </uwsinopia:multiple_prop>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>LOC person [names (rwo)] (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>LOC organization [names (rwo)] (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>LOC family [names (rwo)] (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_ULAN (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>ISNI (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdai_p40k_iP40095">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40095"/>
