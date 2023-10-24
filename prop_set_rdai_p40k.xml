@@ -942,14 +942,24 @@
             <uwsinopia:form_order>0.10</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40135" xml:lang="en">has custodian corporate body</uwsinopia:property_selection>
-               <uwsinopia:property_selection property_iri="" xml:lang=""></uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40129" xml:lang="en">has dedicatee corporate body of item</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40142" xml:lang="en">has honouree corporate body of item</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40130" xml:lang="en">has binder corporate body</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40132" xml:lang="en">has illuminator corporate body</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40143" xml:lang="en">has restorationist corporate body of item</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40144" xml:lang="en">has modifier corporate body</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40139" xml:lang="en">has depositor corporate body</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40133" xml:lang="en">has current owner corporate body</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40140" xml:lang="en">has donor corporate body</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40141" xml:lang="en">has seller corporate body</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40134" xml:lang="en">has former owner corporate body</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40136" xml:lang="en">has owner corporate body</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40075" xml:lang="en">has related corporate body of item</uwsinopia:property_selection>
             </uwsinopia:multiple_prop>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>LOC person [names (rwo)] (QA)</uwsinopia:authority_urn>
                   <uwsinopia:authority_urn>LOC organization [names (rwo)] (QA)</uwsinopia:authority_urn>
-                  <uwsinopia:authority_urn>LOC family [names (rwo)] (QA)</uwsinopia:authority_urn>
                   <uwsinopia:authority_urn>GETTY_ULAN (QA)</uwsinopia:authority_urn>
                   <uwsinopia:authority_urn>ISNI (QA)</uwsinopia:authority_urn>
                   <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
@@ -988,6 +998,36 @@
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40074"/>
       <prop_label xml:lang="en">has related family of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
+      <sinopia>
+         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-a84343ee-c904-3de3-81bc-364e2aa4a427"/>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40074_is_d2e1967">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaItem</uwsinopia:resource>
+            <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.11</uwsinopia:form_order>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40151" xml:lang="en">has custodian family</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40145" xml:lang="en">has dedicatee family of item</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40158" xml:lang="en">has honouree family of item</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40146" xml:lang="en">has binder family</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40148" xml:lang="en">has illuminator family</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40159" xml:lang="en">has restorationist family of item</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40160" xml:lang="en">has modifier family</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40155" xml:lang="en">has depositor family</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40149" xml:lang="en">has current owner family</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40156" xml:lang="en">has donor family</uwsinopia:property_selection>
+            </uwsinopia:multiple_prop>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>LOC family [names (rwo)] (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>GETTY_ULAN (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>ISNI (QA)</uwsinopia:authority_urn>
+                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdai_p40k_iP40046">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40046"/>
@@ -1202,7 +1242,7 @@
    </prop>
    <prop localid_prop="uwmaps_rdai_p40k_iP40159">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40159"/>
-      <prop_label xml:lang="en">has restorationist family of item</prop_label>
+      <prop_label xml:lang="en">has restorationist of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
    </prop>
    <prop localid_prop="uwmaps_rdai_p40k_iP40111">
