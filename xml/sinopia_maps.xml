@@ -31,6 +31,14 @@
         </rt>
         <rt output_load="true">
             <institution>WAU</institution>
+            <resource>rdaWork</resource>
+            <format>aggregated_printMonograph</format>
+            <user>CAMS</user>
+            <author>UW CAMS - ries07@uw.edu</author>
+            <rt_remark xml:lang="en">For describing aggregating works</rt_remark>
+        </rt>        
+        <rt output_load="true">
+            <institution>WAU</institution>
             <resource>rdaExpression</resource>
             <format>printMonograph</format>
             <user>CAMS</user>

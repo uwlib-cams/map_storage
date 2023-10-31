@@ -235,6 +235,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.04</uwsinopia:form_order>
             <uwsinopia:remark xml:lang="en">Do not record an IRI for an authority record</uwsinopia:remark>
@@ -428,6 +429,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.09</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
@@ -469,6 +471,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.20</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
@@ -529,6 +532,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.23</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
@@ -651,6 +655,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.18</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
@@ -767,6 +772,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.11</uwsinopia:form_order>
             <uwsinopia:literal_pt>
@@ -1440,6 +1446,7 @@
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.26</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1546,6 +1553,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.49</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1575,6 +1583,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.50</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1599,6 +1608,7 @@
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.45</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1658,6 +1668,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.46</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1694,6 +1705,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.48</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1721,6 +1733,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.47</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1749,6 +1762,7 @@
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.25</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -1864,6 +1878,7 @@
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.27</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -2085,6 +2100,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.21</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
@@ -2311,6 +2327,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.07</uwsinopia:form_order>
             <uwsinopia:remark xml:lang="en">Do not record an IRI for the work being described</uwsinopia:remark>
@@ -2392,6 +2409,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.03</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
@@ -2420,6 +2438,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.12</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
@@ -2513,6 +2532,7 @@
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.44</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
@@ -3051,6 +3071,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.02</uwsinopia:form_order>
             <uwsinopia:required>true</uwsinopia:required>
@@ -3145,6 +3166,28 @@
             <uwsinopia:form_order>0.01</uwsinopia:form_order>
             <uwsinopia:remark xml:lang="en">Use lookup to replace this IRI and label once the appropriate IRI has been minted.</uwsinopia:remark>
             <uwsinopia:required>true</uwsinopia:required>
+            <uwsinopia:lookup_pt>
+               <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Sinopia RDA manifestation</uwsinopia:authority_urn>
+               </uwsinopia:authorities>
+               <uwsinopia:lookup_default_iri iri="https://REPLACE_THIS_IRI"/>
+               <uwsinopia:lookup_default_iri_label xml:lang="en">REPLACE THIS LABEL</uwsinopia:lookup_default_iri_label>
+            </uwsinopia:lookup_pt>
+         </uwsinopia:implementation_set>
+         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10072_is_d2e6889">
+            <uwsinopia:institution>WAU</uwsinopia:institution>
+            <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
+            <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:form_order>0.011</uwsinopia:form_order>
+            <uwsinopia:alt_pt_label xml:lang="en">has manifestation or expression of work</uwsinopia:alt_pt_label>
+            <uwsinopia:multiple_prop>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10078" 
+                  xml:lang="en">has expression of work</uwsinopia:property_selection>
+            </uwsinopia:multiple_prop>
+            <uwsinopia:remark xml:lang="en">Use lookup to replace this IRI and label once the appropriate IRI has been minted.</uwsinopia:remark>
+            <uwsinopia:required>true</uwsinopia:required>
+            <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
                   <uwsinopia:authority_urn>Sinopia RDA manifestation</uwsinopia:authority_urn>
@@ -3251,6 +3294,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.13</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
@@ -3354,6 +3398,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.16</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
@@ -3832,6 +3877,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.22</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
@@ -3928,6 +3974,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.24</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
@@ -4090,6 +4137,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.17</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
@@ -4158,6 +4206,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.15</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
@@ -4367,6 +4416,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.05</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
