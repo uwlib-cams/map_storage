@@ -3190,6 +3190,7 @@
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
+                  <uwsinopia:authority_urn>Sinopia RDA expression</uwsinopia:authority_urn>
                   <uwsinopia:authority_urn>Sinopia RDA manifestation</uwsinopia:authority_urn>
                </uwsinopia:authorities>
                <uwsinopia:lookup_default_iri iri="https://REPLACE_THIS_IRI"/>
