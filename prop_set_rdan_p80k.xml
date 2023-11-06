@@ -1,10 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
+<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/" xmlns:schema="https://schema.org/" xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdan_p80k</prop_set_label>
-   <source_version>v5.0.12</source_version>
+   <source_version>v5.0.17</source_version>
    <prop localid_prop="uwmaps_rdan_p80k_nP80057">
       <prop_iri iri="http://rdaregistry.info/Elements/n/P80057"/>
       <prop_label xml:lang="en">is abbreviated title of</prop_label>
@@ -265,9 +261,7 @@
             <uwsinopia:alt_pt_label xml:lang="en">is authorized access point for work/expression of</uwsinopia:alt_pt_label>
             <uwsinopia:multiple_prop>
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/n/P80173" xml:lang="en">is authorized access point for work group of</uwsinopia:property_selection>
-               
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/n/P80095" xml:lang="en">is authorized access point for expression of</uwsinopia:property_selection>
-               
             </uwsinopia:multiple_prop>
             <uwsinopia:required>true</uwsinopia:required>
             <uwsinopia:lookup_pt>
@@ -847,7 +841,8 @@
          <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-da6ba21b-69b7-3848-b438-fb0dbb9c859a"/>
          <uwsinopia:guidance_set>
             <uwsinopia:general rt_id="UWSINOPIA:WAU:rdaNomen:identifier:CAMS">
-               <uwsinopia:p>Select an IRI from <uwsinopia:a href="https://id.loc.gov/vocabulary/identifiers">LC Standard Identifiers</uwsinopia:a></uwsinopia:p>
+               <uwsinopia:p>Select an IRI from <uwsinopia:a href="https://id.loc.gov/vocabulary/identifiers">LC Standard Identifiers</uwsinopia:a>
+               </uwsinopia:p>
             </uwsinopia:general>
             <uwsinopia:examples rt_id="UWSINOPIA:WAU:rdaNomen:identifier:CAMS">
                <uwsinopia:p>URI: http://id.loc.gov/vocabulary/identifiers/isbn</uwsinopia:p>

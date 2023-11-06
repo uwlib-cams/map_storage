@@ -1,10 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
+<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/" xmlns:schema="https://schema.org/" xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdap_p70k</prop_set_label>
-   <source_version>v5.0.12</source_version>
+   <source_version>v5.0.17</source_version>
    <prop localid_prop="uwmaps_rdap_p70k_pP70018">
       <prop_iri iri="http://rdaregistry.info/Elements/p/P70018"/>
       <prop_label xml:lang="en">has access point for place</prop_label>

@@ -1,10 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
+<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/" xmlns:schema="https://schema.org/" xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdae_p20k</prop_set_label>
-   <source_version>v5.0.12</source_version>
+   <source_version>v5.0.17</source_version>
    <prop localid_prop="uwmaps_rdae_p20k_eP20049">
       <prop_iri iri="http://rdaregistry.info/Elements/e/P20049"/>
       <prop_label xml:lang="en">has abridger agent</prop_label>
@@ -1311,7 +1307,8 @@
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/e/P20193" xml:lang="en">is abstracts for expression</uwsinopia:property_selection>
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/e/P20108" xml:lang="en">has concordance expression</uwsinopia:property_selection>
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/e/P20135" xml:lang="en">is digest of expression</uwsinopia:property_selection>
-               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/e/P20184" xml:lang="en">is expanded version of expression</uwsinopia:property_selection>               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/e/P20140" xml:lang="en">is free translation of expression</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/e/P20184" xml:lang="en">is expanded version of expression</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/e/P20140" xml:lang="en">is free translation of expression</uwsinopia:property_selection>
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/e/P20195" xml:lang="en">is imitation of expression</uwsinopia:property_selection>
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/e/P20159" xml:lang="en">is musical setting of expression</uwsinopia:property_selection>
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/e/P20186" xml:lang="en">is paraphrase of expression</uwsinopia:property_selection>

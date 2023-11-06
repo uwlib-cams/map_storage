@@ -1,10 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
-          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
+<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/" xmlns:schema="https://schema.org/" xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdaw_p10k</prop_set_label>
-   <source_version>v5.0.12</source_version>
+   <source_version>v5.0.17</source_version>
    <prop localid_prop="uwmaps_rdaw_p10k_wP10407">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10407"/>
       <prop_label xml:lang="en">has academic supervisor</prop_label>
@@ -3182,8 +3178,7 @@
             <uwsinopia:form_order>0.011</uwsinopia:form_order>
             <uwsinopia:alt_pt_label xml:lang="en">has manifestation or expression of work</uwsinopia:alt_pt_label>
             <uwsinopia:multiple_prop>
-               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10078" 
-                  xml:lang="en">has expression of work</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/w/P10078" xml:lang="en">has expression of work</uwsinopia:property_selection>
             </uwsinopia:multiple_prop>
             <uwsinopia:remark xml:lang="en">Use lookup to replace this IRI and label once the appropriate IRI has been minted.</uwsinopia:remark>
             <uwsinopia:required>true</uwsinopia:required>
