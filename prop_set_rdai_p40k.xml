@@ -672,30 +672,6 @@
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40024"/>
       <prop_label xml:lang="en">has restorationist agent of item</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10003"/>
-      <sinopia>
-         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-d6bde4fd-530c-314d-a79c-6a449a5f6ff1"/>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdai_p40k_iP40024_is_d2e2096">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaItem</uwsinopia:resource>
-            <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:form_order>0.15</uwsinopia:form_order>
-            <uwsinopia:multiple_prop>
-               <uwsinopia:all_all_subprops>true</uwsinopia:all_all_subprops>
-            </uwsinopia:multiple_prop>
-            <uwsinopia:repeatable>true</uwsinopia:repeatable>
-            <uwsinopia:lookup_pt>
-               <uwsinopia:authorities>
-                  <uwsinopia:authority_urn>LOC person [names (rwo)] (QA)</uwsinopia:authority_urn>
-                  <uwsinopia:authority_urn>LOC organization [names (rwo)] (QA)</uwsinopia:authority_urn>
-                  <uwsinopia:authority_urn>LOC family [names (rwo)] (QA)</uwsinopia:authority_urn>
-                  <uwsinopia:authority_urn>GETTY_ULAN (QA)</uwsinopia:authority_urn>
-                  <uwsinopia:authority_urn>ISNI (QA)</uwsinopia:authority_urn>
-                  <uwsinopia:authority_urn>Wikidata (QA)</uwsinopia:authority_urn>
-               </uwsinopia:authorities>
-            </uwsinopia:lookup_pt>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdai_p40k_iP40127">
       <prop_iri iri="http://rdaregistry.info/Elements/i/P40127"/>
