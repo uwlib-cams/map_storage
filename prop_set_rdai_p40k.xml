@@ -829,7 +829,7 @@
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40100" xml:lang="en">has illuminator person</uwsinopia:property_selection>
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40112" xml:lang="en">has modifier person</uwsinopia:property_selection>
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40104" xml:lang="en">has owner person</uwsinopia:property_selection>
-               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40159" xml:lang="en">has restorationist of item</uwsinopia:property_selection>
+               <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40111" xml:lang="en">has restorationist person of item</uwsinopia:property_selection>
                <uwsinopia:property_selection property_iri="http://rdaregistry.info/Elements/i/P40109" xml:lang="en">has seller person</uwsinopia:property_selection>
             </uwsinopia:multiple_prop>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
