@@ -420,6 +420,7 @@
                <uwsinopia:property_selection property_iri="https://doi.org/10.6069/uwlib.55.d.4#hasBarcode" xml:lang="en">Has Barcode</uwsinopia:property_selection>
             </uwsinopia:multiple_prop>
             <uwsinopia:remark xml:lang="en">2023-08 RT TESTING: Use one of two options - see linked HTML guidance for details.</uwsinopia:remark>
+            <uwsinopia:language_suppressed>true</uwsinopia:language_suppressed>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
                <uwsinopia:authorities>
