@@ -100,16 +100,7 @@
         </rt>
 
         <!-- TEST TEMPLATES -->
-        <rt output_load="true">
-            <institution>WAU</institution>
-            <resource>rdaEntity</resource>
-            <format>test</format>
-            <user>ries07</user>
-            <author>ries07@uw.edu</author>
-            <rt_remark xml:lang="en">This test template will match on default guidance_set elements.</rt_remark>
 
-        </rt>
-        
         <rt output_load="true">
             <institution>WAU</institution>
             <resource>rdaEntity</resource>
@@ -127,6 +118,7 @@
             <author>cspayne@uw.edu</author>
             <rt_remark xml:lang="en">Test template for class drop-downs</rt_remark>
         </rt>
+        
         <!-- TO DELETE -->
         <rt>
             <institution>WAU</institution>
@@ -136,6 +128,14 @@
             <author>ries07@uw.edu</author>
             <author>some other person too</author>
             <rt_remark xml:lang="en">TEST TEMPLATE</rt_remark>
+        </rt>
+        <rt output_load="true">
+            <institution>WAU</institution>
+            <resource>rdaEntity</resource>
+            <format>test</format>
+            <user>ries07</user>
+            <author>ries07@uw.edu</author>
+            <rt_remark xml:lang="en">This test template will match on default guidance_set elements.</rt_remark>
         </rt>
     </rts>
 </sinopia_maps>
