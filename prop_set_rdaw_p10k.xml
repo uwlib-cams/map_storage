@@ -1,4 +1,8 @@
-<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/" xmlns:schema="https://schema.org/" xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
+          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdaw_p10k</prop_set_label>
    <source_version>v5.0.17</source_version>
    <prop localid_prop="uwmaps_rdaw_p10k_wP10407">
@@ -130,20 +134,6 @@
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10058"/>
       <prop_label xml:lang="en">has artist agent</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
-      <sinopia>
-         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-010f851d-1317-3f87-83aa-7430e4662d08"/>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10058_is_d2e416">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>test</uwsinopia:format>
-            <uwsinopia:user>ries07</uwsinopia:user>
-            <uwsinopia:form_order>0.03</uwsinopia:form_order>
-            <uwsinopia:multiple_prop>
-               <uwsinopia:all_all_subprops>true</uwsinopia:all_all_subprops>
-            </uwsinopia:multiple_prop>
-            <uwsinopia:literal_pt/>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaw_p10k_wP10498">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10498"/>
@@ -314,20 +304,6 @@
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10428"/>
       <prop_label xml:lang="en">has book artist person</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
-      <sinopia>
-         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-647848a8-d63a-3c80-8493-cb238788cc3e"/>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10428_is_d2e855">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>test</uwsinopia:format>
-            <uwsinopia:user>ries07</uwsinopia:user>
-            <uwsinopia:form_order>0.04</uwsinopia:form_order>
-            <uwsinopia:multiple_prop>
-               <uwsinopia:all_all_subprops>true</uwsinopia:all_all_subprops>
-            </uwsinopia:multiple_prop>
-            <uwsinopia:literal_pt/>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaw_p10k_wP10253">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10253"/>
@@ -697,9 +673,7 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10437_is_d2e1760">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>test</uwsinopia:format>
             <uwsinopia:format>metadataWork</uwsinopia:format>
-            <uwsinopia:user>ries07</uwsinopia:user>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.02</uwsinopia:form_order>
             <uwsinopia:remark xml:lang="en">Literal value will default to your Sinopia user ID.</uwsinopia:remark>
@@ -1419,20 +1393,6 @@
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10311"/>
       <prop_label xml:lang="en">has related agent of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
-      <sinopia>
-         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-31ea511f-ce06-3adc-a598-f55044a75e9c"/>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10311_is_d2e3706">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>test</uwsinopia:format>
-            <uwsinopia:user>ries07</uwsinopia:user>
-            <uwsinopia:form_order>0.02</uwsinopia:form_order>
-            <uwsinopia:multiple_prop>
-               <uwsinopia:all_all_subprops>true</uwsinopia:all_all_subprops>
-            </uwsinopia:multiple_prop>
-            <uwsinopia:literal_pt/>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaw_p10k_wP10313">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10313"/>
@@ -3718,21 +3678,6 @@
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10307"/>
       <prop_label xml:lang="en">has related RDA entity of work</prop_label>
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
-      <sinopia>
-         <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-37e47c10-dab0-3145-8e4d-bf4faadaea27"/>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10307_is_d2e6993">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:format>test</uwsinopia:format>
-            <uwsinopia:user>ries07</uwsinopia:user>
-            <uwsinopia:form_order>0.01</uwsinopia:form_order>
-            <uwsinopia:alt_pt_label xml:lang="en">ALTERNATE PT LABEL HERE</uwsinopia:alt_pt_label>
-            <uwsinopia:multiple_prop>
-               <uwsinopia:all_all_subprops>true</uwsinopia:all_all_subprops>
-            </uwsinopia:multiple_prop>
-            <uwsinopia:literal_pt/>
-         </uwsinopia:implementation_set>
-      </sinopia>
    </prop>
    <prop localid_prop="uwmaps_rdaw_p10k_wP10306">
       <prop_iri iri="http://rdaregistry.info/Elements/w/P10306"/>
