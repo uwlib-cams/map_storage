@@ -39,11 +39,17 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:toolkit url=""/>
+         <uwsinopia:guidance_set>
+            <uwsinopia:general rt_id="UWSINOPIA:WAU:rdaEntity:test:ries07">This general guidance should get deleted.</uwsinopia:general>
+         </uwsinopia:guidance_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasCreatorCharacteristic_is_d2e20">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:resource>rdaEntity</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
+            <uwsinopia:format>test</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
+            <uwsinopia:user>ries07</uwsinopia:user>
             <uwsinopia:form_order>0.431</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>

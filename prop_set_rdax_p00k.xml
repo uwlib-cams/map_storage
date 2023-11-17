@@ -111,7 +111,7 @@
                <uwsinopia:mgd>MG: Corporate Body: Additional elements and designations in authorized access point for corporate body</uwsinopia:mgd>
                <uwsinopia:mgd>MG: Expression: Script</uwsinopia:mgd>
             </uwsinopia:mgds>
-            <uwsinopia:examples rt_id="default">
+            <uwsinopia:examples rt_id="UWSINOPIA:WAU:rdaEntity:test:ries07">
                <uwsinopia:p>The RDA entity with this AAP</uwsinopia:p>
                <uwsinopia:p>The other RDA Entity with this AAP</uwsinopia:p>
             </uwsinopia:examples>
@@ -120,7 +120,7 @@
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaEntity</uwsinopia:resource>
             <uwsinopia:format>test</uwsinopia:format>
-            <uwsinopia:format>test</uwsinopia:format>
+            <uwsinopia:user>test</uwsinopia:user>
             <uwsinopia:user>ries07</uwsinopia:user>
             <uwsinopia:form_order>0.01</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
