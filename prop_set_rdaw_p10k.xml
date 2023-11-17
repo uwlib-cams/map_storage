@@ -697,7 +697,9 @@
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdaw_p10k_wP10437_is_d2e1760">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
+            <uwsinopia:format>test</uwsinopia:format>
             <uwsinopia:format>metadataWork</uwsinopia:format>
+            <uwsinopia:user>ries07</uwsinopia:user>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.02</uwsinopia:form_order>
             <uwsinopia:remark xml:lang="en">Literal value will default to your Sinopia user ID.</uwsinopia:remark>
