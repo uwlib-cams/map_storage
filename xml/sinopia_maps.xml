@@ -137,12 +137,5 @@
             <author>some other person too</author>
             <rt_remark xml:lang="en">TEST TEMPLATE</rt_remark>
         </rt>
-        <rt>
-            <institution>WAU</institution>
-            <resource>rdaEntity</resource>
-            <format>standalone</format>
-            <user>ries07</user>
-            <author>ries07@uw.edu</author>
-        </rt>
     </rts>
 </sinopia_maps>
