@@ -40,7 +40,9 @@
       <sinopia>
          <uwsinopia:toolkit url=""/>
          <uwsinopia:guidance_set>
-            <uwsinopia:general rt_id="UWSINOPIA:WAU:rdaEntity:test:ries07">This general guidance should get deleted.</uwsinopia:general>
+            <uwsinopia:general rt_id="UWSINOPIA:WAU:rdaEntity:test:ries07">
+               <uwsinopia:p>This general guidance should get deleted.</uwsinopia:p>
+            </uwsinopia:general>
          </uwsinopia:guidance_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasCreatorCharacteristic_is_d2e20">
             <uwsinopia:institution>WAU</uwsinopia:institution>
