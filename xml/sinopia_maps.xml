@@ -4,7 +4,88 @@
     xsi:schemaLocation="https://uwlib-cams.github.io/sinopia_maps/xsd/ https://uwlib-cams.github.io/sinopia_maps/xsd/sinopia_maps.xsd">
     <rts>
         
-        <!-- WEMI TEMPLATES -->
+        <!-- PRINT MONOGRAPHS / WEMI -->
+        <rt output_load="true">
+            <institution>WAU</institution>
+            <resource>rdaWork</resource>
+            <format>printMonograph</format>
+            <user>CAMS</user>
+            <author>UW CAMS</author>
+            <author>Zhuo Pan</author>
+            <rt_remark xml:lang="en">For describing single works</rt_remark>
+        </rt>
+        <rt output_load="true">
+            <institution>WAU</institution>
+            <resource>rdaWork</resource>
+            <format>aggregating_printMonograph</format>
+            <user>CAMS</user>
+            <author>UW CAMS</author>
+            <author>Zhuo Pan</author>
+            <rt_remark xml:lang="en">For describing aggregating works</rt_remark>
+        </rt>
+        <rt output_load="true">
+            <institution>WAU</institution>
+            <resource>rdaWork</resource>
+            <format>aggregated_printMonograph</format>
+            <user>CAMS</user>
+            <author>UW CAMS</author>
+            <author>Zhuo Pan</author>
+            <rt_remark xml:lang="en">For describing aggregated works</rt_remark>
+        </rt>        
+        <rt output_load="true">
+            <institution>WAU</institution>
+            <resource>rdaExpression</resource>
+            <format>printMonograph</format>
+            <user>CAMS</user>
+            <author>UW CAMS</author>
+            <author>Zhuo Pan</author>
+            <rt_remark xml:lang="en">For describing expressions of single works</rt_remark>
+        </rt>
+        <rt output_load="true">
+            <institution>WAU</institution>
+            <resource>rdaExpression</resource>
+            <format>aggregating_printMonograph</format>
+            <user>CAMS</user>
+            <author>UW CAMS</author>
+            <author>Zhuo Pan</author>
+            <rt_remark xml:lang="en">For describing aggregating expressions. Generally, do NOT use this template</rt_remark>
+        </rt>
+        <rt output_load="true">
+            <institution>WAU</institution>
+            <resource>rdaManifestation</resource>
+            <format>printMonograph</format>
+            <user>CAMS</user>
+            <author>UW CAMS</author>
+            <author>Zhuo Pan</author>
+        </rt>
+        <rt output_load="true">
+            <institution>WAU</institution>
+            <resource>rdaItem</resource>
+            <format>printMonograph</format>
+            <user>CAMS</user>
+            <author>UW CAMS</author>
+            <author>Zhuo Pan</author>
+        </rt>
+        
+        <!-- COLLECTION W/M -->
+        <rt output_load="true">
+            <institution>WAU</institution>
+            <resource>rdaWork</resource>
+            <format>collection</format>
+            <user>CAMS</user>
+            <author>UW CAMS</author>
+            <author>cspayne@uw.edu</author>
+        </rt>
+        <rt output_load="true">
+            <institution>WAU</institution>
+            <resource>rdaManifestation</resource>
+            <format>collection</format>
+            <user>CAMS</user>
+            <author>UW CAMS</author>
+            <author>cspayne@uw.edu</author>
+        </rt>
+        
+        <!-- METADATA W/... -->
         <rt output_load="true">
             <institution>WAU</institution>
             <resource>rdaWork</resource>
@@ -13,103 +94,25 @@
             <author>UW CAMS - ries07@uw.edu</author>
         </rt>
         
-        <rt output_load="true">
-            <institution>WAU</institution>
-            <resource>rdaWork</resource>
-            <format>printMonograph</format>
-            <user>CAMS</user>
-            <author>UW CAMS - panzhuo@uw.edu</author>
-            <rt_remark xml:lang="en">For describing single works</rt_remark>
-        </rt>
-        <rt output_load="true">
-            <institution>WAU</institution>
-            <resource>rdaWork</resource>
-            <format>aggregating_printMonograph</format>
-            <user>CAMS</user>
-            <author>UW CAMS - panzhuo@uw.edu</author>
-            <rt_remark xml:lang="en">For describing aggregating works</rt_remark>
-        </rt>
-        <rt output_load="true">
-            <institution>WAU</institution>
-            <resource>rdaWork</resource>
-            <format>aggregated_printMonograph</format>
-            <user>CAMS</user>
-            <author>UW CAMS - ries07@uw.edu</author>
-            <rt_remark xml:lang="en">For describing aggregated works</rt_remark>
-        </rt>        
-        <rt output_load="true">
-            <institution>WAU</institution>
-            <resource>rdaExpression</resource>
-            <format>printMonograph</format>
-            <user>CAMS</user>
-            <author>UW CAMS - panzhuo@uw.edu</author>
-            <rt_remark xml:lang="en">For describing expressions of single works</rt_remark>
-        </rt>
-        <rt output_load="true">
-            <institution>WAU</institution>
-            <resource>rdaExpression</resource>
-            <format>aggregating_printMonograph</format>
-            <user>CAMS</user>
-            <author>UW CAMS - panzhuo@uw.edu</author>
-            <rt_remark xml:lang="en">For describing aggregating expressions. Generally, do NOT use this template</rt_remark>
-        </rt>
-        <rt output_load="true">
-            <institution>WAU</institution>
-            <resource>rdaManifestation</resource>
-            <format>printMonograph</format>
-            <user>CAMS</user>
-            <author>UW CAMS - panzhuo@uw.edu</author>
-        </rt>
-        <rt output_load="true">
-            <institution>WAU</institution>
-            <resource>rdaItem</resource>
-            <format>printMonograph</format>
-            <user>CAMS</user>
-            <author>UW CAMS - panzhuo@uw.edu</author>
-        </rt>
-        
-        <rt output_load="true">
-            <institution>WAU</institution>
-            <resource>rdaWork</resource>
-            <format>collection</format>
-            <user>CAMS</user>
-            <author> UW CAMS - cspayne@uw.edu</author>
-        </rt>
-        <rt output_load="true">
-            <institution>WAU</institution>
-            <resource>rdaManifestation</resource>
-            <format>collection</format>
-            <user>CAMS</user>
-            <author> UW CAMS - cspayne@uw.edu</author>
-        </rt>
-        
-        <!-- NOMEN TEMPLATES -->
+        <!-- NOMEN TEMPLATES: ACCESS POINTS, IDENTIFIERS -->
         <rt output_load="true">
             <institution>WAU</institution>
             <resource>rdaNomen</resource>
             <format>accessPoint</format>
             <user>CAMS</user>
-            <author>UW CAMS - panzhuo@uw.edu</author>
+            <author>UW CAMS</author>
+            <author>Zhuo Pan</author>
         </rt>
         <rt output_load="true">
             <institution>WAU</institution>
             <resource>rdaNomen</resource>
             <format>identifier</format>
             <user>CAMS</user>
-            <author>UW CAMS - panzhuo@uw.edu</author>
+            <author>UW CAMS</author>
+            <author>Zhuo Pan</author>
         </rt>
 
         <!-- TEST TEMPLATES -->
-
-        <rt output_load="true">
-            <institution>WAU</institution>
-            <resource>rdaEntity</resource>
-            <format>test</format>
-            <user>test</user>
-            <author>ries07@uw.edu</author>
-            <rt_remark xml:lang="en">This test template will match on custom guidance_set elements.</rt_remark>
-        </rt>
-
         <rt output_load="true">
             <institution>WAU</institution>
             <resource>rdaWork</resource>
@@ -120,16 +123,6 @@
         </rt>
         
         <!-- TO DELETE -->
-
-        <rt output_load="true">
-            <institution>WAU</institution>
-            <resource>rdaEntity</resource>
-            <format>test</format>
-            <user>ries07</user>
-            <author>ries07@uw.edu</author>
-            <rt_remark xml:lang="en">This test template will match on default guidance_set elements.</rt_remark>
-        </rt>
-        
         <rt output_load="true">
             <institution>WAU</institution>
             <resource>rdaEntity</resource>
