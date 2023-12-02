@@ -129,5 +129,15 @@
             <author>ries07@uw.edu</author>
             <rt_remark xml:lang="en">This test template will match on default guidance_set elements.</rt_remark>
         </rt>
+        
+        <rt output_load="true">
+            <institution>WAU</institution>
+            <resource>rdaEntity</resource>
+            <format>test</format>
+            <user>test</user>
+            <author>ries07@uw.edu</author>
+            <rt_remark xml:lang="en">This test template will match on custom guidance_set elements.</rt_remark>
+        </rt>
+        
     </rts>
 </sinopia_maps>

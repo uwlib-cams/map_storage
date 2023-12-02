@@ -13,7 +13,7 @@
       <sinopia>
          <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-6ae0a600-b5f5-3391-8827-ef77a66a4a0e"/>
          <uwsinopia:guidance_set>
-            <uwsinopia:general rt_id="default">
+            <uwsinopia:general rt_id="UWSINOPIA:WAU:rdaEntity:test:ries07">
                <uwsinopia:p>This is the <uwsinopia:strong>default</uwsinopia:strong> guidance for
                   'has appellation of RDA entity.' But the thing is, if you are looking at the RT
                   'UWSINOPIA:WAU:rdaEntity:test:test, you
@@ -29,10 +29,10 @@
                <uwsinopia:p>Note also that this PT type was changed to URI</uwsinopia:p>
             </uwsinopia:general>
             <uwsinopia:entity_boundary>true</uwsinopia:entity_boundary>
-            <uwsinopia:recording_method rt_id="default">
+            <uwsinopia:recording_method rt_id="UWSINOPIA:WAU:rdaEntity:test:ries07">
                <uwsinopia:recording_method_option>structured description</uwsinopia:recording_method_option>
             </uwsinopia:recording_method>
-            <uwsinopia:ses rt_id="default">
+            <uwsinopia:ses rt_id="UWSINOPIA:WAU:rdaEntity:test:test">
                <uwsinopia:p>Oh just use any old syntax encoding scheme. This is default guidance for
                   SESs for this property.</uwsinopia:p>
                <uwsinopia:ul>
@@ -44,7 +44,7 @@
                <uwsinopia:p>Use the 'RDA Entity test test template
                   syntax encoding scheme.'</uwsinopia:p>
             </uwsinopia:ses>
-            <uwsinopia:transcription_standard rt_id="default">basic</uwsinopia:transcription_standard>
+            <uwsinopia:transcription_standard rt_id="UWSINOPIA:WAU:rdaEntity:test:test">basic</uwsinopia:transcription_standard>
          </uwsinopia:guidance_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdax_p00k_xP00017_is_d2e28">
             <uwsinopia:institution>WAU</uwsinopia:institution>
@@ -78,7 +78,7 @@
       <sinopia>
          <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-9badaad7-0d00-3f72-9ae9-d414344e21a5"/>
          <uwsinopia:guidance_set>
-            <uwsinopia:general rt_id="default">
+            <uwsinopia:general rt_id="UWSINOPIA:WAU:rdaEntity:test:test">
                <uwsinopia:p>This is a <uwsinopia:strong>default</uwsinopia:strong> p
                   element.</uwsinopia:p>
                <uwsinopia:p>Below is a <uwsinopia:strong>default</uwsinopia:strong>
@@ -90,7 +90,7 @@
                   </uwsinopia:a>.</uwsinopia:li>
                </uwsinopia:ul>
             </uwsinopia:general>
-            <uwsinopia:ses rt_id="default">
+            <uwsinopia:ses rt_id="UWSINOPIA:WAU:rdaEntity:test:test">
                <uwsinopia:p>Here's some default SES information for you.</uwsinopia:p>
                <uwsinopia:p>Here's <uwsinopia:strong>some more</uwsinopia:strong> default SES
                   information for you.</uwsinopia:p>
@@ -100,7 +100,7 @@
                <uwsinopia:p>Here's <uwsinopia:strong>some more</uwsinopia:strong> CUSTOM SES
                   information for you.</uwsinopia:p>
             </uwsinopia:ses>
-            <uwsinopia:options rt_id="default">
+            <uwsinopia:options rt_id="UWSINOPIA:WAU:rdaEntity:test:test">
                <uwsinopia:a href="https://access.rdatoolkit.org/en-US_ala-9badaad7-0d00-3f72-9ae9-d414344e21a5/div_shx_lsx_43b">Record a value that is selected within a vocabulary encoding scheme as an authorized form of RDA Entity: 
                   access point for RDA entity.</uwsinopia:a>
                <uwsinopia:a href="https://access.rdatoolkit.org/en-US_ala-9badaad7-0d00-3f72-9ae9-d414344e21a5/div_utf_k1w_qhb">Construct an access point by applying a string encoding scheme to the values of one or more other 
