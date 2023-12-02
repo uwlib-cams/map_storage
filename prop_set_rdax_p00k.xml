@@ -1,4 +1,8 @@
-<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/" xmlns:schema="https://schema.org/" xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
+          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>rdax_p00k</prop_set_label>
    <source_version>v5.0.17</source_version>
    <prop localid_prop="uwmaps_rdax_p00k_xP00016">
@@ -13,25 +17,12 @@
       <sinopia>
          <uwsinopia:toolkit url="https://access.rdatoolkit.org/en-US_ala-6ae0a600-b5f5-3391-8827-ef77a66a4a0e"/>
          <uwsinopia:guidance_set>
-            <uwsinopia:general rt_id="UWSINOPIA:WAU:rdaEntity:test:ries07">
-               <uwsinopia:p>This is the <uwsinopia:strong>default</uwsinopia:strong> guidance for
-                  'has appellation of RDA entity.' But the thing is, if you are looking at the RT
-                  'UWSINOPIA:WAU:rdaEntity:test:test, you
-                     <uwsinopia:strong>shouldn't</uwsinopia:strong> be seeing this.</uwsinopia:p>
-            </uwsinopia:general>
             <uwsinopia:general rt_id="UWSINOPIA:WAU:rdaEntity:test:test">
                <uwsinopia:p>Here's the <uwsinopia:strong>special</uwsinopia:strong> guidance for the
                   'test:test' RDA Entity template. This isn't the default guidance. This shouldn't
                   appear in any template that uses the default guidance.</uwsinopia:p>
             </uwsinopia:general>
-            <uwsinopia:general rt_id="UWSINOPIA:WAU:rdaEntity:test:ries07">
-               <uwsinopia:p>GUIDANCE_SET &gt; GENERAL &gt; P</uwsinopia:p>
-               <uwsinopia:p>Note also that this PT type was changed to URI</uwsinopia:p>
-            </uwsinopia:general>
             <uwsinopia:entity_boundary>true</uwsinopia:entity_boundary>
-            <uwsinopia:recording_method rt_id="UWSINOPIA:WAU:rdaEntity:test:ries07">
-               <uwsinopia:recording_method_option>structured description</uwsinopia:recording_method_option>
-            </uwsinopia:recording_method>
             <uwsinopia:ses rt_id="UWSINOPIA:WAU:rdaEntity:test:test">
                <uwsinopia:p>Oh just use any old syntax encoding scheme. This is default guidance for
                   SESs for this property.</uwsinopia:p>
@@ -46,18 +37,6 @@
             </uwsinopia:ses>
             <uwsinopia:transcription_standard rt_id="UWSINOPIA:WAU:rdaEntity:test:test">basic</uwsinopia:transcription_standard>
          </uwsinopia:guidance_set>
-         <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdax_p00k_xP00017_is_d2e28">
-            <uwsinopia:institution>WAU</uwsinopia:institution>
-            <uwsinopia:resource>rdaEntity</uwsinopia:resource>
-            <uwsinopia:format>test</uwsinopia:format>
-            <uwsinopia:user>ries07</uwsinopia:user>
-            <uwsinopia:form_order>0.01</uwsinopia:form_order>
-            <uwsinopia:alt_pt_label xml:lang="en">FOR RDA ENTITY TEST RT</uwsinopia:alt_pt_label>
-            <uwsinopia:multiple_prop>
-               <uwsinopia:all_all_subprops>true</uwsinopia:all_all_subprops>
-            </uwsinopia:multiple_prop>
-            <uwsinopia:uri_pt/>
-         </uwsinopia:implementation_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdax_p00k_xP00017_is_d2e41">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaEntity</uwsinopia:resource>
@@ -111,17 +90,12 @@
                <uwsinopia:mgd>MG: Corporate Body: Additional elements and designations in authorized access point for corporate body</uwsinopia:mgd>
                <uwsinopia:mgd>MG: Expression: Script</uwsinopia:mgd>
             </uwsinopia:mgds>
-            <uwsinopia:examples rt_id="UWSINOPIA:WAU:rdaEntity:test:ries07">
-               <uwsinopia:p>The RDA entity with this AAP</uwsinopia:p>
-               <uwsinopia:p>The other RDA Entity with this AAP</uwsinopia:p>
-            </uwsinopia:examples>
-         </uwsinopia:guidance_set>
+            </uwsinopia:guidance_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdax_p00k_xP00020_is_d2e133">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaEntity</uwsinopia:resource>
             <uwsinopia:format>test</uwsinopia:format>
             <uwsinopia:user>test</uwsinopia:user>
-            <uwsinopia:user>ries07</uwsinopia:user>
             <uwsinopia:form_order>0.01</uwsinopia:form_order>
             <uwsinopia:multiple_prop>
                <uwsinopia:all_all_subprops>true</uwsinopia:all_all_subprops>

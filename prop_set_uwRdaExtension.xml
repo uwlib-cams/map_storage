@@ -1,4 +1,8 @@
-<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/" xmlns:schema="https://schema.org/" xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<prop_set xmlns="https://uwlib-cams.github.io/map_storage/xsd/"
+          xmlns:uwsinopia="https://uwlib-cams.github.io/sinopia_maps/xsd/"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="https://uwlib-cams.github.io/map_storage/xsd/ https://uwlib-cams.github.io/map_storage/xsd/prop_set.xsd">
    <prop_set_label>uwRdaExtension</prop_set_label>
    <source_version>1-3-0</source_version>
    <prop localid_prop="uwmaps_uwRdaExtension_hasLcClassificationPartA">
@@ -39,19 +43,11 @@
       <prop_domain iri="http://rdaregistry.info/Elements/c/C10001"/>
       <sinopia>
          <uwsinopia:toolkit url=""/>
-         <uwsinopia:guidance_set>
-            <uwsinopia:general rt_id="UWSINOPIA:WAU:rdaEntity:test:ries07">
-               <uwsinopia:p>This general guidance should get deleted.</uwsinopia:p>
-            </uwsinopia:general>
-         </uwsinopia:guidance_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_uwRdaExtension_hasCreatorCharacteristic_is_d2e20">
             <uwsinopia:institution>WAU</uwsinopia:institution>
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
-            <uwsinopia:resource>rdaEntity</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
-            <uwsinopia:format>test</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
-            <uwsinopia:user>ries07</uwsinopia:user>
             <uwsinopia:form_order>0.431</uwsinopia:form_order>
             <uwsinopia:repeatable>true</uwsinopia:repeatable>
             <uwsinopia:lookup_pt>
