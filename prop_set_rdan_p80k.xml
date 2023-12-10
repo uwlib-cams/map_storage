@@ -859,6 +859,8 @@
                <uwsinopia:authorities>
                   <uwsinopia:authority_urn>LOC description conventions [vocabularies] (QA)</uwsinopia:authority_urn>
                </uwsinopia:authorities>
+               <uwsinopia:lookup_default_iri iri="http://id.loc.gov/vocabulary/descriptionConventions/rda"/>
+               <uwsinopia:lookup_default_iri_label xml:lang="en">Resource description and access</uwsinopia:lookup_default_iri_label>
             </uwsinopia:lookup_pt>
          </uwsinopia:implementation_set>
          <uwsinopia:implementation_set localid_implementation_set="uwmaps_rdan_p80k_nP80069_is_d2e1668">
