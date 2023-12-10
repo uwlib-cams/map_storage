@@ -1030,6 +1030,7 @@
             <uwsinopia:resource>rdaWork</uwsinopia:resource>
             <uwsinopia:format>printMonograph</uwsinopia:format>
             <uwsinopia:format>aggregating_printMonograph</uwsinopia:format>
+            <uwsinopia:format>aggregated_printMonograph</uwsinopia:format>
             <uwsinopia:user>CAMS</uwsinopia:user>
             <uwsinopia:form_order>0.10</uwsinopia:form_order>
             <uwsinopia:uri_pt>
