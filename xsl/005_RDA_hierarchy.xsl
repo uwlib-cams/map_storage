@@ -23,6 +23,7 @@
                 </head>
                 <body>
                     <h1 id="profile" class="h1">Overview of Canonical RDA/RDF Properties</h1>
+                    <p>Last updated: <xsl:value-of select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/></p>
                     <p><i>Note: RDA Toolkit links require an RDA Toolkit account to access</i></p>
                     <button id="expand">expand all</button><button id="collapse">collapse all</button>
                     <div class="list-container">
